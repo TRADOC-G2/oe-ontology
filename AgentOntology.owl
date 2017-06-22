@@ -1,0 +1,2269 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#"
+     xml:base="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology"
+     xmlns:ero="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:quality="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#"
+     xmlns:artifact="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:event="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology">
+        <owl:imports rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COPYRIGHT © 2015 CUBRC, Inc.</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">February 17, 2016</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Version 0.85.2</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#aggregate_has_capability -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#aggregate_has_capability">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#aggregrate_bearer_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#capability_of_aggregate"/>
+        <rdfs:domain rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#GroupOfAgents"/>
+        <rdfs:range rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#AgentCapability"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggregate has capability</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#capability_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#capability_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#realizable_entity_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_capability"/>
+        <rdfs:domain rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#AgentCapability"/>
+        <rdfs:range rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Agent"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">capability of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#capability_of_aggregate -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#capability_of_aggregate">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#inheres_in_aggregate"/>
+        <rdfs:domain rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#AgentCapability"/>
+        <rdfs:range rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#GroupOfAgents"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">capability of aggregate</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#delimits -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#delimits">
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_delimited_by"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntity"/>
+        <rdfs:range rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Organization"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: An instance of Geopolitical Entity gpe1 delimits some Government g1 iff gpe1 is the area with which g1 can legally exercies its authority (derived from http://en.wikipedia.org/wiki/Delimitation).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delimits</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_affiliate -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_affiliate">
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_affiliated_with"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Agent"/>
+                    <rdf:Description rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Organization"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Agent"/>
+                    <rdf:Description rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Organization"/>
+                    <rdf:Description rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Person"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has affiliate</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_aunt -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_aunt">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_aunt_of"/>
+        <rdfs:label>has aunt</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_brother -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_brother">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_sibling_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_brother_of"/>
+        <rdfs:label>has brother</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_brother_in_law -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_brother_in_law">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_in_law_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_brother_in_law_of"/>
+        <rdfs:label>has brother in law</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_capability -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_capability">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_realizable_entity"/>
+        <rdfs:domain rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Agent"/>
+        <rdfs:range rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#AgentCapability"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has capability</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_daughter -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_daughter">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_parent_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_daughter_of"/>
+        <rdfs:label>has daughter</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_daughter_in_law -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_daughter_in_law">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_in_law_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_daughter_in_law_of"/>
+        <rdfs:label>has daughter in law</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to">
+        <rdfs:domain rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Person"/>
+        <rdfs:range rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Person"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relationship between persons by virtue of ancestry or legal union</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has familial relationship to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_father -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_father">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_child_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_father_of"/>
+        <rdfs:label>has father</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_father_in_law -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_father_in_law">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_in_law_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_father_in_law_of"/>
+        <rdfs:label>has father in law</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_granddaughter -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_granddaughter">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandparent_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_granddaughter_of"/>
+        <rdfs:label>has granddaughter</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_grandfather -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_grandfather">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandchild_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandfather_of"/>
+        <rdfs:label>has grandfather</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_grandmother -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_grandmother">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandchild_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandmother_of"/>
+        <rdfs:label>has grandmother</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_grandson -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_grandson">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandparent_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandson_of"/>
+        <rdfs:label>has grandson</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_half_brother -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_half_brother">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_half_sibling_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_half_brother_of"/>
+        <rdfs:label>has half brother</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_half_sister -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_half_sister">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_half_sibling_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_half_sister_of"/>
+        <rdfs:label>has half sister</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_husband -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_husband">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_spouse_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_husband_of"/>
+        <rdfs:label>has husband</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_maternal_aunt -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_maternal_aunt">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_aunt"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_maternal_aunt_of"/>
+        <rdfs:label>has maternal aunt</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_maternal_first_cousin -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_maternal_first_cousin">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_first_cousin_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_maternal_first_cousin_of"/>
+        <rdfs:label>has maternal first cousin</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_maternal_grandfather -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_maternal_grandfather">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_grandfather"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_maternal_grandfather_of"/>
+        <rdfs:label>has maternal grandfather</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_maternal_grandmother -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_maternal_grandmother">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_grandmother"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_maternal_grandmother_of"/>
+        <rdfs:label>has maternal grandmother</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_maternal_uncle -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_maternal_uncle">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_uncle"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_maternal_uncle_of"/>
+        <rdfs:label>has maternal uncle</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_mother -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_mother">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_child_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_mother_of"/>
+        <rdfs:label>has mother</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_mother_in_law -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_mother_in_law">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_in_law_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_mother_in_law_of"/>
+        <rdfs:label>has mother in law</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_nephew -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_nephew">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_nephew_of"/>
+        <rdfs:label>has nephew</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_niece -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_niece">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_niece_of"/>
+        <rdfs:label>has niece</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_organizational_context -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_organizational_context">
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_organizational_context_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_parent -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_parent">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_parent_of"/>
+        <rdfs:label>has parent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_paternal_aunt -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_paternal_aunt">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_aunt"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_paternal_aunt_of"/>
+        <rdfs:label>has paternal aunt</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_paternal_first_cousin -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_paternal_first_cousin">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_first_cousin_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_paternal_first_cousin_of"/>
+        <rdfs:label>has paternal first cousin</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_paternal_grandfather -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_paternal_grandfather">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_grandfather"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_paternal_grandfather_of"/>
+        <rdfs:label>has paternal grandfather</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_paternal_grandmother -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_paternal_grandmother">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_grandmother"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_paternal_grandmother_of"/>
+        <rdfs:label>has paternal grandmother</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_paternal_uncle -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_paternal_uncle">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_uncle"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_paternal_uncle_of"/>
+        <rdfs:label>has paternal uncle</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_recipient -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_recipient">
+        <rdfs:subPropertyOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#receives"/>
+        <rdfs:domain rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Act"/>
+        <rdfs:range rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Agent"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: has_recipient is a relationship between an Act Of Communication c1 and an Agent a1 such that c1 has_recipient a1 iff a1 is the receiver and decoder of the InformationContentEntity participating in c1.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has recipient</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_sender -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_sender">
+        <rdfs:subPropertyOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#sends"/>
+        <rdfs:domain rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Act"/>
+        <rdfs:range rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Agent"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: has_sender is a relationship between an Act Of Communication c1 and an Agent a1 such that c1 has_sender a1 iff a1 is the initiator and encoder of the InformationContentEntity participating in c1.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has sender</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_sister -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_sister">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_sibling_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_sister_of"/>
+        <rdfs:label>has sister</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_sister_in_law -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_sister_in_law">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_in_law_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_sister_in_law_of"/>
+        <rdfs:label>has sister in law</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_son -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_son">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_parent_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_son_of"/>
+        <rdfs:label>has son</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_son_in_law -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_son_in_law">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_in_law_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_son_in_law_of"/>
+        <rdfs:label>has son in law</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_step_brother -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_step_brother">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_step_sibling_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_step_brother_of"/>
+        <rdfs:label>has step brother</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_step_sister -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_step_sister">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_step_sibling_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_step_sister_of"/>
+        <rdfs:label>has step sister</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_subsidiary -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_subsidiary">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_affiliate"/>
+        <rdfs:domain rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Organization"/>
+        <rdfs:range rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Organization"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: An Organization o1 has_subsidiary Organization o2 iff o1 controls o2 by having the capacity to determine the outcome of decisions about o2&apos;s financial and operating policies. (derived from http://www.austlii.edu.au/legis/cth/consol_act/ca2001172/s50aa.html)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has subsidiary</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_uncle -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_uncle">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_uncle_of"/>
+        <rdfs:label>has uncle</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_wife -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_wife">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_spouse_of"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_wife_of"/>
+        <rdfs:label>has wife</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_affiliated_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_affiliated_with">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Agent"/>
+                    <rdf:Description rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Organization"/>
+                    <rdf:Description rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Person"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Agent"/>
+                    <rdf:Description rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Organization"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: An Agent a1 is affiliated with some Agent a2 by virtue of their having any social or business relationship.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is affiliated with</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_ancestor_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_ancestor_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_descendent_of"/>
+        <rdfs:label>is ancestor of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_aunt_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_aunt_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is aunt of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_brother_in_law_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_brother_in_law_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_in_law_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is brother-in-law of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_brother_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_brother_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_sibling_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is brother of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_child_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_child_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_parent_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is child of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_daughter_in_law_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_daughter_in_law_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_in_law_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is daughter in-law of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_daughter_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_daughter_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_child_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is daughter of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_delimited_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_delimited_by">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Organization"/>
+        <rdfs:range rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: An instance of Government g1 is_delimited_by some Geopolitical Entity gpe1 iff gpe1 is the area with which g1 can legally exercies its authority (derived from http://en.wikipedia.org/wiki/Delimitation).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is delimited by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_descendent_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_descendent_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <rdfs:label>is descendent of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_father_in_law_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_father_in_law_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_in_law_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is father in-law of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_father_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_father_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_parent_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is father of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_first_cousin_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_first_cousin_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_first_cousin_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is first cousin of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandchild_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandchild_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandparent_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is grandchild of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_granddaughter_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_granddaughter_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandchild_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is granddaughter of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandfather_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandfather_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandparent_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is grandfather of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandmother_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandmother_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandparent_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is grandmother of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandparent_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandparent_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is grandparent of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandson_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandson_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandchild_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is grandson of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_half_brother_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_half_brother_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_half_sibling_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is half-brother of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_half_sibling_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_half_sibling_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_half_sibling_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is half-sibling of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_half_sister_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_half_sister_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_half_sibling_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is half sister of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_husband_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_husband_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_spouse_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is husband of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_in_law_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_in_law_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_in_law_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is in-law of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_maternal_aunt_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_maternal_aunt_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_aunt_of"/>
+        <rdfs:label>is maternal aunt of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_maternal_first_cousin_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_maternal_first_cousin_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_first_cousin_of"/>
+        <rdfs:comment>Comment is_maternal_first_cousin_of is not a symmetric relationship as is is_first_cousin_of</rdfs:comment>
+        <rdfs:comment>Definition: Person A is maternal first cousin of Person B iff Person B has mother M and M has sibling P and P is parent of Person A.</rdfs:comment>
+        <rdfs:label>is maternal first cousin of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_maternal_grandfather_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_maternal_grandfather_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandfather_of"/>
+        <rdfs:label>is maternal grandfather of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_maternal_grandmother_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_maternal_grandmother_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandmother_of"/>
+        <rdfs:label>is maternal grandmother of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_maternal_uncle_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_maternal_uncle_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_uncle_of"/>
+        <rdfs:label>is maternal uncle of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_mother_in_law_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_mother_in_law_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_in_law_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is mother in-law of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_mother_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_mother_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_parent_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is mother of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_nephew_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_nephew_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is nephew of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_niece_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_niece_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is niece of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_organizational_context_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_organizational_context_of">
+        <rdfs:domain rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Organization"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: An Organization is a organizational context of a role if a person&apos;s affiliation with the organization is a prerequisite for being a bearer of the role or if the organization ascribes the role to some entity.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is organizational context of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_parent_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_parent_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <rdfs:domain rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Person"/>
+        <rdfs:range rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Person"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is parent of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_paternal_aunt_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_paternal_aunt_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_aunt_of"/>
+        <rdfs:label>is paternal aunt of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_paternal_first_cousin_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_paternal_first_cousin_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_first_cousin_of"/>
+        <rdfs:comment>Comment is_paternal_first_cousin_of is not a symmetric relationship as is is_first_cousin_of</rdfs:comment>
+        <rdfs:comment>Definition: Person A is paternal first cousin of Person B iff Person B has father F and F has sibling P and P is parent of Person A.</rdfs:comment>
+        <rdfs:label>is paternal first cousin of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_paternal_grandfather_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_paternal_grandfather_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandfather_of"/>
+        <rdfs:label>is paternal grandfather of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_paternal_grandmother_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_paternal_grandmother_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_grandmother_of"/>
+        <rdfs:label>is paternal grandmother of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_paternal_uncle_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_paternal_uncle_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_uncle_of"/>
+        <rdfs:label>is paternal uncle of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_second_cousin_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_second_cousin_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_second_cousin_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:label>is second cousin of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_sibling_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_sibling_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_sibling_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is sibling of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_sister_in_law_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_sister_in_law_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_in_law_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is sister-in-law of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_sister_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_sister_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_sibling_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is sister of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_son_in_law_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_son_in_law_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_in_law_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is son in-law of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_son_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_son_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_child_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is son of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_spouse_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_spouse_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_spouse_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is spouse of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_step_brother_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_step_brother_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_step_sibling_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is step-brother of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_step_sibling_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_step_sibling_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_step_sibling_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is step-sibling of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_step_sister_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_step_sister_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_step_sibling_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is step-sister of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_subsidiary_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_subsidiary_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_affiliated_with"/>
+        <rdfs:domain rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Organization"/>
+        <rdfs:range rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Organization"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: An Organization o2 is_subsidiary_of Organization o1 iff o1 controls o2 by having the capacity to determine the outcome of decisions about o2&apos;s financial and operating policies. (derived from http://www.austlii.edu.au/legis/cth/consol_act/ca2001172/s50aa.html)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is subsidiary of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_supervised_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_supervised_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_affiliated_with"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#supervises"/>
+        <rdfs:domain rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Person"/>
+        <rdfs:range rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Person"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A person p1 is supervised by a person p2 by virtue of their being directed, managed, or overseen by p2. (derived from http://en.wiktionary.org/wiki/supervise)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is supervised by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_third_cousin_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_third_cousin_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_third_cousin_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:label>is third cousin of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_uncle_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_uncle_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_familial_relationship_to"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is uncle of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_used_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_used_by"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_wife_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_wife_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_spouse_of"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is wife of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#receives -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#receives">
+        <rdfs:subPropertyOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+        <rdfs:domain rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Agent"/>
+        <rdfs:range rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Act"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: receives is a relationship between an Agent a1 and an Act Of Communication c1 such that a1 receives c1 iff a1 is the recipient and decoder of the InformationContentEntity participating in c1.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">receives</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#sends -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#sends">
+        <rdfs:subPropertyOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+        <rdfs:domain rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Agent"/>
+        <rdfs:range rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Act"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: sends is a relationship between an Agent a1 and an Act Of Communication c1 and  such that a1 sends c1 iff a1 is the initiator and encoder of the InformationContentEntity participating in c1.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sends</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#supervises -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#supervises">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#has_affiliate"/>
+        <rdfs:domain rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Person"/>
+        <rdfs:range rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Person"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A person p1 supervises a person p2 by virtue of their directing, managing, or overseeing by p1. (derived from http://en.wiktionary.org/wiki/supervise)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supervises</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#uses -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#uses"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#prescribes -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#prescribes"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#capability_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#capability_of"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#AcademicDegree -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#AcademicDegree">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#Certificate"/>
+        <rdfs:comment>Definition: A Certificate issued by an Educational Organization to a Person for having attained some status level(derived from http://en.wikipedia.org/wiki/Academic_degree)</rdfs:comment>
+        <rdfs:label>Academic Degree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Affordance -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Affordance">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <rdfs:comment>Definition: A Realizable Entity of an Independent Continuant that creates an opportunity for an Agent to realize some Capability or Disposition in some Act. (derived from https://en.wikipedia.org/wiki/Affordance)</rdfs:comment>
+        <rdfs:label>Affordance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Agent -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Agent">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Organization"/>
+                            <rdf:Description rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Person"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#agent_in"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IntentionalAct"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: An Object that is capable of performing intentional actions.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#AgentCapability -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#AgentCapability">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <rdfs:comment>Definition: A Realizable Entity that inheres in an Agent to the extent of that organizations ability to realize it in Intentional Acts of a certain type.</rdfs:comment>
+        <rdfs:label>Agent Capability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#AllegianceRole -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#AllegianceRole">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Role which inheres in an Organization by virtue of the support they provide to Organizations involved in some conflict.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allegiance Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#AlliedPerson -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#AlliedPerson">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#AllyRole"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Person"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Definition: A Person that is the bearer of some Ally Role.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allied Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#AllyRole -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#AllyRole">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#AllegianceRole"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: An AllegianceRole that inheres_in some Organization in virtue of that Organization performing Acts that support the Objectives of one&apos;s own Organization.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ally Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#ArmedForce -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#ArmedForce">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Organization"/>
+        <rdfs:comment>Definition: An Organization having the objective to further the foreign and domestic policies of a Government and to defend that body and the nation it represents from external and internal aggressors. (derived from https://en.wikipedia.org/wiki/Armed_forces)</rdfs:comment>
+        <rdfs:label>Armed Force</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Behavior -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Behavior">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Act"/>
+        <rdfs:comment>Definition:A PROCESS having PROCESSES as parts in which an ORGANISM participates as agent in response to external or internal stimuli and following some pattern which is dependent upon some combination of that ORGANISM&apos;s internal state and external conditions.</rdfs:comment>
+        <rdfs:label>Behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BiologicalSex -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BiologicalSex">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Quality inhering in a bearer by virtue of the bearer&apos;s ability to undergo sexual reproduction in order to differentiate the individuals or types involved. (derived from http://purl.org/obo/owl/PATO#PATO_0000047)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological Sex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Birth -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Birth">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000035"/>
+        <rdfs:comment>Definition:The originating Process Boundary of Biographical Life.</rdfs:comment>
+        <rdfs:label>Birth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BodilyComponent -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BodilyComponent">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000024"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Fiat Object Part within or on the surface of an Agent, including anatomical structures, body flora, pathogens, toxins, and their combinations. (derived from the mental functioning ontology MF_0000012, bodily component)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bodily component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BodyShape -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BodyShape">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:comment>Definition: The general shape or figure of a person</rdfs:comment>
+        <rdfs:label>Body Shape</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Citizen -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Citizen">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#CitizenRole"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Person"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Person that is the bearer of some Citizen Role</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citizen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#CitizenRole -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#CitizenRole">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Role having as bearer a Person that is legally recognized as a member of a state, with associated rights and obligations (derived from http://en.wikitionary.org/wiki/citizen)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citizen Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Death -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Death">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000035"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The terminating process boundary of some Biographical Life</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Disability -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Disability">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:comment>Definition: A physical or mental condition that limits a person&apos;s movements, senses or activities</rdfs:comment>
+        <rdfs:label>Disability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Disease -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Disease">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Enemy -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Enemy">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#EnemyRole"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Person"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Definition: A Person that is the bearer of some Enemy Role.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Enemy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#EnemyRole -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#EnemyRole">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#AllegianceRole"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: An AllegianceRole that inheres_in some Organization by virtue of that Organization having committed offensive Acts or exhibited intent to perfor such Acts towards one&apos;s own Organization or has been declared as hostile by some appropriate authority</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enemy Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#EthnicGroup -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#EthnicGroup">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#GroupOfPersons"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#aggregate_has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Ethnicity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Group of Persons having the same nationality who also share a distintive culture. (derived from Word Net 3.1 ethnic group%1:14:00::)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethnic group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Ethnicity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Ethnicity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Quality that inheres in its bearers by virtue of a common heritage, often consisting of a common language, a common culture (often including a shared religion) and an ideology that stresses common ancestry or endogamy (derived from http://en.wikipedia.org/wiki/Ethncity).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethnicity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Eye -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Eye">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BodilyComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#EyeColor -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#EyeColor">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#FacialHair -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#FacialHair">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BodilyComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Family -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Family">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#GroupOfPersons"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Group of Persons related to one another by ancestry or marriage</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#FemaleSex -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#FemaleSex">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BiologicalSex"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Biological Sex inhering in an individual that only produces gametes that can be fertilised by male gametes. (derived from http://purl.org/obo/owl/PATO#PATO_0000383).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female Sex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#FinancialValueOfProperty -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#FinancialValueOfProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:label>Financial Value of Property</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Government -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Government">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Organization"/>
+        <rdfs:comment>Definition: An organization (as a group of persons) that exercises executive authority over a politically organized territory. (derived from: https://en.wikipedia.org/wiki/Government)</rdfs:comment>
+        <rdfs:label>Government</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#GroupOfAgents -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#GroupOfAgents">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:allValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Object Aggregate having Agents as parts</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group Of Agents</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#GroupOfOrganizations -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#GroupOfOrganizations">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#GroupOfAgents"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:allValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Group Of Agents having Organizations as parts</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group Of Organizations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#GroupOfPersons -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#GroupOfPersons">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#GroupOfAgents"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:allValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Group Of Agents having Persons as parts</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group Of Persons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#HairColor -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#HairColor">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#HairOfHead -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#HairOfHead">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BodilyComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Ideology -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Ideology">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#InformationContentEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#IncorporatedOrganization -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#IncorporatedOrganization">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#InterpersonalRelationshipRole -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#InterpersonalRelationshipRole">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Iris -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Iris">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BodilyComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#MaleSex -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#MaleSex">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BiologicalSex"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Biological Sex inhering in an individual whose sex organs contain only male gametes.. (derived from http://purl.org/obo/owl/PATO#PATO_0000384).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male Sex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#MilitaryForce -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#MilitaryForce">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#ArmedForce"/>
+        <rdfs:comment>Definition: An Armed Force authorized to use deadly force, and weapons, to support the interests of the Government and some or all of its citizens. (derived from https://en.wikipedia.org/wiki/Military)</rdfs:comment>
+        <rdfs:label>Military Force</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#NeutralRole -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#NeutralRole">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#AllegianceRole"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: An AllegianceRole that inheres_in some Organization by virtue of that Organization not performing Acts that have as their Objective to support the Objectives of Organizations involved in some conflict.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neutral Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#NuclearFamily -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#NuclearFamily">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Family"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Family composed of parents and their children.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nuclear family</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Objective -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Objective">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#prescribes"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DirectiveInformationContentEntity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Directive Information Content Entity that prescribes some projected State that some Agent intends to achieve. (derived from http://en.wikipedia.org/wiki/Objective_(goal)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#OccupationRole -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#OccupationRole">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#OperationalArea -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#OperationalArea">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialLocation"/>
+        <rdfs:comment>Definition: A Geospatial Location in which military operations are conducted (derived from Joint Publication 3-0 Joint Operations)</rdfs:comment>
+        <rdfs:label>Operational Area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Organization -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Organization">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#GroupOfPersons"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Agent which can be the bearer of roles,  has members, and has a set of organization rules.  Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members. (Derived from The OBI Consortium http://purl.obolibrary.org/obo/OBI_0000245). </rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#OrganizationCapability -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#OrganizationCapability">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#capability_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Organization"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#AgentCapability"/>
+        <rdfs:comment>A capability that inheres in an Organization to the extent of that organizations ability to realize it in Intentional Acts of a certain type.</rdfs:comment>
+        <rdfs:label>Organization Capability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#OrganizationMember -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#OrganizationMember">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#OrganizationMemberRole"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#is_affiliated_with"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Person that is affiliated with some Organization</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organization Member</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#OrganizationMemberRole -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#OrganizationMemberRole">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Role that inheres in Agents in virtue of the responsibilities they fulfill as members of some Organization.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organization Member Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#ParamilitaryForce -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#ParamilitaryForce">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#ArmedForce"/>
+        <rdfs:comment>Definition: An Armed Force whose organizational structure, training, subculture, and (often) function are similar to those of a professional military, and which is not included as part of a Government&apos;s formal armed forces. (derived from https://en.wikipedia.org/wiki/Paramilitary)</rdfs:comment>
+        <rdfs:label>Paramilitary Force</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Person -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Person">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Agent that is a human being.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#PlanSpecification -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#PlanSpecification">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DirectiveInformationContentEntity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Directive Information Content Entity that prescribes some set of intended Intentional Acts through which some Agent expects to achieve some Objective. (derived from http://en.wikipedia.org/wiki/Plan</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#PoliticalOrientation -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#PoliticalOrientation">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Ideology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Populace -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Populace">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#GroupOfPersons"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Group of Persons forming the total population of some Geopolitical Entity. (derived from http://en.wikipedia.org/wiki/Populace)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Populace</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Religion -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Religion">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#InformationContentEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Scalp -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Scalp">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BodilyComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Scar -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Scar">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BodilyComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#SetOfEyes -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#SetOfEyes">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BodilyComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Skill -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Skill">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#capability_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Person"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#AgentCapability"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A capability that inheres in a Person to the extent of that Person&apos;s capacity to realize it in certain Intentional Acts.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#SkinType -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#SkinType">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Tattoo -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Tattoo">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#BodilyComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#UnalliedPerson -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#UnalliedPerson">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#NeutralRole"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology#Person"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Definition: A Person that is the bearer of some Neutral Role.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Neutral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#ArticleOfClothing -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#ArticleOfClothing">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <rdfs:comment>Definition:An Artifact is a type of Object that was created or modified by some Agent to realize a certain function.</rdfs:comment>
+        <rdfs:label>Artifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Facility -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Facility">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#FinancialInstrument -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#FinancialInstrument">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Prosthesis -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Prosthesis">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Act -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Act">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:comment>Definition:A Process in which at least one Agent plays a causative role.</rdfs:comment>
+        <rdfs:label>Act</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfAssociation -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfAssociation">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IntentionalAct"/>
+        <rdfs:comment>Definition:An Act wherein an Agent unites with some other Agent in an Intentional Act, enterprise or business. (derived from http://en.wiktionary.org/wiki/associate)</rdfs:comment>
+        <rdfs:label>Act of Association</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfEmployment -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfEmployment">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfAssociation"/>
+        <rdfs:comment>Definition:An Act of Association wherein an Organization assigns a set of activities to some Person to be performed in exchange for financial compensation.</rdfs:comment>
+        <rdfs:label>Act of Employment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfGovernment -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfGovernment">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IntentionalAct"/>
+        <rdfs:comment>Definition:An Act which is generated or supported by some Geopolitical Entity and enforced by some Government Agent.</rdfs:comment>
+        <rdfs:label>Act of Government</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfIncorporation -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfIncorporation">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfLegalSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfInhabitancy -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfInhabitancy">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Act"/>
+        <rdfs:comment>Definition:An Act of dwelling in a location.</rdfs:comment>
+        <rdfs:label>Act of Inhabitancy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfInterpersonalRelationship -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfInterpersonalRelationship">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfAssociation"/>
+        <rdfs:comment>Definition:An Act of Association between two or more Persons that may range from fleeting to enduring. (derived from http://en.wikipedia.org/wiki/Interpersonal_relationship)</rdfs:comment>
+        <rdfs:label>Act of Interpersonal Relationship</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfIssuingWarrant -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfIssuingWarrant">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfLegalSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfLegalSystem -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfLegalSystem">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfGovernment"/>
+        <rdfs:comment>Definition:An Act of Government performed by an Agent that realizes their role within the context of a legal system of some jurisdiction. (derived from http://www.id.uscourts.gov/glossary.htm)</rdfs:comment>
+        <rdfs:label>Act of Legal System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfMilitaryService -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfMilitaryService">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfAssociation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfOwnership -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfOwnership">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfPossession"/>
+        <rdfs:comment>Definition:An Act of Possession that includes an agent having certain rights and duties over the property owned. The relation between the owner and property may be private, collective, or common and the property may be objects, land/real estate, or intellectual property. (Derived from: http://en.wikipedia.org/wiki/Ownership)</rdfs:comment>
+        <rdfs:label>Act of Ownership</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfPossession -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfPossession">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IntentionalAct"/>
+        <rdfs:comment>Definition:An Act in which an agent intentionally exercises control towards a thing. In all cases, to possess something, an agent must have an intention to possess it.  (Derived from http://en.wikipedia.org/wiki/Possession_(law)</rdfs:comment>
+        <rdfs:label>Act of Possession</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfReligiousGroupAffiliation -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfReligiousGroupAffiliation">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfAssociation"/>
+        <rdfs:comment>Definition:An Act of Association wherein some Person belongs to some Religious Demonination or sub-Denomination.</rdfs:comment>
+        <rdfs:label>Act of Religious Group Affiliation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfSocialGroupMembership -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfSocialGroupMembership">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfAssociation"/>
+        <rdfs:comment>Definition:An Act of Association wherein a Person belongs to some Social Group</rdfs:comment>
+        <rdfs:label>Act of Social Group Membership</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfTraining -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfTraining">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IntentionalAct"/>
+        <rdfs:comment>Definition:An Act in which knowledge, skills or values are imparted from one (or more) Agents to at least one other Agent. (derived from http://en.wikipedia.org/wiki/Education).</rdfs:comment>
+        <rdfs:label>Act of Training</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#CriminalAct -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#CriminalAct">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IntentionalAct"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IntentionalAct -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#IntentionalAct">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#Act"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Act in which at least one Agent plays a causative role and which is prescribed by some Objective (synonym: Directive Information Content Entity) held by at least one of the Agents.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intentional Act</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#City -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#City">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Second-OrderAdministrativeRegion"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Definition: A type of Administrative Region, a relatively large and permanent settlement with a particular administrative, legal, or historical status based on local law. (Derived from: http://en.wikipedia.org/wiki/City)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">City</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Country -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Country">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntity"/>
+        <rdfs:comment>Definition: A GeopoliticalEntity with effective internal and external sovereignty over a GeospatialRegion and population which is not dependent on or subject to any other power or State.</rdfs:comment>
+        <rdfs:label>Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#First-OrderAdministrativeRegion -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#First-OrderAdministrativeRegion">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Geopolitical Entity that is a primary administrative division of a country, such as a state in the United States. [Geonames:http://www.geonames.org/export/codes.html]</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">First-Order Administrative Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Fourth-OrderAdministrativeRegion -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Fourth-OrderAdministrativeRegion">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Geopolitical Entity that is a subdivision of a third-order administrative division. [Geonames:http://www.geonames.org/export/codes.html]</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Fourth-Order Administrative Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntity">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialRegion"/>
+        <rdfs:comment>Definition: A GeospatialRegion that is the whole region controlled by a single sovereign government.</rdfs:comment>
+        <rdfs:label>Geopolitical Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntityBorder -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntityBorder">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialBoundary"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Geospatial Boundary of some Geopolitical Entity (derived from http://en.wikipedia.org/wiki/International_border.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geopolitical Entity Border</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialBoundary -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialBoundary">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <rdfs:comment>Definition: A PhysicalEntity that is the boundary of a GeospatialRegion.</rdfs:comment>
+        <rdfs:label>Geospatial Boundary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialLocation -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialLocation">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialRegion"/>
+        <rdfs:comment>Definition: A GeospatialRegion at which a Entity or Event is located</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geospatial Location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialRegion -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialRegion">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <rdfs:comment>Definition: A Spatial Region at or near the surface of the Earth.</rdfs:comment>
+        <rdfs:label>Geospatial Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Province -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Province">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#First-OrderAdministrativeRegion"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Definition: An administrative district or division of a country (Derived from: http://www.merriam-webster.com/dictionary/province)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Province</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Second-OrderAdministrativeRegion -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Second-OrderAdministrativeRegion">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Geopolitical Entity that is a subdivision of a first-order administrative division. [Geonames:http://www.geonames.org/export/codes.html]</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Second-Order Administrative Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#State -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#State">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#First-OrderAdministrativeRegion"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Definition: A type of Administrative Region, a compulsory political organization with a centralized government that maintains a monopoly of the legitimate use of force within a certain territory. (Derived from: https://en.wikipedia.org/wiki/State_(polity)#Definitional_issues)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">State</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Third-OrderAdministrativeRegion -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Third-OrderAdministrativeRegion">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Geopolitical Entity that is a subdivision of a second-order administrative division. [Geonames:http://www.geonames.org/export/codes.html]</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Third-Order Administrative Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Town -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Town">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Geopolitical Entity which is larger than a village but smaller than a city. (derived from Merriam Webster&apos;s Dictionary)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Town</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Village -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Village">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Geopolitical Entity which is some settlement usually larger than a hamlet and smaller than a town. (Derived from Merriam Webster&apos;s Collegiate Dictionary)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Village</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#Certificate -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#Certificate">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#InformationContentEntity"/>
+        <rdfs:label>Certificate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DirectiveInformationContentEntity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DirectiveInformationContentEntity">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#prescribes"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#InformationContentEntity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Directive Information Content Entity is a type of Information Content Entity that consists of a set of propositions or images (as in the case of a blueprint) that prescribe some Entity.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Directive Information Content Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#InformationContentEntity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#InformationContentEntity">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Height -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Height">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Weight -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#Weight">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+

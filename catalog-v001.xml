@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://purl.obolibrary.org/obo/bfo.owl" uri="bfo_classes_only_latest.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.obofoundry.org/ro/ro.owl" uri="ro.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology" uri="AgentOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.ontologylibrary.mil/CommonCore/Mid/AllCoreOntology" uri="AllCoreOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology" uri="ArtifactOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology" uri="CurrencyUnitOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology" uri="EventOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology" uri="GeospatialOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology" uri="InformationEntityOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology" uri="QualityOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology" uri="TimeOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology" uri="UnitsOfMeasureOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology" uri="ExtendedRelationOntology.owl"/>
+    </group>
+</catalog>

@@ -1,0 +1,756 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY bfo "http://purl.obolibrary.org/obo#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY ero "http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#"
+     xml:base="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:bfo="http://purl.obolibrary.org/obo#"
+     xmlns:ero="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#">
+    <owl:Ontology rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology">
+        <owl:versionInfo rdf:datatype="&xsd;string">February 17, 2016</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="&xsd;string">Version 0.85.2</owl:versionInfo>
+		<owl:versionInfo rdf:datatype="&xsd;string">COPYRIGHT © 2015 CUBRC, Inc.</owl:versionInfo>
+        <owl:imports rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#has_ending_instant -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#has_ending_instant">
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: For Temporal Interval t1 and Temporal Instant t2, t1 has ending instant t2 if and only if no Temporal Instant t3 that is part of t1 is after t2.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#has_inside_instant -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#has_inside_instant">
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: For Temporal Interval t1 and Temporal Instant t2, t1 has inside instant t2 if and only if there exists Temporal Instants t3 and t4, non-identical with t2, and part of t1 such that t3 is before t2 and t4 is after t2.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#has_starting_instant -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#has_starting_instant">
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: For Temporal Interval t1 and Temporal Instant t2, t1 has starting instant t2 if and only if no temporal instant t3 that is part of t1 is before t2.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#instant_is_after -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#instant_is_after">
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: For type Temporal Instant, is_after is a primitive relationship. Informally, one temporal intstant t2 is after some temporal instant t1 if and only if there is some Connected Temporal Region t3 between t1 and t2.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#instant_is_before -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#instant_is_before">
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: For type Temporal Instant, is_before is a primitive relationship. Informally, one temporal intstant t1 is before another temporal instant t2 if and only if there is some Connected Temporal Region t3 between t1 and t2.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_contains -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_contains">
+        <rdfs:label rdf:datatype="&xsd;string">interval contains</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT2 contains some Temporal Interval INT1 iff there exist Temporal Instants inst1, inst2, inst3, and inst4 such that inst1 is the starting instant of INT1, inst2 is the ending instant of INT1, inst3 is the starting instant of INT2, inst4 is the ending instant of INT2, inst3 is before inst1, and inst2 is before inst4.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_disjoint -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_disjoint">
+        <rdfs:label rdf:datatype="&xsd;string">interval disjoint</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT1 is disjoint with a Temporal Interval INT2 iff INT1 is before or meets INT2 OR INT2 is before or meets INT1. In other words, INT1 and INT2 are disjoint iff INT1 and INT2 do not overlap.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_during -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_during">
+        <rdfs:label rdf:datatype="&xsd;string">interval during</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT1 is during some Temporal Interval INT2 iff there exist Temporal Instants inst1, inst2, inst3, and inst4 such that inst1 is the starting instant of INT1, inst2 is the ending instant of INT1, inst3 is the starting instant of INT2, inst4 is the ending instant of INT2, inst3 is before inst1, and inst2 is before inst4.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_equals -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_equals">
+        <rdfs:label rdf:datatype="&xsd;string">interval equals</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT1 is equal to some Temporal Interval INT2 iff there exists Temporal Instants inst1 and inst2 such that inst1 is the starting instant of both INT1 and INT2 and inst2 is the ending instant of both INT1 and INT2.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_finished_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_finished_by">
+        <rdfs:label rdf:datatype="&xsd;string">interval finished by</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT2 is finished by some Temporal Interval INT1 iff there exists Temporal Instants inst1, inst2, and inst3 such that inst 1 is the starting instant of INT1, inst2 is the ending instant of both INT1 and INT2, inst3 is the starting instant of INT2, and inst3 is before inst1.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_finishes -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_finishes">
+        <rdfs:label rdf:datatype="&xsd;string">interval finishes</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT1 finishes some Temporal Interval INT2 iff there exists Temporal Instants inst1, inst2, and inst3 such that inst 1 is the starting instant of INT1, inst2 is the ending instant of both INT1 and INT2, inst3 is the starting instant of INT2, and inst3 is before inst1.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_is_after -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_is_after">
+        <rdfs:label rdf:datatype="&xsd;string">interval is after</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A TemporalInterval INT2 is after some TemporalInterval INT1 iff there exists TemporalInstants inst2, inst1 such that inst2 is the starting instant of INT2 and inst1 is the ending instant of INT1 and inst2 is after inst1.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_is_before -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_is_before">
+        <rdfs:label rdf:datatype="&xsd;string">interval is before</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A TemporalInterval INT1 is before some TemporalInterval INT2 iff there exists TemporalInstants inst1, inst2 such that inst1 is the ending instant of INT1 and inst2 is the starting instant of INT2 and inst1 is before inst2.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_meets -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_meets">
+        <rdfs:label rdf:datatype="&xsd;string">interval meets</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT1 meets some Temporal Interval INT2 iff there exists some Temporal Instant inst1 such that inst1 is the ending instant of INT1 and inst1 is the starting instant of INT2.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_met_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_met_by">
+        <rdfs:label rdf:datatype="&xsd;string">interval met by</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT2 is met by some Temporal Interval INT1 iff there exists some Temporal Instant inst1 such that inst1 is the starting instant of INT2 and inst1 is the ending instant of INT1.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_overlapped_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_overlapped_by">
+        <rdfs:label rdf:datatype="&xsd;string">interval overlapped by</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT2 is overlapped by some Temporal Interval INT1 iff there exist Temporal Instants inst1, inst2, inst3, inst4 such that inst1 is the starting instant of INT1, inst2 is the ending instant of INT1, inst3 is the starting instant of INT2, inst4 is the ending instant of INT2, inst1 is before inst3, inst3 is before inst2, and inst2 is before inst4.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_overlaps -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_overlaps">
+        <rdfs:label rdf:datatype="&xsd;string">interval overlaps</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT1 overlaps some Temporal Interval INT2 iff there exist Temporal Instants inst1, inst2, inst3, inst4 such that inst1 is the starting instant of INT1, inst2 is the ending instant of INT1, inst3 is the starting instant of INT2, inst4 is the ending instant of INT2, inst1 is before inst3, inst3 is before inst2, and inst2 is before inst4.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_started_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_started_by">
+        <rdfs:label rdf:datatype="&xsd;string">interval started by</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT2 is started by some Temporal Interval INT1 iff there exist Temporal Instants inst1, inst2, and inst3 such that inst1 is the starting instant of both INT1 and INT2, inst2 is the ending instant of INT1, inst3 is the ending instant of INT2 and inst2 is before inst3.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_starts -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_starts">
+        <rdfs:label rdf:datatype="&xsd;string">interval starts</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT1 starts some Temporal Interval INT2 iff there exist Temporal Instants inst1, inst2, and inst3 such that inst1 is the starting instant of both INT1 and INT2, inst2 is the ending instant of INT1, inst3 is the ending instant of INT2 and inst2 is before inst3.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#is_ending_instant_of -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#is_ending_instant_of">
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: For Temporal Instant t1 and Temporal Interval t2, t1 is ending instant of t2 if and only if no Temporal Instant t3 that is part of t2 is after t1.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#is_inside_instant_of -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#is_inside_instant_of">
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: For Temporal Instant t1 and Temporal Interval t2, t1 is inside instant of t2 if and only if there are Temporal Instants t3 and t4 non-identical to t1 and part of t2 such that t3 is before t1 and t4 is after t1.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#is_starting_instant_of -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#is_starting_instant_of">
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: For Temporal Instant t1 and Temporal Interval t2, t1 is starting instant of t2 if and only if no Temporal Instant t3 that is part of t2 is before t1.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#has_ending_instant -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#has_ending_instant">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: For Temporal Interval t1 and Temporal Instant t2, t1 has ending instant t2 if and only if no Temporal Instant t3 that is part of t1 is after t2.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#has_inside_instant -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#has_inside_instant">
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: For Temporal Interval t1 and Temporal Instant t2, t1 has inside instant t2 if and only if there exists Temporal Instants t3 and t4, non-identical with t2, and part of t1 such that t3 is before t2 and t4 is after t2.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#is_inside_instant_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#has_starting_instant -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#has_starting_instant">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: For Temporal Interval t1 and Temporal Instant t2, t1 has starting instant t2 if and only if no temporal instant t3 that is part of t1 is before t2.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#is_starting_instant_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#instant_is_after -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#instant_is_after">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: For type Temporal Instant, is_after is a primitive relationship. Informally, one temporal intstant t2 is after some temporal instant t1 if and only if there is some Connected Temporal Region t3 between t1 and t2.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#instant_is_before -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#instant_is_before">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: For type Temporal Instant, is_before is a primitive relationship. Informally, one temporal intstant t1 is before another temporal instant t2 if and only if there is some Connected Temporal Region t3 between t1 and t2.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#instant_is_after"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_contains -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_contains">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">interval contains</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT2 contains some Temporal Interval INT1 iff there exist Temporal Instants inst1, inst2, inst3, and inst4 such that inst1 is the starting instant of INT1, inst2 is the ending instant of INT1, inst3 is the starting instant of INT2, inst4 is the ending instant of INT2, inst3 is before inst1, and inst2 is before inst4.</rdfs:comment>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_disjoint -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_disjoint">
+        <rdfs:label rdf:datatype="&xsd;string">interval disjoint</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT1 is disjoint with a Temporal Interval INT2 iff INT1 is before or meets INT2 OR INT2 is before or meets INT1. In other words, INT1 and INT2 are disjoint iff INT1 and INT2 do not overlap.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_overlapped_by"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_overlaps"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_during -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_during">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">interval during</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT1 is during some Temporal Interval INT2 iff there exist Temporal Instants inst1, inst2, inst3, and inst4 such that inst1 is the starting instant of INT1, inst2 is the ending instant of INT1, inst3 is the starting instant of INT2, inst4 is the ending instant of INT2, inst3 is before inst1, and inst2 is before inst4.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_contains"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_equals -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_equals">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">interval equals</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT1 is equal to some Temporal Interval INT2 iff there exists Temporal Instants inst1 and inst2 such that inst1 is the starting instant of both INT1 and INT2 and inst2 is the ending instant of both INT1 and INT2.</rdfs:comment>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_finished_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_finished_by">
+        <rdfs:label rdf:datatype="&xsd;string">interval finished by</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT2 is finished by some Temporal Interval INT1 iff there exists Temporal Instants inst1, inst2, and inst3 such that inst 1 is the starting instant of INT1, inst2 is the ending instant of both INT1 and INT2, inst3 is the starting instant of INT2, and inst3 is before inst1.</rdfs:comment>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_finishes -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_finishes">
+        <rdfs:label rdf:datatype="&xsd;string">interval finishes</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT1 finishes some Temporal Interval INT2 iff there exists Temporal Instants inst1, inst2, and inst3 such that inst 1 is the starting instant of INT1, inst2 is the ending instant of both INT1 and INT2, inst3 is the starting instant of INT2, and inst3 is before inst1.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_finished_by"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_is_after -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_is_after">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">interval is after</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A TemporalInterval INT2 is after some TemporalInterval INT1 iff there exists TemporalInstants inst2, inst1 such that inst2 is the starting instant of INT2 and inst1 is the ending instant of INT1 and inst2 is after inst1.</rdfs:comment>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_is_before -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_is_before">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">interval is before</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A TemporalInterval INT1 is before some TemporalInterval INT2 iff there exists TemporalInstants inst1, inst2 such that inst1 is the ending instant of INT1 and inst2 is the starting instant of INT2 and inst1 is before inst2.</rdfs:comment>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_is_after"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_meets -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_meets">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">interval meets</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT1 meets some Temporal Interval INT2 iff there exists some Temporal Instant inst1 such that inst1 is the ending instant of INT1 and inst1 is the starting instant of INT2.</rdfs:comment>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_met_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_met_by">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">interval met by</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT2 is met by some Temporal Interval INT1 iff there exists some Temporal Instant inst1 such that inst1 is the starting instant of INT2 and inst1 is the ending instant of INT1.</rdfs:comment>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_meets"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_overlapped_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_overlapped_by">
+        <rdfs:label rdf:datatype="&xsd;string">interval overlapped by</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT2 is overlapped by some Temporal Interval INT1 iff there exist Temporal Instants inst1, inst2, inst3, inst4 such that inst1 is the starting instant of INT1, inst2 is the ending instant of INT1, inst3 is the starting instant of INT2, inst4 is the ending instant of INT2, inst1 is before inst3, inst3 is before inst2, and inst2 is before inst4.</rdfs:comment>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_overlaps -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_overlaps">
+        <rdfs:label rdf:datatype="&xsd;string">interval overlaps</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT1 overlaps some Temporal Interval INT2 iff there exist Temporal Instants inst1, inst2, inst3, inst4 such that inst1 is the starting instant of INT1, inst2 is the ending instant of INT1, inst3 is the starting instant of INT2, inst4 is the ending instant of INT2, inst1 is before inst3, inst3 is before inst2, and inst2 is before inst4.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_overlapped_by"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_started_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_started_by">
+        <rdfs:label rdf:datatype="&xsd;string">interval started by</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT2 is started by some Temporal Interval INT1 iff there exist Temporal Instants inst1, inst2, and inst3 such that inst1 is the starting instant of both INT1 and INT2, inst2 is the ending instant of INT1, inst3 is the ending instant of INT2 and inst2 is before inst3.</rdfs:comment>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_starts"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_starts -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_starts">
+        <rdfs:label rdf:datatype="&xsd;string">interval starts</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A Temporal Interval INT1 starts some Temporal Interval INT2 iff there exist Temporal Instants inst1, inst2, and inst3 such that inst1 is the starting instant of both INT1 and INT2, inst2 is the ending instant of INT1, inst3 is the ending instant of INT2 and inst2 is before inst3.</rdfs:comment>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#is_ending_instant_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#is_ending_instant_of">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: For Temporal Instant t1 and Temporal Interval t2, t1 is ending instant of t2 if and only if no Temporal Instant t3 that is part of t2 is after t1.</rdfs:comment>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#has_ending_instant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#is_inside_instant_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#is_inside_instant_of">
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: For Temporal Instant t1 and Temporal Interval t2, t1 is inside instant of t2 if and only if there are Temporal Instants t3 and t4 non-identical to t1 and part of t2 such that t3 is before t1 and t4 is after t1.</rdfs:comment>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#is_starting_instant_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#is_starting_instant_of">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: For Temporal Instant t1 and Temporal Interval t2, t1 is starting instant of t2 if and only if no Temporal Instant t3 that is part of t2 is before t1.</rdfs:comment>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Day -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Day">
+        <rdfs:label rdf:datatype="&xsd;string">Day</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_during"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Week"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">Definition: A type of temporal interval, indicated a period of twenty-four hours on the Gregorian calendar.  (derived from: http://wordnetweb.princeton.edu/perl/webwn?s=day)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Decade -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Decade">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">Definition: A type of temporal interval, denoting a period of ten years.  (derived from: http://wordnetweb.princeton.edu/perl/webwn?s=decade)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Hour -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Hour">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_during"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Day"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">Definition: A type of temporal interval, denoting a period of sixty minutes or 1/24  of a day. (derived from: http://wordnetweb.princeton.edu/perl/webwn?s=hour)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Minute -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Minute">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_during"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Hour"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">Definition: A type of temporal interval, equal to sixty seconds or 1/60 of an hour. (derived from: http://wordnetweb.princeton.edu/perl/webwn?s=minute)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Month -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Month">
+        <rdfs:label rdf:datatype="&xsd;string">Month</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_during"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Year"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">Definition: A type of temporal interval, denoting approximately four weeks or 1/12 of a standard year. (derived from: http://wordnetweb.princeton.edu/perl/webwn?s=month)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#MultiDayTemporalInterval -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#MultiDayTemporalInterval">
+        <rdfs:label rdf:datatype="&xsd;string">Multi-Day Temporal Interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_contains"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Day"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A defined class composed of instances of temporal intervals measured in days and spanning more than 1 day.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#MultiHourTemporalInterval -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#MultiHourTemporalInterval">
+        <rdfs:label rdf:datatype="&xsd;string">Multi-Hour Temporal Interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_contains"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Hour"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A defined class composed of instances of temporal intervals measured in hours and spanning more than 1 hour.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#MultiMinuteTemporalInterval -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#MultiMinuteTemporalInterval">
+        <rdfs:label rdf:datatype="&xsd;string">Part of Hour</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_contains"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Minute"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A defined class composed of instances of temporal intervals measured in minutes and spanning more than 1 minute.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#MultiMonthTemporalInterval -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#MultiMonthTemporalInterval">
+        <rdfs:label rdf:datatype="&xsd;string">Multimonth Temporal Interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_contains"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Month"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Comment: Could also be used for seasons of year (e.g. Spring, Summer, etc.)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A defined class composed of instances of temporal intervals measured in months and spanning more than 1 month.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#MultiSecondTemporalInterval -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#MultiSecondTemporalInterval">
+        <rdfs:label rdf:datatype="&xsd;string">Part of Minute</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_contains"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Second"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A defined class composed of instances of temporal intervals measured in seconds and spanning more than 1 second.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#MultiWeekTemporalInterval -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#MultiWeekTemporalInterval">
+        <rdfs:label rdf:datatype="&xsd;string">Multi-Week Temporal Interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_contains"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Week"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A defined class composed of instances of temporal intervals measured in weeks and spanning more than 1 week.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#MultiYearTemporalInterval -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#MultiYearTemporalInterval">
+        <rdfs:label rdf:datatype="&xsd;string">Multi-Year Temporal Interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_contains"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Year"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition: A defined class composed of instances of temporal intervals measured in years and spanning more than 1 year.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Second -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Second">
+        <rdfs:label rdf:datatype="&xsd;string">Second</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_during"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Minute"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">Definition: A type of temporal interval, the basic unit of time and time calculations; equal to 1/60 of a minute. (derived from: http://wordnetweb.princeton.edu/perl/webwn?s=second)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#TimeOfDay -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#TimeOfDay">
+        <rdfs:label rdf:datatype="&xsd;string">Time Of Day</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">Definition: A type of temporal instant, indicating the approximate time broken down into hours, minutes and seconds.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Week -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Week">
+        <rdfs:label rdf:datatype="&xsd;string">Week</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_during"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Month"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">Definition: A type of temporal interval, denoting a period of seven days or approximately 1/4 of a month. (derived from: http://wordnetweb.princeton.edu/perl/webwn?s=week)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Year -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Year">
+        <rdfs:label rdf:datatype="&xsd;string">Year</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#interval_during"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology#Decade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&rdfs;Literal">Definition: A type of temporal interval, denoting a period of twelve months or 365 days. (derived from: http://wordnetweb.princeton.edu/perl/webwn?s=year)</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

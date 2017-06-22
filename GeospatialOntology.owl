@@ -1,0 +1,771 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#"
+     xml:base="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology"
+     xmlns:ero="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology">
+        <owl:imports rdf:resource="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COPYRIGHT © 2015 CUBRC, Inc.</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">February 17, 2016</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Version 0.85.2</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#has_part -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#has_proper_part -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#part_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#proper_part_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#proper_part_of"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#coincides_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#coincides_with">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A spatial region sp1 coincides with some spatial region sp2 iff sp1 is a spatial part of sp2 and sp2 is a spatial part of sp1.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coincides with</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#connected_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#connected_with">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A spatial region sp1 is connected with some spatial region sp2 iff there exists some spatial region sp3 that is common to both sp1 and sp2.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connected with</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#disconnected_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#disconnected_with">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disconnected with</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#externally_connects_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#externally_connects_with">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A spatial region sp1 externally connects with some spatial region sp2 iff sp1 connects with sp2 and sp1 does not overlaps with sp2.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">externally connects with</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#has_nontangential_proper_part -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#has_nontangential_proper_part">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#has_spatial_proper_part"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#nontangential_proper_part_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: Inverse of nontangential proper part of</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has nontangential proper part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#has_spatial_part_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#has_spatial_part_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#spatial_part_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: Inverse of spatial part of</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has spatial part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#has_spatial_proper_part -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#has_spatial_proper_part">
+        <rdfs:subPropertyOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#spatial_proper_part_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: Inverse of spatial proper part of</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has spatial proper part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#has_tangential_proper_part -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#has_tangential_proper_part">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#has_spatial_proper_part"/>
+        <owl:inverseOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#tangential_proper_part_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: Inverse of tangential proper part of</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has tangential proper part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#nontangential_proper_part_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#nontangential_proper_part_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#spatial_proper_part_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A spatial region sp1 is a nontangential proper part of some spatial region sp2 iff sp1 is a spatial proper part of sp2 and there does not exist a spatial region sp such that sp externally connects with sp1 and sp externally connects with sp2</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nontangential proper part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#overlaps_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#overlaps_with">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A spatial region sp1 overlaps with some spatial region sp2 iff there exists some spatial region sp such that sp is a spatial part of sp1 and sp is a spatial part of sp2.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">overlaps with</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#partially_overlaps_with -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#partially_overlaps_with">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A spatial region sp1 partially overlaps with some spatial region sp2 iff sp1 overlaps with sp2 and sp1 is not a spatial part of sp2 and sp2 is not a spatial part of sp1.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partially overlaps with</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#spatial_part_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#spatial_part_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A spatial region sp1 is a spatial part of some spatial region sp2 iff for every spatial region sp if sp is connected with sp1, then sp is connected with sp2.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#spatial_proper_part_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#spatial_proper_part_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#proper_part_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A spatial region sp1 is a spatial proper part of some spatial region sp2 iff sp1 is a spatial part of sp2 and sp2 is not a spatial part of sp1.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial proper part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#tangential_proper_part_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#tangential_proper_part_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#spatial_proper_part_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A spatial region sp1 is a tangential proper part of some spatial region sp2 iff sp1 is a spatial proper part of sp2 and there exists some spatial region sp such that sp externally connects with sp1 and sp externally connects with sp2.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tangential proper part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#has_latitude_value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#has_latitude_value">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Datatype property that has as its range the latitude value from some geospatial location coordinates set expressed in decimal degrees.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has latitude value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#has_longitude_value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#has_longitude_value">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Datatype property that has as its range the longitude value from some geospatial location coordinates set expressed in decimal degrees.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has longitude value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#AnthropogenicFeature -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#AnthropogenicFeature">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#EnvironmentalFeature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Definition: A type of Environmental Feature, relating to or resulting from the influence of human beings on nature. (Derived from: http://www.merriam-webster.com/dictionary/anthropogenic)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Anthropogenic Feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#AtmosphericFeature -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#AtmosphericFeature">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeographicFeature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: An Object that is a natural (i.e. not human made) part of the atmosphere (including the atmosphere itself as a non-proper part) having a relatively stable lifecycle and which has a location that can be distinguished from the surrounding portion of the atmosphere.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atmospheric feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#BoundingBoxEastPoint -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#BoundingBoxEastPoint">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#BoundingBoxPoint"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#tangential_proper_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialRegionBoundingBox"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Bounding Box Point that is externally connected to the eastern boundary of some Geospatial Region Bounding Box.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bounding Box East Point</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#BoundingBoxNorthPoint -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#BoundingBoxNorthPoint">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#BoundingBoxPoint"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#tangential_proper_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialRegionBoundingBox"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Bounding Box Point that is externally connected to the northern boundary of some Geospatial Region Bounding Box</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bounding Box North Point</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#BoundingBoxPoint -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#BoundingBoxPoint">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#proper_part_of"/>
+                        <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialRegionBoundingBox"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000018"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A zero dimensional region that is either a tangential proper part or a nontangential proper part of some Geospatial Region Bounding Box. </rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bounding box point</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#BoundingBoxSouthPoint -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#BoundingBoxSouthPoint">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#BoundingBoxPoint"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#tangential_proper_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialRegionBoundingBox"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Bounding Box Point that is externally connected to the southern boundary of some Geospatial Region Bounding Box</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bounding Box South Point</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#BoundingBoxWestPoint -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#BoundingBoxWestPoint">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#BoundingBoxPoint"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#tangential_proper_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialRegionBoundingBox"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Bounding Box Point that is externally connected to the western boundary of some Geospatial Region Bounding Box</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bounding Box West Point</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#City -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#City">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Second-OrderAdministrativeRegion"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#proper_part_of"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Province"/>
+                            <rdf:Description rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#State"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Definition: A type of Administrative Region, a relatively large and permanent settlement with a particular administrative, legal, or historical status based on local law. (Derived from: http://en.wikipedia.org/wiki/City)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">City</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#CityPart -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#CityPart">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#City"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntityPart"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A defined class composed of fiat sub-sections of a City. </rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This Class should be used for instances that are sections of a City demarcated by cultural, historic, demographic reasons, examples would be the French Quarter of New Orleans and the Flatbush neighorhood of New York City.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">City Part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#ConstructedFeature -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#ConstructedFeature">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#AnthropogenicFeature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: An Anthropogenic Feature that has been constructed by deliberate human effort. [MA:ma]</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Constructed Feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Continent -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Continent">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialRegion"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Geospatial Region which is any of the world&apos;s main continuous expanses of land. (derived from JC3IEDM version 3.0.2)</rdfs:comment>
+        <rdfs:label>Continent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Country -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Country">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntity"/>
+        <rdfs:comment>Definition: A GeopoliticalEntity with effective internal and external sovereignty over a GeospatialRegion and population which is not dependent on or subject to any other power or State.</rdfs:comment>
+        <rdfs:label>Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#CountryPart -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#CountryPart">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Country"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntityPart"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A defined class composed of fiat sub-sections of a Country. </rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class should be used for instances which are not proper SubNationalEntities like Cities, Provinces, and States. Rather examples would be regions of a country such as Southeastern United States, and Northern Iraq.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Country Part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#EnvironmentalFeature -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#EnvironmentalFeature">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A feature that is. [NM:nm]</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Environmental Feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#First-OrderAdministrativeRegion -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#First-OrderAdministrativeRegion">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Geopolitical Entity that is a primary administrative division of a country, such as a state in the United States. [Geonames:http://www.geonames.org/export/codes.html]</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">First-Order Administrative Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Fourth-OrderAdministrativeRegion -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Fourth-OrderAdministrativeRegion">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Geopolitical Entity that is a subdivision of a third-order administrative division. [Geonames:http://www.geonames.org/export/codes.html]</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Fourth-Order Administrative Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeographicFeature -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeographicFeature">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#EnvironmentalFeature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: An Environmental Feature that is a natural (i.e. not human made) topographical feature having a (relatively) stable location in some GeospatialRegion which can be designated by location-specific data.</rdfs:comment>
+        <rdfs:label>Geographic Feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntity">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialRegion"/>
+        <rdfs:comment>Definition: A Geospatial Region in which a formally constituted government has the authority to exercise its control</rdfs:comment>
+        <rdfs:label>Geopolitical Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntityBorder -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntityBorder">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialBoundary"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Geospatial Boundary of some Geopolitical Entity (derived from http://en.wikipedia.org/wiki/International_border.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geopolitical Entity Border</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntityPart -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntityPart">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntity"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialRegion"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A defined class composed of contiguous fiat sub-sections of Geopolitical Entity. </rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geopolitical Entity Part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialBoundary -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialBoundary">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <rdfs:comment>Definition: A PhysicalEntity that is the boundary of a GeospatialRegion.</rdfs:comment>
+        <rdfs:label>Geospatial Boundary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialLocation -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialLocation">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialRegion"/>
+        <rdfs:comment>Definition: A GeospatialRegion at which a Entity or Event is located</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geospatial Location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialRegion -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialRegion">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <rdfs:comment>Definition: A Spatial Region at or near the surface of the Earth.</rdfs:comment>
+        <rdfs:label>Geospatial Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialRegionBoundingBox -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialRegionBoundingBox">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000009"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Two Dimensional Region having some Geospatial Region as a non-tangential proper part</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geospatial Region Bounding Box</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#HighDensityResidentialArea -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#HighDensityResidentialArea">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#PopulatedPlace"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Populated Place which is characterized by densely contained multiple-unit living structures. (derived from Anderson et. al. A Land Use and Land Cover Classification System for use with Remote Sensor Data, Geological Survey Professional Paper 964)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High Density Residential Area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#HydrographicFeature -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#HydrographicFeature">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeographicFeature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Geographic Feature associated with water. [MA:ma]</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Hydrographic Feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#LowDensityResidentialArea -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#LowDensityResidentialArea">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#PopulatedPlace"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Populated Place where houses are on lots of more than one acre. (derived from Anderson et. al. A Land Use and Land Cover Classification System for use with Remote Sensor Data, Geological Survey Professional Paper 964)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low Density Residential Area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#ObjectTrack -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#ObjectTrack">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialLocation"/>
+        <rdfs:comment>Definition: A Geospatial Location an object has traversed during some motion.</rdfs:comment>
+        <rdfs:label>Object Track</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#ObjectTrackPoint -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#ObjectTrackPoint">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialLocation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#spatial_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#ObjectTrack"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Definition: A Geospatial Location an object was located at during some motion</rdfs:comment>
+        <rdfs:label>Object Track Point</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Park -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Park">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#AnthropogenicFeature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: An Anthropogenic Feature that is a bounded area of land, or water, usually in its natural or semi-natural (landscaped) state and set aside for some purpose, usually to do with recreation or conservation. [Wikipedia:Park]</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Park</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#PhysiographicFeature -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#PhysiographicFeature">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeographicFeature"/>
+        <rdfs:comment>Definition: A Geographic Feature that is a geomorphological unit characterized by its surface form and location in the landscape (derived from http://en.wikipedia.org/wiki/Landform).</rdfs:comment>
+        <rdfs:label>Physiographic Feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#PopulatedPlace -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#PopulatedPlace">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#AnthropogenicFeature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: An Anthropogenic Feature at which people live or have lived. (derived from http://en.wikipedia.org/wiki/Human_settlement)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Populated place</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Province -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Province">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#First-OrderAdministrativeRegion"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Definition: An administrative district or division of a country (Derived from: http://www.merriam-webster.com/dictionary/province)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Province</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#ProvincePart -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#ProvincePart">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Province"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntityPart"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A defined class composed of fiat sub-sections of a Province. </rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This Class should be used for instances that are sections of a province demarcated by cultural, historic, or demographic reasons, examples would be the southwest area of Al Anbar Province and the Greater Montreal Area of Quebec.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Province Part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Second-OrderAdministrativeRegion -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Second-OrderAdministrativeRegion">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Geopolitical Entity that is a subdivision of a first-order administrative division. [Geonames:http://www.geonames.org/export/codes.html]</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Second-Order Administrative Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#State -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#State">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#First-OrderAdministrativeRegion"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Definition: A type of Administrative Region, a compulsory political organization with a centralized government that maintains a monopoly of the legitimate use of force within a certain territory. (Derived from: https://en.wikipedia.org/wiki/State_(polity)#Definitional_issues)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">State</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#StatePart -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#StatePart">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#State"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntityPart"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A defined class composed of fiat sub-sections of a State. </rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This Class should be used for instances that are sections of a State demarcated by cultural, historic, or demographic reasons, examples would be the Western New York Region and the Texas Panhandle.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">State Part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Subcontinent -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Subcontinent">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeospatialRegion"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Geospatial Region that is a large, relatively self-contained landmass forming a subdivision of a continent (derived from http://en.wikipedia.org/wiki/Subcontinent).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subcontinent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Third-OrderAdministrativeRegion -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Third-OrderAdministrativeRegion">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Geopolitical Entity that is a subdivision of a second-order administrative division. [Geonames:http://www.geonames.org/export/codes.html]</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Third-Order Administrative Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Town -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Town">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Geopolitical Entity which is larger than a village but smaller than a city. (derived from Merriam Webster&apos;s Dictionary)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Town</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Village -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#Village">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology#GeopoliticalEntity"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definition: A Geopolitical Entity which is some settlement usually larger than a hamlet and smaller than a town. (Derived from Merriam Webster&apos;s Collegiate Dictionary)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Village</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+

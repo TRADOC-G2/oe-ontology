@@ -1,0 +1,1211 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#"
+     xml:base="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology">
+        <owl:versionInfo>February 17, 2016</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="&xsd;string">COPYRIGHT © 2015 CUBRC, Inc.</owl:versionInfo>
+        <owl:versionInfo>Version 0.85.2</owl:versionInfo>
+        <owl:imports rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit">
+        <rdfs:label>Currency Unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#AfghanistanAfghani -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#AfghanistanAfghani">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Afghanistan Afghani</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#AlbaniaLek -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#AlbaniaLek">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Albania Lek</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#AlgerianDinar -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#AlgerianDinar">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Algerian Dinar</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#AngolanKwanza -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#AngolanKwanza">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Angolan Kwanza</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#ArgentinePeso -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#ArgentinePeso">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Argentine Peso</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#ArmenianDram -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#ArmenianDram">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Armenian Dram</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#AustralianDollar -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#AustralianDollar">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Australian Dollar</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#AzerbaijanManat -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#AzerbaijanManat">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Azerbaijan Manat</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#BangladeshTaka -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#BangladeshTaka">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Bangladesh Taka</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#BelarussianRuble -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#BelarussianRuble">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Belarussian Ruble</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#BhutanNgultrum -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#BhutanNgultrum">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Bhutan Ngultrum</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#BoliviaBoliviano -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#BoliviaBoliviano">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Bolivia Boliviano</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#BosniaAndHerzegovinaConvertibleMark -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#BosniaAndHerzegovinaConvertibleMark">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Bosnia And Herzegovina Convertible Mark</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#BotswanaPula -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#BotswanaPula">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Botswana Pula</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#BrazilianReal -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#BrazilianReal">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Brazilian Real</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#BruneiDollar -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#BruneiDollar">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Brunei Dollar</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#BulgarianLev -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#BulgarianLev">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Bulgarian Lev</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#BurundiFranc -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#BurundiFranc">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Burundi Franc</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CambodianRiel -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CambodianRiel">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Cambodian Riel</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CanadianDollar -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CanadianDollar">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Canadian Dollar</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CapeVerdeEscudo -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CapeVerdeEscudo">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Cape Verde Escudo</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CFAFranc -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CFAFranc">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>CFA Franc</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CFPFranc -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CFPFranc">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>CFP Franc</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#ChileanPeso -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#ChileanPeso">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Chilean Peso</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#ChineseRenminbi -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#ChineseRenminbi">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Chinese Renminbi</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#ColombianPeso -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#ColombianPeso">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Colombian Peso</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#ComorosFranc -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#ComorosFranc">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Comoros Franc</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#DemocraticRepublicOfCongoFranc -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#DemocraticRepublicOfCongoFranc">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Democratic Republic Of Congo Franc</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CostaRicaColon -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CostaRicaColon">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Costa Rica Colon</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CroatiaKuna -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CroatiaKuna">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Croatia Kuna</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CzechKoruna -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CzechKoruna">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Czech Koruna</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#DanishKrone -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#DanishKrone">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Danish Krone</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#DominicanPeso -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#DominicanPeso">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Dominican Peso</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#EgyptianPound -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#EgyptianPound">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Egyptian Pound</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#EthiopianBirr -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#EthiopianBirr">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Ethiopian Birr</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#Euro -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#Euro">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Euro</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#FijiDollar -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#FijiDollar">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Fiji Dollar</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#GambianDalasi -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#GambianDalasi">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Gambian Dalasi</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#GeorgianLari -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#GeorgianLari">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Georgian Lari</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#GhanaCedi -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#GhanaCedi">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Ghana Cedi</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#GuatemalaQuetzal -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#GuatemalaQuetzal">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Guatemala Quetzal</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#GuineanFranc -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#GuineanFranc">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Guinean Franc</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#GuyanaDollar -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#GuyanaDollar">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Guyana Dollar</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#HaitiGourde -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#HaitiGourde">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Haiti Gourde</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#HondurasLempira -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#HondurasLempira">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Honduras Lempira</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#HongKongDollar -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#HongKongDollar">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>HongKong Dollar</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#HungaryForint -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#HungaryForint">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Hungary Forint</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#IcelandKrona -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#IcelandKrona">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Iceland Krona</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#IndianRupee -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#IndianRupee">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Indian Rupee</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#IndonesiaRupiah -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#IndonesiaRupiah">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Indonesia Rupiah</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#IranianRial -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#IranianRial">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Iranian Rial</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#IsraelShekel -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#IsraelShekel">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Israel Shekel</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#JamaicanDollar -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#JamaicanDollar">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Jamaican Dollar</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#JapaneseYen -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#JapaneseYen">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Japanese Yen</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#KazakhstanTenge -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#KazakhstanTenge">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Kazakhstan Tenge</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#KenyanShilling -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#KenyanShilling">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Kenyan Shilling</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#NorthKoreanWon -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#NorthKoreanWon">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>North Korean Won</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SouthKoreanWon -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SouthKoreanWon">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>South Korean Won</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#KuwaitiDinar -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#KuwaitiDinar">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Kuwaiti Dinar</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#KyrgyzstanSom -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#KyrgyzstanSom">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Kyrgyzstan Som</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#LaosKip -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#LaosKip">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Laos Kip</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#LebanesePound -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#LebanesePound">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Lebanese Pound</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#LesothoLoti -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#LesothoLoti">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Lesotho Loti</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#LiberianDollar -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#LiberianDollar">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Liberian Dollar</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#LibyanDinar -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#LibyanDinar">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Libyan Dinar</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MacaoPataca -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MacaoPataca">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Macao Pataca</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MacedonianDenar -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MacedonianDenar">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Macedonian Denar</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MadagascarMalagasyAriary -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MadagascarMalagasyAriary">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Madagascar Malagasy Ariary</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MalawiKwacha -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MalawiKwacha">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Malawi Kwacha</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MalaysiaRinggit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MalaysiaRinggit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Malaysia Ringgit</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MauritaniaOuguiya -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MauritaniaOuguiya">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Mauritania Ouguiya</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MauritiusRupee -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MauritiusRupee">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Mauritius Rupee</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MexicanPeso -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MexicanPeso">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Mexican Peso</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MoldovanLeu -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MoldovanLeu">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Moldovan Leu</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MongoliaTugrik -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MongoliaTugrik">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Mongolia Tugrik</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MoroccoDirham -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MoroccoDirham">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Morocco Dirham</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MozambiqueMetical -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MozambiqueMetical">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Mozambique Metical</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MyanmarKyat -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#MyanmarKyat">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Myanmar Kyat</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#NamibiaDollar -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#NamibiaDollar">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Namibia Dollar</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#NepaleseRupee -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#NepaleseRupee">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Nepalese Rupee</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#NewZealandDollar -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#NewZealandDollar">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>New Zealand Dollar</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#NicaraguaCordobaOro -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#NicaraguaCordobaOro">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Nicaragua Cordoba Oro</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#NigeriaNaira -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#NigeriaNaira">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Nigeria Naira</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#NorwegianKrone -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#NorwegianKrone">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Norwegian Krone</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#PakistaniRupee -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#PakistaniRupee">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Pakistani Rupee</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#PapuaNewGuineaKina -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#PapuaNewGuineaKina">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Papua New Guinea Kina</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#ParaguayGuarani -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#ParaguayGuarani">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Paraguay Guarani</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#PeruNuevoSol -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#PeruNuevoSol">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Peru Nuevo Sol</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#PhilippinePeso -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#PhilippinePeso">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Philippine Peso</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#PolandZloty -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#PolandZloty">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Poland Zloty</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#RomanianLeu -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#RomanianLeu">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Romanian Leu</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#RussianRouble -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#RussianRouble">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Russian Rouble</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#RwandaFranc -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#RwandaFranc">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Rwanda Franc</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SamoaTala -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SamoaTala">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Samoa Tala</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SaoTomePrincipeDobra -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SaoTomePrincipeDobra">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Sao Tome Principe Dobra</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SerbianDinar -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SerbianDinar">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Serbian Dinar</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SeychellesRupee -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SeychellesRupee">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Seychelles Rupee</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SierraLeoneLeone -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SierraLeoneLeone">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Sierra Leone Leone</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SingaporeDollar -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SingaporeDollar">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Singapore Dollar</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SolomonIslandDollar -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SolomonIslandDollar">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Solomon Island Dollar</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SouthAfricaRand -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SouthAfricaRand">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>South Africa Rand</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SouthSudanesePound -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SouthSudanesePound">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>South Sudanese Pound</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SriLankaRupee -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SriLankaRupee">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Sri Lanka Rupee</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#StHelenaPound -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#StHelenaPound">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>St Helena Pound</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SudanesePound -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SudanesePound">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Sudanese Pound</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SurinameseDollar -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SurinameseDollar">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Surinamese Dollar</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SwazilandLilangeni -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SwazilandLilangeni">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Swaziland Lilangeni</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SwedishKrona -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SwedishKrona">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Swedish Krona</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SwissFranc -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SwissFranc">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Swiss Franc</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SyrianPound -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#SyrianPound">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Syrian Pound</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#TajikistanSomoni -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#TajikistanSomoni">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Tajikistan Somoni</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#TanzaniaShilling -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#TanzaniaShilling">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Tanzania Shilling</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#ThaiBaht -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#ThaiBaht">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Thai Baht</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#TongaPaanga -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#TongaPaanga">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Tonga Pa anga</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#TrinidadandTobagoDollar -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#TrinidadandTobagoDollar">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Trinidad and Tobago Dollar</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#TunisianDinar -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#TunisianDinar">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Tunisian Dinar</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#TurkishLira -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#TurkishLira">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Turkish Lira</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#TurkmenistanManat -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#TurkmenistanManat">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Turkmenistan Manat</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#UnitedKingdomPound -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#UnitedKingdomPound">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>United Kingdom Pound</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#UgandaShilling -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#UgandaShilling">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Uganda Shilling</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#UkraineHryvnia -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#UkraineHryvnia">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Ukraine Hryvnia</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#UnitedStatesDollar -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#UnitedStatesDollar">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>United States Dollar</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#UruguayPeso -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#UruguayPeso">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Uruguay Peso</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#UzbekistanSum -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#UzbekistanSum">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Uzbekistan Sum</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#VanuatuVatu -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#VanuatuVatu">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Vanuatu Vatu</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#VietNamDong -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#VietNamDong">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Viet Nam Dong</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#YemeniRial -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#YemeniRial">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Yemeni Rial</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#ZambiaKwacha -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#ZambiaKwacha">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology#CurrencyUnit"/>
+        <rdfs:label>Zambia Kwacha</rdfs:label>
+    </owl:NamedIndividual>
+
+	
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->

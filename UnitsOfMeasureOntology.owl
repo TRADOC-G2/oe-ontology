@@ -1,0 +1,826 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#"
+     xml:base="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology">
+        <owl:versionInfo>February 17, 2016</owl:versionInfo>
+		<owl:versionInfo rdf:datatype="&xsd;string">COPYRIGHT © 2015 CUBRC, Inc.</owl:versionInfo>
+        <owl:versionInfo>Version 0.85.2</owl:versionInfo>
+        <owl:imports rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfArea -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfArea">
+        <rdfs:label>Measurement Unit of Area</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfCurrency -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfCurrency">
+        <rdfs:label>Measurement Unit of Currency</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfEnergy -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfEnergy">
+        <rdfs:label>Measurement Unit of Energy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfForce -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfForce">
+        <rdfs:label>Measurement Unit of Force</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLength -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLength">
+        <rdfs:label>Measurement Unit of Length</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLevel -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLevel">
+        <rdfs:label>Measurement Unit of Level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfMass -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfMass">
+        <rdfs:label>Measurement Unit of Mass</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPower -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPower">
+        <rdfs:label>Measurement Unit of Power</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPressure -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPressure">
+        <rdfs:label>Measurement Unit of Pressure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfSpeed -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfSpeed">
+        <rdfs:label>Measurement Unit of Speed</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfTemperature -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfTemperature">
+        <rdfs:label>Measurement Unit of Temperature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfTime -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfTime">
+        <rdfs:label>Measurement Unit of Time</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume">
+        <rdfs:label>Measurement Unit of Volume</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfWork -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfWork">
+        <rdfs:label>Measurement Unit of Work</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementUnit"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#AcreMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#AcreMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfArea"/>
+        <rdfs:label>Acre Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#AtmosphereMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#AtmosphereMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPressure"/>
+        <rdfs:label>Atmosphere Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#BarMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#BarMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPressure"/>
+        <rdfs:label>Bar Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#BayreMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#BayreMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPressure"/>
+        <rdfs:label>Bayre Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#BritishThermalUnitMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#BritishThermalUnitMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfEnergy"/>
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPower"/>
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfWork"/>
+        <rdfs:label>British Thermal Unit Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#CalorieMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#CalorieMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfEnergy"/>
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPower"/>
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfWork"/>
+        <rdfs:label>Calorie Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#CentigramMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#CentigramMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfMass"/>
+        <rdfs:label>Centigram Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#CentiliterMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#CentiliterMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume"/>
+        <rdfs:label>Centiliter Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#CentimeterMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#CentimeterMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLength"/>
+        <rdfs:label>Centimeter Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#CubicCentimeterMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#CubicCentimeterMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume"/>
+        <rdfs:label>Cubic Centimeter Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#CubicDecimeterMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#CubicDecimeterMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume"/>
+        <rdfs:label>Cubic Decimeter Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#CubicFootMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#CubicFootMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume"/>
+        <rdfs:label>Cubic Foot Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#CubicInchMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#CubicInchMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume"/>
+        <rdfs:label>Cubic Inch Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#CubicMeterMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#CubicMeterMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume"/>
+        <rdfs:label>Cubic Meter Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#CubicMillimeterMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#CubicMillimeterMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume"/>
+        <rdfs:label>Cubic Millimeter Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#CubicYardMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#CubicYardMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume"/>
+        <rdfs:label>Cubic Yard Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#DecibelMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#DecibelMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLevel"/>
+        <rdfs:label>Decibel Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#DecigramMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#DecigramMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfMass"/>
+        <rdfs:label>Decigram Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#DeciliterMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#DeciliterMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume"/>
+        <rdfs:label>Deciliter Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#DecimeterMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#DecimeterMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLength"/>
+        <rdfs:label>Decimeter Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#DegreeCelsiusMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#DegreeCelsiusMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfTemperature"/>
+        <rdfs:label>Degree Celsius Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#DegreeFahrenheitMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#DegreeFahrenheitMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfTemperature"/>
+        <rdfs:label>Degree Fahhrenheit Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#DyneMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#DyneMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfForce"/>
+        <rdfs:label>Dyne Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#ErgMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#ErgMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfEnergy"/>
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPower"/>
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfWork"/>
+        <rdfs:label>Erg Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#FootMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#FootMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLength"/>
+        <rdfs:label>Foot Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#GallonMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#GallonMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume"/>
+        <rdfs:label>Gallon Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#GramMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#GramMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfMass"/>
+        <rdfs:label>Gram Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#HorsepowerMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#HorsepowerMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfEnergy"/>
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPower"/>
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfWork"/>
+        <rdfs:label>Horsepower Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#InchMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#InchMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLength"/>
+        <rdfs:label>Inch Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#JouleMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#JouleMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfEnergy"/>
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPower"/>
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfWork"/>
+        <rdfs:label>Joule Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#KilogramMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#KilogramMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfMass"/>
+        <rdfs:label>Kilogram Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#KiloliterMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#KiloliterMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume"/>
+        <rdfs:label>Kiloliter Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#KilometerMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#KilometerMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLength"/>
+        <rdfs:label>Kilometer Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#KilometerPerHourMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#KilometerPerHourMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfSpeed"/>
+        <rdfs:label>Kilometer Per Hour Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#KilopondMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#KilopondMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfForce"/>
+        <rdfs:label>Kilopond Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#KnotMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#KnotMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfSpeed"/>
+        <rdfs:label>Knot Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#LiterMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#LiterMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume"/>
+        <rdfs:label>Liter Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#LongTonMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#LongTonMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfMass"/>
+        <rdfs:label>Long Ton Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeterMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeterMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLength"/>
+        <rdfs:label>Meter Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeterPerSecondMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeterPerSecondMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfSpeed"/>
+        <rdfs:label>Meter Per Second Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MetricTonMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MetricTonMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfMass"/>
+        <rdfs:label>Metric Ton Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MileMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MileMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLength"/>
+        <rdfs:label>Mile Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MilePerHourMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MilePerHourMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfSpeed"/>
+        <rdfs:label>Mile Per Hour Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MillibarMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MillibarMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPressure"/>
+        <rdfs:label>Millibar Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MilligramMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MilligramMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfMass"/>
+        <rdfs:label>Milligram Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MilliliterMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MilliliterMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume"/>
+        <rdfs:label>Milliliter Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MillimeterMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MillimeterMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLength"/>
+        <rdfs:label>Millimeter Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#NauticalMileMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#NauticalMileMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLength"/>
+        <rdfs:label>Nautical Mile Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#NewtonMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#NewtonMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfForce"/>
+        <rdfs:label>Newton Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#OunceMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#OunceMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfMass"/>
+        <rdfs:label>Ounce Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#PascalMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#PascalMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPressure"/>
+        <rdfs:label>Pascal Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#PintMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#PintMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume"/>
+        <rdfs:label>Pint Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#PoundForceMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#PoundForceMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfForce"/>
+        <rdfs:label>Pound Force Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#PoundMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#PoundMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfMass"/>
+        <rdfs:label>Pound Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#PoundsPerSquareInchMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#PoundsPerSquareInchMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPressure"/>
+        <rdfs:label>Pounds Per Square Inch Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#QuartMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#QuartMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume"/>
+        <rdfs:label>Quart Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#ShortTonMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#ShortTonMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfMass"/>
+        <rdfs:label>Short Ton Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#SquareCentimeterMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#SquareCentimeterMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfArea"/>
+        <rdfs:label>Square Centimeter Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#SquareDecimeterMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#SquareDecimeterMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfArea"/>
+        <rdfs:label>Square Decimeter Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#SquareFootMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#SquareFootMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfArea"/>
+        <rdfs:label>Square Foot Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#SquareInchMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#SquareInchMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfArea"/>
+        <rdfs:label>Square Inch Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#SquareKilometerMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#SquareKilometerMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfArea"/>
+        <rdfs:label>Square Kilometer Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#SquareMeterMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#SquareMeterMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfArea"/>
+        <rdfs:label>Square Meter Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#SquareMileMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#SquareMileMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfArea"/>
+        <rdfs:label>Square Mile Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#SquareMillimeterMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#SquareMillimeterMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfArea"/>
+        <rdfs:label>Square Millimeter Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#SquareYardMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#SquareYardMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfArea"/>
+        <rdfs:label>Square Yard Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#TablespoonMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#TablespoonMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume"/>
+        <rdfs:label>Tablespoon Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#TeaspoonMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#TeaspoonMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume"/>
+        <rdfs:label>Teaspoon Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#TwentyFootEquivalentUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#TwentyFootEquivalentUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfVolume"/>
+        <rdfs:label>Twenty Foot Equivalent Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#WattMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#WattMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfPower"/>
+        <rdfs:label>Watt Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#YardMeasurementUnit -->
+
+    <owl:NamedIndividual rdf:about="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#YardMeasurementUnit">
+        <rdf:type rdf:resource="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology#MeasurementUnitOfLength"/>
+        <rdfs:label>Yard Measurement Unit</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
