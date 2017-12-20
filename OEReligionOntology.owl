@@ -1,0 +1,569 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY cco "http://www.ontologyrepository.com/CommonCoreOntologies/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#"
+     xml:base="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology"
+     xmlns:cco="http://www.ontologyrepository.com/CommonCoreOntologies/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology">
+			<owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DISTRIBUTION A: Approved for public release; distribution is unlimited.  For more information contact United States Army TRADOC G-27 at usarmy.jble.tradoc.list.tboc-operations@mail.mil (or Kaye Darone, Data Science Branch Chief, DSMS, Kaye.t.darone.civ@mail.mil, (757) 878-9547)</owl:versionInfo>
+			<owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Version 3.1</owl:versionInfo>
+			<owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sep 21, 2017</owl:versionInfo>
+        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology"/>
+        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology"/>
+        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology"/>
+        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Upper/ExtendedRelationOntology"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#created_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#created_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/caused_by"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#has_member -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#has_member">
+        <rdfs:subPropertyOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#member_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#member_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ActOfConfession -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ActOfConfession">
+        <rdfs:label>Act Of Confession</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ActOfReligiousGroupAffiliation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ActOfFasting -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ActOfFasting">
+        <rdfs:label>Act Of Fasting</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ActOfReligiousGroupAffiliation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ActOfForgiveness -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ActOfForgiveness">
+        <rdfs:label>Act Of Forgiveness</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ActOfReligiousGroupAffiliation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ActOfJihad -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ActOfJihad">
+        <rdfs:label>Act Of Jihad</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ActOfReligiousGroupAffiliation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ActOfPilgrimage -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ActOfPilgrimage">
+        <rdfs:label>Act Of Pilgrimage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ActOfReligiousGroupAffiliation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ActOfPrayer -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ActOfPrayer">
+        <rdfs:label>Act Of Prayer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ActOfReligiousGroupAffiliation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#AgentDisposition -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#AgentDisposition">
+        <rdfs:label>Agent Disposition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000016"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Alewi -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Alewi">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Muslim"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Bahai -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Bahai">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Religion"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Buddhist -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Buddhist">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Religion"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Catholic -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Catholic">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Christian"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Christian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Christian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Religion"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Confucian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Confucian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Religion"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Coptic -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Coptic">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Christian"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#CreationIdeology -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#CreationIdeology">
+        <rdfs:label>Creation Ideology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ReligiousIdeology"/>
+    </owl:Class>
+    
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Druze -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Druze">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Muslim"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Hasidic -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Hasidic">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Jew"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Hindu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Hindu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Religion"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#HinduOrganization -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#HinduOrganization">
+        <rdfs:label>Hindu Organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ReligiousOrganization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#HinduOrganizationMember -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#HinduOrganizationMember">
+        <rdfs:label>Hindu Organization Member</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ReligiousOrganizationMember"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#IslamicOrganizationMember -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#IslamicOrganizationMember">
+        <rdfs:label>Islamic Organization Member</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ReligiousOrganizationMember"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#IslamicReligiousOrganization -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#IslamicReligiousOrganization">
+        <rdfs:label>Islamic Religious Organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ReligiousOrganization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Jain -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Jain">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Religion"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Jew -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Jew">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Religion"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#JihadistIdeology -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#JihadistIdeology">
+        <rdfs:label>Jihadist Ideology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ReligiousDirectiveInformationContentEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&cco;is_cause_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ActOfJihad"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Latter_Day_Saints -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Latter_Day_Saints">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Christian"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Maronite -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Maronite">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Christian"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Muslim -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Muslim">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Religion"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#NatureOfGodIdeology -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#NatureOfGodIdeology">
+        <rdfs:label>Nature Of God Ideology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ReligiousIdeology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#NatureOfManIdeology -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#NatureOfManIdeology">
+        <rdfs:label>Nature Of Man Ideology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ReligiousIdeology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Orthodox_Christian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Orthodox_Christian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Christian"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Protestant -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Protestant">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Christian"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Religion -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Religion">
+        <rdfs:label rdf:datatype="&xsd;string">Religion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000019"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A Quality that inheres in its bearers by virtue of a common  cultural system of designated behaviors and practices, world views, texts, sanctified places, ethics, or organizations, that relate humanity to the supernatural or transcendental. Different religions may or may not contain various elements ranging from the &quot;divine&quot;,[2] &quot;sacred things&quot;,[3] &quot;faith&quot;,[4] a &quot;supernatural being or supernatural beings&quot;[5] or &quot;some sort of ultimacy and transcendence that will provide norms and power for the rest of life&quot;.[6] Religious practices may include rituals, sermons, commemoration or veneration (of deities), sacrifices, festivals, feasts, trances, initiations, funerary services, matrimonial services, meditation, prayer, music, art, dance, public service, or other aspects of human culture. Religions have sacred histories and narratives, which may be preserved in sacred scriptures, and symbols and holy places, that aim mostly to give a meaning to life. Religions may contain symbolic stories, which are sometimes said by followers to be true, that have the side purpose of explaining the origin of life, the Universe and other things. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ReligionCode -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ReligionCode">
+        <rdfs:label>Religion Code</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DesignativeInformationContentEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ReligiousDirectiveInformationContentEntity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ReligiousDirectiveInformationContentEntity">
+        <rdfs:label>Religious Directive Information Content Entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ReligiousIdeology -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ReligiousIdeology">
+        <rdfs:label>Religious Ideology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ideology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ReligiousOrganization -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ReligiousOrganization">
+        <rdfs:label>Religious Organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ReligiousOrganizationMember -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ReligiousOrganizationMember">
+        <rdfs:label>Religious Organization Member</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/OrganizationMember"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ReligousMovement -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ReligousMovement">
+        <rdfs:label>Religious Movement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ProcessAggregate"/>
+
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#SalafistOrganization -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#SalafistOrganization">
+        <rdfs:label>Salafist Organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#IslamicReligiousOrganization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#SalafistOrganizationMember -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#SalafistOrganizationMember">
+        <rdfs:label>Salafist Organization Member</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#IslamicOrganizationMember"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#member_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#SalafistOrganization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Sikh -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Sikh">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Religion"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Sufi -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Sufi">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Muslim"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Sunni -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Sunni">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Muslim"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Taoist -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Taoist">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Religion"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ViolentDisposition -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#ViolentDisposition">
+        <rdfs:label>Violent Disposition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#AgentDisposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Zoroastrian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Zoroastrian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Religion"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Agnostic/Atheist -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Agnostic/Atheist">
+        <rdfs:label>Agnostic/Atheist</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Religion"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Animist/Pagan -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Animist/Pagan">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Religion"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Jehovah&apos;s_Witnesses -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Jehovah&apos;s_Witnesses">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Christian"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Orthodox/Ultra-Orthodox_Jew -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Orthodox/Ultra-Orthodox_Jew">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Jew"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Shi&apos;a -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Shi&apos;a">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology#Muslim"/>
+        <obo:IAO_0000119>CAMEO Cookbook 1.1b3</obo:IAO_0000119>
+    </owl:Class>
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

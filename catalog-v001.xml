@@ -1,18 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://purl.obolibrary.org/obo/bfo.owl" uri="bfo_classes_only_latest.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.obofoundry.org/ro/ro.owl" uri="ro.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.ontologylibrary.mil/CommonCore/Mid/AgentOntology" uri="AgentOntology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.ontologylibrary.mil/CommonCore/Mid/AllCoreOntology" uri="AllCoreOntology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology" uri="ArtifactOntology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.ontologylibrary.mil/CommonCore/Mid/CurrencyUnitOntology" uri="CurrencyUnitOntology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology" uri="EventOntology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology" uri="GeospatialOntology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology" uri="InformationEntityOntology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology" uri="QualityOntology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology" uri="TimeOntology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology" uri="UnitsOfMeasureOntology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1461008550622" name="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology" uri="ExtendedRelationOntology.owl"/>
-    </group>
+    <uri id="Imports Wizard Entry" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology" uri="OEArmyTaskOntology.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology" uri="OEArmyHierarchyOntology.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/bfo/classes-only.owl" uri="bfo_classes_only_latest.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/bfo.owl" uri="bfo_classes_only_latest.owl"/>
+    <uri id="User Entered Import Resolution" name="http://www.obofoundry.org/ro/ro.owl" uri="ro.owl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEOrganizationOntology" uri="OEOrganizationOntology.owl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology" uri="OEReligionOntology.owl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology" uri="OEEthnicityOntology.owl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEventOntology" uri="OEEventOntology.owl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology" uri="OEIdeologyOntology.owl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEOntology" uri="OEOntology.owl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Upper/ExtendedRelationOntology" uri="ExtendedRelationOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/GeospatialOntology" uri="GeospatialOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/TimeOntology" uri="TimeOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology" uri="InformationEntityOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology" uri="AgentOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AllCoreOntology" uri="AllCoreOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/ArtifactOntology" uri="ArtifactOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/CurrencyUnitOntology" uri="CurrencyUnitOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology" uri="EventOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCore/Upper/ExtendedRelationOntology" uri="ExtendedRelationOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/GeospatialOntology" uri="GeospatialOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology" uri="InformationEntityOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/QualityOntology" uri="QualityOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/TimeOntology" uri="TimeOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/UnitsOfMeasureOntology" uri="UnitsOfMeasureOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologyrepository.com/CommonCoreOntologies/Upper/ExtendedRelationOntology" uri="ExtendedRelationOntology.ttl"/>
+    <uri id="User Entered Import Resolution" name="duplicate:http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology" uri="OEReligionOntology.owl"/>
+    <uri id="User Entered Import Resolution" name="duplicate:http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology" uri="ReligionOntologyExamples.owl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OECausalExplorationOntology" uri="OECausalExploration.owl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEOntology" uri="OEOntology.owl"/>
 </catalog>

@@ -1,0 +1,2887 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#"
+     xml:base="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:event="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEventOntology#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:cco="http://www.ontologyrepository.com/CommonCoreOntologies/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology">
+        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Upper/ExtendedRelationOntology"/>
+        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Version 3.1</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sep 21, 2017</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DISTRIBUTION A: Approved for public release; distribution is unlimited.  For more information contact United States Army TRADOC G-27 at usarmy.jble.tradoc.list.tboc-operations@mail.mil (or Kaye Darone, Data Science Branch Chief, DSMS, Kaye.t.darone.civ@mail.mil, (757) 878-9547)</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Aborigine -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Aborigine">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aborigine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Aceh_of_Sumatra -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Aceh_of_Sumatra">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aceh of Sumatra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Acehnese -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Acehnese">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acehnese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Adamawa-Ubangi -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Adamawa-Ubangi">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adamawa-Ubangi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Adi -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Adi">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Afar -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Afar">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Afar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Afro-American -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Afro-American">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Afro-American</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Afro-Caribbean -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Afro-Caribbean">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Afro-Caribbean</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Aimaq -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Aimaq">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aimaq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Albanian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Albanian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Albanian_(Ethnic_Group)"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Albanian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Altaic -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Altaic">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Altaic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Amazon -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Amazon">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amazon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Anglo-American -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Anglo-American">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anglo-American</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Anglo-Celt -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Anglo-Celt">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anglo-Celt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Anglophone_Afro-Caribbean -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Anglophone_Afro-Caribbean">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Afro-Caribbean"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anglophone Afro-Caribbean</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Arab -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Arab">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arab</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Arab_World -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Arab_World">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arab World</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Arabian_Arab -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Arabian_Arab">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Arab"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arabian Arab</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Arabian_Bedouin -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Arabian_Bedouin">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bedouin"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arabian Bedouin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Armenian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Armenian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Armenian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Assamese -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Assamese">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assamese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Assyrian_Aramaic -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Assyrian_Aramaic">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assyrian/Aramaic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Atlantic -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Atlantic">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atlantic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Atlantic-Jola -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Atlantic-Jola">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atlantic-Jola</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Atlantic-Wolof -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Atlantic-Wolof">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atlantic-Wolof</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Aymara -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Aymara">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aymara</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Azerbaijani -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Azerbaijani">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Azerbaijani</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Aztec -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Aztec">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aztec</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bali-Sasak -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bali-Sasak">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bali-Sasak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Baloch -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Baloch">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baloch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Baltic -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Baltic">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baltic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Banda -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Banda">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Banda</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Banjar_of_Kalimantan -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Banjar_of_Kalimantan">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Banjar of Kalimantan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bantu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bantu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bantu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Barito_of_Kalimantan -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Barito_of_Kalimantan">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barito of Kalimantan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Basque -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Basque">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basque</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Batak-Nias_of_Sumatra -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Batak-Nias_of_Sumatra">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Batak-Nias of Sumatra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bedouin -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bedouin">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bedouin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Beja -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Beja">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beja</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bengali -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bengali">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bengali</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Benue -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Benue">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Berber-Kabyle -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Berber-Kabyle">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berber-Kabyle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Berber-Riff -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Berber-Riff">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berber-Riff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Berber-Saharan -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Berber-Saharan">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berber-Saharan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Berber-Shawiya -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Berber-Shawiya">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berber-Shawiya</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Berber-Shilha -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Berber-Shilha">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berber-Shilha</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bhil -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bhil">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bhil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bhojpur-Maithili -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bhojpur-Maithili">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bhojpur-Maithili</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bhutanese -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bhutanese">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bhutanese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bihari -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bihari">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bihari</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bodo -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bodo">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bodo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Borneo-Kalimantan -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Borneo-Kalimantan">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Borneo-Kalimantan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bouyei -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bouyei">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bouyei</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Brahui -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Brahui">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brahui</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Brazilian_Portuguese -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Brazilian_Portuguese">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Portuguese"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brazilian Portuguese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bugi-Makassar_of_Sulawesi -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bugi-Makassar_of_Sulawesi">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bugi-Makassar of Sulawesi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bungku-Bajau -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bungku-Bajau">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bungku-Bajau</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Burmese -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Burmese">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burmese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Cameroon-Bamileke_Bantu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Cameroon-Bamileke_Bantu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bantu"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cameroon-Bamileke Bantu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Caucasian_Peoples -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Caucasian_Peoples">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caucasian Peoples</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Caucasus -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Caucasus">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caucasus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Central-Congo_Bantu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Central-Congo_Bantu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bantu"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central-Congo Bantu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Central-East_Bantu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Central-East_Bantu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bantu"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central-East Bantu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Central-Lakes_Bantu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Central-Lakes_Bantu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bantu"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central-Lakes Bantu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Central-Luba_Bantu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Central-Luba_Bantu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bantu"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central-Luba Bantu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Central-South_Bantu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Central-South_Bantu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bantu"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central-South Bantu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Central-Southeast_Bantu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Central-Southeast_Bantu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bantu"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central-Southeast Bantu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Central-Southwest_Bantu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Central-Southwest_Bantu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bantu"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central-Southwest Bantu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Central-Tanzania_Bantu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Central-Tanzania_Bantu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bantu"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central-Tanzania Bantu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Central_Filipino -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Central_Filipino">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Filipino"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central Filipino</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Central_Maluku -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Central_Maluku">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Maluku"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central Maluku</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Chadic -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Chadic">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chadic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Chakma -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Chakma">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chakma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Cham -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Cham">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cham</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Chechen -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Chechen">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chechen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Chewa-Sena_Bantu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Chewa-Sena_Bantu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bantu"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chewa-Sena Bantu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Chinese -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Chinese">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Chinese-Hui -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Chinese-Hui">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese-Hui</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Deaf -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Deaf">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Dutch_Afro-Caribbean -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Dutch_Afro-Caribbean">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Afro-Caribbean"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dutch Afro-Caribbean</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#East-Coastal_Bantu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#East-Coastal_Bantu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bantu"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">East-Coastal Bantu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Eastern_Slav -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Eastern_Slav">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Slav"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eastern Slav</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Egyptian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Egyptian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egyptian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Ethiopian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Ethiopian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethiopian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#European_Portuguese -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#European_Portuguese">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Portuguese"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">European Portuguese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Fiji -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Fiji">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fiji</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Filipino -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Filipino">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filipino</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Finno-Ugric -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Finno-Ugric">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finno-Ugric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Flores-Sumba-Alor -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Flores-Sumba-Alor">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flores-Sumba-Alor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Francophone_Afro-Caribbean -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Francophone_Afro-Caribbean">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Afro-Caribbean"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Francophone Afro-Caribbean</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#French -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#French">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">French</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Fulani_Fulbe -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Fulani_Fulbe">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fulani/Fulbe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Garo-Tripuri -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Garo-Tripuri">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garo-Tripuri</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Germanic -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Germanic">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Germanic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Gikuyu-Kamba_Bantu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Gikuyu-Kamba_Bantu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bantu"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gikuyu-Kamba Bantu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Gond -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Gond">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gond</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Gorontalo_of_Sulawesi -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Gorontalo_of_Sulawesi">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gorontalo of Sulawesi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Greek -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Greek">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Greek</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Guarani -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Guarani">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guarani</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Guera-Naba_of_Chad -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Guera-Naba_of_Chad">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guera-Naba of Chad</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Guinean -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Guinean">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guinean</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Gujarati -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Gujarati">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gujarati</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Gur -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Gur">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Gypsy -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Gypsy">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gypsy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Han -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Han">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Han</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Hani -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Hani">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hani</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Hassaniya_Arab -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Hassaniya_Arab">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Arab"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hassaniya Arab</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Hausa -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Hausa">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hausa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Hindi -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Hindi">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hindi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Hispanic -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Hispanic">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hispanic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Hispanic_Afro-American -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Hispanic_Afro-American">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Afro-American"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hispanic Afro-American</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Hmong -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Hmong">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hmong</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Hungarian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Hungarian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hungarian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Hutu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Hutu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hutu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Ibo -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Ibo">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ibo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Igbo -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Igbo">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Igbo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Ijaw -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Ijaw">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ijaw</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Inuit -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Inuit">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inuit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Italian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Italian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Japanese -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Japanese">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japanese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Jat -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Jat">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Jawa -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Jawa">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jawa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Jews -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Jews">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jews</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Kaili-Tomini_of_Sulawesi -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Kaili-Tomini_of_Sulawesi">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kaili-Tomini of Sulawesi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Kannada -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Kannada">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kannada</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Kanuri-Saharan -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Kanuri-Saharan">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kanuri-Saharan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Karen -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Karen">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Kashmiri -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Kashmiri">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kashmiri</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Kazakh -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Kazakh">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kazakh</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Khoisan -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Khoisan">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Khoisan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Kongo_Bantu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Kongo_Bantu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bantu"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kongo Bantu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Korean -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Korean">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Korean</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Krahn -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Krahn">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Krahn</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Kru -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Kru">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kru</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Kuki -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Kuki">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kuki</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Kuki-Chin-Naga -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Kuki-Chin-Naga">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kuki-Chin-Naga</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Kyrgyz -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Kyrgyz">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kyrgyz</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Lampung_of_Sumatra -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Lampung_of_Sumatra">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lampung of Sumatra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Lao -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Lao">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lao</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Levant_Arab -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Levant_Arab">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Arab"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Levant Arab</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Li -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Li">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Li</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Libyan_Arab -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Libyan_Arab">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Arab"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libyan Arab</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Lisu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Lisu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lisu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Ljaw -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Ljaw">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ljaw</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Luri-Bakhtiari -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Luri-Bakhtiari">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luri-Bakhtiari</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Madura_of_Java -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Madura_of_Java">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Madura of Java</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Maghreb_Arab -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Maghreb_Arab">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Arab"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maghreb Arab</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Makua-Yao_Bantu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Makua-Yao_Bantu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bantu"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Makua-Yao Bantu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Malagasy -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Malagasy">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malagasy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Malay -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Malay">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Malayali -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Malayali">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malayali</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Maldivian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Maldivian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maldivian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Malinke -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Malinke">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malinke</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Malinke-Bambara -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Malinke-Bambara">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malinke-Bambara</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Malinke-Jula -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Malinke-Jula">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malinke-Jula</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Maltese -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Maltese">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maltese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Maluku -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Maluku">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maluku</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Manchu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Manchu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manchu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Mande -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Mande">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mande</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Mandingoe -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Mandingoe">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mandingoe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Marathi-Konkani -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Marathi-Konkani">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marathi-Konkani</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Maya -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Maya">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maya</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Melayu_of_Sumatra -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Melayu_of_Sumatra">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melayu of Sumatra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Miao_Hmong -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Miao_Hmong">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miao/Hmong</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Micronesian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Micronesian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Micronesian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Minahasa-Sangir_of_Sulawesi -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Minahasa-Sangir_of_Sulawesi">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minahasa-Sangir of Sulawesi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Minangkabau-Rejang_of_Sumatra -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Minangkabau-Rejang_of_Sumatra">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minangkabau-Rejang of Sumatra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Miri-Kachin -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Miri-Kachin">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miri-Kachin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Mixe -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Mixe">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Mixteco -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Mixteco">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixteco</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Mizo -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Mizo">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mizo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Mizo-Lushai -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Mizo-Lushai">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mizo-Lushai</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Mon-Khmer -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Mon-Khmer">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mon-Khmer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Mongolian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Mongolian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mongolian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Moro -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Moro">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Munda-Santal -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Munda-Santal">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Munda-Santal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Musi_of_Sumatra -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Musi_of_Sumatra">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Musi of Sumatra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Muslim_Filipino -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Muslim_Filipino">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Filipino"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muslim Filipino</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Nepali-Pahari -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Nepali-Pahari">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nepali-Pahari</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#New_Caledonia -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#New_Caledonia">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New Caledonia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#New_Guinea -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#New_Guinea">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New Guinea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Nguni_Bantu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Nguni_Bantu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bantu"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguni Bantu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Nilotic -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Nilotic">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nilotic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#North_American_Indigenous -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#North_American_Indigenous">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">North American Indigenous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Northern_Afro-American -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Northern_Afro-American">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Afro-American"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Northern Afro_American</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Northern_Maluku -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Northern_Maluku">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Maluku"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Northern Maluku</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Northwest_Bantu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Northwest_Bantu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bantu"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Northwest Bantu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Nosu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Nosu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nosu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Nuba_Mountains -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Nuba_Mountains">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nuba Mountains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Nubian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Nubian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nubian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Nupe -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Nupe">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nupe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Nuristan -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Nuristan">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nuristan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Ogan_of_Sumatra -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Ogan_of_Sumatra">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ogan of Sumatra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Ogoni -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Ogoni">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ogoni</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Omotic -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Omotic">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Omotic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Oraon -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Oraon">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oraon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Oriya -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Oriya">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oriya</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Oromo -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Oromo">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oromo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Other_Central_American_Indigenous -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Other_Central_American_Indigenous">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other Central American Indigenous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Other_Hispanic_American -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Other_Hispanic_American">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other Hispanic American</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Other_Pacific_Islanders -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Other_Pacific_Islanders">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other Pacific Islanders</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Other_South_Asian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Other_South_Asian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other South Asian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Other_Southeast_Asian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Other_Southeast_Asian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other Southeast Asian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Other_Sub-Saharan_African -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Other_Sub-Saharan_African">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other Sub-Saharan African</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Otomi -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Otomi">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Otomi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Ouaddai-Fur -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Ouaddai-Fur">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ouaddai-Fur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Palestinian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Palestinian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palestinian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Parsee -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Parsee">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parsee</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Pasemah_of_Sumatra -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Pasemah_of_Sumatra">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pasemah of Sumatra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Pashtun -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Pashtun">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pashtun</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Persian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Persian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Persian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Polynesian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Polynesian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polynesian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Portuguese -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Portuguese">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portuguese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Punjabi -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Punjabi">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Punjabi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Pygmy -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Pygmy">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pygmy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Quechua -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Quechua">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quechua</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Rajasthan -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Rajasthan">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rajasthan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Romanian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Romanian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Romanian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Saharan_Bedouin -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Saharan_Bedouin">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bedouin"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saharan Bedouin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Sara-Bagirmi -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Sara-Bagirmi">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sara-Bagirmi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Scandinavian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Scandinavian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scandinavian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Shan -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Shan">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Shona_Bantu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Shona_Bantu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bantu"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shona Bantu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Shuwa_Arab -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Shuwa_Arab">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Arab"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shuwa Arab</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Sindhi -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Sindhi">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sindhi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Sinhala -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Sinhala">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sinhala</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Sinhalese -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Sinhalese">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sinhalese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Slav -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Slav">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slav</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Solomons -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Solomons">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Solomons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Somali -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Somali">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Somali</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Songhai -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Songhai">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Songhai</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Soninke -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Soninke">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soninke</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Sotho-Tswana_Bantu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Sotho-Tswana_Bantu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bantu"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sotho-Tswana Bantu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#South_American_Indigenous -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#South_American_Indigenous">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">South American Indigenous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#South_Himalaya -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#South_Himalaya">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">South Himalaya</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Southeastern_Bantu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Southeastern_Bantu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bantu"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Southeastern Bantu Bantu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Southern_Maluku -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Southern_Maluku">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Maluku"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Southern Maluku</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Southern_Slav -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Southern_Slav">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Slav"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Southern Slav</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Spanish -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Spanish">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spanish</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Sub-Saharan_African -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Sub-Saharan_African">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sub-Saharan African</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Sudan_Arab -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Sudan_Arab">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Arab"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sudan Arab</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Sudanic -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Sudanic">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sudanic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Sunda-Betawi_of_Java -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Sunda-Betawi_of_Java">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sunda-Betawi of Java</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Susu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Susu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Susu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Swahili_Bantu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Swahili_Bantu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Bantu"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swahili Bantu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Tai -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Tai">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tai</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Tai-Kadai -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Tai-Kadai">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tai-Kadai</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Tai_Dam -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Tai_Dam">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tai Dam</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Taiwan_Indigenous -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Taiwan_Indigenous">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taiwan Indigenous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Tajik -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Tajik">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tajik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Talysh -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Talysh">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Talysh</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Tamil -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Tamil">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tamil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Telugu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Telugu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Telugu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Thai -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Thai">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Tibetan -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Tibetan">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tibetan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Timor -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Timor">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Timor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Toraja_of_Sulawesi -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Toraja_of_Sulawesi">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toraja of Sulawesi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Tribal_Filipino -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Tribal_Filipino">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Filipino"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tribal Filipino</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Tripuri -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Tripuri">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tripuri</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Tuareg -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Tuareg">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuareg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Tukangbesi_of_Sulawesi -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Tukangbesi_of_Sulawesi">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tukangbesi of Sulawesi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Turkish -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Turkish">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Turkmen -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Turkmen">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkmen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Tutsi -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Tutsi">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tutsi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Undefined -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Undefined">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Undefined</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Ural-Siberian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Ural-Siberian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ural-Siberian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Urdu_Muslim -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Urdu_Muslim">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Urdu Muslim</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Uyghur -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Uyghur">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uyghur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Uzbek -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Uzbek">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uzbek</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Vanuatu -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Vanuatu">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vanuatu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Vietnamese -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Vietnamese">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vietnamese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#West_China_Lolo -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#West_China_Lolo">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">West China/Lolo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#West_Malaysia_Indigenous -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#West_Malaysia_Indigenous">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">West Malaysia Indigenous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Western_Slav -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Western_Slav">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Slav"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Western Slav</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Yao-Mien -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Yao-Mien">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yao-Mien</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Yemeni_Arab -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Yemeni_Arab">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Arab"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yemeni Arab</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Yoruba -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Yoruba">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yoruba</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Zapoteco -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Zapoteco">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zapoteco</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Zhuang -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Zhuang">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhuang</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#,Saami -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#,Saami">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Finno-Ugric"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saami</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Albanian_(Ethnic_Group) -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Albanian_(Ethnic_Group)">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Albanian (Ethnic Group)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Croat_(Ethnic_Group) -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Croat_(Ethnic_Group)">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Croat (Ethnic Group)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Kurd_(Ethnic_Group) -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Kurd_(Ethnic_Group)">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kurd (Ethnic Group)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Serb_(Ethnic_Group) -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Serb_(Ethnic_Group)">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serb (Ethnic Group)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Turk_(Ethnic_Group) -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology#Turk_(Ethnic_Group)">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ethnicity"/>
+        <obo:IAO_0000119>Integrated Crisis Early Warning System (ICEWS) Sectors Dictionary</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turk (Ethnic Group)</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

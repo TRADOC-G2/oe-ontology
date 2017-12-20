@@ -1,0 +1,551 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY cco "http://www.ontologyrepository.com/CommonCoreOntologies/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY event "http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEventOntology#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#"
+     xml:base="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology"
+     xmlns:cco="http://www.ontologyrepository.com/CommonCoreOntologies/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:event="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEventOntology#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology">
+			<owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DISTRIBUTION A: Approved for public release; distribution is unlimited.  For more information contact United States Army TRADOC G-27 at usarmy.jble.tradoc.list.tboc-operations@mail.mil (or Kaye Darone, Data Science Branch Chief, DSMS, Kaye.t.darone.civ@mail.mil, (757) 878-9547)</owl:versionInfo>
+			<owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Version 3.1</owl:versionInfo>
+			<owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sep 21, 2017</owl:versionInfo>
+      <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology"/>
+      <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology"/>
+      <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Upper/ExtendedRelationOntology"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#has_belief -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#has_belief">
+        <rdfs:label>has belief</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&cco;bearer_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Ideology -->
+
+    <rdf:Description rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Ideology">
+        <rdfs:label>Ideology</rdfs:label>
+        <obo:IAO_0000119>Merriam-Webster Dictionary: https://www.merriam-webster.com/dictionary/ideology</obo:IAO_0000119>
+        <obo:IAO_0000232>Ideologies have several core functions, of which the first is to raise awareness to a particular group of people that a certain issue deserves their attention. Ideologies explain to that "in-group" why social, political, or economic conditions are as they are.
+
+Ideologies are links between thoughts, beliefs and myths on the one hand, and action on the other hand. They can be instruments of preservation in as far as they can help a given group to preserve its political power. More commonly, however, ideologies are used as instruments of competition and conflict, whereby a group can utilize ideology as a means of opposition and contestation.
+
+Ideology may help create significant divides between adherents and non-adherents.
+
+see: https://www.ctc.usma.edu/posts/the-salafi-jihad-as-a-religious-ideology</obo:IAO_0000232>
+        <obo:IAO_0000115>a :  a systematic body of concepts especially about human life or culture
+b :  a manner or the content of thinking characteristic of an individual, group, or culture
+c :  the integrated assertions, theories and aims that constitute a sociopolitical program</obo:IAO_0000115>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ActOfDeclarationOfFaith -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ActOfDeclarationOfFaith">
+        <rdfs:label>Act Of Declaration Of Faith</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ActOfReligiousGroupAffiliation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ActOfFasting -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ActOfFasting">
+        <rdfs:label>Act Of Fasting</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ActOfReligiousGroupAffiliation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ActOfForgiveness -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ActOfForgiveness">
+        <rdfs:label>Act Of Forgiveness</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ActOfReligiousGroupAffiliation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ActOfJihad -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ActOfJihad">
+        <rdfs:label>Act Of Jihad</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ActOfReligiousGroupAffiliation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ActOfPilgrimage -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ActOfPilgrimage">
+        <rdfs:label>Act Of Pilgrimage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ActOfReligiousGroupAffiliation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ActOfPrayer -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ActOfPrayer">
+        <rdfs:label>Act Of Prayer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ActOfReligiousGroupAffiliation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Anarchist -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Anarchist">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/PoliticalOrientation"/>
+        <obo:IAO_0000119>ICEWS Sectors 20140112</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Center_Left -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Center_Left">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/PoliticalOrientation"/>
+        <obo:IAO_0000119>ICEWS Sectors 20140112</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Center_Right -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Center_Right">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/PoliticalOrientation"/>
+        <obo:IAO_0000119>ICEWS Sectors 20140112</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Centrist -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Centrist">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/PoliticalOrientation"/>
+        <obo:IAO_0000119>ICEWS Sectors 20140112</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Christian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Christian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ReligiousOrganizationMember"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ChristianIdeology -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ChristianIdeology">
+        <rdfs:label>Christian Ideology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ReligiousIdeology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ChristianReligiousDirective -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ChristianReligiousDirective">
+        <rdfs:label>Christian Religious Directive</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ReligiousDirective"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Communist -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Communist">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/PoliticalOrientation"/>
+        <obo:IAO_0000119>ICEWS Sectors 20140112</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#CompulsoryGiving -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#CompulsoryGiving">
+        <rdfs:label>Compulsory Giving Directive</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#PillarOfIslam"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#CreationOfHumansIdeology -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#CreationOfHumansIdeology">
+        <rdfs:label>Creation Of Humanity Ideology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ReligiousIdeology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#DeclarationOfFaith -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#DeclarationOfFaith">
+        <rdfs:label>Declaration Of Faith Directive</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#PillarOfIslam"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#DivinityOfGodIdeology -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#DivinityOfGodIdeology">
+        <rdfs:label>Divinity Of God Ideology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ReligiousIdeology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#EconomicIdeology -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#EconomicIdeology">
+        <rdfs:label>Economic Ideology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ideology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Far_Left -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Far_Left">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/PoliticalOrientation"/>
+        <obo:IAO_0000119>ICEWS Sectors 20140112</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Far_Right -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Far_Right">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/PoliticalOrientation"/>
+        <obo:IAO_0000119>ICEWS Sectors 20140112</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#FastingDirective -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#FastingDirective">
+        <rdfs:label>Fasting Directive</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#PillarOfIslam"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ActOfFasting"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#FinalJudgementIdeology -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#FinalJudgementIdeology">
+        <rdfs:label>Final Judgement Ideology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ReligiousIdeology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ForgivenessIdeology -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ForgivenessIdeology">
+        <rdfs:label>Forgiveness Ideology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ChristianReligiousDirective"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Fundamentalist -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Fundamentalist">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/PoliticalOrientation"/>
+        <obo:IAO_0000119>ICEWS Sectors 20140112</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#IslamicIdeology -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#IslamicIdeology">
+        <rdfs:label>Islamic Ideology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ReligiousIdeology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#IslamicReligiousDirective -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#IslamicReligiousDirective">
+        <rdfs:label>Islamic Religious Directive</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ReligiousDirective"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Libertarian -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Libertarian">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/PoliticalOrientation"/>
+        <obo:IAO_0000119>ICEWS Sectors 20140112</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Muslim -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Muslim">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ReligiousOrganizationMember"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ActOfFasting"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Ummah"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ActOfDeclarationOfFaith"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ActOfPrayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ActOfPilgrimage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Nationalist -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Nationalist">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/PoliticalOrientation"/>
+        <obo:IAO_0000119>ICEWS Sectors 20140112</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ObligatoryPrayer -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ObligatoryPrayer">
+        <rdfs:label>Obligatory Prayer Directive</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#PillarOfIslam"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#OmnipotenceOfGodIdeology -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#OmnipotenceOfGodIdeology">
+        <rdfs:label>Omnipotence Of God Ideology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ReligiousIdeology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#PilgrimageDirective -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#PilgrimageDirective">
+        <rdfs:label>Pilgrimage Directive</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#PillarOfIslam"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#PillarOfIslam -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#PillarOfIslam">
+        <rdfs:label>Pillar Of Islam</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#IslamicReligiousDirective"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ReligiousDirective -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ReligiousDirective">
+        <rdfs:label>Religious Directive</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ReligiousIdeology -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ReligiousIdeology">
+        <rdfs:label>Religious Ideology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ideology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ReligiousOrganizationMember -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ReligiousOrganizationMember">
+        <rdfs:label>Religious Organization Member</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/OrganizationMember"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#SalafiJihadIdeology -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#SalafiJihadIdeology">
+        <rdfs:label>Salafi Jihad Ideology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#IslamicReligiousDirective"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ActOfJihad"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>https://www.ctc.usma.edu/posts/the-salafi-jihad-as-a-religious-ideology</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#SalafistMuslim -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#SalafistMuslim">
+        <rdfs:label>Salafist Muslim</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Muslim"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#has_belief"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#PillarOfIslam"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#has_belief"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#SalafiJihadIdeology"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ActOfJihad"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Secular -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Secular">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/PoliticalOrientation"/>
+        <obo:IAO_0000119>ICEWS Sectors 20140112</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#SinfulnessOfManIdeology -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#SinfulnessOfManIdeology">
+        <rdfs:label>Sinfulness Of Man Ideology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#ReligiousIdeology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#SocialIdeology -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#SocialIdeology">
+        <rdfs:label>Social Ideology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Ideology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Tribalist -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Tribalist">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/PoliticalOrientation"/>
+        <obo:IAO_0000119>ICEWS Sectors 20140112</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Ummah -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology#Ummah">
+        <rdfs:label>Ummah</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Family"/>
+        <obo:IAO_0000115>The Family of Islamic believers</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
