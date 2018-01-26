@@ -25,7 +25,7 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Data properties
+    // Object Properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
@@ -35,7 +35,7 @@
 
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#hasArmyTaskNumber -->
 
-    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#hasArmyTaskNumber"/>
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#hasArmyTaskNumber"/>
     
 
 
