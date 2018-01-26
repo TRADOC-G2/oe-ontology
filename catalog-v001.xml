@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Entered Import Resolution" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology" uri="OEPmesiiptOntology.owl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEDIMEFILOntology" uri="OEDimefilOntology.owl"/>
     <uri id="Imports Wizard Entry" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology" uri="OEArmyTaskOntology.owl"/>
     <uri id="Imports Wizard Entry" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology" uri="OEArmyHierarchyOntology.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/bfo/classes-only.owl" uri="bfo_classes_only_latest.owl"/>
