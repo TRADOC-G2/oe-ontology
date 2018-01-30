@@ -257,16 +257,6 @@ May 17, 2017</obo:IAO_0000119>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#PMESII -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#PMESII">
-        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
-        <CommonCoreOntologies:definition>PMESII stands for &quot;Political, Military, Economic, Social, Information, and Infrastructure&quot;. These are the effects of DIME (Diplomatic, Information, Military, and Economic), which are elements of soft power</CommonCoreOntologies:definition>
-        <rdfs:label>PMESII</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#Proponent -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#Proponent">

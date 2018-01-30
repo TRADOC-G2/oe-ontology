@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1517248431666" name="http://purl.obolibrary.org/obo/bfo.owl" uri="bfo_classes_only_latest.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1517248431666" name="http://www.obofoundry.org/ro/ro.owl" uri="ro.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1517248431666" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology" uri="OEArmyHierarchyOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1517248431666" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskData" uri="OEMETLData.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1517248431666" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology" uri="OEArmyTaskOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1517248431666" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEDIMEFILOntology" uri="OEDimefilOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1517248431666" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology" uri="OEEthnicityOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1517248431666" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEventOntology" uri="OEEventOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1517248431666" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEIdeologyOntology" uri="OEIdeologyOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1517248431666" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEOntology" uri="OEOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1517248431666" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology" uri="OEPmesiiptOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1517248431666" name="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEReligionOntology" uri="OEReligionOntology.owl"/>
+    </group>
+</catalog>
