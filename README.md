@@ -23,6 +23,15 @@ The Operations Environment Ontology Repository holds the current released versio
 
 The Operational Environment (OE) ontologies contain ontology files that aim to capture specific domains related to the Operational Environment.
 
+
+--------------------------------------------------------------------------
+
+How to load Operational Environment Ontologies
+
+To load the OE Suite, open OEOntology.owl and this will load all current OE ontologies as well as all necessary Common Core Ontologies into the editor. 
+
+We are providing a protege catalog file with this release to automatically load the local Common Core Ontololgy files since they are not currently web accessible 
+
 ------------------------------------------------------------------------------------------------------------------------------------
 
 This release contains the following files:
@@ -58,13 +67,7 @@ OEOrganizationOntology.owl - Contains relations for Organizations
 OEPmesiiptOntology.owl - Contains relations for the PMESIIPT model
 OEReligionOntology.owl - Contains relations pertaining to religions
 
---------------------------------------------------------------------------
 
-How to load Operational Environment Ontologies
-
-To load the OE Suite, open OEOntology.owl and this will load all current OE ontologies as well as all necessary Common Core Ontologies into the editor. 
-
-Resolving Imports- If you encounter a message asking to resolve a missing import when prompted, select "Yes" and navigate to the directory in which the ontology files are located. Select the ontology file and hit "OK". 
 
 
 
