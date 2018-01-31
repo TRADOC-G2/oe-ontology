@@ -1,5 +1,5 @@
 OE Ontology Version 3.0.1
-Date 1/26/2017
+Date 1/31/2017
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
@@ -11,6 +11,7 @@ DISTRIBUTION A: Approved for public release; distribution is unlimited.  For mor
 InCadence Contact Information:
 
 Joseph Shea
+
 jshea@incadencecorp.com
 
 David Boyd
