@@ -15,6 +15,8 @@
         <owl:imports rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology"/>
         <owl:imports rdf:resource="http://www.obofoundry.org/ro/ro.owl"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology"/>
+        <owl:versionInfo>Jan 31, 2018</owl:versionInfo>
+        <owl:versionInfo>Version 3.2</owl:versionInfo>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DISTRIBUTION A: Approved for public release; distribution is unlimited.  For more information contact United States Army TRADOC G-27 at usarmy.jble.tradoc.list.tboc-operations@mail.mil (or Kaye Darone, Data Science Branch Chief, DSMS, Kaye.t.darone.civ@mail.mil, (757) 878-9547)</owl:versionInfo>
     </owl:Ontology>
     
