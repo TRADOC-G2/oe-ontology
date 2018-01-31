@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF
-	xmlns="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEOrganizationOntology#"
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEOrganizationOntology#"
+     xml:base="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEOrganizationOntology"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:cco="http://www.ontologyrepository.com/CommonCoreOntologies/"
+  	xmlns:cco="http://www.ontologyrepository.com/CommonCoreOntologies/"
 	xmlns:obo="http://purl.obolibrary.org/obo/"
 	xmlns:owl="http://www.w3.org/2002/07/owl#"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -12,8 +12,7 @@
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	xmlns:event="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEventOntology#">
 
-<rdf:Description rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEOrganizationOntology">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:Ontology rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEOrganizationOntology">
 	<owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology"/>
 	<owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Upper/ExtendedRelationOntology"/>
 	<owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DISTRIBUTION A: Approved for public release; distribution is unlimited.  For more information contact United States Army TRADOC G-27 at usarmy.jble.tradoc.list.tboc-operations@mail.mil (or Kaye Darone, Data Science Branch Chief, DSMS, Kaye.t.darone.civ@mail.mil, (757) 878-9547)</owl:versionInfo>
