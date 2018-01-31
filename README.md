@@ -39,44 +39,52 @@ This release contains the following files:
 ->BFO+Common Core Files- (This will be modified for web access in future releases)
 
 AgentOntology.ttl- Agent Ontology
+
 AllCoreOntology.ttl- Contains imports for the Common Core Ontologies
+
 ArtifactOntology.ttl- Artifact Ontology
+
 bfo_classes_only_latest.owl- Basic Formal Ontology
+
 CurrencyUnitOntology.ttl- Currency Unit Ontology
+
 EventOntology.ttl- Event Ontology
+
 ExtendedRelationOntology.ttl- Extended Relation Ontology
+
 GeospatialOntology.ttl- Geospatial Ontology
+
 InformationEntityOntology.ttl- Information Entity Ontology
+
 QualityOntology.ttl- Quality Ontology
+
 ro.owl- Relation Ontology
+
 TimeOntology.ttl- Time Ontology
+
 UnitsOfMeasureOntology.ttl- Units of Measure Ontology
 
 
 ->Operational Environment Files
 
 OEArmyHierarchyOntology.owl - Contains relations for the Army Organizational Structure
+
 OEArmyTaskOntology.owl - Contains relations pertaining to Army Tasks (Mission Essential Tasks, Collective Tasks, and Individual Tasks) 
+
 OEDimefilOntology.owl - Contains relations for the DIMEFIL model
+
 OEEthnicityOntology.owl - Contains relations for Ethnicities
+
 OEEventOntology.owl - Contains relations for Events (This was sourced from the CAMEO Event and Actor Codebook Version: 1.1b3)
+
 OEIdeologyOntology.owl - Contains relations for Ideologies as well as Acts and Directives)
+
 OEMETLData.owl - Contains instance data of Mission Essential Task Lists and the Tasks that go along with them
+
 OEOntology.owl - Contains imports for all BFO and Operational Environment Files
+
 OEOrganizationOntology.owl - Contains relations for Organizations
+
 OEPmesiiptOntology.owl - Contains relations for the PMESIIPT model
+
 OEReligionOntology.owl - Contains relations pertaining to religions
-
-
-
-
-
-
-
-
-
-
-
-
-
-
