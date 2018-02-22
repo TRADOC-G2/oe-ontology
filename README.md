@@ -5,18 +5,7 @@ Date 1/31/2017
 
 Distribution:
 
-DISTRIBUTION A: Approved for public release; distribution is unlimited.  For more information contact United States Army TRADOC G-27 at usarmy.jble.tradoc.list.tboc-operations@mail.mil (or Kaye Darone, Data Science Branch Chief, DSMS, Kaye.t.darone.civ@mail.mil, (757) 878-9547)
-
-
-InCadence Contact Information:
-
-Joseph Shea
-
-jshea@incadencecorp.com
-
-David Boyd
-
-dboyd@incadencecorp.com
+DISTRIBUTION A: Approved for public release; distribution is unlimited. For more information contact United States Army TRADOC G-2 OEC at usarmy.jble.tradoc.list.tboc-operations@mail.mil (or Kaye Darone, Data Science Branch Chief, DSMS, kaye.t.darone.civ@mail.mil, (757) 878-9547, Joseph Shea, DSMS Contractor/ InCadence, jshea@incadencecorp.com, or David Boyd, DSMS Contractor/ InCadence, dboyd@incadencecorp.com)
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
