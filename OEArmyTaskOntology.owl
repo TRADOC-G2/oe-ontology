@@ -136,6 +136,14 @@
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasDistributionRestriction -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasDistributionRestriction">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasEffectiveDate -->
 
     <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasEffectiveDate"/>
