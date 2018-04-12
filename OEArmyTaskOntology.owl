@@ -164,6 +164,12 @@
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasCondition -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasCondition"/>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasDanger -->
 
     <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasDanger">
@@ -240,6 +246,20 @@
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasIctlTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasIctlTitle"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasLeaderTask -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasLeaderTask">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasLevel -->
 
     <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasLevel"/>
@@ -258,6 +278,12 @@
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasMandatoryTask -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasMandatoryTask"/>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasMessageID -->
 
     <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasMessageID"/>
@@ -267,6 +293,12 @@
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasMoppLevel -->
 
     <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasMoppLevel"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasMosData -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasMosData"/>
     
 
 
@@ -287,6 +319,12 @@
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasOrgTitle -->
 
     <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasOrgTitle"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasPersonnelType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasPersonnelType"/>
     
 
 
@@ -340,6 +378,12 @@
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSafetyLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSafetyLevel"/>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSafetyStatement -->
 
     <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSafetyStatement">
@@ -348,9 +392,33 @@
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSkillCMF_Task -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSkillCMF_Task"/>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSortOrder -->
 
     <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSortOrder"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasStaffTask -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasStaffTask"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasStandard -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasStandard"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasStandardVerb -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasStandardVerb"/>
     
 
 
@@ -389,6 +457,12 @@
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSuffix -->
 
     <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSuffix"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSupportColTasks -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSupportColTasks"/>
     
 
 
@@ -482,6 +556,12 @@
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#isSupervisionRequired -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#isSupervisionRequired"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -560,6 +640,14 @@
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#Army_Task_Number">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DesignativeName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#Individual_Critical_Task -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#Individual_Critical_Task">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#Army_Individual_Task"/>
     </owl:Class>
     
 
