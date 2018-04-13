@@ -55,9 +55,27 @@
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasEquipment -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasEquipment"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasKnowledge -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasKnowledge"/>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasMaterielItem -->
 
     <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasMaterielItem"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasMeasure -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasMeasure"/>
     
 
 
@@ -93,6 +111,18 @@
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSkill -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSkill"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSupportedCollectiveTask -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSupportedCollectiveTask"/>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSupportedIndividualTask -->
 
     <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSupportedIndividualTask"/>
@@ -102,6 +132,12 @@
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSupportingCollectiveTask -->
 
     <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSupportingCollectiveTask"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSupportingIndividualTask -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSupportingIndividualTask"/>
     
 
 
@@ -160,6 +196,12 @@
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasArticleID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasArticleID"/>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasAutlID -->
 
     <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasAutlID">
@@ -173,6 +215,12 @@
     <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasAutlText">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
     </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasCarURL -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasCarURL"/>
     
 
 
@@ -200,9 +248,9 @@
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasDanger -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasDangerStatement -->
 
-    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasDanger">
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasDangerStatement">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
     </owl:DatatypeProperty>
     
@@ -234,15 +282,27 @@
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasEffectiveDate -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasDocumentNumber -->
 
-    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasEffectiveDate"/>
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasDocumentNumber"/>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasElement -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasDocumentTitle -->
 
-    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasElement"/>
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasDocumentTitle"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasDocumentType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasDocumentType"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasEffectiveDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasEffectiveDate"/>
     
 
 
@@ -270,12 +330,6 @@
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasFrequency -->
-
-    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasFrequency"/>
-    
-
-
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasGuidance -->
 
     <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasGuidance"/>
@@ -297,14 +351,6 @@
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasKnowledgeName -->
 
     <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasKnowledgeName"/>
-    
-
-
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasLeaderTask -->
-
-    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasLeaderTask">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-    </owl:DatatypeProperty>
     
 
 
@@ -335,6 +381,24 @@
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasMessageID -->
 
     <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasMessageID"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasMissionElement -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasMissionElement"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasMissionFrequency -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasMissionFrequency"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasMissionName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasMissionName"/>
     
 
 
@@ -464,15 +528,45 @@
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasScaleMeasure -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasScaleMeasure"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSequenceMeasure -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSequenceMeasure"/>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSkillCMF_Task -->
 
     <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSkillCMF_Task"/>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSkillID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSkillID"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSkillName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSkillName"/>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSortOrder -->
 
     <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSortOrder"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSourceOfInformation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasSourceOfInformation"/>
     
 
 
@@ -491,6 +585,12 @@
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasStandardVerb -->
 
     <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasStandardVerb"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasStatementMeasure -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasStatementMeasure"/>
     
 
 
@@ -594,9 +694,17 @@
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasWarning -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasWarningStatement -->
 
-    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasWarning">
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasWarningStatement">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#isLeaderTask -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#isLeaderTask">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
     </owl:DatatypeProperty>
     
@@ -605,6 +713,12 @@
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#isMandatoryTask -->
 
     <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#isMandatoryTask"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#isOfficial -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#isOfficial"/>
     
 
 
@@ -726,6 +840,14 @@
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#Individual_Critical_Task">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#Army_Individual_Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#MaterielItem -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#MaterielItem">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
     </owl:Class>
     
 
