@@ -179,6 +179,12 @@
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasTaskStep -->
+
+    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasTaskStep"/>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#isChildTaskTo -->
 
     <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#isChildTaskTo">
@@ -708,6 +714,12 @@
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasTaskMeasureName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasTaskMeasureName"/>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasTaskName -->
 
     <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasTaskName">
@@ -725,6 +737,18 @@
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasTaskProponent -->
 
     <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasTaskProponent"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasTaskStepStatement -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasTaskStepStatement"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasTaskStepStatementNote -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#hasTaskStepStatementNote"/>
     
 
 
@@ -866,6 +890,14 @@
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#ArmyTaskKnowledge -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#ArmyTaskKnowledge">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#ArmyTaskMeasure -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#ArmyTaskMeasure">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
     </owl:Class>
     
