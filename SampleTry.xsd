@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+	<xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
+	<xs:import namespace="http://www.w3.org/2002/07/owl#" schemaLocation="SampleTry1.xsd"/>
+	<xs:import namespace="http://www.w3.org/2000/01/rdf-schema#" schemaLocation="SampleTry2.xsd"/>
+	<xs:attribute name="resource" type="xs:anyURI"/>
+	<xs:attribute name="datatype" type="xs:anyURI"/>
+	<xs:attribute name="about" type="xs:anyURI"/>
+	<xs:element name="type">
+		<xs:complexType>
+			<xs:attribute name="resource" use="required" type="xs:anyURI"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="RDF">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="owl:Ontology"/>
+				<xs:element ref="owl:Class"/>
+				<xs:element ref="owl:NamedIndividual" maxOccurs="unbounded"/>
+				<xs:element name="Description" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="rdfs:label"/>
+						</xs:sequence>
+						<xs:attribute name="about" use="required" type="xs:anyURI"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute ref="xml:base" use="required"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

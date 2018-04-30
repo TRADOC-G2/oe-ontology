@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2018sp1 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<resources/>
+	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+		<properties SelectedLanguage="xslt2"/>
+		<structure>
+			<children>
+				<component name="SchemaBuild" library="xml" uid="3" kind="14">
+					<properties XSLTDefaultOutput="1"/>
+					<view ltx="806" lty="12" rbx="1427" rby="573"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace uid="http://www.w3.org/2002/07/owl#"/>
+									<namespace uid="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#"/>
+									<namespace uid="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="3" expanded="1">
+								<entry name="document" ns="3" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="RDF" ns="2" expanded="1">
+										<entry name="Ontology" expanded="1"/>
+										<entry name="NamedIndividual" expanded="1">
+											<entry name="hasDescription" ns="1" inpkey="1"/>
+											<entry name="hasSafetyLevel" ns="1" inpkey="2"/>
+											<entry name="hasStandardVerb" ns="1" inpkey="3"/>
+											<entry name="hasTaskComponent" ns="1" inpkey="4"/>
+											<entry name="hasTaskNumber" ns="1" inpkey="5"/>
+											<entry name="hasTaskProponent" ns="1" inpkey="6"/>
+											<entry name="hasTaskTitle" ns="1" inpkey="7"/>
+											<entry name="hasTaskType" ns="1" inpkey="8"/>
+											<entry name="isLeaderTask" ns="1" inpkey="9"/>
+											<entry name="isMandatoryTask" ns="1" inpkey="10"/>
+											<entry name="isNGV" ns="1" inpkey="11"/>
+											<entry name="isRouteToCTD_Reviewer" ns="1" inpkey="12"/>
+											<entry name="isSkillCMF_Task" ns="1" inpkey="13"/>
+											<entry name="isStaffTask" ns="1" inpkey="14"/>
+											<entry name="isSupervisionRequired" ns="1" inpkey="15"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="SchemaBuild.xsd" inputinstance="SchemaBuild.owl" outputinstance="SchemaBuild.owl" instanceroot="{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF"/>
+					</data>
+				</component>
+				<component name="metadata" library="xml" uid="2" kind="14">
+					<properties/>
+					<view rbx="314" rby="475"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://enterprise.train.army.mil/xsd/task/1.0"/>
+									<namespace uid="http://enterprise.train.army.mil/xsd/individualTask/1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="2" expanded="1">
+								<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="getIndividualTaskResponse" ns="1" expanded="1">
+										<entry name="individualTask" ns="1" expanded="1">
+											<entry name="generalInformation" ns="1" expanded="1">
+												<entry name="title" outkey="16"/>
+												<entry name="number" outkey="17"/>
+												<entry name="proponent" outkey="18"/>
+												<entry name="standardVerb" outkey="19"/>
+												<entry name="component" outkey="20"/>
+												<entry name="taskType" outkey="21"/>
+												<entry name="staffTask" outkey="22"/>
+												<entry name="leaderTask" outkey="23"/>
+												<entry name="skillCMFtask" outkey="24"/>
+												<entry name="mandatoryTask" outkey="25"/>
+												<entry name="supervisionRequired" outkey="26"/>
+												<entry name="ngv" outkey="27"/>
+												<entry name="description" outkey="28"/>
+												<entry name="safetyLevel" outkey="29"/>
+												<entry name="routeToCTDReviewer" outkey="30"/>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="metadata.xsd" inputinstance="metadata.xml" outputinstance="metadata.xml" instanceroot="{http://enterprise.train.army.mil/xsd/individualTask/1.0}getIndividualTaskResponse"/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="16">
+						<edges>
+							<edge vertexkey="7" edgekey="31"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="17">
+						<edges>
+							<edge vertexkey="5" edgekey="32"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="18">
+						<edges>
+							<edge vertexkey="6" edgekey="33"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="19">
+						<edges>
+							<edge vertexkey="3" edgekey="34"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="20">
+						<edges>
+							<edge vertexkey="4" edgekey="35"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="21">
+						<edges>
+							<edge vertexkey="8" edgekey="36"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="22">
+						<edges>
+							<edge vertexkey="14" edgekey="37"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="23">
+						<edges>
+							<edge vertexkey="9" edgekey="38"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="24">
+						<edges>
+							<edge vertexkey="13" edgekey="39"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="25">
+						<edges>
+							<edge vertexkey="10" edgekey="40"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="26">
+						<edges>
+							<edge vertexkey="15" edgekey="41"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="27">
+						<edges>
+							<edge vertexkey="11" edgekey="42"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="28">
+						<edges>
+							<edge vertexkey="1" edgekey="43"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="29">
+						<edges>
+							<edge vertexkey="2" edgekey="44"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="30">
+						<edges>
+							<edge vertexkey="12" edgekey="45"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>

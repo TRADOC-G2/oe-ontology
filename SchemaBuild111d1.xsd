@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/2002/07/owl#" elementFormDefault="qualified" xmlns="http://www.w3.org/2002/07/owl#" xmlns:OEArmyTaskOntology="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" schemaLocation="SchemaBuild111d.xsd"/>
+	<xs:import namespace="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#" schemaLocation="SchemaBuild111d2.xsd"/>
+	<xs:element name="Ontology">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="imports" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:attribute ref="rdf:resource" use="required"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="versionInfo" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute ref="rdf:datatype"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute ref="rdf:about" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="NamedIndividual">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="rdf:type"/>
+				<xs:choice>
+					<xs:sequence>
+						<xs:element ref="OEArmyTaskOntology:hasMosData"/>
+						<xs:element ref="OEArmyTaskOntology:hasPersonnelType"/>
+						<xs:element ref="OEArmyTaskOntology:hasTaskTitle"/>
+					</xs:sequence>
+					<xs:sequence>
+						<xs:element ref="OEArmyTaskOntology:hasIctlTask" maxOccurs="unbounded"/>
+						<xs:element ref="OEArmyTaskOntology:hasDescription"/>
+						<xs:element ref="OEArmyTaskOntology:hasSafetyLevel"/>
+						<xs:element ref="OEArmyTaskOntology:hasStandardVerb"/>
+						<xs:element ref="OEArmyTaskOntology:hasTaskComponent"/>
+						<xs:element ref="OEArmyTaskOntology:hasTaskNumber"/>
+						<xs:element ref="OEArmyTaskOntology:hasTaskProponent"/>
+						<xs:element ref="OEArmyTaskOntology:hasTaskTitle"/>
+						<xs:element ref="OEArmyTaskOntology:hasTaskType"/>
+						<xs:element ref="OEArmyTaskOntology:isLeaderTask"/>
+						<xs:element ref="OEArmyTaskOntology:isMandatoryTask"/>
+						<xs:element ref="OEArmyTaskOntology:isNGV"/>
+						<xs:element ref="OEArmyTaskOntology:isRouteToCTD_Reviewer"/>
+						<xs:element ref="OEArmyTaskOntology:isSkillCMF_Task"/>
+						<xs:element ref="OEArmyTaskOntology:isStaffTask"/>
+						<xs:element ref="OEArmyTaskOntology:isSupervisionRequired"/>
+					</xs:sequence>
+				</xs:choice>
+			</xs:sequence>
+			<xs:attribute ref="rdf:about" use="required"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

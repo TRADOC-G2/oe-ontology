@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:getIndividualTaskResponse xmlns="http://enterprise.train.army.mil/xsd/task/1.0" xmlns:ns2="http://enterprise.train.army.mil/xsd/commonElements/1.0" xmlns:ns3="http://enterprise.train.army.mil/xsd/individualTask/1.0" xmlns:ns4="http://catalog.train.army.mil/xsd/handle" xmlns:ns5="http://www.it.ojp.gov/jxdm/appinfo/1">
+    <ns3:individualTask>
+        <ns3:generalInformation>
+            <title>Process Information from Airspace Control Order (ACO) and Special Instructions (SPINS)</title>
+            <number>011-000-1066</number>
+            <proponent>011</proponent>
+            <standardVerb>Process</standardVerb>
+            <component>All</component>
+            <taskType>Shared</taskType>
+            <staffTask>false</staffTask>
+            <leaderTask>false</leaderTask>
+            <skillCMFtask>false</skillCMFtask>
+            <mandatoryTask>false</mandatoryTask>
+            <supervisionRequired>false</supervisionRequired>
+            <ngv>false</ngv>
+            <description>Facilitate mission planning by identifying information from the ACO and the SPINS. Display/Post information from Joint Airspace Documents IAW Tactical Level SOP.</description>
+            <safetyLevel>Low</safetyLevel>
+            <routeToCTDReviewer>false</routeToCTDReviewer>
+            <ictlTask>
+                <mosData> MOS: 15P</mosData>
+                <personnelType>Enlisted</personnelType>
+                <ictlTitle>ICTL Aviation Operations Specialist Composite SL 1-4</ictlTitle>
+            </ictlTask>
+            <ictlTask>
+                <mosData> MOS: 15P, Skill Level: SL1</mosData>
+                <personnelType>Enlisted</personnelType>
+                <ictlTitle>ICTL Aviation Operations Specialist SL 1</ictlTitle>
+            </ictlTask>
+            <supportCollTasks>true</supportCollTasks>
+            <status>Approved</status>
+            <statusDate>2013-01-11Z</statusDate>
+            <effectiveDate>2013-02-01Z</effectiveDate>
+        </ns3:generalInformation>
+        <ns3:conditionAndStandard>
+            <standard>&lt;p&gt;&lt;span id=&quot;jS$72&quot; class=&quot;j2&quot;&gt;Extract&lt;/span&gt; &lt;span id=&quot;jS$73&quot; class=&quot;j2&quot;&gt;information&lt;/span&gt; &lt;span id=&quot;jS$74&quot; class=&quot;j2&quot;&gt;from&lt;/span&gt;&amp;nbsp;&lt;span id=&quot;jS$75&quot; class=&quot;j2&quot;&gt;an&lt;/span&gt;&amp;nbsp;&lt;span id=&quot;jS$76&quot; class=&quot;j4&quot;&gt;ACO&lt;/span&gt; &lt;span id=&quot;jS$77&quot; class=&quot;j2&quot;&gt;and&lt;/span&gt;&amp;nbsp;&lt;span id=&quot;jS$78&quot; class=&quot;j2&quot;&gt;a&lt;/span&gt; &lt;span id=&quot;jS$79&quot; class=&quot;j4&quot;&gt;SPINS&lt;/span&gt; &lt;span id=&quot;jS$80&quot; class=&quot;j2&quot;&gt;then&lt;/span&gt; &lt;span id=&quot;jS$81&quot; class=&quot;j2&quot;&gt;post&lt;/span&gt; &lt;span id=&quot;jS$82&quot; class=&quot;j2&quot;&gt;in&lt;/span&gt; &lt;span id=&quot;jS$83&quot; class=&quot;j2&quot;&gt;accordance&lt;/span&gt; &lt;span id=&quot;jS$84&quot; class=&quot;j2&quot;&gt;with&lt;/span&gt; &lt;span id=&quot;jS$85&quot; class=&quot;j2&quot;&gt;the&lt;/span&gt; &lt;span id=&quot;jS$86&quot; class=&quot;j2&quot;&gt;Tactical&lt;/span&gt; &lt;span id=&quot;jS$87&quot; class=&quot;j2&quot;&gt;Level&lt;/span&gt; &lt;span id=&quot;jS$90&quot; class=&quot;j4&quot;&gt;SOP&lt;/span&gt;.&lt;/p&gt;</standard>
+            <condition>&lt;p&gt;&lt;span id=&quot;jS$6&quot; class=&quot;j1&quot;&gt;As&lt;/span&gt; &lt;span id=&quot;jS$7&quot; class=&quot;j2&quot;&gt;an&lt;/span&gt;&amp;nbsp;&lt;span id=&quot;jS$8&quot; class=&quot;j1&quot;&gt;Aviation&lt;/span&gt; &lt;span id=&quot;jS$9&quot; class=&quot;j1&quot;&gt;Soldier&lt;/span&gt; &lt;span id=&quot;jS$10&quot; class=&quot;j1&quot;&gt;assigned&lt;/span&gt; &lt;span id=&quot;jS$11&quot; class=&quot;j1&quot;&gt;to&lt;/span&gt; &lt;span id=&quot;jS$12&quot; class=&quot;j1&quot;&gt;a&lt;/span&gt; &lt;span id=&quot;jS$13&quot; class=&quot;j1&quot;&gt;Tactical&lt;/span&gt; &lt;span id=&quot;jS$14&quot; class=&quot;j1&quot;&gt;Operations&lt;/span&gt; &lt;span id=&quot;jS$15&quot; class=&quot;j1&quot;&gt;Center&lt;/span&gt; (&lt;span id=&quot;jS$16&quot; class=&quot;j1&quot;&gt;TOC&lt;/span&gt;) &lt;span id=&quot;jS$17&quot; class=&quot;j1&quot;&gt;with&lt;/span&gt; &lt;span id=&quot;jS$18&quot; class=&quot;j1&quot;&gt;the&lt;/span&gt; &lt;span id=&quot;jS$19&quot; class=&quot;j1&quot;&gt;responsibility&lt;/span&gt; &lt;span id=&quot;jS$20&quot; class=&quot;j1&quot;&gt;to&lt;/span&gt; &lt;span id=&quot;jS$21&quot; class=&quot;j1&quot;&gt;identify&lt;/span&gt; &lt;span id=&quot;jS$22&quot; class=&quot;j1&quot;&gt;information&lt;/span&gt; &lt;span id=&quot;jS$23&quot; class=&quot;j1&quot;&gt;from&lt;/span&gt; &lt;span id=&quot;jS$24&quot; class=&quot;j1&quot;&gt;Airspace&lt;/span&gt; &lt;span id=&quot;jS$25&quot; class=&quot;j1&quot;&gt;Command&lt;/span&gt; &lt;span id=&quot;jS$26&quot; class=&quot;j1&quot;&gt;and&lt;/span&gt; &lt;span id=&quot;jS$27&quot; class=&quot;j1&quot;&gt;Control&lt;/span&gt; &lt;span id=&quot;jS$28&quot; class=&quot;j1&quot;&gt;Documents&lt;/span&gt; &lt;span id=&quot;jS$29&quot; class=&quot;j1&quot;&gt;in&lt;/span&gt; &lt;span id=&quot;jS$30&quot; class=&quot;j1&quot;&gt;support&lt;/span&gt; &lt;span id=&quot;jS$31&quot; class=&quot;j1&quot;&gt;of&lt;/span&gt; &lt;span id=&quot;jS$32&quot; class=&quot;j1&quot;&gt;missions&lt;/span&gt; &lt;span id=&quot;jS$33&quot; class=&quot;j2&quot;&gt;given&lt;/span&gt; &lt;span id=&quot;jS$34&quot; class=&quot;j2&quot;&gt;current&lt;/span&gt;&amp;nbsp;&lt;span id=&quot;jS$39&quot; class=&quot;j2&quot;&gt;Airspace&lt;/span&gt; &lt;span id=&quot;jS$40&quot; class=&quot;j2&quot;&gt;Control&lt;/span&gt; &lt;span id=&quot;jS$41&quot; class=&quot;j2&quot;&gt;Orders&lt;/span&gt; &lt;span id=&quot;jS$42&quot; class=&quot;j2&quot;&gt;and&lt;/span&gt; &lt;span id=&quot;jS$43&quot; class=&quot;j4&quot;&gt;SPINS&lt;/span&gt;. &lt;span id=&quot;jS$44&quot; class=&quot;j2&quot;&gt;You&lt;/span&gt; &lt;span id=&quot;jS$45&quot; class=&quot;j2&quot;&gt;have&lt;/span&gt; &lt;span id=&quot;jS$46&quot; class=&quot;j2&quot;&gt;access&lt;/span&gt; &lt;span id=&quot;jS$47&quot; class=&quot;j2&quot;&gt;to&lt;/span&gt; &lt;span id=&quot;jS$48&quot; class=&quot;j4&quot;&gt;FM&lt;/span&gt; &lt;span id=&quot;jS$49&quot; class=&quot;j4&quot;&gt;3&lt;/span&gt;-&lt;span id=&quot;jS$50&quot; class=&quot;j4&quot;&gt;52&lt;/span&gt; (&lt;span id=&quot;jS$51&quot; class=&quot;j2&quot;&gt;Army&lt;/span&gt; &lt;span id=&quot;jS$52&quot; class=&quot;j2&quot;&gt;Airspace&lt;/span&gt; &lt;span id=&quot;jS$53&quot; class=&quot;j2&quot;&gt;Command&lt;/span&gt; &lt;span id=&quot;jS$54&quot; class=&quot;j2&quot;&gt;and&lt;/span&gt; &lt;span id=&quot;jS$55&quot; class=&quot;j2&quot;&gt;Control&lt;/span&gt; &lt;span id=&quot;jS$56&quot; class=&quot;j2&quot;&gt;in&lt;/span&gt; &lt;span id=&quot;jS$57&quot; class=&quot;j2&quot;&gt;a&lt;/span&gt; &lt;span id=&quot;jS$58&quot; class=&quot;j2&quot;&gt;Combat&lt;/span&gt; &lt;span id=&quot;jS$59&quot; class=&quot;j2&quot;&gt;Zone&lt;/span&gt;), &lt;span id=&quot;jS$60&quot; class=&quot;j4&quot;&gt;JP&lt;/span&gt; &lt;span id=&quot;jS$61&quot; class=&quot;j4&quot;&gt;3&lt;/span&gt;-&lt;span id=&quot;jS$62&quot; class=&quot;j4&quot;&gt;52&lt;/span&gt; (&lt;span id=&quot;jS$63&quot; class=&quot;j1&quot;&gt;Joint&lt;/span&gt; &lt;span id=&quot;jS$64&quot; class=&quot;j2&quot;&gt;Airspace&lt;/span&gt; &lt;span id=&quot;jS$63&quot; class=&quot;j1&quot;&gt;Control&lt;/span&gt;),&amp;nbsp;&lt;span id=&quot;jS$65&quot; class=&quot;j2&quot;&gt;and&lt;/span&gt; &lt;span id=&quot;jS$66&quot; class=&quot;j2&quot;&gt;the&lt;/span&gt; &lt;span id=&quot;jS$67&quot; class=&quot;j2&quot;&gt;Tactical&lt;/span&gt; &lt;span id=&quot;jS$68&quot; class=&quot;j2&quot;&gt;Level&lt;/span&gt; &lt;span id=&quot;jS$69&quot; class=&quot;j4&quot;&gt;SOP&lt;/span&gt;.&lt;/p&gt;</condition>
+            <specialConditions/>
+        </ns3:conditionAndStandard>
+        <ns3:taskSteps isParentOrChild="Parent">
+            <stepLevel>1</stepLevel>
+            <stepDisplayId>1.;</stepDisplayId>
+            <sortOrder>1</sortOrder>
+            <stepTitle>Extract critical information from the ACO.</stepTitle>
+            <statements/>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>2</stepLevel>
+                <stepDisplayId>1.;a.;</stepDisplayId>
+                <sortOrder>2</sortOrder>
+                <stepTitle>Decode the use of a double slash (//) or a slash-hyphen-double slash (/-//) at the beginning of a line.  </stepTitle>
+                <statements>
+                    <note>These items indicate the end of an entry or a new section of data.</note>
+                </statements>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>2</stepLevel>
+                <stepDisplayId>1.;b.;</stepDisplayId>
+                <sortOrder>3</sortOrder>
+                <stepTitle>Decode the ACO header.</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>2</stepLevel>
+                <stepDisplayId>1.;c.;</stepDisplayId>
+                <sortOrder>4</sortOrder>
+                <stepTitle>Decode the first dataset of the header to identify the type of message being received.</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>3</stepLevel>
+                <stepDisplayId>1.;c.;(1);</stepDisplayId>
+                <sortOrder>5</sortOrder>
+                <stepTitle>The dataset identifier will be either OPER or EXER indicating the reason for the message, followed by a &quot;/&quot;.</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>3</stepLevel>
+                <stepDisplayId>1.;c.;(2);</stepDisplayId>
+                <sortOrder>6</sortOrder>
+                <stepTitle>The second element in this dataset is the nickname of the exercise or operation codeword itself; &quot;COBRA GOLD&quot;.</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>3</stepLevel>
+                <stepDisplayId>1.;c.;(3);</stepDisplayId>
+                <sortOrder>7</sortOrder>
+                <stepTitle>For an EXER there may be one additional data block to display any additional identifiers for the exercise, and then a double slash (//) to end the dataset, as in the example below.&#xD;
+&#xD;
+EXER/OFF 450 FTU TRAINING/-//</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>3</stepLevel>
+                <stepDisplayId>1.;c.;(4);</stepDisplayId>
+                <sortOrder>8</sortOrder>
+                <stepTitle>For an OPER message there may be as many as three additional data blocks.</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>2</stepLevel>
+                <stepDisplayId>1.;d.;</stepDisplayId>
+                <sortOrder>9</sortOrder>
+                <stepTitle>Decode the second dataset in the header. It contains the Message Identification (MSGID).</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>3</stepLevel>
+                <stepDisplayId>1.;d.;(1);</stepDisplayId>
+                <sortOrder>10</sortOrder>
+                <stepTitle>Field 1 is the Message Text Format Identifier. </stepTitle>
+                <statements>
+                    <note>This field must be populated as &quot;ACO&quot; when it is an ACO message.</note>
+                </statements>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>3</stepLevel>
+                <stepDisplayId>1.;d.;(2);</stepDisplayId>
+                <sortOrder>11</sortOrder>
+                <stepTitle>Field 2 is the Originator or Issuing Agency.</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>3</stepLevel>
+                <stepDisplayId>1.;d.;(3);</stepDisplayId>
+                <sortOrder>12</sortOrder>
+                <stepTitle>Field 3 is the Message serial number. </stepTitle>
+                <statements>
+                    <note>If the ACO is numbered it will be indicated here.</note>
+                </statements>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>3</stepLevel>
+                <stepDisplayId>1.;d.;(4);</stepDisplayId>
+                <sortOrder>13</sortOrder>
+                <stepTitle>Field 4 is the Month name. </stepTitle>
+                <statements>
+                    <note>The presence of a month name does NOT by itself imply that the ATO is valid for the entire month.</note>
+                </statements>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>3</stepLevel>
+                <stepDisplayId>1.;d.;(5);</stepDisplayId>
+                <sortOrder>14</sortOrder>
+                <stepTitle>Field 5 is the Qualifier.  </stepTitle>
+                <statements>
+                    <note>If this is a change it will indicate &quot;CHG&quot; here.</note>
+                </statements>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>3</stepLevel>
+                <stepDisplayId>1.;d.;(6);</stepDisplayId>
+                <sortOrder>15</sortOrder>
+                <stepTitle>Field 6 is for the Serial number of the qualifier.  </stepTitle>
+                <statements>
+                    <note>This indicates which change number it is.  Much of the information in these blocks may be &quot;-&quot; indicating a &quot;no data&quot; entry.</note>
+                </statements>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>2</stepLevel>
+                <stepDisplayId>1.;e.;</stepDisplayId>
+                <sortOrder>16</sortOrder>
+                <stepTitle>Decode reference (REF) dataset.</stepTitle>
+                <statements>
+                    <note>This is optional.</note>
+                </statements>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>2</stepLevel>
+                <stepDisplayId>1.;f.;</stepDisplayId>
+                <sortOrder>17</sortOrder>
+                <stepTitle>Decode the ACO Identification, area, and version&#xD;
+</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>3</stepLevel>
+                <stepDisplayId>1.;f.;(1);</stepDisplayId>
+                <sortOrder>18</sortOrder>
+                <stepTitle>The first element is the dataset identifier &quot;ACOID.&quot;</stepTitle>
+                <statements>
+                    <note>This dataset is MANDATORY if the message identification is &quot;ACO.&quot;</note>
+                </statements>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>3</stepLevel>
+                <stepDisplayId>1.;f.;(2);</stepDisplayId>
+                <sortOrder>19</sortOrder>
+                <stepTitle>The second element is the Area of Validity.  </stepTitle>
+                <statements>
+                    <note>This area is optional and can indicate a geographical area or a command over which the ACO is valid.</note>
+                </statements>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>3</stepLevel>
+                <stepDisplayId>1.;f.;(3);</stepDisplayId>
+                <sortOrder>20</sortOrder>
+                <stepTitle>The third element is the ACO Serial Number.</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>2</stepLevel>
+                <stepDisplayId>1.;g.;</stepDisplayId>
+                <sortOrder>21</sortOrder>
+                <stepTitle>Decode the Geodetic Datum reference.</stepTitle>
+                <statements>
+                    <note>The geospatial datum is a critical field which ensures everyone is using the same map reference and coordinate systems.&#xD;
+</note>
+                </statements>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>2</stepLevel>
+                <stepDisplayId>1.;h.;</stepDisplayId>
+                <sortOrder>22</sortOrder>
+                <stepTitle>Decode the next dataset which defines the period covered by the ACO.&#xD;
+</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>2</stepLevel>
+                <stepDisplayId>1.;i.;</stepDisplayId>
+                <sortOrder>23</sortOrder>
+                <stepTitle>Decode the final dataset in the ACO header which is normally reserved for contact information.&#xD;
+</stepTitle>
+                <statements>
+                    <note> </note>
+                </statements>
+            </childSteps>
+        </ns3:taskSteps>
+        <ns3:taskSteps isParentOrChild="Parent">
+            <stepLevel>1</stepLevel>
+            <stepDisplayId>2.;</stepDisplayId>
+            <sortOrder>24</sortOrder>
+            <stepTitle>Decode the approved Airspace Coordinating Measures (ACMs) in the ACO.</stepTitle>
+            <statements/>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>2</stepLevel>
+                <stepDisplayId>2.;a.;</stepDisplayId>
+                <sortOrder>25</sortOrder>
+                <stepTitle>Decode ACMID.  The Airspace Control Means Identification (ACMID) dataset identifies and defines the type and usage of the airspace coordinating measure, as in the following lines.&#xD;
+&#xD;
+ACMID/ACM:CORRTE/NAME:BUICK/CORRIDOR/USE:AIRCOR//&#xD;
+ACMID/OTR:RFHHLL/DESIG:C34/CORRIDOR/OTR:SPAA// </stepTitle>
+                <statements>
+                    <note> </note>
+                </statements>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>3</stepLevel>
+                <stepDisplayId>2.;a.;(1);</stepDisplayId>
+                <sortOrder>26</sortOrder>
+                <stepTitle>The first block normally starts out with the field descriptor &quot;ACM:&quot; prior to type of ACM being identified.</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>3</stepLevel>
+                <stepDisplayId>2.;a.;(2);</stepDisplayId>
+                <sortOrder>27</sortOrder>
+                <stepTitle>The second block in the ACMID dataset is reserved for the ACM Identifier or Name, as in the examples below.&#xD;
+                                                        &#xD;
+                                                                /NAME:BUICK/&#xD;
+                                                                /DESIG:C34//</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>3</stepLevel>
+                <stepDisplayId>2.;a.;(3);</stepDisplayId>
+                <sortOrder>28</sortOrder>
+                <stepTitle>The third data block shows the shape of the requested ACM, as in the example.   /CORRIDOR/</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>3</stepLevel>
+                <stepDisplayId>2.;a.;(4);</stepDisplayId>
+                <sortOrder>29</sortOrder>
+                <stepTitle>Decode  SHAPE.  This dataset format was determined when the shape name was entered in field 3 of the ACMID dataset, as in the example;  /CORRIDOR/</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>3</stepLevel>
+                <stepDisplayId>2.;a.;(5);</stepDisplayId>
+                <sortOrder>30</sortOrder>
+                <stepTitle>Decode EFFLEVEL .  Vertical Dimension of the Effective Level Dataset defines the altitudes at which the ACM applies.                               EFFLEVEL/RARA:000AGL020AGL//                            EFFLEVEL/FLFL:FL250-FL290//</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>3</stepLevel>
+                <stepDisplayId>2.;a.;(6);</stepDisplayId>
+                <sortOrder>31</sortOrder>
+                <stepTitle>Decode APERIOD.  Airspace Time Period Dataset defines when the ACM is effective.                              APERIOD/INTERVAL/131325ZNOV/132359ZNOV/WEEKLY/4WK//</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>4</stepLevel>
+                <stepDisplayId>2.;a.;(6);(a);</stepDisplayId>
+                <sortOrder>32</sortOrder>
+                <stepTitle>Field 1 defines the airspace time mode for the ACM.</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>4</stepLevel>
+                <stepDisplayId>2.;a.;(6);(b);</stepDisplayId>
+                <sortOrder>33</sortOrder>
+                <stepTitle>Field 2 defines the day, time and month the ACM starts.</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>4</stepLevel>
+                <stepDisplayId>2.;a.;(6);(c);</stepDisplayId>
+                <sortOrder>34</sortOrder>
+                <stepTitle>Field 3 defines the day, time and month the ACM stops.</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>4</stepLevel>
+                <stepDisplayId>2.;a.;(6);(d);</stepDisplayId>
+                <sortOrder>35</sortOrder>
+                <stepTitle>Field 4 defines the Interval Frequency and is used only if the airspace time mode is shown as &quot;Interval&quot;.</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>4</stepLevel>
+                <stepDisplayId>2.;a.;(6);(e);</stepDisplayId>
+                <sortOrder>36</sortOrder>
+                <stepTitle>Field 5 defines the Interval Duration and is used only if the airspace time mode is shown as &quot;Interval&quot;.</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>3</stepLevel>
+                <stepDisplayId>2.;a.;(7);</stepDisplayId>
+                <sortOrder>37</sortOrder>
+                <stepTitle>Decode CONTAUTH which is the Controlling Authority dataset.&#xD;
+  CONTAUTH/RHEIN MAIN CP/125.25MHZ/341.25KHZ//</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>4</stepLevel>
+                <stepDisplayId>2.;a.;(7);(a);</stepDisplayId>
+                <sortOrder>38</sortOrder>
+                <stepTitle>Field 1 identifies who will be responsible for the airspace coordinating measure.</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>4</stepLevel>
+                <stepDisplayId>2.;a.;(7);(b);</stepDisplayId>
+                <sortOrder>39</sortOrder>
+                <stepTitle>Field 2 will indicate the frequency to contact the controlling authority on.</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>4</stepLevel>
+                <stepDisplayId>2.;a.;(7);(c);</stepDisplayId>
+                <sortOrder>40</sortOrder>
+                <stepTitle>Additional data fields may be added to identify secondary and alternate frequencies.</stepTitle>
+                <statements/>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>2</stepLevel>
+                <stepDisplayId>2.;b.;</stepDisplayId>
+                <sortOrder>41</sortOrder>
+                <stepTitle>Decode GEODATUM.  </stepTitle>
+                <statements>
+                    <note>This dataset is only used if the geodetic data standard used for the ACM is different than the standard cited in GEODATUM dataset in the ACO header.  If the same geodetic datum was used this field will not appear.</note>
+                </statements>
+            </childSteps>
+            <childSteps isParentOrChild="Child">
+                <stepLevel>2</stepLevel>
+                <stepDisplayId>2.;c.;</stepDisplayId>
+                <sortOrder>42</sortOrder>
+                <stepTitle>The fourth data block normally starts out with the field descriptor &quot;USE:&quot; and shows the usage of the ACM, as in the examples: /USE:AIRCOR/  /OTR:SPAA//OTR:SPAA/</stepTitle>
+                <statements/>
+            </childSteps>
+        </ns3:taskSteps>
+        <ns3:taskSteps isParentOrChild="Parent">
+            <stepLevel>1</stepLevel>
+            <stepDisplayId>3.;</stepDisplayId>
+            <sortOrder>43</sortOrder>
+            <stepTitle>Extract critical information from the SPINS.</stepTitle>
+            <statements>
+                <note>SPINS are free text formats included as part of the ATO and ACO. They contain essential information that highlights, modifies, or supplements data contained in other portions of the ATO or ACO. They may also contain data that modifies, changes, or replaces information contained in OPORDs.</note>
+            </statements>
+        </ns3:taskSteps>
+        <ns3:taskSteps isParentOrChild="Parent">
+            <stepLevel>1</stepLevel>
+            <stepDisplayId>4.;</stepDisplayId>
+            <sortOrder>44</sortOrder>
+            <stepTitle>Display information from Joint Airspace Documents  IAW Unit TACSOP.</stepTitle>
+            <statements/>
+        </ns3:taskSteps>
+        <ns3:taskSteps isParentOrChild="Parent">
+            <stepLevel>1</stepLevel>
+            <stepDisplayId>5.;</stepDisplayId>
+            <sortOrder>45</sortOrder>
+            <stepTitle>Post information from Joint Airspace Documents IAW Unit TACSOP.</stepTitle>
+            <statements/>
+        </ns3:taskSteps>
+        <ns3:taskMeasure>
+            <displayMeasId>1.;</displayMeasId>
+            <level>1</level>
+            <sortOrder>1</sortOrder>
+            <title>Extracted critical information from the ACO.</title>
+            <ns3:statements/>
+        </ns3:taskMeasure>
+        <ns3:taskMeasure>
+            <displayMeasId>2.;</displayMeasId>
+            <level>1</level>
+            <sortOrder>2</sortOrder>
+            <title>Decoded the approved ACMs in the ACO.</title>
+            <ns3:statements/>
+        </ns3:taskMeasure>
+        <ns3:taskMeasure>
+            <displayMeasId>3.;</displayMeasId>
+            <level>1</level>
+            <sortOrder>3</sortOrder>
+            <title>Extracted critical information from the SPINS.</title>
+            <ns3:statements/>
+        </ns3:taskMeasure>
+        <ns3:taskMeasure>
+            <displayMeasId>4.;</displayMeasId>
+            <level>1</level>
+            <sortOrder>4</sortOrder>
+            <title>Displayed information from Joint Airspace Documents IAW the unit TACSOP.</title>
+            <ns3:statements/>
+        </ns3:taskMeasure>
+        <ns3:taskMeasure>
+            <displayMeasId>5.;</displayMeasId>
+            <level>1</level>
+            <sortOrder>5</sortOrder>
+            <title>Posted information from Joint Airspace Documents IAW the Unit TACSOP.</title>
+            <ns3:statements/>
+        </ns3:taskMeasure>
+        <ns3:taskEvaluation>
+            <ns3:guidance>Score the Soldier GO if all performance measures are passed (P). Score the Soldier NO GO if any performance measure is failed (F). If the Soldier scores NO GO, show the Soldier what was done wrong and how to do it correctly.</ns3:guidance>
+            <ns3:preparation>BRIEF SOLDIER: Inform the Soldier that you will evaluate them on their ability to process information from Airspace Control Order and Spins.&#xD;
+&#xD;
+The Supervisor may simulate this task. Ensure the Soldier has enough information to accurately process information from ACO and Spins</ns3:preparation>
+        </ns3:taskEvaluation>
+        <ns2:distributionRestriction>B</ns2:distributionRestriction>
+        <ns2:foreignDisclosure>
+            <ns2:code>FD7</ns2:code>
+            <ns2:text>This product/publication has been reviewed by the training/educational developers in coordination with the USAACE FD authority. This product is NOT releasable to students from foreign countries.</ns2:text>
+        </ns2:foreignDisclosure>
+        <ns3:knowledge>
+            <knowledgeId>011-0001K</knowledgeId>
+            <knowledgeName>Knowledge of how to locate degrees and minutes of latitude </knowledgeName>
+        </ns3:knowledge>
+        <ns3:knowledge>
+            <knowledgeId>011-0102K</knowledgeId>
+            <knowledgeName>Airspace users</knowledgeName>
+        </ns3:knowledge>
+        <ns3:knowledge>
+            <knowledgeId>011-044K</knowledgeId>
+            <knowledgeName>knowledge of terminology</knowledgeName>
+        </ns3:knowledge>
+        <ns3:knowledge>
+            <knowledgeId>011-1143K</knowledgeId>
+            <knowledgeName>Airspace command and control</knowledgeName>
+        </ns3:knowledge>
+        <ns3:knowledge>
+            <knowledgeId>011-1739K</knowledgeId>
+            <knowledgeName>Knowledge of Joint and Army Airspace Doctrine and Terminology</knowledgeName>
+        </ns3:knowledge>
+        <ns3:knowledge>
+            <knowledgeId>011-204K</knowledgeId>
+            <knowledgeName>Interpreting tables, graphs and charts</knowledgeName>
+        </ns3:knowledge>
+        <ns3:knowledge>
+            <knowledgeId>011-435K</knowledgeId>
+            <knowledgeName>Operational terms and symbols</knowledgeName>
+        </ns3:knowledge>
+        <ns3:knowledge>
+            <knowledgeId>011-508K</knowledgeId>
+            <knowledgeName>Knowledge of ACO, ATO, and SPIN TTP development</knowledgeName>
+        </ns3:knowledge>
+        <ns3:knowledge>
+            <knowledgeId>031-K-627-052</knowledgeId>
+            <knowledgeName>Knowledge of interpreting Military FM's, TM's, Training Circulars (TC's) and Regulations</knowledgeName>
+        </ns3:knowledge>
+        <ns3:knowledge>
+            <knowledgeId>031-K-627-105</knowledgeId>
+            <knowledgeName>Knowledge of unit Standard Operating Procedures (SOP) and location</knowledgeName>
+        </ns3:knowledge>
+        <ns3:knowledge>
+            <knowledgeId>101-K-M017</knowledgeId>
+            <knowledgeName>Knowledge of map reading.</knowledgeName>
+        </ns3:knowledge>
+        <ns3:knowledge>
+            <knowledgeId>301-K-168</knowledgeId>
+            <knowledgeName>How to plot grid coordinates.</knowledgeName>
+        </ns3:knowledge>
+        <ns3:knowledge>
+            <knowledgeId>301-K-190</knowledgeId>
+            <knowledgeName>The scales maps are available in.</knowledgeName>
+        </ns3:knowledge>
+        <ns3:knowledge>
+            <knowledgeId>301-K-193</knowledgeId>
+            <knowledgeName>The types of maps.</knowledgeName>
+        </ns3:knowledge>
+        <ns3:knowledge>
+            <knowledgeId>301-K-222</knowledgeId>
+            <knowledgeName>What a map series is.</knowledgeName>
+        </ns3:knowledge>
+        <ns3:knowledge>
+            <knowledgeId>301-K-632</knowledgeId>
+            <knowledgeName>What the military grid reference system (MGRS) is</knowledgeName>
+        </ns3:knowledge>
+        <ns3:knowledge>
+            <knowledgeId>301-K-634</knowledgeId>
+            <knowledgeName>The difference between the UTM grid system and the MGRS</knowledgeName>
+        </ns3:knowledge>
+        <ns3:knowledge>
+            <knowledgeId>011-1782K</knowledgeId>
+            <knowledgeName>Army File and Record System</knowledgeName>
+        </ns3:knowledge>
+        <ns3:knowledge>
+            <knowledgeId>011-1910K</knowledgeId>
+            <knowledgeName>Knowledge of Air Task Orders (ATO)</knowledgeName>
+        </ns3:knowledge>
+        <ns3:knowledge>
+            <knowledgeId>011-338K</knowledgeId>
+            <knowledgeName>Interpretation of ACOs, ATOs, and SPINs</knowledgeName>
+        </ns3:knowledge>
+        <ns3:knowledge>
+            <knowledgeId>011-351K</knowledgeId>
+            <knowledgeName>Joint publications</knowledgeName>
+        </ns3:knowledge>
+        <ns3:knowledge>
+            <knowledgeId>011-490K</knowledgeId>
+            <knowledgeName>Knowledge of Overlay Symbology</knowledgeName>
+        </ns3:knowledge>
+        <ns3:certification>
+            <ns3:code>011-C-0000</ns3:code>
+            <ns3:name>None Required</ns3:name>
+        </ns3:certification>
+        <ns3:statements>
+            <cue>Process Information from the ACO and the SPINS.</cue>
+            <environmental>Environmental protection is not just the law but the right thing to do. It is a continual process and starts with deliberate planning. Always be alert to ways to protect our environment during training and missions. In doing so, you will contribute to the sustainment of our training resources while protecting people and the environment from harmful effects. Refer to FM 3-34.5 Environmental Considerations and GTA 05-08-002 ENVIRONMENTAL-RELATED RISK ASSESSMENT</environmental>
+            <note>This is a skill level 1 task trained in residence.</note>
+            <safety>In a training environment, leaders must perform a risk assessment in accordance with FM 5-19, Composite Risk Management. Leaders will complete a DA Form 7566 COMPOSITE RISK MANAGEMENT WORKSHEET during the planning and completion of each task and sub-task by assessing mission, enemy, terrain and weather, troops and support available-time available and civil considerations, (METT-TC). Note: During MOPP training, leaders must ensure personnel are monitored for potential heat injury. Local policies and procedures must be followed during times of increased heat category in order to avoid heat related injury. Consider the MOPP work/rest cycles and water replacement guidelines IAW FM 3-11.4, NBC Protection, FM 3-11.5, CBRN Decontamination. null</safety>
+        </ns3:statements>
+        <ns3:prerequisiteIndividualTasks>
+            <number>071-329-1019</number>
+            <title>Use a Map Overlay</title>
+            <proponent>071</proponent>
+            <status>Approved</status>
+        </ns3:prerequisiteIndividualTasks>
+        <ns3:supportingIndividualTasks>
+            <number>011-141-1023</number>
+            <title>Maintain Notice to Airmen (NOTAM)</title>
+            <proponent>011</proponent>
+            <status>Approved</status>
+        </ns3:supportingIndividualTasks>
+        <ns3:references>
+            <id>FM 3-52</id>
+            <title>ARMY AIRSPACE COMMAND AND CONTROL IN A COMBAT ZONE</title>
+            <isRequired>false</isRequired>
+            <isPrimary>false</isPrimary>
+        </ns3:references>
+        <ns3:references>
+            <id>JP 3-52</id>
+            <title>Joint Airspace Control</title>
+            <isRequired>false</isRequired>
+            <isPrimary>false</isPrimary>
+        </ns3:references>
+        <ns3:references>
+            <id>TACSOP</id>
+            <title>Tactical Level SOP (TACSOP)</title>
+            <isRequired>true</isRequired>
+            <isPrimary>false</isPrimary>
+        </ns3:references>
+        <ns3:references>
+            <id>MIL-STD-6040</id>
+            <title>United States Message Text Formats</title>
+            <isRequired>false</isRequired>
+            <isPrimary>false</isPrimary>
+        </ns3:references>
+        <ns3:multimedia>
+            <ns2:file>
+                <ns2:fileName>Example_of_an_Airspace_Control_Order_(ACO)</ns2:fileName>
+                <ns2:fileType>DOC</ns2:fileType>
+            </ns2:file>
+            <ns2:schoolName>U.S. Army Aviation Center of Excellence</ns2:schoolName>
+        </ns3:multimedia>
+        <ns3:supportedIndividualTasks>
+            <number>011-000-1065</number>
+            <title>Process Information from Air Tasking Order (ATO)</title>
+            <proponent>011 - Aviation (Individual)</proponent>
+            <status>Approved</status>
+        </ns3:supportedIndividualTasks>
+        <ns3:mint>
+            <ns4:prefix>100.ATSC</ns4:prefix>
+            <ns4:suffix>400388F7-F7C7-40C8-89C2-EA4B85EE4A73-1359754892360</ns4:suffix>
+        </ns3:mint>
+    </ns3:individualTask>
+    <ns2:transactionId>
+        <ns2:messageId>cca9c933-c731-40fb-b1d3-5be7b8660c14</ns2:messageId>
+        <ns2:dateTimeStamp>2013-02-01T21:41:55.90Z</ns2:dateTimeStamp>
+    </ns2:transactionId>
+</ns3:getIndividualTaskResponse>

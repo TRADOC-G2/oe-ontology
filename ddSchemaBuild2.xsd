@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#" xmlns="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" schemaLocation="ddSchemaBuild.xsd"/>
+	<xs:element name="isSupervisionRequired">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:boolean">
+					<xs:attribute ref="rdf:datatype" use="required"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="isStaffTask">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:boolean">
+					<xs:attribute ref="rdf:datatype" use="required"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="isSkillCMF_Task">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:boolean">
+					<xs:attribute ref="rdf:datatype" use="required"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="isRouteToCTD_Reviewer">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:boolean">
+					<xs:attribute ref="rdf:datatype" use="required"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="isRequired">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:boolean">
+					<xs:attribute ref="rdf:datatype" use="required"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="isPrimary">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:boolean">
+					<xs:attribute ref="rdf:datatype" use="required"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="isNGV">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:boolean">
+					<xs:attribute ref="rdf:datatype" use="required"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="isMandatoryTask">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:boolean">
+					<xs:attribute ref="rdf:datatype" use="required"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="isLeaderTask">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:boolean">
+					<xs:attribute ref="rdf:datatype" use="required"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="hasTaskType" type="xs:string"/>
+	<xs:element name="hasTaskTitle" type="xs:string"/>
+	<xs:element name="hasTaskStepStatementNote" type="xs:string"/>
+	<xs:element name="hasTaskStep">
+		<xs:complexType>
+			<xs:attribute ref="rdf:resource" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="hasTaskProponent">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:byte">
+					<xs:attribute ref="rdf:datatype" use="required"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="hasTaskNumber" type="xs:string"/>
+	<xs:element name="hasTaskMeasureTitle" type="xs:string"/>
+	<xs:element name="hasTaskMeasure">
+		<xs:complexType>
+			<xs:attribute ref="rdf:resource" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="hasTaskComponent" type="xs:string"/>
+	<xs:element name="hasSupportingIndividualTask">
+		<xs:complexType>
+			<xs:attribute ref="rdf:resource" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="hasStepTitle" type="xs:string"/>
+	<xs:element name="hasStepLevel">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:byte">
+					<xs:attribute ref="rdf:datatype" use="required"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="hasStepDisplayID" type="xs:string"/>
+	<xs:element name="hasStandardVerb" type="xs:string"/>
+	<xs:element name="hasStandard" type="xs:string"/>
+	<xs:element name="hasSortOrder">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:byte">
+					<xs:attribute ref="rdf:datatype" use="required"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="hasSchoolName" type="xs:string"/>
+	<xs:element name="hasSafetyStatement" type="xs:string"/>
+	<xs:element name="hasSafetyLevel" type="xs:string"/>
+	<xs:element name="hasReferenceTitle" type="xs:string"/>
+	<xs:element name="hasReferenceID" type="xs:string"/>
+	<xs:element name="hasPreparation" type="xs:string"/>
+	<xs:element name="hasPersonnelType" type="xs:string"/>
+	<xs:element name="hasNoteStatement" type="xs:string"/>
+	<xs:element name="hasMultimediaFileType" type="xs:string"/>
+	<xs:element name="hasMultimediaFileName" type="xs:string"/>
+	<xs:element name="hasMosData" type="xs:string"/>
+	<xs:element name="hasLevel">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:byte">
+					<xs:attribute ref="rdf:datatype" use="required"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="hasKnowledgeName" type="xs:string"/>
+	<xs:element name="hasKnowledgeID" type="xs:string"/>
+	<xs:element name="hasKnowledge">
+		<xs:complexType>
+			<xs:attribute ref="rdf:resource" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="hasIctlTask">
+		<xs:complexType>
+			<xs:attribute ref="rdf:resource" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="hasGuidance" type="xs:string"/>
+	<xs:element name="hasForeignDisclosureText" type="xs:string"/>
+	<xs:element name="hasForeignDisclosureCode" type="xs:string"/>
+	<xs:element name="hasEnvironmentalStatement" type="xs:string"/>
+	<xs:element name="hasDistributionRestriction" type="xs:string"/>
+	<xs:element name="hasDisplayMeasureID" type="xs:string"/>
+	<xs:element name="hasDescription" type="xs:string"/>
+	<xs:element name="hasCueStatement" type="xs:string"/>
+	<xs:element name="hasCondition" type="xs:string"/>
+</xs:schema>
