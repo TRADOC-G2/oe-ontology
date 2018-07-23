@@ -16,7 +16,7 @@
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/UnitsOfMeasureOntology"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology"/>
         <owl:imports rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology"/>
-        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/ExtendedRelationOntology"/>
+        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Upper/ExtendedRelationOntology"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/ArtifactOntology"/>
         <owl:imports rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology"/>
         <owl:imports rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology"/>
