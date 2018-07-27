@@ -18,27 +18,10 @@
         <owl:imports rdf:resource="http://www.obofoundry.org/ro/ro.owl"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/GeospatialOntology"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology"/>
-        <owl:versionInfo>Jan 31, 2018</owl:versionInfo>
-        <owl:versionInfo>Version 3.2</owl:versionInfo>
+        <owl:versionInfo>Version 3.3</owl:versionInfo>
         <owl:versionInfo>DISTRIBUTION A: Approved for public release; distribution is unlimited.  For more information contact United States Army TRADOC G-27 at usarmy.jble.tradoc.list.tboc-operations@mail.mil (or Kaye Darone, Data Science Branch Chief, DSMS, Kaye.t.darone.civ@mail.mil, (757) 878-9547)</owl:versionInfo>
+        <owl:versionInfo>August 8, 2018</owl:versionInfo>
     </owl:Ontology>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#hasArmyTaskNumber -->
-
-    <owl:ObjectProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#hasArmyTaskNumber"/>
     
 
 
@@ -53,10 +36,10 @@
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Air_Defense_Artillery_Battery -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#AirDefenseArtilleryBattery -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Air_Defense_Artillery_Battery">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Battery"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#AirDefenseArtilleryBattery">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBattery"/>
         <CommonCoreOntologies:definition_source>Air defense artillery batteries operate as the fighting elements of air defense artillery battalions. Air defense batteries provide fires for protection against lower and upper tier aerial threats. Various air defense systems provide short to long range capabilities. They are employed using the principles of mass, mix, mobility, and integration.</CommonCoreOntologies:definition_source>
         <CommonCoreOntologies:definition_source>Army Doctrine Reference Publication (ADRP) 3-90</CommonCoreOntologies:definition_source>
         <rdfs:label>Air Defense Artillery Battery</rdfs:label>
@@ -64,23 +47,23 @@
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Air_and_Missle_Defense_Brigade -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyAirAndMissleDefenseBrigade -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Air_and_Missle_Defense_Brigade">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Functional_Brigade"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyAirAndMissleDefenseBrigade">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFunctionalBrigade"/>
         <rdfs:label>Army Air and Missle Defense Brigade</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Battalion -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBattalion -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Battalion">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBattalion">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/MilitaryPersonnelForce"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Company"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCompany"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A battalion (or a reconnaissance squadron) is a unit consisting of two or more company-, battery-, or troop-size units and a headquarters. Most battalions range in size between 500 and 800 Soldiers, although some sustainment battalions are larger. Most maneuver battalions are organized by branch, arm, or service and, in addition to their line companies, contain a headquarters company. Combined
@@ -91,10 +74,10 @@ arms battalions are exceptions to this rule, in that they contain two mechanized
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Battalion_Task_Force -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBattalionTaskForce -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Battalion_Task_Force">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Battalion"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBattalionTaskForce">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBattalion"/>
         <CommonCoreOntologies:definition>A battalion task force is a maneuver battalion-size unit consisting of a battalion headquarters, at least one assigned company-size element, and at least one attached company-size element from another maneuver or support unit (functional or multifunctional). Combined arms battalions are permanently organized battalion task forces and have their own graphic symbol. Task organization increases the capability of maneuver battalions</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>Army Doctrine Reference Publication (ADRP) 3-90</CommonCoreOntologies:definition_source>
         <rdfs:label>Army Battalion Task Force</rdfs:label>
@@ -102,10 +85,10 @@ arms battalions are exceptions to this rule, in that they contain two mechanized
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Battery -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBattery -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Battery">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Company"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBattery">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCompany"/>
         <CommonCoreOntologies:definition>A battery is a company-size unit in a fires or air defense artillery battalion. Companies, batteries, and troops may also be assigned as separate units of brigades and larger organizations.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>Army Doctrine Reference Publication (ADRP) 3-90</CommonCoreOntologies:definition_source>
         <rdfs:label>Army Battery</rdfs:label>
@@ -113,23 +96,23 @@ arms battalions are exceptions to this rule, in that they contain two mechanized
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Battlefield_Surveillance_Brigade -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBattlefieldSurveillanceBrigade -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Battlefield_Surveillance_Brigade">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Multifunctional_Support_Brigade"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBattlefieldSurveillanceBrigade">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyMultifunctionalSupportBrigade"/>
         <rdfs:label>Army Battlefield Surveillance Brigade</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Brigade -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBrigade -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Brigade">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBrigade">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/MilitaryPersonnelForce"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Battalion"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBattalion"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A brigade is a unit consisting of two or more battalions and a headquarters company or detachment. A brigade normally contains between 2,500 to 5,000 Soldiers. Its capacity for independent action varies by its type. Division commanders use armored, infantry, or Stryker brigade combat teams, supported by multifunctional support brigades—fires brigades, combat aviation brigades, maneuver enhancement brigades (MEBs), battlefield surveillance brigades, and sustainment brigades—and functional brigades, such as air and missile defense brigades, engineer brigades, civil affairs brigades, and military police brigades, to accomplish their assigned missions. Sustainment brigades are normally assigned to the theater sustainment command and provide support to other Army units, usually on an area basis.</CommonCoreOntologies:definition>
@@ -139,14 +122,14 @@ arms battalions are exceptions to this rule, in that they contain two mechanized
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Brigade_Combat_Team -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBrigadeCombatTeam -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Brigade_Combat_Team">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Brigade"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBrigadeCombatTeam">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBrigade"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Maneuver_Battalion"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyManeuverBattalion"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A brigade combat team is a combined arms organization consisting of a brigade headquarters, at least two maneuver battalions, and necessary supporting functional capabilities. BCTs are the largest fixed tactical units in the Army. However, additional battalions and companies may be attached to them or their organic battalions, and companies can be detached from them as part of force tailoring at the strategic and operational levels and task organization at the tactical level as required by the mission variables of METT-TC. Infantry and armored BCTs normally include a fires battalion, a brigade support battalion, and a brigade special troops battalion in addition to their two maneuver battalions and a reconnaissance squadron. Stryker BCTs do not have a brigade special troops battalion. They have separate functional companies. They also have a third maneuver battalion and a fires battalion. BCTs combine the efforts of their battalions and companies to fight engagements and perform tactical tasks within division-level battles and major operations. Their chief tactical responsibility is synchronizing the plans and actions of their subordinate units to accomplish assigned tasks for a division headquarters.</CommonCoreOntologies:definition>
@@ -156,28 +139,28 @@ arms battalions are exceptions to this rule, in that they contain two mechanized
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Civil_Affairs_Brigade -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCivilAffairsBrigade -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Civil_Affairs_Brigade">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Functional_Brigade"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCivilAffairsBrigade">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFunctionalBrigade"/>
         <rdfs:label>Army Civil Affairs Brigade</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Combat_Aviation_Brigade -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCombatAviationBrigade -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Combat_Aviation_Brigade">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Multifunctional_Support_Brigade"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCombatAviationBrigade">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyMultifunctionalSupportBrigade"/>
         <rdfs:label>Army Combat Aviation Brigade</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Combat_Engineer_Company -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCombatEngineerCompany -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Combat_Engineer_Company">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Company"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCombatEngineerCompany">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCompany"/>
         <CommonCoreOntologies:definition>Combat engineer companies control a mixture of different types of engineer platoons. Each type of BCT has an organic engineer company. In armored BCTs and infantry BCTs they are part of the brigade special troops battalion. The engineer company in a Stryker BCT is a separate company. Combat engineer companies attached to engineer battalions may be employed in a variety of tasks, or they may be placed in some type of support relationship to BCTs or functional or multifunctional support brigades.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>Army Doctrine Reference Publication (ADRP) 3-90</CommonCoreOntologies:definition_source>
         <rdfs:label>Army Combat Engineer Company</rdfs:label>
@@ -185,14 +168,14 @@ arms battalions are exceptions to this rule, in that they contain two mechanized
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Company -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCompany -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Company">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCompany">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/MilitaryPersonnelForce"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Platoon"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyPlatoon"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A company is a unit consisting of two or more platoons, usually of the same type, with a headquarters and a limited capacity for self-support. A troop is a company-size unit in a reconnaissance organization. A battery is a company-size unit in a fires or air defense artillery battalion. A company normally consists of more than 75 soldiers. Some aviation and armor companies are exceptions to this rule. Companies and air defense and artillery batteries are the basic elements of battalions. Companies, batteries, and troops may also be assigned as separate units of brigades and larger organizations. Some companies, such as special forces companies, have subordinate detachments, instead of platoons, which are organized and trained to operate independently for extended periods.
@@ -204,10 +187,10 @@ Company-size combat units can fight in mass or by subordinate platoons. Reconnai
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Company_Team -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCompanyTeam -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Company_Team">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Company"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCompanyTeam">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCompany"/>
         <CommonCoreOntologies:definition>A company team is a combined arms organization formed by attaching one or more nonorganic armor, mechanized infantry, Stryker, or infantry platoons to an armor, mechanized infantry, Stryker, or infantry company, either in exchange for, or in addition to, its organic platoons.
 
 These company teams can include other supporting squads or platoons, such as engineers. Company teams are task-organized for specific missions. Such teams can match capabilities to missions with greater precision than units using only organic platoons. However, the attachment of different units at the company
@@ -218,14 +201,14 @@ level demands thorough training to achieve the maximum complementary effects. Wh
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Corps -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCorps -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Corps">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCorps">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/MilitaryPersonnelForce"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Division"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyDivision"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Army Corps</rdfs:label>
@@ -233,9 +216,9 @@ level demands thorough training to achieve the maximum complementary effects. Wh
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Crew -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCrew -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Crew">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCrew">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/MilitaryPersonnelForce"/>
         <CommonCoreOntologies:definition>A crew consists of all personnel operating a particular system. This system might be a weaponssystem, such as a tank or machinegun. The system might also be a vehicle, such as a helicopter, or a sensor system, such as a target acquisition radar. The rank of the senior crew member can vary widely from a junior noncommissioned officer to a commissioned or warrant officer based on the system.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>Army Doctrine Reference Publication (ADRP) 3-90</CommonCoreOntologies:definition_source>
@@ -244,10 +227,10 @@ level demands thorough training to achieve the maximum complementary effects. Wh
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Detachment -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyDetachment -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Detachment">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Company"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyDetachment">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCompany"/>
         <CommonCoreOntologies:definition>A detachment is a tactical element organized on either a temporary or permanent basis for special duties.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>Army Doctrine Reference Publication (ADRP) 3-90</CommonCoreOntologies:definition_source>
         <rdfs:label>Army Detachment</rdfs:label>
@@ -255,14 +238,14 @@ level demands thorough training to achieve the maximum complementary effects. Wh
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Division -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyDivision -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Division">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyDivision">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/MilitaryPersonnelForce"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Brigade"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBrigade"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A division is an Army echelon of command above brigade and below corps. It is a tactical headquarters which employs a combination of brigade combat teams, multifunctional brigades, and functional brigades in land operations. The division headquarters is a self-contained organization with a command group and a fully functional staff that requires no staff support from subordinate units to provide functional staff capabilities for its primary role. The organization consists of a headquarters and headquarters battalion, which provides administrative and sustainment support to the division headquarters in garrison and when deployed for operations.</CommonCoreOntologies:definition>
@@ -272,19 +255,19 @@ level demands thorough training to achieve the maximum complementary effects. Wh
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Engineer_Brigade -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyEngineerBrigade -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Engineer_Brigade">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Functional_Brigade"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyEngineerBrigade">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFunctionalBrigade"/>
         <rdfs:label>Army Engineer Brigade</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Fire_Battery -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFireBattery -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Fire_Battery">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Battery"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFireBattery">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBattery"/>
         <CommonCoreOntologies:definition>Fires batteries are the basic firing units of fires battalions. They are organized with firing platoons, a headquarters, and limited support sections. They may fire and displace together or by platoons. Normally, batteries fight as part of their parent battalions, but the commander can establish a command or support relationship to other batteries or other units. In rare cases batteries or even platoons respond directly to a maneuver battalion or company. If required, multiple launch rocket system (MLRS) batteries are equipped to operate independently from battalion control.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>Army Doctrine Reference Publication (ADRP) 3-90</CommonCoreOntologies:definition_source>
         <rdfs:label>Army Fire Battery</rdfs:label>
@@ -292,18 +275,18 @@ level demands thorough training to achieve the maximum complementary effects. Wh
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Fire_Platoon -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFirePlatoon -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Fire_Platoon">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Platoon"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFirePlatoon">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyPlatoon"/>
         <rdfs:label>Army Fire Platoon</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Fire_Team -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFireTeam -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Fire_Team">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFireTeam">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/MilitaryPersonnelForce"/>
         <CommonCoreOntologies:definition>A fire team is a small military unit. A fire team generally consists of four or fewer soldiers and is usually grouped by two or three teams into a squad or section. The concept of the fire team is based on the need for tactical flexibility. A fire team is capable of autonomous operations as part of its next larger unit, such as a squad or section. It is usually led by a sergeant.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>Army Doctrine Reference Publication (ADRP) 3-90</CommonCoreOntologies:definition_source>
@@ -312,36 +295,36 @@ level demands thorough training to achieve the maximum complementary effects. Wh
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Fires_Battalion -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFiresBattalion -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Fires_Battalion">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Battalion"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFiresBattalion">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBattalion"/>
         <rdfs:label>Army Fires Battalion</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Fires_Brigade -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFiresBrigade -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Fires_Brigade">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Multifunctional_Support_Brigade"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFiresBrigade">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyMultifunctionalSupportBrigade"/>
         <rdfs:label>Army Fires Brigade</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Functional_Brigade -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFunctionalBrigade -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Functional_Brigade">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Brigade"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFunctionalBrigade">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBrigade"/>
         <rdfs:label>Army Functional Brigade</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Group -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyGroup -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Group">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyGroup">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/MilitaryPersonnelForce"/>
         <CommonCoreOntologies:definition>Groups are brigade-size organizations that, as a result of Army modularity, will continue to be rarely used outside the Army’s special operations forces</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>Army Doctrine Reference Publication (ADRP) 3-90</CommonCoreOntologies:definition_source>
@@ -350,56 +333,56 @@ level demands thorough training to achieve the maximum complementary effects. Wh
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Maneuver_Battalion -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyManeuverBattalion -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Maneuver_Battalion">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Battalion"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyManeuverBattalion">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBattalion"/>
         <rdfs:label>Army Maneuver Battalion</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Maneuver_Enhancement_Brigade -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyManeuverEnhancementBrigade -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Maneuver_Enhancement_Brigade">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Multifunctional_Support_Brigade"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyManeuverEnhancementBrigade">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyMultifunctionalSupportBrigade"/>
         <rdfs:label>Army Maneuver Enhancement Brigade</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Military_Police_Brigade -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyMilitaryPoliceBrigade -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Military_Police_Brigade">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Functional_Brigade"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyMilitaryPoliceBrigade">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFunctionalBrigade"/>
         <rdfs:label>Army Military Police Brigade</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Multifunctional_Support_Brigade -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyMultifunctionalSupportBrigade -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Multifunctional_Support_Brigade">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Brigade"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyMultifunctionalSupportBrigade">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBrigade"/>
         <rdfs:label>Army Multifunctional Support Brigade</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Platoon -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyPlatoon -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Platoon">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyPlatoon">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/MilitaryPersonnelForce"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Section"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmySection"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Squad"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmySquad"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A platoon is a subdivision of a company or troop consisting of two or more squads or sections. A platoon is normally led by a lieutenant. Platoons tend to contain roughly 30 Soldiers, but in some cases they contain significantly more or less than that number</CommonCoreOntologies:definition>
@@ -409,9 +392,9 @@ level demands thorough training to achieve the maximum complementary effects. Wh
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Regiment -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyRegiment -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Regiment">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyRegiment">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/MilitaryPersonnelForce"/>
         <CommonCoreOntologies:definition>Army Regulation (AR) 600-82 defines a regiment as a single or a group of like-type combat arms or training units authorized a regimental color. (The term “combat arms” is a rescinded doctrinal term, but it still exists in Army regulations.) Traditionally, a regiment was a fixed tactical unit with organic combat battalions and supply and support organizations. The Army currently retains only one traditional tactical regiment, the 75th Rangers. All of the Army’s other regiments have no tactical function. Instead, they are intended to perpetuate regimental history, espirit de corps, and traditions for Soldiers affiliated with a regiment. Many of the Army’s branches contain only a single regiment, such as the Corps of Engineers and the Military Police Corps. Each maneuver battalion or squadron carries an association with a parent regiment. In some BCTs and brigades several numbered battalions carrying the same regimental association serve together, and tend to consider themselves part of the traditional regiment, when in fact they are independent battalions serving a brigade, rather than a regimental headquarters. For example, some BCTs, such as the 3rd Cavalry Regiment, bear the title of cavalry regiments for historical purposes</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>Army Doctrine Reference Publication (ADRP) 3-90</CommonCoreOntologies:definition_source>
@@ -420,20 +403,20 @@ level demands thorough training to achieve the maximum complementary effects. Wh
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Section -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmySection -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Section">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmySection">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/MilitaryPersonnelForce"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Fire_Team"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFireTeam"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Squad"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmySquad"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A section is an Army unit smaller than a platoon and larger than a squad. A section may consist of the crews of two or more Army systems, such as a tank section, or several fire teams.</CommonCoreOntologies:definition>
@@ -443,20 +426,20 @@ level demands thorough training to achieve the maximum complementary effects. Wh
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Squad -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmySquad -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Squad">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmySquad">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/MilitaryPersonnelForce"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Crew"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCrew"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Fire_Team"/>
+                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFireTeam"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A squad is a small military unit typically containing two or more fire teams. It typically contains a dozen Soldiers or less. In some cases the crew of a system may also be designated as a squad. Squads are usually led by a staff sergeant.</CommonCoreOntologies:definition>
@@ -466,10 +449,10 @@ level demands thorough training to achieve the maximum complementary effects. Wh
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Sustainment_Brigade -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmySustainmentBrigade -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Sustainment_Brigade">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Multifunctional_Support_Brigade"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmySustainmentBrigade">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyMultifunctionalSupportBrigade"/>
         <CommonCoreOntologies:definition>Sustainment brigades are normally assigned to the theater sustainment command and provide support to other Army units, usually on an area basis.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>Army Doctrine Reference Publication (ADRP) 3-90</CommonCoreOntologies:definition_source>
         <rdfs:label>Army Sustainment Brigade</rdfs:label>
@@ -477,10 +460,10 @@ level demands thorough training to achieve the maximum complementary effects. Wh
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Troop -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyTroop -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Troop">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#Army_Company"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyTroop">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCompany"/>
         <CommonCoreOntologies:definition>A troop is a company-size unit in a reconnaissance organization</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>Army Doctrine Reference Publication (ADRP) 3-90</CommonCoreOntologies:definition_source>
         <rdfs:label>Army Troop</rdfs:label>

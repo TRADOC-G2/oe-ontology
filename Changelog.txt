@@ -1,0 +1,28 @@
+8/1/2018 Updates:
+
+Files Added:
+
+
+Files Removed:
+OE_TaskData.owl-There were inconsistencies with the data and the conversion process
+
+
+
+
+
+OEArmyHierarchyOntology.owl
+-Removed duplicate properties
+-Fixed class names to adhere to the camel case naming convention
+-Changed release version info
+
+-OEArmyTaskOntology.owl renamed to OEArmyTrainingOntology.owl
+-Added Classes and Properties to OEArmyTrainingOntology.owl to handle Army Training Data
+-Merged OEPmesiiptOntology.owl and OEDimefilOntology.owl, and renamed to 
+-Renamed Classes and Properties in Pmesii and Dimefil Ontology files to avoid using underscores in names
+-Removed outdated OE_TaskData.owl file
+-Fixed import issues tied to file name changes
+-Updated Readme file
+
+OEArmyHierarchyOntology
+-Removed Underscores in class names
+-removed Object Property "hasArmyTaskNumber"
