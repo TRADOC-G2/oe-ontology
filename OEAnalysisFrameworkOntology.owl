@@ -1,0 +1,2041 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#"
+     xml:base="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+        <owl:imports rdf:resource="http://www.obofoundry.org/ro/ro.owl"/>
+        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology"/>
+        <owl:versionInfo>August 8,2018</owl:versionInfo>
+        <owl:versionInfo>Version 3.3</owl:versionInfo>
+        <owl:versionInfo>DISTRIBUTION A: Approved for public release; distribution is unlimited.  For more information contact United States Army TRADOC G-27 at usarmy.jble.tradoc.list.tboc-operations@mail.mil (or Kaye Darone, Data Science Branch Chief, DSMS, Kaye.t.darone.civ@mail.mil, (757) 878-9547)</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasDIMEFIL_DiplomaticValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasDIMEFIL_DiplomaticValue"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasDIMEFIL_EconomicValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasDIMEFIL_EconomicValue"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasDIMEFIL_FinancialValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasDIMEFIL_FinancialValue"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasDIMEFIL_InformationalValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasDIMEFIL_InformationalValue"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasDIMEFIL_IntelligenceValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasDIMEFIL_IntelligenceValue"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasDIMEFIL_LawEnforcementValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasDIMEFIL_LawEnforcementValue"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasDIMEFIL_MilitaryValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasDIMEFIL_MilitaryValue"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasPMESIIPT_EconomicValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasPMESIIPT_EconomicValue"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasPMESIIPT_InformationValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasPMESIIPT_InformationValue"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasPMESIIPT_InfrastructureValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasPMESIIPT_InfrastructureValue"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasPMESIIPT_MilitaryValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasPMESIIPT_MilitaryValue"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasPMESIIPT_PhysicalEnvironmentValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasPMESIIPT_PhysicalEnvironmentValue"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasPMESIIPT_PoliticalValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasPMESIIPT_PoliticalValue"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasPMESIIPT_SocialValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasPMESIIPT_SocialValue"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasPMESIIPT_TimeValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#hasPMESIIPT_TimeValue"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ObsoleteClass"/>
+        <obo:IAO_0000115>“DIME [Diplomacy, Information, Military and Economics] is a recent military term reinvigorated to remind the leadership and policy makers above them to consider national power as not limited to the military power alone. It was because of the political over-use of “M” that led to the push for a “whole-of-government” (WoG) approach within the national security apparatus; and particularly, the DoD. DIME (FIL) was added to include statecraft resources of financial, intelligence and law enforcement dynamics to be applied to the operational environments.”</obo:IAO_0000115>
+        <obo:IAO_0000119>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
+
+OPEN Publications
+
+Volume 1, Number 2, Winter 2017
+
+NATO Allied Command Transformation</obo:IAO_0000119>
+        <CommonCoreOntologies:alternative_label>DIMEFIL</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Diplomatic_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Diplomatic_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL"/>
+        <obo:IAO_0000115>Hybrid warfare is a whole-of-government approach dominated by non-military instruments of power and therefore is predominantly political in nature. Approaches to address it require an integrated technique that extends beyond the traditional definition of “D” instruments. In the hyper-connected, globalized world, expansion of diplomatic efforts across time (“when” diplomatic instruments are applied), scale (“where”, at what level they are applied) and types of actors (“who” employs these instruments) become critical considerations.</obo:IAO_0000115>
+        <obo:IAO_0000119>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
+
+OPEN Publications
+
+Volume 1, Number 2, Winter 2017
+
+NATO Allied Command Transformation</obo:IAO_0000119>
+        <CommonCoreOntologies:alternative_label>DIMEFIL Diplomatic Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Diplomatic_Category_Value -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Diplomatic_Category_Value">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Value"/>
+        <CommonCoreOntologies:alternative_label>DIMEFIL Diplomatic Category Value</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Economic_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Economic_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL"/>
+        <obo:IAO_0000115>Western allies are well equipped to deploy economic sanctions as an effective tool of power, exploiting asymmetrical economic and financial interdependency favourable to the West. The US in particular has been able to use its global economic cloud to deliver comprehensive multilateral sanctions by blocking access to its own market. The sanctions’ effectiveness in shaping a desired political and military outcome, especially by curtailing adversaries’ resources spent on armament, has been clearly demonstrated in Iraq during Saddam Hussein’s regime, in Libya under Gaddafi’s regime and most recently in the case of Iran.</obo:IAO_0000115>
+        <obo:IAO_0000119>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
+
+OPEN Publications
+
+Volume 1, Number 2, Winter 2017
+
+NATO Allied Command Transformation</obo:IAO_0000119>
+        <CommonCoreOntologies:alternative_label>DIMEFIL Economic Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Economic_Category_Value -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Economic_Category_Value">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Value"/>
+        <CommonCoreOntologies:alternative_label>DIMEFIL Economic Category Value</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Financial_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Financial_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL"/>
+        <obo:IAO_0000115>Western allies are well equipped to deploy economic sanctions as an effective tool of power, exploiting asymmetrical economic and financial interdependency favourable to the West. The US in particular has been able to use its global economic cloud to deliver comprehensive multilateral sanctions by blocking access to its own market. The sanctions’ effectiveness in shaping a desired political and military outcome, especially by curtailing adversaries’ resources spent on armament, has been clearly demonstrated in Iraq during Saddam Hussein’s regime, in Libya under Gaddafi’s regime and most recently in the case of Iran.  
+
+A major downside of economic sanctions is that they generally take an extended period to influence political outcome. However, the incremental change is often worth the reward. For example, the West has experienced slight economic harm with the implementation of sanctions; however, this loss is disproportionally lower than the impact they have had on Russia, with the latter GDP shrinking by approximately 4% in 2015 alone. Furthermore, as seen in Iraq in the 1990s and in Iran in the 2010s, sanctions significantly hindered the buildup of conventional and nuclear capabilities and access to advanced technologies.</obo:IAO_0000115>
+        <obo:IAO_0000119>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
+
+OPEN Publications
+
+Volume 1, Number 2, Winter 2017
+
+NATO Allied Command Transformation</obo:IAO_0000119>
+        <CommonCoreOntologies:alternative_label>DIMEFIL Financial Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Financial_Category_Value -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Financial_Category_Value">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Value"/>
+        <CommonCoreOntologies:alternative_label>DIMEFIL Financial Category Value</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Informational_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Informational_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL"/>
+        <obo:IAO_0000115>One of the most important aspects of hybrid warfare is the cognitive impact, both locally, nationally and internationally. Rather than focusing on purely military means, hybrid warfare takes advantage of the modern information environment to engage in a “battle of narratives.” Though hybrid forces can employ sophisticated military capabilities, their primary tools are media reporting, the internet, “and the integration of information operations with strategic communication.”</obo:IAO_0000115>
+        <obo:IAO_0000119>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
+
+OPEN Publications
+
+Volume 1, Number 2, Winter 2017
+
+NATO Allied Command Transformation</obo:IAO_0000119>
+        <CommonCoreOntologies:alternative_label>DIMEFIL Informational Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Informational_Category_Value -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Informational_Category_Value">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Value"/>
+        <CommonCoreOntologies:alternative_label>DIMEFIL Informational Category Value</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Intelligence_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Intelligence_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL"/>
+        <obo:IAO_0000115>To counter disinformation threats, NATO and its partner organizations need to develop procedures that will enable rapid and sweeping dissemination of such fact-based information within its populations and to the global audience at large. This relies on effective intelligence capabilities, and optimistically, the Alliance possesses powerful analytical and operational expertise in this domain. As discussed in the Networks section, NATO member states should work at local government level, with civil society groups, schools, churches and other local level actors to make the network accessible to more recipients via local news and social media outlets. The crucial coordination between civil society and other non-governmental groups can provide wider outreach, increase credibility among the public.</obo:IAO_0000115>
+        <obo:IAO_0000119>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
+
+OPEN Publications
+
+Volume 1, Number 2, Winter 2017
+
+NATO Allied Command Transformation</obo:IAO_0000119>
+        <CommonCoreOntologies:alternative_label>DIMEFIL Intelligence Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Intelligence_Category_Value -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Intelligence_Category_Value">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Value"/>
+        <CommonCoreOntologies:alternative_label>DIMEFIL Intelligence Category Value</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Law_Enforcement_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Law_Enforcement_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL"/>
+        <obo:IAO_0000115>If power is derived from connectivity, “then the focus of leadership should be on making connections to solve shared problems.” Different countries, organizations and stakeholders can mobilize diverse coalitions for specific purposes. The range and complexity of challenges and the speed with which a crisis can escalate means that “knowing the right people to call and the right levers to pull in any corner of the world must be a key element” of the West’s diplomacy. The ability of governments to orchestrate networks of public, private, and civic actors is key to addressing hybrid conflicts.  
+
+For instance, in dealing with ISIS, the US has been able to stop planned attacks with a dense global network of law enforcement officers, counterterrorism officials and intelligence agencies. Similarly, public-private networks have formed across the world to counter hybrid conflict with non-military means. This includes the collaboration between technological and social media companies to block terrorist activity, as well as the between private businesses and civil society groups to address the current immigration crisis in Europe, from which some ISIS recruits originate.</obo:IAO_0000115>
+        <obo:IAO_0000119>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
+
+OPEN Publications
+
+Volume 1, Number 2, Winter 2017
+
+NATO Allied Command Transformation</obo:IAO_0000119>
+        <CommonCoreOntologies:alternative_label>DIMEFIL Law Enforcement Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Law_Enforcement_Category_Value -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Law_Enforcement_Category_Value">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Value"/>
+        <CommonCoreOntologies:alternative_label>DIMEFIL Law Enforcement Category Value</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Military_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Military_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL"/>
+        <obo:IAO_0000115>While military force is not sufficient to deliver the outcomes one desires, it remains a vital source of power. Specifically, it structures expectations and shapes the political calculations and preferences of revisionist actors, deterring certain threats from arising.</obo:IAO_0000115>
+        <obo:IAO_0000119>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
+
+OPEN Publications
+
+Volume 1, Number 2, Winter 2017
+
+NATO Allied Command Transformation</obo:IAO_0000119>
+        <CommonCoreOntologies:alternative_label>DIMEFIL Military Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Military_Category_Value -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Military_Category_Value">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Value"/>
+        <CommonCoreOntologies:alternative_label>DIMEFIL Military Category Value</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Value -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/DIMEFILOntology#DIMEFIL_Value">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ObsoleteClass"/>
+        <CommonCoreOntologies:alternative_label>DIMEFIL Value</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#AttitudeTowardsTheUnitedStatesCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#AttitudeTowardsTheUnitedStatesCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PoliticalCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#AvenuesOfApproachCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#AvenuesOfApproachCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#BankingAndFinanceCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#BankingAndFinanceCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_EconomicCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#BasicCulturalNormsAndValuesCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#BasicCulturalNormsAndValuesCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CentersOfPoliticalPower -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CentersOfPoliticalPower">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PoliticalCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CentersOfSocialPowerCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CentersOfSocialPowerCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ClimateCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ClimateCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PhysicalEnvironmentCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CloudCoverCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CloudCoverCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WeatherCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CommandAndControlCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CommandAndControlCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#MilitaryFunctionsCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CommonLanguagesCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CommonLanguagesCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ComputerWarfareCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ComputerWarfareCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Placeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ConstructionPatternCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ConstructionPatternCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InfrastructureCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CoverAndConcealmentCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CoverAndConcealmentCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CriminalActivityCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CriminalActivityCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CulturalPerceptionOfTimeCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CulturalPerceptionOfTimeCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_TimeCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <CommonCoreOntologies:alternative_label>DIMEFIL</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>“DIME [Diplomacy, Information, Military and Economics] is a recent military term reinvigorated to remind the leadership and policy makers above them to consider national power as not limited to the military power alone. It was because of the political over-use of “M” that led to the push for a “whole-of-government” (WoG) approach within the national security apparatus; and particularly, the DoD. DIME (FIL) was added to include statecraft resources of financial, intelligence and law enforcement dynamics to be applied to the operational environments.”</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
+
+OPEN Publications
+
+Volume 1, Number 2, Winter 2017
+
+NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL_DiplomaticCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL_DiplomaticCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL"/>
+        <CommonCoreOntologies:alternative_label>DIMEFIL Diplomatic Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>Hybrid warfare is a whole-of-government approach dominated by non-military instruments of power and therefore is predominantly political in nature. Approaches to address it require an integrated technique that extends beyond the traditional definition of “D” instruments. In the hyper-connected, globalized world, expansion of diplomatic efforts across time (“when” diplomatic instruments are applied), scale (“where”, at what level they are applied) and types of actors (“who” employs these instruments) become critical considerations.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
+
+OPEN Publications
+
+Volume 1, Number 2, Winter 2017
+
+NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL_EconomicCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL_EconomicCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL"/>
+        <CommonCoreOntologies:alternative_label>DIMEFIL Economic Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>Western allies are well equipped to deploy economic sanctions as an effective tool of power, exploiting asymmetrical economic and financial interdependency favourable to the West. The US in particular has been able to use its global economic cloud to deliver comprehensive multilateral sanctions by blocking access to its own market. The sanctions’ effectiveness in shaping a desired political and military outcome, especially by curtailing adversaries’ resources spent on armament, has been clearly demonstrated in Iraq during Saddam Hussein’s regime, in Libya under Gaddafi’s regime and most recently in the case of Iran.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
+
+OPEN Publications
+
+Volume 1, Number 2, Winter 2017
+
+NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL_FinancialCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL_FinancialCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL"/>
+        <CommonCoreOntologies:definition>Western allies are well equipped to deploy economic sanctions as an effective tool of power, exploiting asymmetrical economic and financial interdependency favourable to the West. The US in particular has been able to use its global economic cloud to deliver comprehensive multilateral sanctions by blocking access to its own market. The sanctions’ effectiveness in shaping a desired political and military outcome, especially by curtailing adversaries’ resources spent on armament, has been clearly demonstrated in Iraq during Saddam Hussein’s regime, in Libya under Gaddafi’s regime and most recently in the case of Iran.  
+
+A major downside of economic sanctions is that they generally take an extended period to influence political outcome. However, the incremental change is often worth the reward. For example, the West has experienced slight economic harm with the implementation of sanctions; however, this loss is disproportionally lower than the impact they have had on Russia, with the latter GDP shrinking by approximately 4% in 2015 alone. Furthermore, as seen in Iraq in the 1990s and in Iran in the 2010s, sanctions significantly hindered the buildup of conventional and nuclear capabilities and access to advanced technologies.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>DIMEFIL Financial Category</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:definition_source>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
+
+OPEN Publications
+
+Volume 1, Number 2, Winter 2017
+
+NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL_InformationalCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL_InformationalCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL"/>
+        <CommonCoreOntologies:alternative_label>DIMEFIL Informational Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>One of the most important aspects of hybrid warfare is the cognitive impact, both locally, nationally and internationally. Rather than focusing on purely military means, hybrid warfare takes advantage of the modern information environment to engage in a “battle of narratives.” Though hybrid forces can employ sophisticated military capabilities, their primary tools are media reporting, the internet, “and the integration of information operations with strategic communication.”</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
+
+OPEN Publications
+
+Volume 1, Number 2, Winter 2017
+
+NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL_IntelligenceCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL_IntelligenceCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL"/>
+        <CommonCoreOntologies:alternative_label>DIMEFIL Intelligence Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>To counter disinformation threats, NATO and its partner organizations need to develop procedures that will enable rapid and sweeping dissemination of such fact-based information within its populations and to the global audience at large. This relies on effective intelligence capabilities, and optimistically, the Alliance possesses powerful analytical and operational expertise in this domain. As discussed in the Networks section, NATO member states should work at local government level, with civil society groups, schools, churches and other local level actors to make the network accessible to more recipients via local news and social media outlets. The crucial coordination between civil society and other non-governmental groups can provide wider outreach, increase credibility among the public.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
+
+OPEN Publications
+
+Volume 1, Number 2, Winter 2017
+
+NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL_LawEnforcementCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL_LawEnforcementCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL"/>
+        <CommonCoreOntologies:alternative_label>DIMEFIL Law Enforcement Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>If power is derived from connectivity, “then the focus of leadership should be on making connections to solve shared problems.” Different countries, organizations and stakeholders can mobilize diverse coalitions for specific purposes. The range and complexity of challenges and the speed with which a crisis can escalate means that “knowing the right people to call and the right levers to pull in any corner of the world must be a key element” of the West’s diplomacy. The ability of governments to orchestrate networks of public, private, and civic actors is key to addressing hybrid conflicts.  
+
+For instance, in dealing with ISIS, the US has been able to stop planned attacks with a dense global network of law enforcement officers, counterterrorism officials and intelligence agencies. Similarly, public-private networks have formed across the world to counter hybrid conflict with non-military means. This includes the collaboration between technological and social media companies to block terrorist activity, as well as the between private businesses and civil society groups to address the current immigration crisis in Europe, from which some ISIS recruits originate.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
+
+OPEN Publications
+
+Volume 1, Number 2, Winter 2017
+
+NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL_MilitaryCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL_MilitaryCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL"/>
+        <CommonCoreOntologies:alternative_label>DIMEFIL Military Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>While military force is not sufficient to deliver the outcomes one desires, it remains a vital source of power. Specifically, it structures expectations and shapes the political calculations and preferences of revisionist actors, deterring certain threats from arising.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
+
+OPEN Publications
+
+Volume 1, Number 2, Winter 2017
+
+NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DeceptionCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DeceptionCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Placeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DemographicMixCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DemographicMixCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#EconomicActivityCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#EconomicActivityCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_EconomicCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#EconomicDiversityCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#EconomicDiversityCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_EconomicCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#EducationLevelCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#EducationLevelCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ElectronicWarfareCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ElectronicWarfareCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Placeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#EmploymentStatusCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#EmploymentStatusCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_EconomicCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#EthnicDiversityCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#EthnicDiversityCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#FireSupportCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#FireSupportCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#MilitaryFunctionsCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#GovernmentEffectivenessAndLegitimacyCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#GovernmentEffectivenessAndLegitimacyCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PoliticalCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#GovernmentParamilitaryForcesCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#GovernmentParamilitaryForcesCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_MilitaryCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#HighTemperature-HeatIndexCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#HighTemperature-HeatIndexCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WeatherCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#HumanRightsCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#HumanRightsCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#IllegalEconomicActivityCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#IllegalEconomicActivityCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_EconomicCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InfluentialPoliticalPowerCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InfluentialPoliticalPowerCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PoliticalCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InformationAttackCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InformationAttackCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Placeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InformationManagementCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InformationManagementCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InformationCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InformationOffsetCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InformationOffsetCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_TimeCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#IntelligenceCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#IntelligenceCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InformationCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InternationalRelationshipsCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InternationalRelationshipsCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PoliticalCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#KeyDatesTimePeriodsOrEventsCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#KeyDatesTimePeriodsOrEventsCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_TimeCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#KeyTerrainCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#KeyTerrainCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#KnowledgeOfTheAreaOfOperationsCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#KnowledgeOfTheAreaOfOperationsCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_TimeCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#LandformsCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#LandformsCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#LogisticsCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#LogisticsCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#MilitaryFunctionsCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#LowTemperature-WindChillCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#LowTemperature-WindChillCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WeatherCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ManeuverCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ManeuverCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#MilitaryFunctionsCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#MilitaryForcesCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#MilitaryForcesCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_MilitaryCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#MilitaryFunctionsCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#MilitaryFunctionsCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_MilitaryCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#MobilityClassificationCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#MobilityClassificationCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#NaturalHazardsCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#NaturalHazardsCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PhysicalEnvironmentCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#NonmilitaryArmedCombatantsCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#NonmilitaryArmedCombatantsCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_MilitaryCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#NonstateParamilitaryForcesCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#NonstateParamilitaryForcesCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_MilitaryCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ObservationAndFieldsOfFireCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ObservationAndFieldsOfFireCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ObstaclesCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ObstaclesCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <CommonCoreOntologies:alternative_label>PMESII-PT</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>Commanders and staffs use the operational and mission Categorys to help build their situational understanding. They analyze and describe an operational environment in terms of eight interrelated operational Categorys: political, military, economic, social, information, infrastructure, physical environment, and time</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_EconomicCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_EconomicCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT"/>
+        <CommonCoreOntologies:alternative_label>PMESII-PT Economic Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>This Category encompasses individual and group behaviors related to producing, distributing, and consuming resources. (Does the village have a high unemployment rate?)</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InformationCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InformationCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT"/>
+        <CommonCoreOntologies:alternative_label>PMESII-PT Information Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>This Category describes the nature, scope, characteristics, and effects of individuals, organizations, and systems that collect, process, disseminate, or act on information. (How much access does the local population have to news media or the Internet?)</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InfrastructureCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InfrastructureCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT"/>
+        <CommonCoreOntologies:alternative_label>PMESII-PT Infrastructure Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>This Category comprises the basic facilities, services, and installations needed for the functioning of a community or society. (Is the electrical generator in the village working?)</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_MilitaryCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_MilitaryCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT"/>
+        <CommonCoreOntologies:alternative_label>PMESII-PT Military Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>This Category includes the military and paramilitary capabilities of all relevant actors (enemy, friendly, and neutral) in a given operational environment. (Does the enemy in this particular neighborhood have antitank missiles?)</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PhysicalEnvironmentCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PhysicalEnvironmentCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT"/>
+        <CommonCoreOntologies:alternative_label>PMESII-PT Physical Environment Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>This Category includes the geography and man-made structures, as well as the climate and weather in the area of operations. (What types of terrain or weather conditions in this area of operations favor enemy operations?)</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PoliticalCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PoliticalCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT"/>
+        <CommonCoreOntologies:alternative_label>PMESII-PT Political Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>This Category describes the distribution of responsibility and power at all levels of governance—formally constituted authorities, as well as informal or covert political powers. (Who is the tribal leader in the village?)</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT"/>
+        <CommonCoreOntologies:alternative_label>PMESII-PT Social Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>This Category includes the cultural, religious, and ethnic makeup within an operational environment and the beliefs, values, customs, and behaviors of society members. (Who are the influential people in the village—for example, religious leaders, tribal leaders, warlords, criminal bosses, or prominent families?)</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_TimeCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_TimeCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT"/>
+        <CommonCoreOntologies:alternative_label>PMESII-PT Time Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>This Category describes the timing and duration of activities, events, or conditions within an operational environment, as well as how the timing and duration are perceived by various actors in the operational environment. (For example, at what times are people likely to congest roads or conduct activities that provide a cover for hostile operations?</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PerceptionManagementCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PerceptionManagementCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Placeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PhysicalDestructionCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PhysicalDestructionCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Placeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Placeholder -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Placeholder">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InformationCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PopulationMovementCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PopulationMovementCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PrecipitationCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PrecipitationCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WeatherCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ProtectionAndSecurityMeasuresCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ProtectionAndSecurityMeasuresCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Placeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ProtectionCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ProtectionCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#MilitaryFunctionsCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PublicCommunicationsMediaCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PublicCommunicationsMediaCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InformationCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ReconnaissanceIntelligenceSurveillanceAndTargetAcquisitionCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ReconnaissanceIntelligenceSurveillanceAndTargetAcquisitionCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#MilitaryFunctionsCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#RelativeHumidityCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#RelativeHumidityCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WeatherCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ReligiousDiversityCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ReligiousDiversityCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SocialVolatilityCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SocialVolatilityCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TacticalExploitationOfTimeCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TacticalExploitationOfTimeCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_TimeCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PhysicalEnvironmentCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainComplexityCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainComplexityCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TransportationArchitectureCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TransportationArchitectureCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InfrastructureCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TypeOfGovernmentCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TypeOfGovernmentCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PoliticalCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#UnarmedCombatantsCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#UnarmedCombatantsCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_MilitaryCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#UrbanZonesCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#UrbanZonesCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InfrastructureCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#UrbanizedBuildingDensityCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#UrbanizedBuildingDensityCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InfrastructureCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#UtilitiesPresentCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#UtilitiesPresentCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InfrastructureCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#UtilityLevelCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#UtilityLevelCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InfrastructureCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#VegetationCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#VegetationCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#VisibilityCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#VisibilityCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WeatherCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WeatherCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WeatherCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PhysicalEnvironmentCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WindCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WindCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WeatherCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Attitude_Towards_the_United_States_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Attitude_Towards_the_United_States_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Political_Category"/>
+        <CommonCoreOntologies:alternative_label>Attitude Towards the United States Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Avenues_of_Approach_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Avenues_of_Approach_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Terrain_Category"/>
+        <CommonCoreOntologies:alternative_label>Avenues of Approach Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Banking_and_Finance_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Banking_and_Finance_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Economic_Category"/>
+        <CommonCoreOntologies:alternative_label>Banking and Finance Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Basic_Cultural_Norms_and_Values_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Basic_Cultural_Norms_and_Values_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Social_Category"/>
+        <CommonCoreOntologies:alternative_label>Basic Cultural Norms and Values Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Centers_of_Political_Power_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Centers_of_Political_Power_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Political_Category"/>
+        <CommonCoreOntologies:alternative_label>Centers of Political Power Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Centers_of_Social_Power_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Centers_of_Social_Power_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Social_Category"/>
+        <CommonCoreOntologies:alternative_label>Centers of Social Power Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Climate_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Climate_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Physical_Environment_Category"/>
+        <CommonCoreOntologies:alternative_label>Climate Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Cloud_Cover_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Cloud_Cover_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Weather_Category"/>
+        <CommonCoreOntologies:alternative_label>Cloud Cover Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Command_and_Control_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Command_and_Control_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Military_Functions_Category"/>
+        <CommonCoreOntologies:alternative_label>Command and Control Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Common_Languages_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Common_Languages_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Social_Category"/>
+        <CommonCoreOntologies:alternative_label>Common Languages Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Computer_Warfare_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Computer_Warfare_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Placeholder"/>
+        <CommonCoreOntologies:alternative_label>Computer Warfare Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Construction_Pattern_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Construction_Pattern_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Infrastructure_Category"/>
+        <CommonCoreOntologies:alternative_label>Construction Pattern Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Cover_and_Concealment_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Cover_and_Concealment_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Terrain_Category"/>
+        <CommonCoreOntologies:alternative_label>Cover and Concealment Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Criminal_Activity_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Criminal_Activity_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Social_Category"/>
+        <CommonCoreOntologies:alternative_label>Criminal Activity Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Cultural_Perception_of_Time_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Cultural_Perception_of_Time_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Time_Category"/>
+        <CommonCoreOntologies:alternative_label>Cultural Perception of Time Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Deception_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Deception_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Placeholder"/>
+        <CommonCoreOntologies:alternative_label>Deception Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Demographic_Mix_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Demographic_Mix_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Social_Category"/>
+        <CommonCoreOntologies:alternative_label>Demographic Mix Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Economic_Activity_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Economic_Activity_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Economic_Category"/>
+        <CommonCoreOntologies:alternative_label>Economic Activity Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Economic_Diversity_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Economic_Diversity_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Economic_Category"/>
+        <CommonCoreOntologies:alternative_label>Economic Diversity Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Education_Level_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Education_Level_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Social_Category"/>
+        <CommonCoreOntologies:alternative_label>Education Level Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Electronic_Warfare_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Electronic_Warfare_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Placeholder"/>
+        <CommonCoreOntologies:alternative_label>Electronic Warfare Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Employment_Status_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Employment_Status_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Economic_Category"/>
+        <CommonCoreOntologies:alternative_label>Employment Status Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Ethnic_Diversity_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Ethnic_Diversity_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Social_Category"/>
+        <CommonCoreOntologies:alternative_label>Ethnic Diversity Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Fire_Support_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Fire_Support_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Military_Functions_Category"/>
+        <CommonCoreOntologies:alternative_label>Fire Support Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Government_Effectiveness_and_Legitimacy_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Government_Effectiveness_and_Legitimacy_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Political_Category"/>
+        <CommonCoreOntologies:alternative_label>Government Effectiveness and Legitimacy Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Government_Paramilitary_Forces_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Government_Paramilitary_Forces_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Military_Category"/>
+        <CommonCoreOntologies:alternative_label>Government Paramilitary Forces Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#High_Temperature-Heat_Index_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#High_Temperature-Heat_Index_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Weather_Category"/>
+        <CommonCoreOntologies:alternative_label>High Temperature-Heat Index Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Human_Rights_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Human_Rights_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Social_Category"/>
+        <CommonCoreOntologies:alternative_label>Human Rights Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Illegal_Economic_Activity_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Illegal_Economic_Activity_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Economic_Category"/>
+        <CommonCoreOntologies:alternative_label>Illegal Economic Activity Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Influential_Political_Groups_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Influential_Political_Groups_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Political_Category"/>
+        <CommonCoreOntologies:alternative_label>Influential Political Groups Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Information_Attack_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Information_Attack_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Placeholder"/>
+        <CommonCoreOntologies:alternative_label>Information Attack Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Information_Management_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Information_Management_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Information_Category"/>
+        <CommonCoreOntologies:alternative_label>Information Management Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Information_Offset_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Information_Offset_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Time_Category"/>
+        <CommonCoreOntologies:alternative_label>Information Offset Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Intelligence_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Intelligence_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Information_Category"/>
+        <CommonCoreOntologies:alternative_label>Intelligence Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#International_Relationships_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#International_Relationships_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Political_Category"/>
+        <CommonCoreOntologies:alternative_label>International Relationships Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Key_Terrain_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Key_Terrain_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Terrain_Category"/>
+        <CommonCoreOntologies:alternative_label>Key Terrain Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Knowledge_of_the_Area_of_Operations_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Knowledge_of_the_Area_of_Operations_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Time_Category"/>
+        <CommonCoreOntologies:alternative_label>Knowledge of the Area of Operations Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Landforms_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Landforms_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Terrain_Category"/>
+        <CommonCoreOntologies:alternative_label>Landforms Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Logistics_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Logistics_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Military_Functions_Category"/>
+        <CommonCoreOntologies:alternative_label>Logistics Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Low_Temperature-Wind_Chill_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Low_Temperature-Wind_Chill_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Weather_Category"/>
+        <CommonCoreOntologies:alternative_label>Low Temperature-Wind Chill Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Maneuver_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Maneuver_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Military_Functions_Category"/>
+        <CommonCoreOntologies:alternative_label>Maneuver Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Military_Forces_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Military_Forces_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Military_Category"/>
+        <CommonCoreOntologies:alternative_label>Military Forces Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Military_Functions_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Military_Functions_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Military_Category"/>
+        <CommonCoreOntologies:alternative_label>Military Functions Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Mobility_Classification_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Mobility_Classification_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Terrain_Category"/>
+        <CommonCoreOntologies:alternative_label>Mobility Classification Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Natural_Hazards_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Natural_Hazards_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Physical_Environment_Category"/>
+        <CommonCoreOntologies:alternative_label>Natural Hazards Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Nonmilitary_Armed_Combatants_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Nonmilitary_Armed_Combatants_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Military_Category"/>
+        <CommonCoreOntologies:alternative_label>Nonmilitary Armed Combatants Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Nonstate_Paramilitary_Forces_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Nonstate_Paramilitary_Forces_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Military_Category"/>
+        <CommonCoreOntologies:alternative_label>Nonstate Paramilitary Forces Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Observation_and_Fields_of_Fire_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Observation_and_Fields_of_Fire_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Terrain_Category"/>
+        <CommonCoreOntologies:alternative_label>Observation and Fields of Fire Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Obstacles_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Obstacles_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Terrain_Category"/>
+        <CommonCoreOntologies:alternative_label>Obstacles Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII-PT -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII-PT">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ObsoleteClass"/>
+        <CommonCoreOntologies:alternative_label>PMESII_PT</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>Commanders and staffs use the operational and mission Categorys to help build their situational understanding. They analyze and describe an operational environment in terms of eight interrelated operational Categorys: political, military, economic, social, information, infrastructure, physical environment, and time</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII-PT_Value -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII-PT_Value">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ObsoleteClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Economic_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Economic_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII-PT"/>
+        <CommonCoreOntologies:alternative_label>PMESII Economic Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>This Category encompasses individual and group behaviors related to producing, distributing, and consuming resources. (Does the village have a high unemployment rate?)</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Economic_Category_Value -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Economic_Category_Value">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII-PT_Value"/>
+        <CommonCoreOntologies:alternative_label>PMESII Economic Category Value</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Information_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Information_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII-PT"/>
+        <CommonCoreOntologies:alternative_label>PMESII Information Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>This Category describes the nature, scope, characteristics, and effects of individuals, organizations, and systems that collect, process, disseminate, or act on information. (How much access does the local population have to news media or the Internet?)</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Information_Category_Value -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Information_Category_Value">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII-PT_Value"/>
+        <CommonCoreOntologies:alternative_label>PMESII Information Category Value</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Infrastructure_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Infrastructure_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII-PT"/>
+        <CommonCoreOntologies:alternative_label>PMESII Infrastructure Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>This Category comprises the basic facilities, services, and installations needed for the functioning of a community or society. (Is the electrical generator in the village working?)</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Infrastructure_Category_Value -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Infrastructure_Category_Value">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII-PT_Value"/>
+        <CommonCoreOntologies:alternative_label>PMESII Infrastructure Category Value</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Military_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Military_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII-PT"/>
+        <CommonCoreOntologies:alternative_label>PMESII Military Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>This Category includes the military and paramilitary capabilities of all relevant actors (enemy, friendly, and neutral) in a given operational environment. (Does the enemy in this particular neighborhood have antitank missiles?)</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Military_Category_Value -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Military_Category_Value">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII-PT_Value"/>
+        <CommonCoreOntologies:alternative_label>PMESII Military Category Value</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Physical_Environment_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Physical_Environment_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII-PT"/>
+        <CommonCoreOntologies:alternative_label>PMESII Physical Environment Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>This Category includes the geography and man-made structures, as well as the climate and weather in the area of operations. (What types of terrain or weather conditions in this area of operations favor enemy operations?)</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Physical_Environment_Category_Value -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Physical_Environment_Category_Value">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII-PT_Value"/>
+        <CommonCoreOntologies:alternative_label>PMESII Physical Environment Category Value</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Political_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Political_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII-PT"/>
+        <CommonCoreOntologies:alternative_label>PMESII Political Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>This Category describes the distribution of responsibility and power at all levels of governance—formally constituted authorities, as well as informal or covert political powers. (Who is the tribal leader in the village?)</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Political_Category_Value -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Political_Category_Value">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII-PT_Value"/>
+        <CommonCoreOntologies:alternative_label>PMESII Political Category Value</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Social_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Social_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII-PT"/>
+        <CommonCoreOntologies:alternative_label>PMESII Social Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>This Category includes the cultural, religious, and ethnic makeup within an operational environment and the beliefs, values, customs, and behaviors of society members. (Who are the influential people in the village—for example, religious leaders, tribal leaders, warlords, criminal bosses, or prominent families?)</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Social_Category_Value -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Social_Category_Value">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII-PT_Value"/>
+        <CommonCoreOntologies:alternative_label>PMESII Social Category Value</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Time_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Time_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII-PT"/>
+        <CommonCoreOntologies:alternative_label>PMESII Time Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition>This Category describes the timing and duration of activities, events, or conditions within an operational environment, as well as how the timing and duration are perceived by various actors in the operational environment. (For example, at what times are people likely to congest roads or conduct activities that provide a cover for hostile operations?</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Time_Category_Value -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Time_Category_Value">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII-PT_Value"/>
+        <CommonCoreOntologies:alternative_label>PMESII Time Category Value</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Perception_Management_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Perception_Management_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Placeholder"/>
+        <CommonCoreOntologies:alternative_label>Perception Management Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Physical_Destruction_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Physical_Destruction_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Placeholder"/>
+        <CommonCoreOntologies:alternative_label>Physical Destruction Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Placeholder -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Placeholder">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Information_Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Population_Movement_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Population_Movement_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Social_Category"/>
+        <CommonCoreOntologies:alternative_label>Population Movement Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Precipitation_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Precipitation_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Weather_Category"/>
+        <CommonCoreOntologies:alternative_label>Precipitation Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Protection_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Protection_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Military_Functions_Category"/>
+        <CommonCoreOntologies:alternative_label>Protection Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Protection_and_Security_Measures_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Protection_and_Security_Measures_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Placeholder"/>
+        <CommonCoreOntologies:alternative_label>Protection and Security Measures Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Public_Communications_Media_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Public_Communications_Media_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Information_Category"/>
+        <CommonCoreOntologies:alternative_label>Public Communications Media Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Relative_Humidity_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Relative_Humidity_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Weather_Category"/>
+        <CommonCoreOntologies:alternative_label>Relative Humidity Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Religious_Diversity_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Religious_Diversity_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Social_Category"/>
+        <CommonCoreOntologies:alternative_label>Religious Diversity Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Social_Volatility_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Social_Volatility_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Social_Category"/>
+        <CommonCoreOntologies:alternative_label>Social Volatility Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Tactical_Exploitation_of_Time_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Tactical_Exploitation_of_Time_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Time_Category"/>
+        <CommonCoreOntologies:alternative_label>Tactical Exploitation of Time Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Terrain_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Terrain_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Physical_Environment_Category"/>
+        <CommonCoreOntologies:alternative_label>Terrain Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Terrain_Complexity_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Terrain_Complexity_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Terrain_Category"/>
+        <CommonCoreOntologies:alternative_label>Terrain Complexity Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Transportation_Architecture_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Transportation_Architecture_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Infrastructure_Category"/>
+        <CommonCoreOntologies:alternative_label>Transportation Architecture Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Type_of_Government_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Type_of_Government_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Political_Category"/>
+        <CommonCoreOntologies:alternative_label>Type of Government Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Unarmed_Combatants_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Unarmed_Combatants_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Military_Category"/>
+        <CommonCoreOntologies:alternative_label>Unarmed Combatants Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Urban_Zones_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Urban_Zones_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Infrastructure_Category"/>
+        <CommonCoreOntologies:alternative_label>Urban Zones Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Urbanized_Building_Density_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Urbanized_Building_Density_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Infrastructure_Category"/>
+        <CommonCoreOntologies:alternative_label>Urbanized Building Density Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Utilities_Present_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Utilities_Present_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Infrastructure_Category"/>
+        <CommonCoreOntologies:alternative_label>Utilities Present Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Utility_Level_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Utility_Level_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Infrastructure_Category"/>
+        <CommonCoreOntologies:alternative_label>Utility Level Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Vegetation_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Vegetation_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Terrain_Category"/>
+        <CommonCoreOntologies:alternative_label>Vegetation Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Visibility_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Visibility_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Weather_Category"/>
+        <CommonCoreOntologies:alternative_label>Visibility Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Weather_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Weather_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Physical_Environment_Category"/>
+        <CommonCoreOntologies:alternative_label>Weather</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Wind_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Wind_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Weather_Category"/>
+        <CommonCoreOntologies:alternative_label>Wind Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Key_Dates,_Time_Periods,_or_Events_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Key_Dates,_Time_Periods,_or_Events_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#PMESII_Time_Category"/>
+        <CommonCoreOntologies:alternative_label>Key Dates, Time Periods, or Events Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Reconnaissance,_Intelligence,_Surveillance,_and_Target_Acquisition_Category -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Reconnaissance,_Intelligence,_Surveillance,_and_Target_Acquisition_Category">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology#Military_Functions_Category"/>
+        <CommonCoreOntologies:alternative_label>Reconnaissance, Intelligence, Surveillance, and Target Acquisition Category</CommonCoreOntologies:alternative_label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
