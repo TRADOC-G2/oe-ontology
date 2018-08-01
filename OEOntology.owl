@@ -6,7 +6,7 @@
      xmlns:OEEventOntology="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEventOntology#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:OEArmyTaskOntology="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology#"
+     xmlns:OEArmyTrainingOntology="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:cco="http://www.ontologyrepository.com/CommonCoreOntologies/"
@@ -15,12 +15,10 @@
     <owl:Ontology rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEOntology">
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/UnitsOfMeasureOntology"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology"/>
-        <owl:imports rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTaskOntology"/>
+        <owl:imports rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Upper/ExtendedRelationOntology"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/ArtifactOntology"/>
         <owl:imports rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology"/>
-        <owl:imports rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEPMESIIPTOntology"/>
-        <owl:imports rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEDIMEFILOntology"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/CurrencyUnitOntology"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/TimeOntology"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/QualityOntology"/>
@@ -34,8 +32,8 @@
         <owl:imports rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEventOntology"/>
         <owl:imports rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEEthnicityOntology"/>
         <rdfs:comment>This ontology is designed to import all of the Common Core and OE mid-level ontologies into a single file so that all content is easy to view. This Ontology should not be added to but can be extended from.</rdfs:comment>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Version 3.2</owl:versionInfo>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jan 31, 2018</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Version 3.3</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">August 8, 2018</owl:versionInfo>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DISTRIBUTION A: Approved for public release; distribution is unlimited.  For more information contact United States Army TRADOC G-27 at usarmy.jble.tradoc.list.tboc-operations@mail.mil (or Kaye Darone, Data Science Branch Chief, DSMS, Kaye.t.darone.civ@mail.mil, (757) 878-9547)</owl:versionInfo>
         <uri></uri>
     </owl:Ontology>
