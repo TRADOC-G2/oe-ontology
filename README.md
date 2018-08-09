@@ -1,5 +1,5 @@
-OE Ontology Version 3.2
-Date 1/31/2017
+OE Ontology Version 3.3
+Date 8/8/2018
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
@@ -34,7 +34,7 @@ AllCoreOntology.ttl- Contains imports for the Common Core Ontologies
 
 ArtifactOntology.ttl- Artifact Ontology
 
-bfo_classes_only_latest.owl- Basic Formal Ontology
+bfo.owl- Basic Formal Ontology
 
 CurrencyUnitOntology.ttl- Currency Unit Ontology
 
@@ -57,11 +57,11 @@ UnitsOfMeasureOntology.ttl- Units of Measure Ontology
 
 ->Operational Environment Files
 
+OEAnalysisFrameworkOntology.owl- Contains classes for PMESII-PT and DIMEFIL categories
+
 OEArmyHierarchyOntology.owl - Contains relations for the Army Organizational Structure
 
-OEArmyTaskOntology.owl - Contains relations pertaining to Army Tasks (Mission Essential Tasks, Collective Tasks, and Individual Tasks) 
-
-OEDimefilOntology.owl - Contains relations for the DIMEFIL model
+OEArmyTrainingOntology.owl - Contains relations pertaining to Army Tasks (Mission Essential Tasks, Collective Tasks, and Individual Tasks) 
 
 OEEthnicityOntology.owl - Contains relations for Ethnicities
 
@@ -69,12 +69,8 @@ OEEventOntology.owl - Contains relations for Events (This was sourced from the C
 
 OEIdeologyOntology.owl - Contains relations for Ideologies as well as Acts and Directives)
 
-OEMETLData.owl - Contains instance data of Mission Essential Task Lists and the Tasks that go along with them
-
 OEOntology.owl - Contains imports for all BFO and Operational Environment Files
 
 OEOrganizationOntology.owl - Contains relations for Organizations
-
-OEPmesiiptOntology.owl - Contains relations for the PMESIIPT model
 
 OEReligionOntology.owl - Contains relations pertaining to religions
