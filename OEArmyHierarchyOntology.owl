@@ -11,10 +11,10 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Upper/ExtendedRelationOntology"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/TimeOntology"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <owl:imports rdf:resource="http://www.obofoundry.org/ro/ro.owl"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/GeospatialOntology"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology"/>
@@ -51,6 +51,10 @@
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyAirAndMissleDefenseBrigade">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFunctionalBrigade"/>
+        <obo:IAO_0000115>A functional brigade designed to &quot;plug&quot; into operational formations at the theater level or those commanded by corps or division commanders performing as the Army Service Component Command (ASCC) once deployed and conduct operational or theater level tasks or support</obo:IAO_0000115>
+        <obo:IAO_0000119>Army Doctrine Reference Publication (ADRP) 3-90
+
+Army Info Paper J-30</obo:IAO_0000119>
         <rdfs:label>Army Air and Missle Defense Brigade</rdfs:label>
     </owl:Class>
     
@@ -100,6 +104,10 @@ arms battalions are exceptions to this rule, in that they contain two mechanized
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBattlefieldSurveillanceBrigade">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyMultifunctionalSupportBrigade"/>
+        <obo:IAO_0000115>A multifunctional brigade that is designed to &quot;plug&quot; into operational formations commanded by corps or division commanders and to support BCTs once deployed and conduct tactical level tasks and support</obo:IAO_0000115>
+        <obo:IAO_0000119>Army Doctrine Reference Publication (ADRP) 3-90
+
+Army Info Paper J-30</obo:IAO_0000119>
         <rdfs:label>Army Battlefield Surveillance Brigade</rdfs:label>
     </owl:Class>
     
@@ -126,12 +134,6 @@ arms battalions are exceptions to this rule, in that they contain two mechanized
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBrigadeCombatTeam">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBrigade"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyManeuverBattalion"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <CommonCoreOntologies:definition>A brigade combat team is a combined arms organization consisting of a brigade headquarters, at least two maneuver battalions, and necessary supporting functional capabilities. BCTs are the largest fixed tactical units in the Army. However, additional battalions and companies may be attached to them or their organic battalions, and companies can be detached from them as part of force tailoring at the strategic and operational levels and task organization at the tactical level as required by the mission variables of METT-TC. Infantry and armored BCTs normally include a fires battalion, a brigade support battalion, and a brigade special troops battalion in addition to their two maneuver battalions and a reconnaissance squadron. Stryker BCTs do not have a brigade special troops battalion. They have separate functional companies. They also have a third maneuver battalion and a fires battalion. BCTs combine the efforts of their battalions and companies to fight engagements and perform tactical tasks within division-level battles and major operations. Their chief tactical responsibility is synchronizing the plans and actions of their subordinate units to accomplish assigned tasks for a division headquarters.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>Army Doctrine Reference Publication (ADRP) 3-90</CommonCoreOntologies:definition_source>
         <rdfs:label>Army Brigade Combat Team</rdfs:label>
@@ -143,6 +145,10 @@ arms battalions are exceptions to this rule, in that they contain two mechanized
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCivilAffairsBrigade">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFunctionalBrigade"/>
+        <obo:IAO_0000115>A functional brigade designed to &quot;plug&quot; into operational formations at the theater level or those commanded by corps or division commanders performing as the Army Service Component Command (ASCC) once deployed and conduct operational or theater level tasks or support</obo:IAO_0000115>
+        <obo:IAO_0000119>Army Doctrine Reference Publication (ADRP) 3-90
+
+Army Info Paper J-30</obo:IAO_0000119>
         <rdfs:label>Army Civil Affairs Brigade</rdfs:label>
     </owl:Class>
     
@@ -152,6 +158,10 @@ arms battalions are exceptions to this rule, in that they contain two mechanized
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCombatAviationBrigade">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyMultifunctionalSupportBrigade"/>
+        <obo:IAO_0000115>A multifunctional brigade that is designed to &quot;plug&quot; into operational formations commanded by corps or division commanders and to support BCTs once deployed and conduct tactical level tasks and support</obo:IAO_0000115>
+        <obo:IAO_0000119>Army Doctrine Reference Publication (ADRP) 3-90
+
+Army Info Paper J-30</obo:IAO_0000119>
         <rdfs:label>Army Combat Aviation Brigade</rdfs:label>
     </owl:Class>
     
@@ -211,6 +221,8 @@ level demands thorough training to achieve the maximum complementary effects. Wh
                 <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyDivision"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>An army corps is an Army echelon of command above a division.</obo:IAO_0000115>
+        <obo:IAO_0000119>Army Doctrine Reference Publication (ADRP) 3-90 (Derived)</obo:IAO_0000119>
         <rdfs:label>Army Corps</rdfs:label>
     </owl:Class>
     
@@ -259,6 +271,10 @@ level demands thorough training to achieve the maximum complementary effects. Wh
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyEngineerBrigade">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFunctionalBrigade"/>
+        <obo:IAO_0000115>A functional brigade designed to &quot;plug&quot; into operational formations at the theater level or those commanded by corps or division commanders performing as the Army Service Component Command (ASCC) once deployed and conduct operational or theater level tasks or support</obo:IAO_0000115>
+        <obo:IAO_0000119>Army Doctrine Reference Publication (ADRP) 3-90
+
+Army Info Paper J-30</obo:IAO_0000119>
         <rdfs:label>Army Engineer Brigade</rdfs:label>
     </owl:Class>
     
@@ -275,15 +291,6 @@ level demands thorough training to achieve the maximum complementary effects. Wh
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFirePlatoon -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFirePlatoon">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyPlatoon"/>
-        <rdfs:label>Army Fire Platoon</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFireTeam -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFireTeam">
@@ -295,19 +302,14 @@ level demands thorough training to achieve the maximum complementary effects. Wh
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFiresBattalion -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFiresBattalion">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBattalion"/>
-        <rdfs:label>Army Fires Battalion</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFiresBrigade -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFiresBrigade">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyMultifunctionalSupportBrigade"/>
+        <obo:IAO_0000115>A multifunctional brigade that is designed to &quot;plug&quot; into operational formations commanded by corps or division commanders and to support BCTs once deployed and conduct tactical level tasks and support</obo:IAO_0000115>
+        <obo:IAO_0000119>Army Doctrine Reference Publication (ADRP) 3-90
+
+Army Info Paper J-30</obo:IAO_0000119>
         <rdfs:label>Army Fires Brigade</rdfs:label>
     </owl:Class>
     
@@ -317,6 +319,12 @@ level demands thorough training to achieve the maximum complementary effects. Wh
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFunctionalBrigade">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBrigade"/>
+        <obo:IAO_0000115>A functional brigade is designed to &quot;plug&quot; into operational formations at the theater level or those commanded by corps or division commanders performing as the Army Service Component Command (ASCC) once deployed and conduct operational or theater level tasks or support
+
+There are several kinds: (i.e. Air Defense Artillery, Engineer, Explosives Ordnance, Military Police, etc)</obo:IAO_0000115>
+        <obo:IAO_0000119>Army Doctrine Reference Publication (ADRP) 3-90
+
+Army Info Paper J-30</obo:IAO_0000119>
         <rdfs:label>Army Functional Brigade</rdfs:label>
     </owl:Class>
     
@@ -333,19 +341,14 @@ level demands thorough training to achieve the maximum complementary effects. Wh
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyManeuverBattalion -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyManeuverBattalion">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBattalion"/>
-        <rdfs:label>Army Maneuver Battalion</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyManeuverEnhancementBrigade -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyManeuverEnhancementBrigade">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyMultifunctionalSupportBrigade"/>
+        <obo:IAO_0000115>An Army Maneuver Enhancement Brigade is a multifunctional brigade that is designed to &quot;plug&quot; into operational formations commanded by corps or division commanders and to support BCTs once deployed and conduct tactical level tasks and support</obo:IAO_0000115>
+        <obo:IAO_0000119>Army Doctrine Reference Publication (ADRP) 3-90
+
+Army Info Paper J-30</obo:IAO_0000119>
         <rdfs:label>Army Maneuver Enhancement Brigade</rdfs:label>
     </owl:Class>
     
@@ -355,6 +358,10 @@ level demands thorough training to achieve the maximum complementary effects. Wh
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyMilitaryPoliceBrigade">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFunctionalBrigade"/>
+        <obo:IAO_0000115>A functional brigade designed to &quot;plug&quot; into operational formations at the theater level or those commanded by corps or division commanders performing as the Army Service Component Command (ASCC) once deployed and conduct operational or theater level tasks or support</obo:IAO_0000115>
+        <obo:IAO_0000119>Army Doctrine Reference Publication (ADRP) 3-90
+
+Army Info Paper J-30</obo:IAO_0000119>
         <rdfs:label>Army Military Police Brigade</rdfs:label>
     </owl:Class>
     
@@ -364,6 +371,10 @@ level demands thorough training to achieve the maximum complementary effects. Wh
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyMultifunctionalSupportBrigade">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBrigade"/>
+        <obo:IAO_0000115>A multifunctional brigade that is designed to &quot;plug&quot; into operational formations commanded by corps or division commanders and to support BCTs once deployed and conduct tactical level tasks and support</obo:IAO_0000115>
+        <obo:IAO_0000119>Army Doctrine Reference Publication (ADRP) 3-90
+
+Army Info Paper J-30</obo:IAO_0000119>
         <rdfs:label>Army Multifunctional Support Brigade</rdfs:label>
     </owl:Class>
     

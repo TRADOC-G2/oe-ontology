@@ -349,6 +349,13 @@ NATO Allied Command Transformation</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#AttitudeTowardsTheUnitedStatesCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PoliticalCategory"/>
+        <obo:IAO_0000115>Describes the attitude of the government toward the United States and specifically toward the presence and actions of U.S. and/or coalition forces. (Once established, this subvariable manifests itself in the scenario in the form of role player instructions or combat instructions to the OPFOR.)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -357,6 +364,15 @@ NATO Allied Command Transformation</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#AvenuesOfApproachCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainCategory"/>
+        <obo:IAO_0000115>An avenue of approach (AA) is an air or ground route of an attacking force of a given size leading to its objective or to key terrain in its path. (JP 1-02)
+
+Mobility corridors (MCs) are subsets of AAs. To evaluate and develop AAs, the results developed during obstacle evaluation are used to identify and categorize MCs and to group MCs into AAs. (FM 2-01.3). [See Physical Environment: Terrain: Mobility Classification.] Mobility corridors are areas where a force will be canalized due to terrain restrictions; they allow military forces to capitalize on the principles of mass and speed and are therefore relatively free of obstacles. (JP 2-01.3)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -365,6 +381,13 @@ NATO Allied Command Transformation</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#BankingAndFinanceCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_EconomicCategory"/>
+        <obo:IAO_0000115>A bank is a financial institution whose primary activity is to act as a payment agent for customers and to borrow and lend money. It is an institution for receiving, keeping, and lending money in hopes of repayment. A private moneylender offers small personal loans at high rates of interest, usually higher rates than the market rate charged on credit cards or on bank overdrafts.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -373,6 +396,12 @@ NATO Allied Command Transformation</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#BasicCulturalNormsAndValuesCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory"/>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -381,6 +410,13 @@ NATO Allied Command Transformation</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CentersOfPoliticalPower">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PoliticalCategory"/>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>Determines the types of bureaucratic divisions and/or centers of power within a government. Also includes the level of governmental span of control from tribal to regional/national level. An example would be tribal and town/district, with a primary focus on town/district matters.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -389,6 +425,29 @@ NATO Allied Command Transformation</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CentersOfSocialPowerCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory"/>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ChildWarriorsCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ChildWarriorsCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#HumanRightsCategory"/>
+        <obo:IAO_0000115>Child warriors are the result of forced or compulsory recruitment of anyone under the age of 18 for use in armed conflict. This can include children taking direct part in hostilities or used in support roles such as porters, spies, messengers, or lookouts. 
+
+In over 20 countries around the world, children are direct participants in war. Denied a childhood and often subjected to horrific violence, an estimated 200,000 to 300,000 children are serving as soldiers for both rebel groups and government forces in current armed conflicts.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -397,6 +456,13 @@ NATO Allied Command Transformation</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ClimateCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PhysicalEnvironmentCategory"/>
+        <obo:IAO_0000115>Climate is the average course or condition of the weather at a place over a period of years as exhibited by temperature, wind velocity, and precipitation. The type of climate is determined by factors such as latitude, altitude, proportion of land to water, and proximity to oceans and mountains. Climate zones share similar climatic attributes, usually in particular latitudinal distances from the equator.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -405,6 +471,13 @@ NATO Allied Command Transformation</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CloudCoverCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WeatherCategory"/>
+        <obo:IAO_0000115>The amount of clouds over or at a given location.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -413,6 +486,13 @@ NATO Allied Command Transformation</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CommandAndControlCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#MilitaryFunctionsCategory"/>
+        <obo:IAO_0000115>Command and control (C2) is the actions of commanders, command groups, and staffs of military headquarters to maintain continual combat readiness and combat efficiency of forces, to plan and prepare for combat operations, and to provide leadership and direction during the execution of assigned missions. (FM 7-100.1)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -421,6 +501,13 @@ NATO Allied Command Transformation</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CommonLanguagesCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory"/>
+        <obo:IAO_0000115>The preferred language(s) of a specific country or region or lack thereof.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -428,7 +515,16 @@ NATO Allied Command Transformation</obo:IAO_0000119>
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ComputerWarfareCategory -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ComputerWarfareCategory">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Placeholder"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InfoWarCategory"/>
+        <obo:IAO_0000115>Consists of attacks that focus specifically on computer systems, networks, and/or nodes. This includes a wide variety of activities, ranging from unauthorized access (hacking) of information systems for intelligence-collection purposes, to the insertion of malicious software (viruses, worms, logic bombs, or Trojan horses) and deceptive information entry into computer systems. Such attacks concentrate on the denial of service and disruption or manipulation of the integrity of the information infrastructure. (FM 7-100.1) 
+
+Actors may attempt to accomplish these activities through the use of agents or third-party individuals with direct access to another actor’s information systems. They can also continually access and attack systems at great distances via communications links such as the Internet or various wireless devices. (FM 7-100.1)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -437,6 +533,13 @@ NATO Allied Command Transformation</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ConstructionPatternCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InfrastructureCategory"/>
+        <obo:IAO_0000115>The physical layout of buildings and streets in an urban area (village, town, or city).</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -445,6 +548,15 @@ NATO Allied Command Transformation</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CoverAndConcealmentCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainCategory"/>
+        <obo:IAO_0000115>Cover is physical protection from bullets, fragments of exploding rounds, flame, nuclear effects, and biological and chemical agents (FM 2-01.3). Concealment is protection from observation or surveillance. (JP 1-02) 
+
+Cover does not necessarily provide concealment; concealment does not necessarily provide cover. (FM 2-01.3)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -453,6 +565,13 @@ NATO Allied Command Transformation</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CriminalActivityCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory"/>
+        <obo:IAO_0000115>Defines the level of criminal activity present in a society.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -461,6 +580,13 @@ NATO Allied Command Transformation</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CulturalPerceptionOfTimeCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_TimeCategory"/>
+        <obo:IAO_0000115>The cultural perception of time is one of the most important aspects of how different people groups function and interact. Cultural awareness includes sensitivity to how a given culture in the AO perceives the concept of time. Cultural understanding of time can be used as an operational planning factor and a tool to manipulate tactical and strategic advantages.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -608,7 +734,16 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DeceptionCategory -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DeceptionCategory">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Placeholder"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InfoWarCategory"/>
+        <obo:IAO_0000115>Deception activities include measures designed to mislead adversaries by manipulation, distortion, or falsification of information. The aim of deception is to influence opponents’ situational understanding and lead them to act in a manner that is prejudicial to their own interests or favors the actor employing the deception. (FM 7-100.1) 
+
+Deception measures are a part of every military operation, and are also used to achieve political and economic goals. The international media may be a target for deceptive information at the operational level, being fed false stories and video that portrays tactical-level actions with the goal of influencing operational or even strategic decisions. (FM 7-100.1) Forms of deception that support IW range from physical decoys and electronic devices, to operational activities, to casualty “photo ops” staged for unsuspecting media personnel. Successful deception activities depend on the identification and exploitation of enemy information systems and networks, as well as other “conduits” for introducing deceptive information. (FM 7-100.1)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -617,6 +752,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DemographicMixCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory"/>
+        <obo:IAO_0000115>Describes the gender and military age balance of the population</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -625,6 +767,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#EconomicActivityCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_EconomicCategory"/>
+        <obo:IAO_0000115>Describes the type of economic activity present in an AO. (Manifests itself in a live training environment in the form of specific activities, number of role-players required to replicate the behavior, and scenario design instructions in the form of role descriptions for different activities.)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -633,6 +782,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#EconomicDiversityCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_EconomicCategory"/>
+        <obo:IAO_0000115>Describes three different economic industries (mining, manufacturing, or agricultural) and their relative mix that may exist in a given country.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -641,6 +797,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#EducationLevelCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory"/>
+        <obo:IAO_0000115>Describes the education level of the population. (Helps determine the scripting requirements and may introduce specific scenario sub-themes into an OE.)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -648,7 +811,16 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ElectronicWarfareCategory -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ElectronicWarfareCategory">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Placeholder"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InfoWarCategory"/>
+        <obo:IAO_0000115>Consists of countermeasures conducted to control or deny other actors’ use of the electromagnetic spectrum, while ensuring one’s own use of it. EW capabilities allow an actor to exploit, deceive, degrade, disrupt, damage, or destroy sensors, processors, and C2 nodes. (FM 7-100.1) 
+
+At a minimum, the goal of EW is to control the use of the electromagnetic spectrum at critical locations and times or to attack a specific system. To accomplish these EW goals and objectives, actors can employ both lethal and nonlethal measures. Lethal EW activities include the physical destruction of high-priority targets supporting another actor’s decisionmaking process—such as reconnaissance sensors, command posts, and communications systems. They also include activities such as lethal air defense suppression measures. If available, precision munitions can degrade or eliminate high-technology C2 assets and associated links. Nonlethal EW means range from signals reconnaissance and electronic jamming to the deployment of protective countermeasures and deception jammers. Sophisticated camouflage, deception, decoy, or mockup systems can degrade the effects of enemy reconnaissance, intelligence, surveillance, and target acquisition (RISTA) systems. Also, an actor can employ low-cost GPS jammers to disrupt another actor’s precision munitions targeting, sensor-to-shooter links, and navigation. (FM 7-100.1)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -657,6 +829,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#EmploymentStatusCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_EconomicCategory"/>
+        <obo:IAO_0000115>Represents the overall employment status of the populace</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -665,6 +844,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#EthnicDiversityCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory"/>
+        <obo:IAO_0000115>Describes the number and specifies the interaction of various ethnic groups within a given population</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -673,6 +859,30 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#FireSupportCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#MilitaryFunctionsCategory"/>
+        <obo:IAO_0000115>Fire support is the collective and coordinated use of target acquisition, indirect fire weapons, aircraft, and other lethal and nonlethal means in support of operational or tactical objectives. (FM 7-100.1)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#GenocideCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#GenocideCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#HumanRightsCategory"/>
+        <obo:IAO_0000115>The 1948 UN Convention on the Prevention and Punishment of the Crime of Genocide (CPPCG). Article 2, defines genocide as: &quot;any of the following acts committed with intent to destroy, in whole or in part, a national, ethnical, racial, or religious group, as such: killing members of the group; causing serious bodily or mental harm to members of the group; deliberately inflicting on the group conditions of life, calculated to bring about its physical destruction in whole or in part; imposing measures intended to prevent births within the group; [and] forcibly transferring children of the group to another group.” 
+
+To commit genocide, the perpetrators need a strong, centralized authority and bureaucratic organization as well as pathological individuals and criminals. Also required is a campaign of vilification and dehumanization of the victims by the perpetrators, who are usually new states or new regimes attempting to impose conformity to a new ideology and its model of society. Examples of recent acts of genocide are Rwanda, Former Yugoslavia, and Sudan.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -681,6 +891,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#GovernmentEffectivenessAndLegitimacyCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PoliticalCategory"/>
+        <obo:IAO_0000115>Effectiveness refers to the capability of the government to work with society to assure the provision of order and public goods and services. Legitimacy refers to the perception by important segments of society that the government is exercising state power in ways that are reasonably fair and in the interests of the nation as a whole.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -689,6 +906,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#GovernmentParamilitaryForcesCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_MilitaryCategory"/>
+        <obo:IAO_0000115>Describes government forces that are distinct from regular armed forces, but resembling them in organization, training, or mission.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -697,6 +921,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#HighTemperature-HeatIndexCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WeatherCategory"/>
+        <obo:IAO_0000115>The measurement of how hot or cold the air is. Temperature is measured with thermometers that may be calibrated to a variety of temperature scales. Since the majority of military operations will most likely be in areas of moderate to extreme heat, a more useful measurement is heat index (HI). The HI combines air temperature and relative humidity which helps determine the human perceived equivalent temperature.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -705,6 +936,30 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#HumanRightsCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory"/>
+        <obo:IAO_0000115>Human rights refer to the basic rights and freedoms to which all humans are entitled. Examples of rights and freedoms that have come to be commonly thought of as human rights include: civil and political rights, such as the right to life and liberty, freedom of expression, and equality before the law; and economic and social rights, including the right to participate in culture, the right to food, the right to work, and the right to education. The most widely recognized international documentation of human rights is the 1948 UN Universal Declaration of Human Rights (UDHR), which has been ratified by the majority of the world’s nations. However, many nations still struggle or refuse to implement all of the provisions of this declaration. Understanding whether and to what extent each country or region is complying with internationally recognized human rights is critical to the success of military operations.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#HumanTraffickingCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#HumanTraffickingCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#HumanRightsCategory"/>
+        <obo:IAO_0000115>Human trafficking is the commerce and trade in the movement or migration of people, legal and illegal, including legitimate labor activities as well as forced labor. The term is used in a more narrow sense by advocacy groups to mean the recruitment, transportation, harboring, or receipt of people for the purposes of slavery, prostitution, forced labor (including bonded labor or debt bondage), and servitude. 
+
+Human trafficking is the fastest growing criminal industry in the world, with the total annual revenue for trafficking in persons estimated to be between $5 billion and $9 billion. (Fact Sheet 1, Economic Roots of Trafficking in the UNECE Region, Geneva, 15 Dec 04).</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -713,14 +968,44 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#IllegalEconomicActivityCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_EconomicCategory"/>
+        <obo:IAO_0000115>Describes the predominant type of illegal economic activities present in the AO.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InfluentialPoliticalPowerCategory -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InfluentialPoliticalGroupsCategory -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InfluentialPoliticalPowerCategory">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InfluentialPoliticalGroupsCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PoliticalCategory"/>
+        <obo:IAO_0000115>Describes the number and specifies the interaction and influence of various political groups within the country, region, province, district, or town. Helps define the level of government cohesion and strife within the government.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InfoWarCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InfoWarCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InfoWarCategory"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InformationCategory"/>
+        <obo:IAO_0000115>Information warfare (INFOWAR) is the specifically planned and integrated actions taken to achieve an information advantage at critical points and times. (FM 7-100.1) INFOWAR consists of seven elements: electronic warfare (EW), computer warfare, information attack, deception, physical destruction, protection and security measures, and perception management. These elements do not exist in isolation from one another and are not mutually exclusive. (FM 7-100.1) (INFOWAR elements as sub-subvariables can have settings on a scale of 1 to 5: 1 = Very Limited; 2 = Limited; 3 = Moderate; 4 = Good; 5 = Superior.)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -728,7 +1013,16 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InformationAttackCategory -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InformationAttackCategory">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Placeholder"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InfoWarCategory"/>
+        <obo:IAO_0000115>An information attack (IA) focuses on the intentional disruption or distortion of information in a manner that supports a comprehensive INFOWAR campaign. Unlike computer warfare attacks that target the information systems, IAs target the information itself. (FM 7-100.1) 
+
+An IA may target an information system for sabotage (electronically or physically) or manipulate and exploit information. This may involve altering data, stealing data, or forcing a system to perform a function for which it was not intended. (FM 7-100.1)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -737,6 +1031,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InformationManagementCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InformationCategory"/>
+        <obo:IAO_0000115>Information Management is the science of using procedures and information systems to collect, process, store, display, disseminate, and protect knowledge products, data, and information. (FM 3-0). It employs both staff management and automatic processes to focus a vast array of information and make relevant information available to the right person at the right time. Effective information management—synchronized with reconnaissance, intelligence, surveillance, and target acquisition (RISTA) operations—enables commanders to gain and maintain information superiority. The level of Information management is defined by management, systems, and security. The three are intertwined and are therefore addressed as a composite capability in this subvariable. Information Systems: The equipment and facilities that collect, process, store, display and disseminate information. This includes computers—hardware and software—and communications, as well as policies and procedures for their use. (FM 30) Information systems and information management appear similar because they are intertwined. The sophistication of the information systems largely determines the capability of military command and control (C2) and civil interconnectivity. Information Security: The protection of information and information systems against unauthorized access or modification of information, whether in storage, processing, or transit, and against denial of services to authorized users. (JP 3-13) Information security includes those measures necessary to detect, document, and counter such threats. Information security is composed of computer security and communications security.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -745,6 +1046,28 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InformationOffsetCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_TimeCategory"/>
+        <obo:IAO_0000115>Tips, informants, and serendipitous events or reports that presage OPFOR activities in a meaningful, predictive way.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InformationWarfareCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InformationWarfareCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#MilitaryFunctionsCategory"/>
+        <obo:IAO_0000115>Information warfare (INFOWAR) is the specifically planned and integrated actions taken to achieve an information advantage at critical points and times. (FM 7-100.1)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -753,6 +1076,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#IntelligenceCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InformationCategory"/>
+        <obo:IAO_0000115>The product resulting from the collection, processing, integration, evaluation, analysis, and interpretation of available information concerning foreign nations, hostile or potentially hostile forces or elements, or areas of actual or potential operations. The term is also applied to the activity which results in the product and to the organizations engaged in such activity. (JP 2-0)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -761,6 +1091,20 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InternationalRelationshipsCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PoliticalCategory"/>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InternetCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InternetCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PublicCommunicationsMediaCategory"/>
     </owl:Class>
     
 
@@ -769,6 +1113,29 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#KeyDatesTimePeriodsOrEventsCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_TimeCategory"/>
+        <obo:IAO_0000115>Routine, cyclical, planned, unplanned key dates, time periods, or events that significantly affect organizations, people, and military operations. Templating of these events is vital to establish or maintain control and predict future events. Once key dates, time periods, or events are determined, it is important to template the events and to analyze them for their impact on current or future military operations.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#KeyEventResolutionCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#KeyEventResolutionCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_TimeCategory"/>
+        <obo:IAO_0000115>The number of key events and related orders of effect designed into the scenario in order to accomplish unit training objectives. The setting may describe the entire scenario, including sub-events or may describe specific key events within the scenario.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+ Approved for public release; distribution is unlimited.
+ HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -777,6 +1144,15 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#KeyTerrainCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainCategory"/>
+        <obo:IAO_0000115>Key terrain is any locality or area whose seizure, retention, or control affords a marked advantage to either combatant. (JP 2-01.3, FM 2-01.3, and TC 2-33.4) 
+
+Any terrain that increases a unit’s ability to apply combat power, or decreases the opponent’s ability to apply theirs, is considered key terrain. (TC 2-33.4)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -785,6 +1161,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#KnowledgeOfTheAreaOfOperationsCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_TimeCategory"/>
+        <obo:IAO_0000115>Defines the amount of knowledge that the training unit would rightfully possess based on the amount of time the unit has spent in the AO prior to scenario STARTEX.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -793,6 +1176,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#LandformsCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainCategory"/>
+        <obo:IAO_0000115>A feature of the earth’s surface attributable to natural causes. Landforms do not include man-made features, such as canals, ports, and many harbors. Types of terrain predominating the AO (describes more than 60% of the terrain present in the AO).</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -801,6 +1191,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#LogisticsCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#MilitaryFunctionsCategory"/>
+        <obo:IAO_0000115>Logistics is the support activities required to sustain operations. (FM 7-100.1)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -809,6 +1206,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#LowTemperature-WindChillCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WeatherCategory"/>
+        <obo:IAO_0000115>The measurement of how cold the air is. Temperature is measured with thermometers that may be calibrated to a variety of temperature scales. Some military operations will include areas of moderate to extreme cold, for which a more useful measurement is Wind-Chill Index. Wind-Chill Index combines air temperature and wind speed which helps determine the cooling effect of wind on bare flesh when first exposed.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -817,6 +1221,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ManeuverCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#MilitaryFunctionsCategory"/>
+        <obo:IAO_0000115>Maneuver is the employment of forces in the operational area through movement in combination with fires to achieve a position of advantage in respect to the enemy in order to accomplish the mission. (JP 3-0) This function includes direct fire, as well as mobility support and countermobility operations.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -825,6 +1236,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#MilitaryForcesCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_MilitaryCategory"/>
+        <obo:IAO_0000115>Specifies the types and sizes of military forces present within an OE.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -833,6 +1251,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#MilitaryFunctionsCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_MilitaryCategory"/>
+        <obo:IAO_0000115>A military function is a group of related tasks, activities, capabilities, operations, processes, and organizations that fulfill the specific military purpose for which they all exist. When integrated with other such functions, they contribute to the accomplishment of larger missions. The subvariable settings (functions) listed below exist in varying degrees in most military organizations, as well as in some paramilitary organizations. Thus, military functions as sub-subvariables can have settings on a scale of High, Medium, or Low, defined as follows: •High: Can conduct sustained, complex, synchronized tasks of the selected military function; ability to influence friendly forces is not limited to the theater of operations; and/or associated equipment is predominantly Tier 1, as specified in the Worldwide Equipment Guide (WEG). •Medium: Can conduct limited, complex, synchronized tasks of the selected military function; ability to influence friendly forces is primarily limited to the theater of operations; and/or associated equipment is predominantly Tier 2, as specified in the WEG. • Low: Cannot conduct complex, synchronized tasks of the selected military function; ability to influence friendly forces is limited to local, tactical impact; and/or associated equipment is predominantly Tier 3 and below, as specified in the WEG.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -841,6 +1266,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#MobilityClassificationCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainCategory"/>
+        <obo:IAO_0000115>Describes the degree to which the terrain allows, slows, or hinders movement from place to place in combat formations.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -849,6 +1281,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#NaturalHazardsCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PhysicalEnvironmentCategory"/>
+        <obo:IAO_0000115>Describes the type of natural disasters or hazards that may be encountered when conducting stability or civil support operations.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -857,6 +1296,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#NonmilitaryArmedCombatantsCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_MilitaryCategory"/>
+        <obo:IAO_0000115>Describes nonmilitary personnel who are armed but not part of an organized paramilitary or military structure. Nevertheless, they may be disgruntled and hostile. They may also be neutral or they may support either the enemy or friendly (U.S. or host nation) forces. Any number of catalysts might cause them to pick a side or change sides. Their decision may or may not remain permanent. (FM 7-100.4)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -865,6 +1311,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#NonstateParamilitaryForcesCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_MilitaryCategory"/>
+        <obo:IAO_0000115>Describes forces or groups that are distinct from regular armed forces of any country, but resembling them in organization, training, or mission (JP 1-02 and FM 3-07).</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -873,6 +1326,15 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ObservationAndFieldsOfFireCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainCategory"/>
+        <obo:IAO_0000115>Observation is the condition of weather and terrain that permits a force to see personnel, systems, and key aspects of the environment (FM 2-01.3). Field of fire is the area which a weapon or a group of weapons may cover effectively with fire from a given position. (JP 1-02 and FM 1-02) 
+
+The type of units (friendly and enemy) which are on the ground, how they look from each other&apos;s perspective on the battlefield, and lines of sight (LOS) from their positions to the target (TC 233.4). Intervisibility is the condition of being able to see one point from the other. (FM 2-01.3)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -881,6 +1343,15 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ObstaclesCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainCategory"/>
+        <obo:IAO_0000115>An obstacle is any obstruction designed or employed to disrupt, fix, turn, or block the movement of an opposing force [enemy], and to impose additional losses in personnel, time, and equipment on the opposing force [enemy]; obstacles can be natural, manmade, or a combination of both. (JP 3-15 and FM 2-01.3)
+
+Obstacles, whether natural or manmade, are those elements that impact a force’s ability to maneuver and move rapidly through an area (TC 2-33.4). Some examples of obstacles to ground mobility are buildings, mountains, steep slopes, dense forests, rivers, lakes, urban areas, minefields, trenches, certain religious and cultural sites, and wire obstacles (concertina wire, barb wire). (FM 2-01.3) [See Physical Environment: Terrain: Mobility Classification.]</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -899,8 +1370,14 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_EconomicCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT"/>
+        <obo:IAO_0000115>The Economic variable encompasses individual and group behaviors related to producing, distributing, and consuming resources. Specific factors impacting behavior may include economic diversity and employment opportunities within an OE. Other factors include black market or underground economies, which are alternative structures indicating weaknesses in the mainstream economy. Such factors influence people’s decisions to alter or support the existing order. These decisions, if unresolved through legitimate political means, can lead to conflict.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
         <CommonCoreOntologies:alternative_label>PMESII-PT Economic Category</CommonCoreOntologies:alternative_label>
-        <CommonCoreOntologies:definition>This Category encompasses individual and group behaviors related to producing, distributing, and consuming resources. (Does the village have a high unemployment rate?)</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -909,8 +1386,14 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InformationCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT"/>
+        <obo:IAO_0000115>The Information variable describes the nature, scope, characteristics, and effects of individuals, organizations, and systems that collect, process, disseminate, or act on information. Information involves the access, use, manipulation, distribution, and reliance on information technology systems, both civilian and military, by an entity (state or non-state). Understanding whatever communication infrastructure exists in an OE is important because it ultimately controls the flow of information to the population and military and/or paramilitary forces, as well as influencing local and international audiences. Communication availability can act as a leveling function with regard to mitigating military technical advantages to a surprising extent. Military units must understand and engage in the information environment in order to achieve their objectives.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
         <CommonCoreOntologies:alternative_label>PMESII-PT Information Category</CommonCoreOntologies:alternative_label>
-        <CommonCoreOntologies:definition>This Category describes the nature, scope, characteristics, and effects of individuals, organizations, and systems that collect, process, disseminate, or act on information. (How much access does the local population have to news media or the Internet?)</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -919,8 +1402,14 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InfrastructureCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT"/>
+        <obo:IAO_0000115>The Infrastructure variable is composed of the basic facilities, services, and installations needed for the functioning of a community or society. The degradation or destruction of infrastructure will impact the entire OE, especially the Political, Military, Economic, Social, and Information variables. This variable also reflects the infrastructure sophistication of an OE</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
         <CommonCoreOntologies:alternative_label>PMESII-PT Infrastructure Category</CommonCoreOntologies:alternative_label>
-        <CommonCoreOntologies:definition>This Category comprises the basic facilities, services, and installations needed for the functioning of a community or society. (Is the electrical generator in the village working?)</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -929,8 +1418,14 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_MilitaryCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT"/>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
         <CommonCoreOntologies:alternative_label>PMESII-PT Military Category</CommonCoreOntologies:alternative_label>
-        <CommonCoreOntologies:definition>This Category includes the military and paramilitary capabilities of all relevant actors (enemy, friendly, and neutral) in a given operational environment. (Does the enemy in this particular neighborhood have antitank missiles?)</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>The Military variable explores the military and/or paramilitary capabilities of all relevant actors (enemy, friendly, and neutral) in a given OE. This includes nonmilitary armed and unarmed combatants. The variable focuses on giving the exercise planner the ability to design appropriate OPFOR units for full spectrum operations.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -939,8 +1434,16 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PhysicalEnvironmentCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT"/>
+        <obo:IAO_0000115>The Physical Environment variable includes the geography and man-made structures as well as the climate and weather in the AO. Depending on the type of exercise, these conditions may be real, notional, or a combination. 
+
+The detail and complexity of the “terrain” and “weather” subvariables necessitate breaking down some of their components beyond the subvariable level.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
         <CommonCoreOntologies:alternative_label>PMESII-PT Physical Environment Category</CommonCoreOntologies:alternative_label>
-        <CommonCoreOntologies:definition>This Category includes the geography and man-made structures, as well as the climate and weather in the area of operations. (What types of terrain or weather conditions in this area of operations favor enemy operations?)</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -949,8 +1452,14 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PoliticalCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT"/>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
         <CommonCoreOntologies:alternative_label>PMESII-PT Political Category</CommonCoreOntologies:alternative_label>
-        <CommonCoreOntologies:definition>This Category describes the distribution of responsibility and power at all levels of governance—formally constituted authorities, as well as informal or covert political powers. (Who is the tribal leader in the village?)</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>The Political variable describes the distribution of responsibility and power at all levels of governance—formally constituted authorities, as well as informal political powers. The political variable includes influential political groups and the collective attitude of the population towards the U.S.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -959,8 +1468,14 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT"/>
+        <obo:IAO_0000115>The Social variable describes the cultural, religious, and ethnic makeup within an OE and the beliefs, values, customs, and behaviors of society members. Societies are comprised of structured and overlapping groups and institutions, each with relative statuses and roles that support, enable, and provide opportunity to achieve personal or community expectations. Important characteristics of a social system include population demographics, migration trends, and diversity of religious and ethnic groups. Understanding these complex interrelationships in a society is vitally important for successful military missions.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
         <CommonCoreOntologies:alternative_label>PMESII-PT Social Category</CommonCoreOntologies:alternative_label>
-        <CommonCoreOntologies:definition>This Category includes the cultural, religious, and ethnic makeup within an operational environment and the beliefs, values, customs, and behaviors of society members. (Who are the influential people in the village—for example, religious leaders, tribal leaders, warlords, criminal bosses, or prominent families?)</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -969,8 +1484,14 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_TimeCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT"/>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
         <CommonCoreOntologies:alternative_label>PMESII-PT Time Category</CommonCoreOntologies:alternative_label>
-        <CommonCoreOntologies:definition>This Category describes the timing and duration of activities, events, or conditions within an operational environment, as well as how the timing and duration are perceived by various actors in the operational environment. (For example, at what times are people likely to congest roads or conduct activities that provide a cover for hostile operations?</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>The Time variable describes the timing and duration of activities, events, or conditions that occur, exist, or continue within an OE, as well as how the timing and duration are perceived by various actors in the OE. Various aspects of time and the perception of them can affect and influence military operations (friendly and enemy) within an OE. They can affect the reasons for conducting an operation, the amount of time available to complete a mission, the duration of an operation, and how commanders employ forces to achieve conditions of the desired end state. Different groups of people may perceive the concept of time in different ways. The perception and experience of time are among the most central aspects of how groups function and interact. In a military context, time orientation affects decision cycles, planning horizons, and tempo of operations.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -978,7 +1499,18 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PerceptionManagementCategory -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PerceptionManagementCategory">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Placeholder"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InfoWarCategory"/>
+        <obo:IAO_0000115>Perception management involves measures aimed at creating a perception of truth that furthers an actor’s objective. It integrates several widely differing activities that use a combination of true, false, misleading, or manipulated information. (FM 7-100.1) 
+
+
+Enemy or foreign audiences, as well as the local population, may be targets of perception management. Perception management can include misinformation, media manipulation, and psychological warfare. (FM 7-100.1) 
+Psychological warfare (PSYWAR) is the capability and activities designed to influence selected friendly, neutral, and/or hostile target audiences’ attitudes and behaviors in support of the actor. PSYWAR can target either specific decisionmaking systems or the entire information system of the target audience, while influencing key communicators and decisionmakers. Such attacks target an enemy’s perceived centers of gravity. For example, prolonging an operation and using all forms of media to show the devastation of conflict can sway public opinion against the effort. (FM 7-100.1) Many actors skillfully employ media and other neutral actors, such as NGOs, to influence further public and private perceptions. Actors can exploit the international media’s willingness to report information without independent and timely confirmation. Individuals such as agents of influence, sympathizers, and antiwar protesters are also employed advantageously to influence the enemy’s media, politicians, and citizenry. (FM 7-100.1)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -986,15 +1518,16 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PhysicalDestructionCategory -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PhysicalDestructionCategory">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Placeholder"/>
-    </owl:Class>
-    
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InfoWarCategory"/>
+        <obo:IAO_0000115>Physical destruction, as an element of INFOWAR, involves measures to destroy critical components of the enemy’s information infrastructure. (FM 7-100.1) 
 
+The OPFOR integrates all types of conventional and precision weapon systems to conduct the destructive fires, to include fixed- and rotarywing aviation, cannon artillery, multiple rocket launchers, and surface-to-surface missiles. It can also utilize other means of destruction, such as explosives delivered by special-purpose forces (SPF), insurgents, terrorists, or even coopted civilians. Physical destruction activities can be integrated with jamming to maximize their effects. (FM 7-100.1)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Placeholder -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Placeholder">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InformationCategory"/>
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1003,6 +1536,21 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PopulationMovementCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory"/>
+        <obo:IAO_0000115>Describes the initial prevalence of migrant populations, internally displaced persons, and refugees within a country, region, or area. (This designation does not preclude the possibility of migrant populations as a result of the training unit&apos;s action or inaction.)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PostalAndCourierServiceCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PostalAndCourierServiceCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PublicCommunicationsMediaCategory"/>
     </owl:Class>
     
 
@@ -1011,6 +1559,21 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PrecipitationCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WeatherCategory"/>
+        <obo:IAO_0000115>Any visible moisture that falls from the atmosphere, such as rain, sleet, snow, hail, drizzle or a combination of these. Precipitation occurs when the atmosphere, a large gaseous solution becomes saturated with water vapor and the water condenses and descends from the solution (that is, precipitates).</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PrintMediaCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PrintMediaCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PublicCommunicationsMediaCategory"/>
     </owl:Class>
     
 
@@ -1018,7 +1581,24 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ProtectionAndSecurityMeasuresCategory -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ProtectionAndSecurityMeasuresCategory">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Placeholder"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InfoWarCategory"/>
+        <obo:IAO_0000115>The purpose of protection and security measures in INFOWAR is to protect one’s own information infrastructure, maintain one’s own capabilities for effective C2, and deny protected information to other actors. (FM 7-100.1) 
+
+
+Protection and security measures conducted as part of INFOWAR include -
+
+• Information collection, processing, and utilization. 
+• Reconnaissance and counterreconnaissance. 
+• Information and operations security. 
+• Camouflage, concealment, cover, and deception. 
+• Force protection. 
+• Secure use of information-collection and –processing systems. An actor’s capability against its main opponent can come from a high-tech asset or a low-tech approach. (FM 7-100.1)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1027,6 +1607,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ProtectionCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#MilitaryFunctionsCategory"/>
+        <obo:IAO_0000115>Protection is the preservation of the effectiveness and survivability of mission-related military and nonmilitary personnel (combatants and noncombatants), equipment, facilities, information, and infrastructure against an adversary’s attempts to damage, degrade, or negate them and measures to minimize the effects of such threats. The protection function includes survivability measures, air and missile defense, and CBRN defense. It also includes information protection and security measures, which are an element of information warfare.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1035,6 +1622,21 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PublicCommunicationsMediaCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InformationCategory"/>
+        <obo:IAO_0000115>Describes the type of information or media sources that may be available to the public in an OE</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#RadioCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#RadioCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PublicCommunicationsMediaCategory"/>
     </owl:Class>
     
 
@@ -1043,6 +1645,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ReconnaissanceIntelligenceSurveillanceAndTargetAcquisitionCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#MilitaryFunctionsCategory"/>
+        <obo:IAO_0000115>Reconnaissance, intelligence, surveillance, and target acquisition (RISTA) is the combination of capabilities, operations, and activities using all available means to obtain information concerning foreign nations; areas of actual or potential operations; and/or the strength, capabilities, location, status, nature of operations, and intentions of hostile or potentially hostile forces or elements. It includes production of intelligence resulting from the collection, processing, integration, evaluation, analysis, and interpretation of such information. It also includes detection, identification, and location of a target in sufficient detail to permit the effective employment of weapons.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1051,6 +1660,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#RelativeHumidityCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WeatherCategory"/>
+        <obo:IAO_0000115>Humidity is the term used to describe the amount of water vapor in the air. The amount of water vapor the air actually contains compared with the maximum it can hold at a given temperature and pressure is termed the relative humidity of the air. Relative humidity is an important metric used in forecasting weather. Humidity indicates the likelihood of precipitation, dew, or fog. High humidity makes soldiers feel hotter outside in the summer because it reduces the effectiveness of sweating to cool the body by preventing the evaporation or perspiration from the skin. An accurate measurement of this effect is called the Wet-Bulb-Glove-Temperature (WBGT) Index, which is calculated using a combination of temperature, humidity and wind. WBGT reports are obtained from supporting combat medical units.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1059,6 +1675,30 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ReligiousDiversityCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory"/>
+        <obo:IAO_0000115>Describes the number and specifies the interaction of various religious groups within a state or scenario population.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SlaveryCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SlaveryCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#HumanRightsCategory"/>
+        <obo:IAO_0000115>Slavery is a form of forced labor in which people are considered to be, or treated as, the property of others. Slaves are held against their will from the time of their capture, purchase, or birth, and are deprived of the right to leave, to refuse to work, or to receive compensation (such as wages). 
+
+Evidence of slavery predates written records, and has existed to varying extents, forms and periods in almost all cultures and continents. In some societies, slavery existed as a legal institution or socio-economic system, but today it is formally outlawed in nearly all countries. Nevertheless, the practice continues in various forms around the world. Freedom from slavery is an internationally recognized human right. Article 4 of the UDHR states: “No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms.”</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1067,6 +1707,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SocialVolatilityCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_SocialCategory"/>
+        <obo:IAO_0000115>Describes the amount of conflict between religious or ethnic groups present in a society and the amount of civil unrest present.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1075,6 +1722,35 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TacticalExploitationOfTimeCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_TimeCategory"/>
+        <obo:IAO_0000115>The ability of the enemy to use time for tactical advantage. Examples of events used to gain or manipulate time to the enemy’s advantage are— 
+
+• Delay (trade space for time). Could be as simple as delaying or destroying MEDEVAC or interrupting the information flow or decision cycle. Attack to delay is an accepted method as is swarming (mobs) by civilians to delay and disrupt. 
+
+• Deception (lead enemy in different direction or focus). 
+
+• Fix (forces, obstacles, mines, etc.). • Block (forces, obstacles, mines, CBRN, etc.).</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TelephoneCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TelephoneCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PublicCommunicationsMediaCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TelevisionCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TelevisionCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PublicCommunicationsMediaCategory"/>
     </owl:Class>
     
 
@@ -1083,6 +1759,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PhysicalEnvironmentCategory"/>
+        <obo:IAO_0000115>Terrain is a portion of the earth’s surface that includes natural and manmade features (TC 2-33.4).</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1091,6 +1774,32 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainComplexityCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainCategory"/>
+        <obo:IAO_0000115>Describes the degree to which the terrain imposes significant limitations on observation, maneuver, fires, and intelligence collection. 
+
+Complex terrain is a topographical area consisting of an urban center larger than a village and/or of two or more types of restrictive terrain or environmental conditions occupying the same space. (Restrictive terrain or environmental conditions include but are not limited to slope, high altitude, forestation, severe weather, and urbanization.) (FM 7-100.1 and ATTP 3-34.80</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TortureCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TortureCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#HumanRightsCategory"/>
+        <obo:IAO_0000115>Torture, according to the UN Convention Against Torture, is: “any act by which severe pain and suffering, whether physical or mental, is intentionally inflicted on a person for such purposes as obtaining from him, or a third person, information or a confession, punishing him for an act he or a third person has committed or is suspected of having committed, or intimidating or coercing him or a third person, or for any reason based on discrimination of any kind, when such pain or suffering is inflicted by or at the instigation of or with the consent or acquiescence of a public official or other person acting in an official capacity. It does not include pain or suffering arising only from, inherent in, or incidental to, lawful sanctions.” 
+
+Torture is widely considered to be a violation of human rights, and is declared to be unacceptable by Article 5 of the UN Universal Declaration of Human Rights. Signatories of the Third Geneva Convention and Fourth Geneva Convention officially agree not to torture prisoners in armed conflicts. Torture is also prohibited by the UN Convention Against Torture, which has been ratified by 145 states. However, Amnesty International estimates that at least 81 world governments currently practice torture, some openly.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1099,6 +1808,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TransportationArchitectureCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InfrastructureCategory"/>
+        <obo:IAO_0000115>Details the existing public road and transportation network present in an OE. Describes the type of roads present and the coverage of the road network to any built-up areas. Includes airports, ports, rail, and surface road networks.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1107,6 +1823,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TypeOfGovernmentCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PoliticalCategory"/>
+        <obo:IAO_0000115>Determines the type of government structure and associated behaviors encountered.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1115,6 +1838,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#UnarmedCombatantsCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_MilitaryCategory"/>
+        <obo:IAO_0000115>Specifies the types of unarmed personnel who, given the right conditions, may decide to purposely and materially support hostile military or paramilitary forces in ways that do not involve possessing or using weapons. Even unarmed individuals who are coerced into performing or supporting hostile actions and those who do so unwittingly can, in some cases, be categorized as combatants. (FM 7-100.4)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1123,6 +1853,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#UrbanZonesCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InfrastructureCategory"/>
+        <obo:IAO_0000115>Distinct areas or zones within a city that is geographically identifiable. These zones are normally categorized by the predominate activity within their boundaries.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1131,6 +1868,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#UrbanizedBuildingDensityCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InfrastructureCategory"/>
+        <obo:IAO_0000115>Describes the average building density within a town.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1139,6 +1883,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#UtilitiesPresentCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InfrastructureCategory"/>
+        <obo:IAO_0000115>Describes the average building density within a town.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1147,6 +1898,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#UtilityLevelCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_InfrastructureCategory"/>
+        <obo:IAO_0000115>Describes the approximate percentage of utilities available to a town. Each utility present in the OE has its own respective service level.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1155,6 +1913,15 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#VegetationCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TerrainCategory"/>
+        <obo:IAO_0000115>Plant life or total plant cover (as of an area). 
+
+Describes the predominant vegetation found in an AO</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1163,6 +1930,15 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#VisibilityCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WeatherCategory"/>
+        <obo:IAO_0000115>The mean distance at which the naked eye can see prominent objects through the atmosphere. 
+
+(Accurate timing based upon available light is critical in planning military operations. It is expressed in the number of degrees the center of the sun is below the horizon. Although technically not weather data, it is customarily considered together with weather factors because both affect visibility such as cloud cover. Light is also a critical factor in the employment of light sensitive equipment such as night vision and thermal devices.)</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1171,6 +1947,13 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WeatherCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT_PhysicalEnvironmentCategory"/>
+        <obo:IAO_0000115>Weather is a set of all the phenomena occurring in a given atmosphere at a given time. Weather phenomena lie in the hydrosphere and troposphere</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1179,6 +1962,38 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WindCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WeatherCategory"/>
+        <obo:IAO_0000115>Air which is in horizontal or near horizontal motion. Vertical movements of air are known as air current and are caused by differences in density between two air masses. Wind direction is determined by the direction from which it is blowing.</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WomenCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WomenCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#HumanRightsCategory"/>
+        <obo:IAO_0000115>Issues relating to the political, economic, civil, social, and educational rights of women. 
+
+Examples of issues related to these areas are voting rights, employment discrimination, sexual discrimination, honor killings, forced and early marriages, reproductive rights, health care, and educational discrimination</obo:IAO_0000115>
+        <obo:IAO_0000119>TC 7-101
+Exercise Design
+November 2010
+
+DISTRIBUTION RESTRICTION:
+Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WordOfMouthCategory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WordOfMouthCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PublicCommunicationsMediaCategory"/>
     </owl:Class>
     
 

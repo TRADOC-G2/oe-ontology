@@ -1391,7 +1391,8 @@
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#ArmyCollectiveTask">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#ArmyTask"/>
-        <obo:IAO_0000115>A collective task supports an Army Tactical Task, and are supported by Individual Tasks.</obo:IAO_0000115>
+        <obo:IAO_0000115>A clearly defined, discrete, and measurable activity, action, or event (such as a task) that requires organized team or unit performance, and leads to accomplishment of a mission or function. A collective task is derived from unit missions or higher-level collective tasks, and requires group participation to accomplish (such as operating a M105 Howitzer). It may also be a mission requirement, (such as secure a bridgehead), which can be broken down into supporting individual tasks. Task accomplishment requires performance of procedures composed of supporting collective or individual tasks. A collective task describes the exact performance a unit must perform in the field under actual operational conditions.</obo:IAO_0000115>
+        <obo:IAO_0000119>TRADOC Regulation 350-18, 21 July 2010</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Army Collective Task</rdfs:label>
     </owl:Class>
     
@@ -1401,7 +1402,8 @@
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#ArmyIndividualTask">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#ArmyTask"/>
-        <obo:IAO_0000115>An Individual Task is used to support a Collective Task</obo:IAO_0000115>
+        <obo:IAO_0000115>The lowest behavioral level in a job or duty that is performed for its own sake. It should support a collective task; and usually supports another individual task.</obo:IAO_0000115>
+        <obo:IAO_0000119>TRADOC Regulation 350-18, 21 July 2010</obo:IAO_0000119>
         <rdfs:label>Army Individual Task</rdfs:label>
     </owl:Class>
     
@@ -1474,14 +1476,6 @@
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#ArmyTaskListName -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#ArmyTaskListName">
-        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#ArmyTaskMeasure -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#ArmyTaskMeasure">
@@ -1506,22 +1500,6 @@
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#ArmyTaskName -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#ArmyTaskName">
-        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#ArmyTaskNumber -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#ArmyTaskNumber">
-        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DesignativeName"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#ArmyTaskReference -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#ArmyTaskReference">
@@ -1542,14 +1520,10 @@
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#ArmyTrainingAidsDevicesSimulatorsSimulations">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#ArmyTroopsOrganizationEquipmentNumber -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#ArmyTroopsOrganizationEquipmentNumber">
-        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DesignativeName"/>
+        <obo:IAO_0000115>&quot;The TADSS are categorized as either “system” or “nonsystem.”
+1. System TADSS are designed and intended to train individual and/or collective tasks associated with a specific system, family of systems, or system of systems (SoS) (for example, UH–60 Helicopters, M1A2 Abram Tanks, and STRYKER vehicle variants). System TADSS may be standalone, embedded, or appended and are considered a primary component of a system’s total package fielding (TPF). System TADSS are funded by the supporting system’s program manager (PM) and/or program executive officer (PEO) as part of the system acquisition program and are fielded concurrently with the system.
+2. Nonsystem TADSS are designed and intended to support general military training and nonsystem-specific training requirements (for example, basic electronics maintenance trainer, Homestation Instrumentation Training System and Laser Marksmanship Training System). The Training Support System (TSS) resources both fielding and sustainment of nonsystem training devices.&quot;</obo:IAO_0000115>
+        <obo:IAO_0000119>TRADOC Regulation 10-5-4, Glossary, 16 Nov 2010</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1558,6 +1532,10 @@
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#ArmyUniversalTaskList">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+        <obo:IAO_0000115>&quot;The AUTL is a comprehensive, but not all-inclusive listing of Army tasks, missions, and operations. Units and staffs perform tasks, provide capabilities, accomplish missions, and conduct operations at corps level and below.
+
+For each task, the AUTL provides a numeric reference, a task title, a task description, a doctrine reference, and,in most cases, recommended measures of performance (measures). Training developers use these measures to develop training and evaluation outline evaluation criteria for supporting collective tasks. The task proponent is responsible for developing the training and evaluation outlines that supports each AUTL task. As a catalog, the AUTL captures doctrine as it existed on the date of its publication.&quot;</obo:IAO_0000115>
+        <obo:IAO_0000119>ADRP 1-03, The Army Universal Task List</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1566,6 +1544,7 @@
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#Equipment">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <obo:IAO_0000115>Things needed for the task, i.e. to load a machine gun, you need a machine gun, tripod. i.e. something on a unit&apos;s MTOE (modified table of organization and equipment).</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1574,6 +1553,8 @@
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#IndividualCriticalTask">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#ArmyIndividualTask"/>
+        <obo:IAO_0000115>An individual task that is critical. See &quot;individual task&quot; and &quot;critical task.&quot;</obo:IAO_0000115>
+        <obo:IAO_0000119>TRADOC Regulation 350-18, 21 July 2010</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1610,6 +1591,7 @@
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#Proponent">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115>That is the school (Center of Excellence) that is the responsible for developing the task, i.e. for loading a machine gun, it would be the Maneuver Center of Excellence (MCoE) which is composed of the Armor and Infantry Branches of the Army.  Proponents are responsible for develoing and maintaining the task, to include changes due to equipment mods.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1626,6 +1608,7 @@
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyTrainingOntology#TaskStep">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Objective"/>
+        <obo:IAO_0000115>The steps necessary to complete the task, i.e. how to load a machine gun, etc.</obo:IAO_0000115>
         <rdfs:label>Task Step</rdfs:label>
     </owl:Class>
 </rdf:RDF>
