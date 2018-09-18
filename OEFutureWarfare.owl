@@ -1,0 +1,329 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#"
+     xml:base="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology">
+        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Upper/ExtendedRelationOntology"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+        <owl:imports rdf:resource="http://www.obofoundry.org/ro/ro.owl"/>
+        <owl:versionInfo>DISTRIBUTION A: Approved for public release; distribution is unlimited.  For more information contact United States Army TRADOC G-27 at usarmy.jble.tradoc.list.tboc-operations@mail.mil (or Kaye Darone, Data Science Branch Chief, DSMS, Kaye.t.darone.civ@mail.mil, (757) 878-9547)</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligence -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligence">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
+        <obo:IAO_0000115>Artificial Intelligence (AI) may be the most disruptive technology of our time: much of today’s “thought” is artificial, vice human.  Breakthroughs in AI and deep learning enable reasoning intelligent systems that, though not sentient, administer and optimize a great many aspects of modern life.  Advanced physio-mechanical interfaces enable humanmachine integration to include optimized searching of massive indexes of data, direct access to large-scale computing power, and life-like experiences through virtual reality. The revolutionary impact of “trans-humanism” challenges the very definition of “human” – with profound ethical dilemmas that remain unresolved. Big data techniques interrogate massive databases to discover hidden patterns and correlations that form the basis of modern advertising – and are continually leveraged for intelligence and security purposes by nation states and non-state entities alike.  Quantum computing, first applied to encryption functions, is now a key computing enabler, especially for artificial intelligence.9  A mature Internet of Things connects and integrates the devices of the information realm with formerly inert objects – structures, motors, or appliances -- of the physical realm.  Neuroscience has enhanced our understanding of brain function, including neural plasticity, and has enabled advanced techniques for human-machine interfacing. A better understanding of the machinery of the mind has found commercial application in the acceleration of speed and retention in learning.  In the most connected and wealthy parts of the world, cell phones and computers will all but disappear as physical, hand held devices.  Select individuals will directly connect to cyberspace through neural implants or augmented reality systems painted directly on a retina.  If we have not yet reached the “singularity”, where AI and machines are capable of outperforming the human mind, we will nonetheless have reached a point where AI, machines, and man-machine teaming open new possibilities in this realm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Singularity is the point at which artificial intelligence (AI) exceeds the collective intelligence of mankind, which will radically and irrevocably change the relationship between man and machine.  There are several divergent possibilities regarding the singularity: 
+
+ As optimistic singularity advocates, such as Ray Kurzweil have suggested, AI improves human life in every way, from healthcare, to emotional evolution, to intergalactic space travel. 
+
+ While not entirely apocalyptic, unboxed general artificial superintelligence improves and evolves at such an exponential rate it escapes human restrictions, perspectives, and morality.  It threatens the very existence of humanity. 
+
+ Humans evolve their own cognitive abilities through learning developments, brain implants, artificial stimulants, and non-AI high performance computing to match, or at least keep pace with AI. 
+
+AI has the capacity to change paradigms, revolutionize everyday life, and take mankind to exciting new horizons.  However, it also may be capable of incredible destruction, malice, and lines of thinking and decision-making that are dangerous to mankind.  This duality will be critical as actors develop military applications for AI.</obo:IAO_0000115>
+        <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AssessExperts -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AssessExperts">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FaultLineMethodology"/>
+        <obo:IAO_0000115>Identify, contact, and leverage SMEs in the OE. Identify, make contact and develop a professional relationship with an expert(s) in the OE from academia, government or industry that can help guide the early research stages with baseline understanding and resource assistance.  The researcher presents the SME with their research questions and requests their expertise, understanding and research guidance to answer these questions. GCKN has a curated repository of cultural experts available to the Army to enable OE analysis.</obo:IAO_0000115>
+        <obo:IAO_0000119>Fault Lines Methodology Infographic</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigData -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigData">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
+        <obo:IAO_0000115>Artificial Intelligence (AI) may be the most disruptive technology of our time: much of today’s “thought” is artificial, vice human.  Breakthroughs in AI and deep learning enable reasoning intelligent systems that, though not sentient, administer and optimize a great many aspects of modern life.  Advanced physio-mechanical interfaces enable humanmachine integration to include optimized searching of massive indexes of data, direct access to large-scale computing power, and life-like experiences through virtual reality. The revolutionary impact of “trans-humanism” challenges the very definition of “human” – with profound ethical dilemmas that remain unresolved. Big data techniques interrogate massive databases to discover hidden patterns and correlations that form the basis of modern advertising – and are continually leveraged for intelligence and security purposes by nation states and non-state entities alike.  Quantum computing, first applied to encryption functions, is now a key computing enabler, especially for artificial intelligence.9  A mature Internet of Things connects and integrates the devices of the information realm with formerly inert objects – structures, motors, or appliances -- of the physical realm.  Neuroscience has enhanced our understanding of brain function, including neural plasticity, and has enabled advanced techniques for human-machine interfacing. A better understanding of the machinery of the mind has found commercial application in the acceleration of speed and retention in learning.  In the most connected and wealthy parts of the world, cell phones and computers will all but disappear as physical, hand held devices.  Select individuals will directly connect to cyberspace through neural implants or augmented reality systems painted directly on a retina.  If we have not yet reached the “singularity”, where AI and machines are capable of outperforming the human mind, we will nonetheless have reached a point where AI, machines, and man-machine teaming open new possibilities in this realm.</obo:IAO_0000115>
+        <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
+        <obo:IAO_0000115>Humanity will become richer, older, more urban, and better educated, but the uneven distribution of this progress will accelerate tension and conflict.  The convergence of more information and more people with fewer state resources will constrain governments’ efforts to address rampant poverty, violence, and pollution, and create a breeding ground for dissatisfaction among increasingly aware, yet still disempowered populations. These factors will be attenuated by a changing climate, which has the potential to create additional crises and discontent.  The addition of over seven billion people over the last century has altered geography itself, and cities now sprawl over large areas of the globe and contain almost two-thirds of the world’s population. These numbers will only increase.  Some megacities will become more important politically and economically than the nationstate in which they reside.  Life will become both easier and more complex, with those able to take advantage of the leading edge of technological advancement increasingly exploiting those who cannot.  New social stresses and fractures will lead to strife and population migrations, which in turn create further challenges for urbanized areas.  Furthermore, the move of large numbers of people to large urban areas and megacities will strain resources, as these area will become increasingly reliant on rural areas for food, water, and even additional power.  From a military perspective, cities represent challenges, opportunities, and unique vulnerabilities.</obo:IAO_0000115>
+        <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CollectiveIntelligence -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CollectiveIntelligence">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
+        <obo:IAO_0000115>Singularity is the point at which artificial intelligence (AI) exceeds the collective intelligence of mankind, which will radically and irrevocably change the relationship between man and machine.  There are several divergent possibilities regarding the singularity: 
+
+ As optimistic singularity advocates, such as Ray Kurzweil have suggested, AI improves human life in every way, from healthcare, to emotional evolution, to intergalactic space travel. 
+
+ While not entirely apocalyptic, unboxed general artificial superintelligence improves and evolves at such an exponential rate it escapes human restrictions, perspectives, and morality.  It threatens the very existence of humanity. 
+
+ Humans evolve their own cognitive abilities through learning developments, brain implants, artificial stimulants, and non-AI high performance computing to match, or at least keep pace with AI. 
+
+AI has the capacity to change paradigms, revolutionize everyday life, and take mankind to exciting new horizons.  However, it also may be capable of incredible destruction, malice, and lines of thinking and decision-making that are dangerous to mankind.  This duality will be critical as actors develop military applications for AI.</obo:IAO_0000115>
+        <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CyberAndSpace -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CyberAndSpace">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
+        <obo:IAO_0000115>Our adversaries will rely on strategic capabilities, such as weapons of mass destruction, information operations, and direct cyber-attacks designed to give us pause in responding to their actions and provide them the strategic space they need to operate.  Space will become a contested domain, as our enemies will enhance their ability to operate in that domain while working to deny us what was once a key area of advantage</obo:IAO_0000115>
+        <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemographicsAndUrbanization -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemographicsAndUrbanization">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
+        <obo:IAO_0000115>Humanity will become richer, older, more urban, and better educated, but the uneven distribution of this progress will accelerate tension and conflict.  The convergence of more information and more people with fewer state resources will constrain governments’ efforts to address rampant poverty, violence, and pollution, and create a breeding ground for dissatisfaction among increasingly aware, yet still disempowered populations. These factors will be attenuated by a changing climate, which has the potential to create additional crises and discontent.  The addition of over seven billion people over the last century has altered geography itself, and cities now sprawl over large areas of the globe and contain almost two-thirds of the world’s population. These numbers will only increase.  Some megacities will become more important politically and economically than the nationstate in which they reside.  Life will become both easier and more complex, with those able to take advantage of the leading edge of technological advancement increasingly exploiting those who cannot.  New social stresses and fractures will lead to strife and population migrations, which in turn create further challenges for urbanized areas.  Furthermore, the move of large numbers of people to large urban areas and megacities will strain resources, as these area will become increasingly reliant on rural areas for food, water, and even additional power.  From a military perspective, cities represent challenges, opportunities, and unique vulnerabilities.</obo:IAO_0000115>
+        <obo:IAO_0000115>Our adversaries will operate in and among populations and in complex terrain, and endeavor to mitigate many of our own traditional technological advantages and force us to operate with degraded capabilities and take advantage of the infrastructure and other resources cities offer.</obo:IAO_0000115>
+        <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicRebalancing -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicRebalancing">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
+        <obo:IAO_0000115>Although AI and its associated technologies will shatter many industries and livelihoods, a wide range of advances continue to create new sources of wealth and economic development – while also significantly impacting the strategic security environment. Robotics and autonomous systems will underpin the smooth functioning of advanced societies.  Additive manufacturing, computer-aided design and millions of industrial robots will dislocate significant portions of the global supply chain.  Virtually anyone in the world with access to a computer system and 3D printer will be able to “print” anything from drones to weapons.  Encrypted blockchains will be massively disruptive to commerce functions. Together with robotics, autonomy, and AI they comprise a perfect storm for “blue collar” and “white collars” alike, causing vast economic displacement as formerly high-quality information technology and management jobs follow the previous path of agricultural and manufacturing labor.  Militaries, paramilitaries, mercenary groups, criminal elements, and even extremists groups all will be able to take advantage of this potential pool of manpower.  Biotechnology will see major advances, with many chemical and materials industry being replaced or augmented by a “bio-based economy” in which precision genetic engineering allows for bulk chemical production.  Individualized genetics enable precise performance enhancements for cognition, health, longevity, and fitness.</obo:IAO_0000115>
+        <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EvaluateWithSubjectMatterExperts -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EvaluateWithSubjectMatterExperts">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FaultLineMethodology"/>
+        <obo:IAO_0000115>Test the OE assumptions/research hypotheses with a pool of relevant SMEs.  The researcher sends the fault line hypotheses to a pool of SMEs in the OE and requests their ratings on 5 variables (probability of exploitation, consequence(s) of exploitation, pervasiveness of the condition, importance of the condition, and speed of recovery if exploited).   The aggregate ratings of the variables become a risk assessment from a SME perspective. SME qualitative feedback may assist in refining fault line hypotheses better understand the sources of instability and any implications.  GCKN can provide an online survey template to distribute and a process for collating and analyzing the data from survey collection.</obo:IAO_0000115>
+        <obo:IAO_0000119>Fault Lines Methodology Infographic</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FaultLine -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FaultLine">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115>A fault line is an exploitable source of instability in the human domain—it can be real or perceived</obo:IAO_0000115>
+        <obo:IAO_0000119>Fault Lines Methodology Infographic</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FaultLineMethodology -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FaultLineMethodology">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>A Fault Line Methodology is a methodology that is used to reduce risk &amp; increase confidence of analysis with utilization of both social science methods and expert knowledge</obo:IAO_0000115>
+        <obo:IAO_0000119>Fault Lines Methodology Infographic</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanComputerInteraction -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanComputerInteraction">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
+        <obo:IAO_0000115>Although more human beings stress available resources, population growth has also compounded the rate of innovation and technology development.  Human creativity is now clearly the most transformative force in the world, both enhancing human life, but also upending it, and – at times – precipitating catastrophic, disruptive events.  Information technology will continue to improve exponentially, and most of the developed world already is instrumented in some way.  Nearly every person on Earth has access to a connected, mobile device.  Advanced material capabilities have, and will continue to extend the trend of reduced size, weight, and power requirements, as nanomaterials, metamaterials, and bespoke structures allow multifunctional assemblies, vastly improving overall systems integration, reliability, and performance.  Advanced materials also foster increases in battery power and performance, allowing large amounts of power to be stored across a distributed grid, and miniaturized storage powers mobile robotics and vehicles of all types</obo:IAO_0000115>
+        <obo:IAO_0000115>Singularity is the point at which artificial intelligence (AI) exceeds the collective intelligence of mankind, which will radically and irrevocably change the relationship between man and machine.  There are several divergent possibilities regarding the singularity: 
+
+ As optimistic singularity advocates, such as Ray Kurzweil have suggested, AI improves human life in every way, from healthcare, to emotional evolution, to intergalactic space travel. 
+
+ While not entirely apocalyptic, unboxed general artificial superintelligence improves and evolves at such an exponential rate it escapes human restrictions, perspectives, and morality.  It threatens the very existence of humanity. 
+
+ Humans evolve their own cognitive abilities through learning developments, brain implants, artificial stimulants, and non-AI high performance computing to match, or at least keep pace with AI. 
+
+AI has the capacity to change paradigms, revolutionize everyday life, and take mankind to exciting new horizons.  However, it also may be capable of incredible destruction, malice, and lines of thinking and decision-making that are dangerous to mankind.  This duality will be critical as actors develop military applications for AI.</obo:IAO_0000115>
+        <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IncreasedLevelOfHumanPerformance -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IncreasedLevelOfHumanPerformance">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
+        <obo:IAO_0000115>Although more human beings stress available resources, population growth has also compounded the rate of innovation and technology development.  Human creativity is now clearly the most transformative force in the world, both enhancing human life, but also upending it, and – at times – precipitating catastrophic, disruptive events.  Information technology will continue to improve exponentially, and most of the developed world already is instrumented in some way.  Nearly every person on Earth has access to a connected, mobile device.  Advanced material capabilities have, and will continue to extend the trend of reduced size, weight, and power requirements, as nanomaterials, metamaterials, and bespoke structures allow multifunctional assemblies, vastly improving overall systems integration, reliability, and performance.  Advanced materials also foster increases in battery power and performance, allowing large amounts of power to be stored across a distributed grid, and miniaturized storage powers mobile robotics and vehicles of all types</obo:IAO_0000115>
+        <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#OperationalRelevance -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#OperationalRelevance">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FaultLineMethodology"/>
+        <obo:IAO_0000119>Fault Lines Methodology Infographic</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerStorageAndGeneration -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerStorageAndGeneration">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
+        <obo:IAO_0000115>Although more human beings stress available resources, population growth has also compounded the rate of innovation and technology development.  Human creativity is now clearly the most transformative force in the world, both enhancing human life, but also upending it, and – at times – precipitating catastrophic, disruptive events.  Information technology will continue to improve exponentially, and most of the developed world already is instrumented in some way.  Nearly every person on Earth has access to a connected, mobile device.  Advanced material capabilities have, and will continue to extend the trend of reduced size, weight, and power requirements, as nanomaterials, metamaterials, and bespoke structures allow multifunctional assemblies, vastly improving overall systems integration, reliability, and performance.  Advanced materials also foster increases in battery power and performance, allowing large amounts of power to be stored across a distributed grid, and miniaturized storage powers mobile robotics and vehicles of all types</obo:IAO_0000115>
+        <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Production -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Production">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FaultLineMethodology"/>
+        <obo:IAO_0000115>Transform the analysis into some kind of useable format for an intended audience. The fault line analysis, initially developed as an infographic, can formatted as a brief, a report, or simply be briefed orally. The strength of the analysis is amplified by combining discursive and visual descriptions into one format, accompanied with a clear and influential narrative.</obo:IAO_0000115>
+        <obo:IAO_0000119>Fault Lines Methodology Infographic</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Robotics -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Robotics">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
+        <obo:IAO_0000115>Artificial Intelligence (AI) may be the most disruptive technology of our time: much of today’s “thought” is artificial, vice human.  Breakthroughs in AI and deep learning enable reasoning intelligent systems that, though not sentient, administer and optimize a great many aspects of modern life.  Advanced physio-mechanical interfaces enable humanmachine integration to include optimized searching of massive indexes of data, direct access to large-scale computing power, and life-like experiences through virtual reality. The revolutionary impact of “trans-humanism” challenges the very definition of “human” – with profound ethical dilemmas that remain unresolved. Big data techniques interrogate massive databases to discover hidden patterns and correlations that form the basis of modern advertising – and are continually leveraged for intelligence and security purposes by nation states and non-state entities alike.  Quantum computing, first applied to encryption functions, is now a key computing enabler, especially for artificial intelligence.9  A mature Internet of Things connects and integrates the devices of the information realm with formerly inert objects – structures, motors, or appliances -- of the physical realm.  Neuroscience has enhanced our understanding of brain function, including neural plasticity, and has enabled advanced techniques for human-machine interfacing. A better understanding of the machinery of the mind has found commercial application in the acceleration of speed and retention in learning.  In the most connected and wealthy parts of the world, cell phones and computers will all but disappear as physical, hand held devices.  Select individuals will directly connect to cyberspace through neural implants or augmented reality systems painted directly on a retina.  If we have not yet reached the “singularity”, where AI and machines are capable of outperforming the human mind, we will nonetheless have reached a point where AI, machines, and man-machine teaming open new possibilities in this realm.</obo:IAO_0000115>
+        <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Scope -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Scope">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FaultLineMethodology"/>
+        <obo:IAO_0000119>Fault Lines Methodology Infographic</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>SCOPE - Identify and outline the intent and outcome of the research. A scoping document provides the design and plan of research to fill an information requirement. The researcher provides the scoping document to the requestor for approval. The scoping document consists of the following sections: 
+
+Background: 2-4 paragraphs outlining the nature of the project and a quick description of the OE. 
+
+Justification/Purpose: A description of the knowledge gap/IR that the project intends to fill and the intended audience. 
+
+Research question(s): Key assumptions and specific questions that the product will answer. Example research questions: What are the population’s grievances? What are the sources of instability? How might state and non-state actors exploit instability and grievances? 
+
+Research method: The social science techniques used for data collection and analysis. Initial references: A list of potential sources of information for use in product development. 
+
+Deliverable(s): A list of components that make up the final product (this could be one product). 
+
+Point of contact: Who to contact with questions about the product. 
+
+Timeline: A rough projection of the stages of development and timeline for deliverables. GCKN has a scoping document template to assist in this step.</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubjectMatterExpertChecks -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubjectMatterExpertChecks">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FaultLineMethodology"/>
+        <obo:IAO_0000115>Improve the accuracy, credibility, and validity of the analysis. Present the fault lines analysis to the initial group of SMEs once it is fully formed for feedback as to the product’s ability to fully answer the research question accurately.  GCKN can also serve as an expert check both in the quality of the product as well as with the format and delivery of the product.</obo:IAO_0000115>
+        <obo:IAO_0000119>Fault Lines Methodology Infographic</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TechnologyEngineeringAndManufacturing -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TechnologyEngineeringAndManufacturing">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
+        <obo:IAO_0000115>The impact of the development of so many new and potential revolutionary technologies is made all the more disruptive by the convergence phenomenon.  Virtually every new technology is connected and intersecting to other new technologies and advances.  The example of the contemporary “smart phone”, which connects advances in cellular telephones with a camera, gaming, miniaturized computing and the Internet has completely transformed, and in many ways disrupted contemporary life.   Future convergences between various technological advances are likely to be equally disruptive and equally unpredictable, but the areas in which we foresee the most likely convergences are: 
+
+ Biology and bio-engineering, to include optimizing human performance 
+
+ Neurologic enhancement 
+
+ Nanotechnology 
+
+ Advanced Material Sciences 
+
+ Quantum Computing 
+
+ Artificial Intelligence 
+
+ Robotics 
+
+ Additive Manufacturing</obo:IAO_0000115>
+        <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TheEraOfAcceleratedHumanProgress -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TheEraOfAcceleratedHumanProgress">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <obo:IAO_0000115>The timeframe of 2017-2035, which relates to a period where our adversaries can take advantage of new technologies, involves new doctrine and revised strategic concepts to effectively challenge U.S. military forces across multiple domains. Our adversaries in some cases will have superior, or near equal capabilities bolstered by advantages in time, space, and perception, and when employed effectively – often in a hybrid and multidomain fashion – they can prevail over a U.S.-led force.  The Era of Accelerated Human Progress represents an evolutionary movement rooted in the present, but clearly advancing to a new state of affairs.</obo:IAO_0000115>
+        <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TheEraOfContestedEquality -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TheEraOfContestedEquality">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <obo:IAO_0000115>The timeframe of 2035-2050 is a period marked by significant breakthroughs in technology and convergences in terms of capabilities, which lead to significant changes in the character of warfare.  During this period, traditional aspects of warfare undergo dramatic, almost revolutionary changes which at the end of this timeframe may even challenge the very nature of warfare itself. In this era, no one actor is likely to have any long-term strategic or technological advantage, with aggregate power between the U.S. and its peer and near-peer rivals being equivalent, but not necessarily symmetric.  Prevailing in this period will depend on an ability to synchronize multi-domain capabilities against an artificial intelligence-enhanced adversary with an overarching capability to visualize and understand the battlespace at even greater ranges and velocities.</obo:IAO_0000115>
+        <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Research&amp;Analysis -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Research&amp;Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FaultLineMethodology"/>
+        <obo:IAO_0000115>Fault Lines Analysis provides the command with an understanding of the most exploitable sources of instability in the OE. The Fault Lines Analysis Methodology is based on co-created analysis:  research and analysis conducted as a team. There are 3 distinct stages to the team research and analysis process:  Analysis 1 (A1), Analysis (A2), and Analysis 3 (A3). A1 reviews and develops categories from source text by assigning relevant words, phrases or labels to significant portions of the text.  These categories become the foundation for early analysis.  A2 organizes the categories around themes based on the relationship of ideas developed from the comparisons and analytic memos. A3 generates plausible explanations and responses to the research question (becoming assumptions or hypotheses tested in the next stage).  Each analysis stage builds on the analysis of the previous stage(s). The evolution of sound analytic explanation occurs through a systematic and defensible inductive research process. The independent stages are inductively generated to be later deductively tested by a pool of SMEs in an OE.  GCKN is available to assist with the research process.</obo:IAO_0000115>
+        <obo:IAO_0000119>Fault Lines Methodology Infographic</obo:IAO_0000119>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
