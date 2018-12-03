@@ -11,6 +11,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology">
+        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Upper/ExtendedRelationOntology"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
         <owl:imports rdf:resource="http://www.obofoundry.org/ro/ro.owl"/>
@@ -89,9 +90,17 @@
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligence -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligence">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceTrend -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceTrend">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
         <obo:IAO_0000115>Artificial Intelligence (AI) may be the most disruptive technology of our time: much of today’s “thought” is artificial, vice human.  Breakthroughs in AI and deep learning enable reasoning intelligent systems that, though not sentient, administer and optimize a great many aspects of modern life.  Advanced physio-mechanical interfaces enable humanmachine integration to include optimized searching of massive indexes of data, direct access to large-scale computing power, and life-like experiences through virtual reality. The revolutionary impact of “trans-humanism” challenges the very definition of “human” – with profound ethical dilemmas that remain unresolved. Big data techniques interrogate massive databases to discover hidden patterns and correlations that form the basis of modern advertising – and are continually leveraged for intelligence and security purposes by nation states and non-state entities alike.  Quantum computing, first applied to encryption functions, is now a key computing enabler, especially for artificial intelligence.9  A mature Internet of Things connects and integrates the devices of the information realm with formerly inert objects – structures, motors, or appliances -- of the physical realm.  Neuroscience has enhanced our understanding of brain function, including neural plasticity, and has enabled advanced techniques for human-machine interfacing. A better understanding of the machinery of the mind has found commercial application in the acceleration of speed and retention in learning.  In the most connected and wealthy parts of the world, cell phones and computers will all but disappear as physical, hand held devices.  Select individuals will directly connect to cyberspace through neural implants or augmented reality systems painted directly on a retina.  If we have not yet reached the “singularity”, where AI and machines are capable of outperforming the human mind, we will nonetheless have reached a point where AI, machines, and man-machine teaming open new possibilities in this realm.</obo:IAO_0000115>
         <obo:IAO_0000115>Singularity is the point at which artificial intelligence (AI) exceeds the collective intelligence of mankind, which will radically and irrevocably change the relationship between man and machine.  There are several divergent possibilities regarding the singularity: 
@@ -118,9 +127,109 @@ AI has the capacity to change paradigms, revolutionize everyday life, and take m
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Benefit -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Benefit">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>Benefit refers to the extent that the application outcome meets the goals for those building the big data processing system.</obo:IAO_0000115>
+        <obo:IAO_0000115>advantage to the organization of the actionable knowledge derived from an analytic system
+
+Note 1 to entry: Benefit is often ascribed to big data due to the understanding that data has potential value that was typically not considered previously.</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigData -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigData">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>extensive datasets (3.1.13) — primarily in the data (3.1.5) characteristics of volume, variety, velocity, and/or variability — that require a scalable technology for efficient storage, manipulation, management, and analysis
+
+Note 1 to entry: Big data is commonly used in many different ways, for example as the name of the scalable technology used to handle big data extensive datasets.</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataApplicationProvider -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataApplicationProvider">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataRole"/>
+        <obo:IAO_0000115>The Big Data Application Provider executes the manipulations of the data life cycle to meet requirements established by the System Orchestrator. This is where the general capabilities within the Big Data framework are combined to produce the specific data system. While the activities of an application provider are the same whether the solution being built concerns Big Data or not, the methods and techniques have changed because the data and data processing is parallelized across resources.
+
+The Big Data Application Provider role executes a specific set of operations along the data life cycle to meet the requirements established by the System Orchestrator, as well as meeting security and privacy requirements. The Big Data Application Provider is the architecture component that encapsulates the business logic and functionality to be executed by the architecture. The Big Data Application Provider activities include the following:
+- Collection
+- Preparation
+- Analytics
+- Visualization
+- Access</obo:IAO_0000115>
+        <obo:IAO_0000119>NIST Big Data Interoperability Framework: Volume 6, Reference Architecture
+
+Final Version 1 
+
+NIST Big Data Public Working Group (NBD-PWG) Reference Architecture Subgroup Information Technology Laboratory</obo:IAO_0000119>
+        <rdfs:comment>In general, the collection activity of the Big Data Application Provider handles the interface with the Data Provider. This may be a general service, such as a file server or web server configured by the System Orchestrator to accept or perform specific collections of data, or it may be an application-specific service designed to pull data or receive pushes of data from the Data Provider. Since this activity is receiving data at a minimum, it must store/buffer the received data until it is persisted through the Big Data Framework Provider. This persistence need not be to physical media but may simply be to an in-memory queue or other service provided by the processing frameworks of the Big Data Framework Provider. The collection activity is likely where the extraction portion of the Extract, Transform, Load (ETL)/Extract, Load, Transform (ELT) cycle is performed. At the initial collection stage, sets of data (e.g., data records) of similar structure are collected (and combined), resulting in uniform security, policy, and other considerations. Initial metadata is created (e.g., subjects with keys are identified) to facilitate subsequent aggregation or look-up methods. 
+
+The preparation activity is where the transformation portion of the ETL/ELT cycle is likely performed, although analytics activity will also likely perform advanced parts of the transformation. Tasks performed by this activity could include data validation (e.g., checksums/hashes, format checks), cleansing (e.g., eliminating bad records/fields), outlier removal, standardization, reformatting, or encapsulating. This activity is also where source data will frequently be persisted to archive storage in the Big Data Framework Provider and provenance data will be verified or attached/associated. Verification or attachment may include optimization of data through manipulations (e.g., deduplication) and indexing to optimize the analytics process. This activity may also aggregate data from different Data Providers, leveraging metadata keys to create an expanded and enhanced data set. 
+
+The analytics activity of the Big Data Application Provider includes the encoding of the low-level business logic of the Big Data system (with higher-level business process logic being encoded by the System Orchestrator). The activity implements the techniques to extract knowledge from the data based
+on the requirements of the vertical application. The requirements specify the data processing algorithms for processing the data to produce new insights that will address the technical goal. The analytics activity will leverage the processing frameworks to implement the associated logic. This typically involves the
+activity providing software that implements the analytic logic to the batch and/or streaming elements of  the processing framework for execution. The messaging/communication framework of the Big Data Framework Provider may be used to pass data or control functions to the application logic running in the
+processing frameworks. The analytic logic may be broken up into multiple modules to be executed by the processing frameworks which communicate, through the messaging/communication framework, with each other and other functions instantiated by the Big Data Application Provider. 
+
+The visualization activity of the Big Data Application Provider prepares elements of the processed data and the output of the analytic activity for presentation to the Data Consumer. The objective of this activity is to format and present data in such a way as to optimally communicate meaning and knowledge. The visualization preparation may involve producing a text-based report or rendering the analytic results as some form of graphic. The resulting output may be a static visualization and may simply be stored through the Big Data Framework Provider for later access. However, the visualization activity frequently interacts with the access activity, the analytics activity, and the Big Data Framework Provider (processing and platform) to provide interactive visualization of the data to the Data Consumer based on parameters provided to the access activity by the Data Consumer. The visualization activity may be completely application-implemented, leverage one or more application libraries, or may use specialized visualization processing frameworks within the Big Data Framework Provider.
+
+The access activity within the Big Data Application Provider is focused on the communication/interaction with the Data Consumer. Similar to the collection activity, the access activity may be a generic service such as a web server or application server that is configured by the System Orchestrator to handle specific
+requests from the Data Consumer. This activity would interface with the visualization and analytic activities to respond to requests from the Data Consumer (who may be a person) and uses the processing and platform frameworks to retrieve data to respond to Data Consumer requests. In addition, the access
+activity confirms that descriptive and administrative metadata and metadata schemes are captured and maintained for access by the Data Consumer and as data is transferred to the Data Consumer. The interface with the Data Consumer may be synchronous or asynchronous in nature and may use a pull or
+push paradigm for data transfer.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataFrameworkProvider -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataFrameworkProvider">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataRole"/>
+        <obo:IAO_0000115>The Big Data Framework Provider has general resources or services to be used by the Big Data Application Provider in the creation of the specific application. There are many new components from which the Big Data Application Provider can choose in using these resources and the network to build the specific system. This is the role that has seen the most significant changes because of Big Data. The Big
+Data Framework Provider consists of one or more instances of the three subcomponents: infrastructure frameworks, data platforms, and processing frameworks. There is no requirement that all instances at a given level in the hierarchy be of the same technology and, in fact, most Big Data implementations are hybrids combining multiple technology approaches. These provide flexibility and can meet the complete range of requirements that are driven from the Big Data Application Provider. Due to the rapid emergence of new techniques, this is an area that will continue to need discussion.</obo:IAO_0000115>
+        <obo:IAO_0000119>NIST Big Data Interoperability Framework: Volume 6, Reference Architecture
+
+Final Version 1 
+
+NIST Big Data Public Working Group (NBD-PWG) Reference Architecture Subgroup Information Technology Laboratory</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataRole -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataRole">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataTrend -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataTrend">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
         <obo:IAO_0000115>Artificial Intelligence (AI) may be the most disruptive technology of our time: much of today’s “thought” is artificial, vice human.  Breakthroughs in AI and deep learning enable reasoning intelligent systems that, though not sentient, administer and optimize a great many aspects of modern life.  Advanced physio-mechanical interfaces enable humanmachine integration to include optimized searching of massive indexes of data, direct access to large-scale computing power, and life-like experiences through virtual reality. The revolutionary impact of “trans-humanism” challenges the very definition of “human” – with profound ethical dilemmas that remain unresolved. Big data techniques interrogate massive databases to discover hidden patterns and correlations that form the basis of modern advertising – and are continually leveraged for intelligence and security purposes by nation states and non-state entities alike.  Quantum computing, first applied to encryption functions, is now a key computing enabler, especially for artificial intelligence.9  A mature Internet of Things connects and integrates the devices of the information realm with formerly inert objects – structures, motors, or appliances -- of the physical realm.  Neuroscience has enhanced our understanding of brain function, including neural plasticity, and has enabled advanced techniques for human-machine interfacing. A better understanding of the machinery of the mind has found commercial application in the acceleration of speed and retention in learning.  In the most connected and wealthy parts of the world, cell phones and computers will all but disappear as physical, hand held devices.  Select individuals will directly connect to cyberspace through neural implants or augmented reality systems painted directly on a retina.  If we have not yet reached the “singularity”, where AI and machines are capable of outperforming the human mind, we will nonetheless have reached a point where AI, machines, and man-machine teaming open new possibilities in this realm.</obo:IAO_0000115>
         <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
@@ -128,9 +237,17 @@ AI has the capacity to change paradigms, revolutionize everyday life, and take m
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionTrend -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionTrend">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
         <obo:IAO_0000115>Humanity will become richer, older, more urban, and better educated, but the uneven distribution of this progress will accelerate tension and conflict.  The convergence of more information and more people with fewer state resources will constrain governments’ efforts to address rampant poverty, violence, and pollution, and create a breeding ground for dissatisfaction among increasingly aware, yet still disempowered populations. These factors will be attenuated by a changing climate, which has the potential to create additional crises and discontent.  The addition of over seven billion people over the last century has altered geography itself, and cities now sprawl over large areas of the globe and contain almost two-thirds of the world’s population. These numbers will only increase.  Some megacities will become more important politically and economically than the nationstate in which they reside.  Life will become both easier and more complex, with those able to take advantage of the leading edge of technological advancement increasingly exploiting those who cannot.  New social stresses and fractures will lead to strife and population migrations, which in turn create further challenges for urbanized areas.  Furthermore, the move of large numbers of people to large urban areas and megacities will strain resources, as these area will become increasingly reliant on rural areas for food, water, and even additional power.  From a military perspective, cities represent challenges, opportunities, and unique vulnerabilities.</obo:IAO_0000115>
         <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
@@ -138,9 +255,48 @@ AI has the capacity to change paradigms, revolutionize everyday life, and take m
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CollectiveIntelligence -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CloudComputing -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CollectiveIntelligence">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CloudComputing">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>paradigm for enabling network access to a scalable and elastic pool of shareable physical or virtual resources with self-service provisioning and administration on-demand
+
+Note 1 to entry: Examples of resources include servers, operating systems, networks, software, applications, and storage equipment.</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Cluster -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Cluster">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>&lt;distributed data processing&gt; set of functional units under common control</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+        <obo:IAO_0000119>[SOURCE: ISO/IEC 2382:2015, 18.05.06]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CollectiveIntelligenceControlledVocabulary -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CollectiveIntelligenceControlledVocabulary">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CollectiveIntelligenceTrend -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CollectiveIntelligenceTrend">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
         <obo:IAO_0000115>Singularity is the point at which artificial intelligence (AI) exceeds the collective intelligence of mankind, which will radically and irrevocably change the relationship between man and machine.  There are several divergent possibilities regarding the singularity: 
 
@@ -164,9 +320,25 @@ AI has the capacity to change paradigms, revolutionize everyday life, and take m
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CyberAndSpace -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CyberAndSpace">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CyberAndSpaceControlledVocabulary -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CyberAndSpaceControlledVocabulary">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CyberAndSpaceTrend -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CyberAndSpaceTrend">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
         <obo:IAO_0000115>Our adversaries will rely on strategic capabilities, such as weapons of mass destruction, information operations, and direct cyber-attacks designed to give us pause in responding to their actions and provide them the strategic space they need to operate.  Space will become a contested domain, as our enemies will enhance their ability to operate in that domain while working to deny us what was once a key area of advantage</obo:IAO_0000115>
         <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
@@ -174,9 +346,321 @@ AI has the capacity to change paradigms, revolutionize everyday life, and take m
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemographicsAndUrbanization -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Data -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemographicsAndUrbanization">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Data">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>reinterpretable representation of information in a formalized manner suitable for communication, interpretation, or processing
+
+Note 1 to entry:	data can be processed by humans or by automatic means.</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+        <obo:IAO_0000119>[SOURCE: ISO/IEC 2382:2015, 2122101]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataAnalytics -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataAnalytics">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>composite concept consisting of data acquisition, data collection, data validation, data processing (3.1.11), including data quantification, data visualization, and data interpretation
+
+Note 1 to entry: Data analytics is used to understand objects represented by data (3.1.5), to make predictions for a given situation, and to recommend on steps to achieve objectives. The insights obtained from analytics are used for various purposes such as decision-making, research, sustainable development, design, planning, etc.</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataConsumer -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataConsumer">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataRole"/>
+        <obo:IAO_0000115>The Data Consumer receives the value output of the Big Data system. In many respects, it is the recipient of the same type of functional interfaces that the Data Provider exposes to the Big Data Application Provider. After the system adds value to the original data sources, the Big Data Application Provider then exposes that same type of functional interfaces to the Data Consumer.</obo:IAO_0000115>
+        <obo:IAO_0000119>NIST Big Data Interoperability Framework: Volume 6, Reference Architecture
+
+Final Version 1 
+
+NIST Big Data Public Working Group (NBD-PWG) Reference Architecture Subgroup Information Technology Laboratory</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataEngineering -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataEngineering">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>discipline which is related to the engineering aspects of systems, processing, models and management of data (3.1.5), including but not limited to big data (3.1.2).</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataModel -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataModel">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+        <obo:IAO_0000119>[SOURCE: ISO/IEC 2382:2015, 17.01.07]</obo:IAO_0000119>
+        <obo:IAO_0000119>pattern of structuring data (3.1.5) in a database (3.1.7) according to the formal descriptions in its information system and according to the requirements of the database management system to be applied</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataMonetaryValue -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataMonetaryValue">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>excess return on investment over the cost of acquiring, processing, and maintaining the data (3.1.5)</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataProcessing -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataProcessing">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>systematic performance of operations upon data(3.1.5)
+
+Note 1 to entry: Example: Arithmetic or logic operations upon data, merging or sorting of data, or operations on text, such as editing, sorting, merging, storing, retrieving, displaying, or printing.
+
+Note 2 to entry: The term data processing should not be used as a synonym for information processing.</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+        <obo:IAO_0000119>[SOURCE: ISO/IEC 2382:2015, 01.01.06]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataProvider -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataProvider">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataRole"/>
+        <obo:IAO_0000115>A Data Provider makes data available to itself or to others. In fulfilling its role, the Data Provider creates an abstraction of various types of data sources (such as raw data or data previously transformed by another system) and makes them available through different functional interfaces. The actor fulfilling this role can be part of the Big Data system, internal to the organization in another system, or external to the organization orchestrating the system. While the concept of a Data Provider is not new, the greater data collection and analytics capabilities have opened up new possibilities for providing valuable data.
+
+The Data Provider role introduces new data or information feeds into the Big Data system for discovery, access, and transformation by the Big Data system. New data feeds are distinct from the data already in use by the system and residing in the various system repositories. Similar technologies can be used to access both new data feeds and existing data. The Data Provider actors can be anything from a sensor, to a human inputting data manually, to another Big Data system.
+
+The Data Provider exposes a collection of interfaces (or services) for discovering and accessing the data. These interfaces would typically include a registry so that applications can locate a Data Provider, identify the data of interest it contains, understand the types of access allowed, understand the types of analysis supported, locate the data source, determine data access methods, identify the data security requirements, identify the data privacy requirements, and other pertinent information. Therefore, the interface would provide the means to register the data source, query the registry, and identify a standard set of data contained by the registry.</obo:IAO_0000115>
+        <obo:IAO_0000119>NIST Big Data Interoperability Framework: Volume 6, Reference Architecture
+
+Final Version 1 
+
+NIST Big Data Public Working Group (NBD-PWG) Reference Architecture Subgroup Information Technology Laboratory</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataScience -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataScience">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>Data science refers to the process for extracting knowledge from data – the approach can be either through exploration or by hypothesis testing. Data Science refers to the complete data analytics lifecycle where data analytics is understood</obo:IAO_0000115>
+        <obo:IAO_0000115>extraction of actionable knowledge from data (3.1.5) through a process of discovery, or hypothesis and hypothesis testing</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataSet -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataSet">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>identifiable collection of data (3.1.5) available for access or download in one or more formats</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+        <obo:IAO_0000119>[SOURCE: Adapted from ISO 19115-2:2009 (en), 4.7]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataType -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataType">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>defined set of data (3.1.5) objects of a specified data structure and a set of permissible operations, such that these data objects act as operands in the execution of any one of these operations
+
+Note 1 to entry: Example: An integer type has a very simple structure, each occurrence of which, usually called value, is a representation of a member of a specified range of whole numbers and the permissible operations include the usual arithmetic operations on these integers.
+
+Note 2 to entry: The term &quot;type&quot; may be used instead of &quot;data type&quot; when there is no ambiguity.
+
+Note 3 to entry: data type; datatype: terms and definition standardized by ISO/IEC [ISO/IEC 2382-15:1999].</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+        <obo:IAO_0000119>[SOURCE: ISO/IEC 2382:2015, 2122374]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataVariability -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataVariability">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>Data variability refers to changes in data rate, format/structure, semantics, and/or quality that impact the supported application, analytic, or problem. Impacts can include the need to refactor architectures, interfaces, processing/algorithms, integration/fusion, storage, applicability, or use of the data. In addition, a variability in data volumes implies the need to scale-up or scale-down virtualized resources to efficiently handle the additional processing load.</obo:IAO_0000115>
+        <obo:IAO_0000115>changes in transmission rate, format or structure, semantics, or quality of datasets (3.1.12)</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataVariety -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataVariety">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>Data variety represents the need to analyse data from a number of domains and a number of data types. The variety of data was handled through transformations or pre-analytics to identify features that would allow integration with other data. The wider range of data formats, logical models, timescales, and semantics, which is desirous to be used in data analytics, complicates the integration of the variety of data. Metadata is increasingly used to aid in the integration. Impacts of variety on big data include that it requires the semantics of the data to be machine readable.</obo:IAO_0000115>
+        <obo:IAO_0000115>range of formats, logical models, timescales, and semantics of a dataset (3.1.12)
+
+Note 1 to entry: Data variety refers to irregular or heterogeneous data structures, their navigation, query, and data typing.</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataVelocity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataVelocity">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>Data velocity is the rate of flow at which the data is created, stored, analysed or visualized. Big data velocity means a large quantity of data needs to be processed in a short amount of time. An example of dealing with high velocity data is commonly referred to as techniques for streaming data.</obo:IAO_0000115>
+        <obo:IAO_0000115>rate of flow at which data (3.1.5) is created, transmitted, stored, analysed or visualised</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataVeracity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataVeracity">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>Data veracity refers to the completeness and accuracy of the data and relates to the vernacular “garbage-in, garbage-out” description for data quality issues in existence for a long time. If the data analytics are causal, then the quality of every data element is extremely important. If the data analytics are correlations or trending over massive volume datasets, then individual bad elements could be lost in the overall counts and the trend could still be accurate.</obo:IAO_0000115>
+        <obo:IAO_0000115>completeness and/or accuracy of data (3.1.5)
+
+Note 1 to entry: Data veracity refers to descriptive data and self-inquiry about objects to support real-time decision-making.</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataVisualization -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataVisualization">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>Data visualization refers to the presentation of data to allow the viewer to discern information about the data being displayed. Big data has required new techniques for large volume datasets, including aggregation and summarization to make the data more accessible visually. Big data also requires more attention to the visual presentation to decision-makers – to convey easily understood results while also communicating the complexity, accuracy, and probabilistic error range on the results.</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataVolatility -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataVolatility">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>Data volatility refers to a limited time span in which data values remain relevant for a particular analysis, expressed as a rate of change over time. In real-time data analytics situations, it is critical to operate on data immediately for decision-making. This is most evident in high velocity situations such as stock markets or telecommunications. However,  data that is no longer valid for a particular time sensitive analytic due to time decay may still be valid for other non-time sensitive analytics.</obo:IAO_0000115>
+        <obo:IAO_0000115>characteristic of data (3.1.5) pertaining to the rate of change of these data over time</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+        <obo:IAO_0000119>[SOURCE: ISO/IEC 2382:2015, 17.06.06]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataVolume -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DataVolume">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>Data volume represents the extensive amount of data available for analysis to extract valuable information. The massive amounts of data generated through internet activity was one of the primary drivers for the development of the big data processing techniques.</obo:IAO_0000115>
+        <obo:IAO_0000115>Extent of the amount of data (3.1.5) relevant to impacting computation and storage resources and their management during data processing
+
+Note 1 to entry: Data volume becomes important in dealing with large datasets (3.1.13), including their</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Database -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Database">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>collection of data (3.1.5) organized according to a conceptual structure describing the characteristics of these data and the relationships among their corresponding entities, supporting one or more application areas</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+        <obo:IAO_0000119>[SOURCE: ISO/IEC 2382:2015, 01.08.05]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemographicsAndUrbanizationControlledVocabulary -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemographicsAndUrbanizationControlledVocabulary">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemographicsAndUrbanizationTrend -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemographicsAndUrbanizationTrend">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
         <obo:IAO_0000115>Humanity will become richer, older, more urban, and better educated, but the uneven distribution of this progress will accelerate tension and conflict.  The convergence of more information and more people with fewer state resources will constrain governments’ efforts to address rampant poverty, violence, and pollution, and create a breeding ground for dissatisfaction among increasingly aware, yet still disempowered populations. These factors will be attenuated by a changing climate, which has the potential to create additional crises and discontent.  The addition of over seven billion people over the last century has altered geography itself, and cities now sprawl over large areas of the globe and contain almost two-thirds of the world’s population. These numbers will only increase.  Some megacities will become more important politically and economically than the nationstate in which they reside.  Life will become both easier and more complex, with those able to take advantage of the leading edge of technological advancement increasingly exploiting those who cannot.  New social stresses and fractures will lead to strife and population migrations, which in turn create further challenges for urbanized areas.  Furthermore, the move of large numbers of people to large urban areas and megacities will strain resources, as these area will become increasingly reliant on rural areas for food, water, and even additional power.  From a military perspective, cities represent challenges, opportunities, and unique vulnerabilities.</obo:IAO_0000115>
         <obo:IAO_0000115>Our adversaries will operate in and among populations and in complex terrain, and endeavor to mitigate many of our own traditional technological advantages and force us to operate with degraded capabilities and take advantage of the infrastructure and other resources cities offer.</obo:IAO_0000115>
@@ -199,9 +683,48 @@ AI has the capacity to change paradigms, revolutionize everyday life, and take m
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicRebalancing -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DistributedDataProcessing -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicRebalancing">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DistributedDataProcessing">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>The popular framework for distributed computing consists of a storage layer and processing layer combination that implements a multiple-class, algorithm-programming model. Low-cost commodity servers supporting the distributed file system that stores the data can dramatically lower the storage costs of computing on a large scale of data (e.g., web indexing). In distributed data processing a query is scattered across the processors and the results are gathered into a central processor. Processing results are typically then loaded into an analysis environment. Multiple nodes (e.g. client nodes, data nodes, replica nodes) are arranged in a master-slave architecture to achieve efficiency, reliability, high availability, and fault-tolerance of the system.</obo:IAO_0000115>
+        <obo:IAO_0000115>data processing (3.1.11) in which the performance of operations is dispersed among the nodes in a computer network</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+        <obo:IAO_0000119>[SOURCE: ISO/IEC 2382:2015, 18.01.08]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DistributedFileSystem -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DistributedFileSystem">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>In distributed file systems, multi-structured (object) datasets are distributed across the computing nodes of the server cluster(s). The data may be distributed at the file/dataset level, or more commonly, at the block level, allowing multiple nodes in the cluster to interact with different parts of a large file/dataset simultaneously. Big data systems are frequently designed to take advantage of data locality to each node when distributing the processing, which avoids any need to move the data between nodes. In addition, many distributed file systems also implement file/block level replication where each file/block is stored multiple times on different machines nodes for both reliability/recovery (data is not lost if a node in the cluster fails), as well as enhanced data locality. Any type of data and many sizes of files can be handled without formal extract, transformation, and load conversions, with some technologies performing markedly better for large file sizes</obo:IAO_0000115>
+        <obo:IAO_0000115>system which manages files and folders across multiple networked systems</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicRebalancingControlledVocabulary -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicRebalancingControlledVocabulary">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicRebalancingTrend -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicRebalancingTrend">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
         <obo:IAO_0000115>Although AI and its associated technologies will shatter many industries and livelihoods, a wide range of advances continue to create new sources of wealth and economic development – while also significantly impacting the strategic security environment. Robotics and autonomous systems will underpin the smooth functioning of advanced societies.  Additive manufacturing, computer-aided design and millions of industrial robots will dislocate significant portions of the global supply chain.  Virtually anyone in the world with access to a computer system and 3D printer will be able to “print” anything from drones to weapons.  Encrypted blockchains will be massively disruptive to commerce functions. Together with robotics, autonomy, and AI they comprise a perfect storm for “blue collar” and “white collars” alike, causing vast economic displacement as formerly high-quality information technology and management jobs follow the previous path of agricultural and manufacturing labor.  Militaries, paramilitaries, mercenary groups, criminal elements, and even extremists groups all will be able to take advantage of this potential pool of manpower.  Biotechnology will see major advances, with many chemical and materials industry being replaced or augmented by a “bio-based economy” in which precision genetic engineering allows for bulk chemical production.  Individualized genetics enable precise performance enhancements for cognition, health, longevity, and fitness.</obo:IAO_0000115>
         <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
@@ -291,6 +814,21 @@ AI has the capacity to change paradigms, revolutionize everyday life, and take m
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#File -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#File">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>named set of records treated as a unit</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+        <obo:IAO_0000119>[SOURCE: ISO/IEC 2382:2015, 04.07.10]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FunctionalSystem -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FunctionalSystem">
@@ -307,6 +845,20 @@ AI has the capacity to change paradigms, revolutionize everyday life, and take m
                 <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HighPowerMicrowavePrecisionWeaponPointDefense"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Gather -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Gather">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>consolidation of results from multiple nodes in a cluster</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -374,9 +926,35 @@ into the Air Force inventory.</obo:IAO_0000119>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanComputerInteraction -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HorizontalScaling -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanComputerInteraction">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HorizontalScaling">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>providing a single logical unit through the connection of multiple hardware and software
+
+Note 1 to entry: The example of horizontal scaling is increasing the performance of distributed data processing through the addition of nodes in the cluster for additional resources.
+
+Note 2 to entry: Horizontal scaling for increasing performance is also referred to as scale-out.</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanComputerInteractionControlledVocabulary -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanComputerInteractionControlledVocabulary">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanComputerInteractionTrend -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanComputerInteractionTrend">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
         <obo:IAO_0000115>Although more human beings stress available resources, population growth has also compounded the rate of innovation and technology development.  Human creativity is now clearly the most transformative force in the world, both enhancing human life, but also upending it, and – at times – precipitating catastrophic, disruptive events.  Information technology will continue to improve exponentially, and most of the developed world already is instrumented in some way.  Nearly every person on Earth has access to a connected, mobile device.  Advanced material capabilities have, and will continue to extend the trend of reduced size, weight, and power requirements, as nanomaterials, metamaterials, and bespoke structures allow multifunctional assemblies, vastly improving overall systems integration, reliability, and performance.  Advanced materials also foster increases in battery power and performance, allowing large amounts of power to be stored across a distributed grid, and miniaturized storage powers mobile robotics and vehicles of all types</obo:IAO_0000115>
         <obo:IAO_0000115>Singularity is the point at which artificial intelligence (AI) exceeds the collective intelligence of mankind, which will radically and irrevocably change the relationship between man and machine.  There are several divergent possibilities regarding the singularity: 
@@ -407,9 +985,17 @@ AI has the capacity to change paradigms, revolutionize everyday life, and take m
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IncreasedLevelOfHumanPerformance -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IncreasedLevelOfHumanPerformanceControlledVocabulary -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IncreasedLevelOfHumanPerformance">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IncreasedLevelOfHumanPerformanceControlledVocabulary">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IncreasedLevelOfHumanPerformanceTrend -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IncreasedLevelOfHumanPerformanceTrend">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
         <obo:IAO_0000115>Although more human beings stress available resources, population growth has also compounded the rate of innovation and technology development.  Human creativity is now clearly the most transformative force in the world, both enhancing human life, but also upending it, and – at times – precipitating catastrophic, disruptive events.  Information technology will continue to improve exponentially, and most of the developed world already is instrumented in some way.  Nearly every person on Earth has access to a connected, mobile device.  Advanced material capabilities have, and will continue to extend the trend of reduced size, weight, and power requirements, as nanomaterials, metamaterials, and bespoke structures allow multifunctional assemblies, vastly improving overall systems integration, reliability, and performance.  Advanced materials also foster increases in battery power and performance, allowing large amounts of power to be stored across a distributed grid, and miniaturized storage powers mobile robotics and vehicles of all types</obo:IAO_0000115>
         <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
@@ -429,6 +1015,66 @@ AI has the capacity to change paradigms, revolutionize everyday life, and take m
         </rdfs:subClassOf>
         <obo:IAO_0000115>The mission of the Long Range Precision Fires (LRPF) Missile is to attack, neutralize, suppress and destroy targets using missile-delivered indirect precision fires. LRPF provides field artillery units with long-range and deep-strike capability while supporting brigade, division, corps, Army, theater, Joint and Coalition forces and Marine Corps air-to-ground task forces in full, limited or expeditionary operations. The LRPF will replace the Army Tactical Missile System (ATACMS) capability, which is impacted by the age of the ATACMS inventory and the cluster munition policy that removes all M39 and M39A1 ATACMS from the inventory after 2018.</obo:IAO_0000115>
         <obo:IAO_0000119>https://asc.army.mil/web/portfolio-item/long-range-precision-fires-lrpf/</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ManagementFabric -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ManagementFabric">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataRole"/>
+        <obo:IAO_0000115>The Big Data characteristics of volume, velocity, variety, and variability demand a versatile system and software management platform for provisioning, software and package configuration and management, along with resource and performance monitoring and management. Big Data management involves system, data, security, and privacy considerations at scale, while maintaining a high level of data quality and secure accessibility.</obo:IAO_0000115>
+        <obo:IAO_0000119>NIST Big Data Interoperability Framework: Volume 6, Reference Architecture
+
+Final Version 1 
+
+NIST Big Data Public Working Group (NBD-PWG) Reference Architecture Subgroup Information Technology Laboratory</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Metadata -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Metadata">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>data (3.1.5) about data or data elements, possibly including their data descriptions, and data about data ownership, access paths, access rights and data volatility</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+        <obo:IAO_0000119>[SOURCE: ISO/IEC 2382:2015, 17.06.05]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#NonRelationalDatabase -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#NonRelationalDatabase">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>In horizontally scaled systems, the data is distributed across the nodes of a cluster, while having a single logical structure. The new non-relational model database paradigms are typically referred to as NoSQL (Not Only SQL or No SQL) systems. The problem with identifying big data storage paradigms as NoSQL is, first, it describes the storage of data with respect to a set theory-based language for query and retrieval of data, and second, there is a growing capability in the application of the query languages similar to SQL against the new non-relational data repositories. While NoSQL is in such common usage that it will continue to refer to the new data models beyond the relational model, the term refers to databases that do not follow a relational model. Examples of non-relational database models include the column, sparse table, key-value, key-document, and graphical models.</obo:IAO_0000115>
+        <obo:IAO_0000115>database (3.1.7) that does not follow a relational data model
+
+Note 1 to entry: NoSQL, which is typically translated as “non SQL” or “not only SQL”, is the term in common usage to refer to databases that do not conform to a relational model.</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#NonRelationalModel -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#NonRelationalModel">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>logical data (3.1.5) model that does not follow a relational model for the storage and manipulation of data</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -468,9 +1114,52 @@ AI has the capacity to change paradigms, revolutionize everyday life, and take m
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerStorageAndGeneration -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Parallel -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerStorageAndGeneration">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Parallel">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>pertaining to a process in which all events occur within the same interval of time, each one handled by a separate but similar functional unit
+
+Note 1 to entry: Example: The parallel transmission of the bits of a computer word along the lines of an internal bus.</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+        <obo:IAO_0000119>[SOURCE: ISO/IEC 2382:2015, 03.02.01]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PartiallyStructuredData -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PartiallyStructuredData">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>data (3.1.5) that has some organization
+
+Note 1 to entry:  partially structured data is often referred to as semi-structured data by industry 
+
+Note 2 to entry: examples of partially structured data are records with free text fields in addition to more structured fields.  Such data is frequently represented in computer interpretable/parsible formats such as XML or JSON.</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerStorageAndGenerationTrend -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerStorageAndGenerationTrend">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
         <obo:IAO_0000115>Although more human beings stress available resources, population growth has also compounded the rate of innovation and technology development.  Human creativity is now clearly the most transformative force in the world, both enhancing human life, but also upending it, and – at times – precipitating catastrophic, disruptive events.  Information technology will continue to improve exponentially, and most of the developed world already is instrumented in some way.  Nearly every person on Earth has access to a connected, mobile device.  Advanced material capabilities have, and will continue to extend the trend of reduced size, weight, and power requirements, as nanomaterials, metamaterials, and bespoke structures allow multifunctional assemblies, vastly improving overall systems integration, reliability, and performance.  Advanced materials also foster increases in battery power and performance, allowing large amounts of power to be stored across a distributed grid, and miniaturized storage powers mobile robotics and vehicles of all types</obo:IAO_0000115>
         <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
@@ -554,12 +1243,125 @@ AI has the capacity to change paradigms, revolutionize everyday life, and take m
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Robotics -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RelationalAlgebra -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Robotics">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RelationalAlgebra">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>algebra for expressing and manipulating relations</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+        <obo:IAO_0000119>[SOURCE: ISO/IEC 2382:2015, 17.04.08]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RelationalDatabase -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RelationalDatabase">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>database (3.1.7) in which the data are organized according to a relational model</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+        <obo:IAO_0000119>[SOURCE: ISO/IEC 2382:2015, 17.04.05]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RelationalModel -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RelationalModel">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>data model (3.1.9) whose structure is based on a set of relations</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+        <obo:IAO_0000119>[SOURCE: ISO/IEC 2382:2015, 17.04.04]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsTrend -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsTrend">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
         <obo:IAO_0000115>Artificial Intelligence (AI) may be the most disruptive technology of our time: much of today’s “thought” is artificial, vice human.  Breakthroughs in AI and deep learning enable reasoning intelligent systems that, though not sentient, administer and optimize a great many aspects of modern life.  Advanced physio-mechanical interfaces enable humanmachine integration to include optimized searching of massive indexes of data, direct access to large-scale computing power, and life-like experiences through virtual reality. The revolutionary impact of “trans-humanism” challenges the very definition of “human” – with profound ethical dilemmas that remain unresolved. Big data techniques interrogate massive databases to discover hidden patterns and correlations that form the basis of modern advertising – and are continually leveraged for intelligence and security purposes by nation states and non-state entities alike.  Quantum computing, first applied to encryption functions, is now a key computing enabler, especially for artificial intelligence.9  A mature Internet of Things connects and integrates the devices of the information realm with formerly inert objects – structures, motors, or appliances -- of the physical realm.  Neuroscience has enhanced our understanding of brain function, including neural plasticity, and has enabled advanced techniques for human-machine interfacing. A better understanding of the machinery of the mind has found commercial application in the acceleration of speed and retention in learning.  In the most connected and wealthy parts of the world, cell phones and computers will all but disappear as physical, hand held devices.  Select individuals will directly connect to cyberspace through neural implants or augmented reality systems painted directly on a retina.  If we have not yet reached the “singularity”, where AI and machines are capable of outperforming the human mind, we will nonetheless have reached a point where AI, machines, and man-machine teaming open new possibilities in this realm.</obo:IAO_0000115>
         <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SQL -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SQL">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>database language specified by ISO/IEC 9075
+
+Note 1 to entry: SQL is sometimes interpreted to stand for Structured Query Language, but that name is not used in ISO/IEC 9075.</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Scaling -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Scaling">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>Big data refers to the extensibility of data repositories and data processing across resources working in parallel, in the same way that the compute-intensive simulation community embraced massively parallel processing. By working out methods for communication among resources, the same scaling is now available to data-intensive applications. Vertical scaling implies increasing the system parameters of processing speed, storage, and memory for greater performance. This approach is limited by physical capabilities whose improvements have been described by Moore’s Law, requiring ever more sophisticated elements (e.g., hardware, software) that add time and expense to the implementation. The alternative method is to use horizontal scaling, to make use of distributed individual resources integrated to act as a single system. It is this horizontal scaling that is at the heart of the big data revolution. While the methods to achieve efficient scalability across resources will continually evolve, this paradigm shift (in analogy to the prior shift in the simulation community to parallel processing) is a one-time occurrence.</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Scatter -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Scatter">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>distribution of processing across multiple nodes in a cluster (3.1.4)</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ScatterGather -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ScatterGather">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>form of processing of large datasets (3.1.13) where the computation required is divided up and distributed across multiple nodes in a cluster and the overall result is combined from the results from each node
+
+Note 1 to entry: Scatter-gather processing typically requires an algorithmic change to the processing software. An example of scatter-gather data processing is MapReduce.</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -584,6 +1386,20 @@ Deliverable(s): A list of components that make up the final product (this could 
 Point of contact: Who to contact with questions about the product. 
 
 Timeline: A rough projection of the stages of development and timeline for deliverables. GCKN has a scoping document template to assist in this step.</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndPrivacyFabric -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndPrivacyFabric">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataRole"/>
+        <obo:IAO_0000115>Security and privacy issues affect all other components of the NBDRA. The Security and Privacy Fabric interacts with the System Orchestrator for policy, requirements, and auditing and also with both the Big Data Application Provider and the Big Data Framework Provider for development, deployment, and operation. The NIST Big Data Interoperability Framework: Volume 4, Security and Privacy document discusses security and privacy topics.</obo:IAO_0000115>
+        <obo:IAO_0000119>NIST Big Data Interoperability Framework: Volume 6, Reference Architecture
+
+Final Version 1 
+
+NIST Big Data Public Working Group (NBD-PWG) Reference Architecture Subgroup Information Technology Laboratory</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -642,6 +1458,39 @@ https://www.arl.army.mil/www/default.cfm?page=2645</obo:IAO_0000119>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#StreamingData -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#StreamingData">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>data (3.1.5) passing across an interface from a source that is operating continuously</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+        <obo:IAO_0000119>[SOURCE: ISO/IEC 19784 4:2011, 4.4]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#StructuredData -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#StructuredData">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>data (3.1.5) which are characterized by not having any structure apart from that record or file level”
+
+Note 1 to entry: On the whole unstructured data is not composed of data elements.
+
+Example: An example of unstructured data is free text.</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubjectMatterExpertChecks -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubjectMatterExpertChecks">
@@ -656,6 +1505,38 @@ https://www.arl.army.mil/www/default.cfm?page=2645</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#System">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemOrchestrator -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemOrchestrator">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataRole"/>
+        <obo:IAO_0000115>The System Orchestrator provides the overarching requirements that the system must fulfill, including policy, governance, architecture, resources, and business requirements, as well as monitoring or auditing activities to ensure that the system complies with those requirements. The System Orchestrator role provides system requirements, high-level design, and monitoring for the data system. While the role predates Big Data systems, some related design activities have changed within the Big Data paradigm.
+
+The System Orchestrator role includes defining and integrating the required data application activities into an operational vertical system. Typically, the System Orchestrator involves a collection of more specific roles, performed by one or more actors, which manage and orchestrate the operation of the Big Data system. These actors may be human components, software components, or some combination of the two. The function of the System Orchestrator is to configure and manage the other components of the Big Data architecture to implement one or more workloads that the architecture is designed to execute. The workloads managed by the System Orchestrator may be assigning/provisioning framework components to individual physical or virtual nodes at the lower level, or providing a graphical user interface that supports the specification of workflows linking together multiple applications and components at the higher level. The System Orchestrator may also, through the Management Fabric, monitor the workloads and system to confirm that specific quality of service requirements are met for each workload, and may actually elastically assign and provision additional physical or virtual resources to meet workload requirements resulting from changes/surges in the data or number of users/transactions.</obo:IAO_0000115>
+        <obo:IAO_0000119>NIST Big Data Interoperability Framework: Volume 6, Reference Architecture
+
+Final Version 1 
+
+NIST Big Data Public Working Group (NBD-PWG) Reference Architecture Subgroup Information Technology Laboratory</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatMove -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatMove">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FunctionalSystem"/>
+        <obo:IAO_0000115>While most ground vehicles will continue to use the proven wheeled and tracked locomotion, a growing fraction of vehicles, especially the ground robots intended for operations in highly cluttered, broken terrain such as urban rubble and forests, will use legged locomotion. The advances of legged locomotion in the last decade have been remarkable and are likely to continue so; by 2050 it will be a fully proven, robust technology.</obo:IAO_0000115>
+        <obo:IAO_0000119>Ground Warfare in 2050: How It Might Look 
+ 
+by Alexander Kott 
+
+Office of the Director, ARL 
+
+US Army Research Laboratory</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -692,9 +1573,17 @@ https://www.arl.army.mil/www/default.cfm?page=2645</obo:IAO_0000119>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TechnologyEngineeringAndManufacturing -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TechnologyEngineeringAndManufacturingControlledVocabulary -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TechnologyEngineeringAndManufacturing">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TechnologyEngineeringAndManufacturingControlledVocabulary">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TechnologyEngineeringAndManufacturingTrend -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TechnologyEngineeringAndManufacturingTrend">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
         <obo:IAO_0000115>The impact of the development of so many new and potential revolutionary technologies is made all the more disruptive by the convergence phenomenon.  Virtually every new technology is connected and intersecting to other new technologies and advances.  The example of the contemporary “smart phone”, which connects advances in cellular telephones with a camera, gaming, miniaturized computing and the Internet has completely transformed, and in many ways disrupted contemporary life.   Future convergences between various technological advances are likely to be equally disruptive and equally unpredictable, but the areas in which we foresee the most likely convergences are: 
 
@@ -742,6 +1631,37 @@ https://www.arl.army.mil/www/default.cfm?page=2645</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnstructuredData -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnstructuredData">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>Unstructured data has been increasing in both volume and prominence. While relational databases tend to have support for these types of data elements, their ability to directly analyse, index, and process them has tended to be both limited and accessed via non-standard SQL extensions. The need to analyse unstructured data has been present for many years. However, the big data paradigm shift has increased the emphasis on the value of unstructured data. Unstructured data also places an emphasis on new and different engineering methods that can analyse such data more efficiently.</obo:IAO_0000115>
+        <obo:IAO_0000115>data (3.1.5) which are characterized by not having any structure apart from that record or file level”</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#VerticalScaling -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#VerticalScaling">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
+        <obo:IAO_0000115>act of increasing the performance of data processing through improvements to processors, memory, storage, or connectivity
+
+Note 1 to entry: Vertical scaling for increasing performance is also referred to as scale-up.</obo:IAO_0000115>
+        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+
+ISO Working Draft
+
+https://www.iso.org/jtc1</obo:IAO_0000119>
     </owl:Class>
     
 
