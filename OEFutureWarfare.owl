@@ -133,6 +133,20 @@ AI has the capacity to change paradigms, revolutionize everyday life, and take m
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialLife -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialLife">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
+        <obo:IAO_0000115>An interdisciplinary field of research that aims to create artificial systems inspired by living systems, in the form of computer programmes or robots.</obo:IAO_0000115>
+        <obo:IAO_0000119>United Nations Educational, Scientific, and Cultural Organization Courier 
+
+March 2018
+
+https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AssessExperts -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AssessExperts">
@@ -193,6 +207,34 @@ Security techniques — Information security management systems — Overview and
 Publication date : 2018-02
 
 5th Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AugmentedMan -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AugmentedMan">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
+        <obo:IAO_0000115>A transhumanist* ideal, the augmented man is an individual who has been subjected to modifications aimed at enhancing his performance, thanks to interventions on the body based on scientific or technological principles. Part-man, part-machine, the individual would be able to run faster, see well in the dark, withstand pain, possess enhanced intellectual abilities, resist illness or death, etc. The “repaired man” already exists and “connected” prostheses are getting better every day. The augmented man is gradually becoming a reality, with the development of artificial external skeletons used for military purposes.</obo:IAO_0000115>
+        <obo:IAO_0000119>United Nations Educational, Scientific, and Cultural Organization Courier 
+
+March 2018
+
+https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AugmentedReality -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AugmentedReality">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
+        <obo:IAO_0000115>The superimposition of virtual elements onto reality, calculated by a computer system in real time (such as sounds, 2D and 3D video images, etc.). This technique is used in video games and cinema, where the spectator interacts with virtual objects through sensors. It is also used for geolocation and  heritage applications. For instance, the Cluny Abbey in France uses augmented reality screens, so visitors can visualize the town as it was in the fifteenth century.</obo:IAO_0000115>
+        <obo:IAO_0000119>United Nations Educational, Scientific, and Cultural Organization Courier 
+
+March 2018
+
+https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -281,13 +323,28 @@ https://www.iso.org/jtc1</obo:IAO_0000119>
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigData -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigData">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary"/>
-        <obo:IAO_0000115>extensive datasets (3.1.13) — primarily in the data (3.1.5) characteristics of volume, variety, velocity, and/or variability — that require a scalable technology for efficient storage, manipulation, management, and analysis
+        <obo:IAO_0000115>(1)
+
+extensive datasets (3.1.13) — primarily in the data (3.1.5) characteristics of volume, variety, velocity, and/or variability — that require a scalable technology for efficient storage, manipulation, management, and analysis
 
 Note 1 to entry: Big data is commonly used in many different ways, for example as the name of the scalable technology used to handle big data extensive datasets.</obo:IAO_0000115>
-        <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
+        <obo:IAO_0000115>(2) 
+
+A set of digital data that, through its volume, surpasses human intuition and analytical abilities. We generate some 2.5 trillion bytes of data every day on the internet, through emails, videos, weather information, GPS signals, online transactions, etc. No traditional computerized database management tool can process this mass of data – it has required the development of new algorithms* to store, classify and analyse it.</obo:IAO_0000115>
+        <obo:IAO_0000119>(1)
+
+Information technology — Big data — Overview and vocabulary
 
 https://www.iso.org/jtc1</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
+
+United Nations Educational, Scientific, and Cultural Organization Courier 
+
+March 2018
+
+https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -369,6 +426,20 @@ NIST Big Data Public Working Group (NBD-PWG) Reference Architecture Subgroup Inf
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Bioconservative -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Bioconservative">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
+        <obo:IAO_0000115>For transhumanists,* people who criticize their ideal, augmented man are bioconservatives – regressive individuals who refuse to change the laws of life and nature, even though technology makes it possible to do so.</obo:IAO_0000115>
+        <obo:IAO_0000119>United Nations Educational, Scientific, and Cultural Organization Courier 
+
+March 2018
+
+https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BrittleMaterial -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BrittleMaterial">
@@ -399,6 +470,20 @@ Publication Date: 2012-09
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
         <obo:IAO_0000115>Humanity will become richer, older, more urban, and better educated, but the uneven distribution of this progress will accelerate tension and conflict.  The convergence of more information and more people with fewer state resources will constrain governments’ efforts to address rampant poverty, violence, and pollution, and create a breeding ground for dissatisfaction among increasingly aware, yet still disempowered populations. These factors will be attenuated by a changing climate, which has the potential to create additional crises and discontent.  The addition of over seven billion people over the last century has altered geography itself, and cities now sprawl over large areas of the globe and contain almost two-thirds of the world’s population. These numbers will only increase.  Some megacities will become more important politically and economically than the nationstate in which they reside.  Life will become both easier and more complex, with those able to take advantage of the leading edge of technological advancement increasingly exploiting those who cannot.  New social stresses and fractures will lead to strife and population migrations, which in turn create further challenges for urbanized areas.  Furthermore, the move of large numbers of people to large urban areas and megacities will strain resources, as these area will become increasingly reliant on rural areas for food, water, and even additional power.  From a military perspective, cities represent challenges, opportunities, and unique vulnerabilities.</obo:IAO_0000115>
         <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Cloud -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Cloud">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
+        <obo:IAO_0000115>Different computer systems involving a large number of computers connected to each other, and exchanging messages in real time over the internet. A calculation or the storage of information launched by one computer can therefore be carried out by a network of interconnected computers – thus creating a cloud.</obo:IAO_0000115>
+        <obo:IAO_0000119>United Nations Educational, Scientific, and Cultural Organization Courier 
+
+March 2018
+
+https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -924,6 +1009,20 @@ https://www.iso.org/jtc1</obo:IAO_0000119>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DeepLearning -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DeepLearning">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
+        <obo:IAO_0000115>At the cutting edge of machine learning*, this technique enables a machine to independently recognize complex concepts such as faces, human bodies, or images of cats. This is done by scouring millions of images picked from the internet – images that have not been labelled by humans. The result of a combination of learning algorithms and formal neural networks* and the use of mass data, deep learning has revolutionized artificial intelligence. It has countless applications, including search engines, medical diagnosis, autonomous cars, etc. In 2015, the AlphaGo computer used deep learning to beat humans at Go, the ancient Chinese board game.</obo:IAO_0000115>
+        <obo:IAO_0000115>United Nations Educational, Scientific, and Cultural Organization Courier 
+
+March 2018
+
+https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemographicsAndUrbanizationControlledVocabulary -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemographicsAndUrbanizationControlledVocabulary">
@@ -1276,6 +1375,20 @@ https://www.iso.org/jtc1</obo:IAO_0000119>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FormalNeuralNetworks -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FormalNeuralNetworks">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
+        <obo:IAO_0000115>These are algorithms designed to be implemented by a computer, which aims to replicate the neural connections of the brain. Existing systems are much more limited than human intelligence. But they are still capable of estimating the speed of a vehicle according to movements of the accelerator pedal and the slope of the road; the hardness of a material as a function of its chemical composition and its processing temperature; or the solvency of a business according to its turnover, etc.</obo:IAO_0000115>
+        <obo:IAO_0000119>United Nations Educational, Scientific, and Cultural Organization Courier 
+
+March 2018
+
+https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Fragmentation -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Fragmentation">
@@ -1512,6 +1625,34 @@ AI has the capacity to change paradigms, revolutionize everyday life, and take m
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanCryogenics -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanCryogenics">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
+        <obo:IAO_0000115>The technique for the conservation of a human body or head in liquid nitrogen, after an individual’s death, with the aim of resuscitating it one day.</obo:IAO_0000115>
+        <obo:IAO_0000119>United Nations Educational, Scientific, and Cultural Organization Courier 
+
+March 2018
+
+https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HybridizationBetweenHumansAndMachines -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HybridizationBetweenHumansAndMachines">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
+        <obo:IAO_0000115>This process allows a connection between the human body and a technological system. The connection can be physical, like a mind-controlled prosthetic arm, or virtual, like Google glasses, which are voice-controlled and which display information or images in a corner of the lenses that are superimposed on our usual vision.</obo:IAO_0000115>
+        <obo:IAO_0000119>United Nations Educational, Scientific, and Cultural Organization Courier 
+
+March 2018
+
+https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HypersonicGlideVehicleDefense -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HypersonicGlideVehicleDefense">
@@ -1538,6 +1679,20 @@ Space systems — Test procedure to evaluate spacecraft material ejecta upon hyp
 Publication Date: 2012-09
 
 1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ImmersiveVirtualReality -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ImmersiveVirtualReality">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
+        <obo:IAO_0000115>A virtual, computer-generated universe, into which the user is immersed via various sensors or objects (glasses, sensory feedback suits, etc.). Immersion in virtual reality may involve the player of a video game or an aircraft pilot in training.</obo:IAO_0000115>
+        <obo:IAO_0000119>United Nations Educational, Scientific, and Cultural Organization Courier 
+
+March 2018
+
+https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1816,6 +1971,20 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternetOfThings -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternetOfThings">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
+        <obo:IAO_0000115>A computing concept that describes the idea of everyday objects or places in the physical world that are connected to the internet, and are able to identify themselves to other devices. A connected object gathers data (temperature, speed, humidity, etc.) through sensors, and sends it, via the internet, for computer analysis. The object might be a vehicle, a watch, an industrial machine or even a parking space.</obo:IAO_0000115>
+        <obo:IAO_0000119>United Nations Educational, Scientific, and Cultural Organization Courier 
+
+March 2018
+
+https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InterplanetarySpace -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InterplanetarySpace">
@@ -1926,6 +2095,20 @@ Space systems -- Space environment simulation for material tests -- General prin
 Publication Date: 2016-09
 
 1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MachineLearning -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MachineLearning">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
+        <obo:IAO_0000115>A machine uses an automatic learning programme to solve problems from examples, enabling it to compare and classify data, and even recognize complex shapes. Before the advent of deep learning* in 2010, this type of programme needed to be overseen by humans – each image had to be explicitly designated as containing a human face, a cat’s head, etc., so that the machine could perform the requested recognition operation.</obo:IAO_0000115>
+        <obo:IAO_0000119>United Nations Educational, Scientific, and Cultural Organization Courier 
+
+March 2018
+
+https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -2106,6 +2289,20 @@ Publication Date: 2016-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MindUploading -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MindUploading">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
+        <obo:IAO_0000115>According to transhumanists*, our sensations, thoughts and emotions can all be summed up as neural connections. Mind uploading is the transhumanist idea that the “contents” of the human brain can be reduced to a set of information that could be translated into binary computer code, and thus uploaded into a computer.</obo:IAO_0000115>
+        <obo:IAO_0000119>United Nations Educational, Scientific, and Cultural Organization Courier 
+
+March 2018
+
+https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Monitoring -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Monitoring">
@@ -2136,6 +2333,20 @@ Space systems -- Space environment simulation for material tests -- General prin
 Publication Date: 2016-09
 
 1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#NeoConnectionism -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#NeoConnectionism">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
+        <obo:IAO_0000115>A theory arising from the fields of cognitive science and neuroscience, neo-connectionism proposes to develop computer models that aim to simulate learning by formal neural networks*, the organization and functioning of which have been designed by analogy with physiological neural systems.</obo:IAO_0000115>
+        <obo:IAO_0000119>United Nations Educational, Scientific, and Cultural Organization Courier 
+
+March 2018
+
+https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3065,6 +3276,20 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SemanticKnowledgeRepresentation -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SemanticKnowledgeRepresentation">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
+        <obo:IAO_0000115>Algorithms* to formulate a sentence written in any language (for example, “Paul takes the bus to Berlin”) in logical form, so that a computer is able to interpret it. The machine can then make logical inferences (like deductions) that enable it to classify words into different categories and analyse the sentences submitted to it.</obo:IAO_0000115>
+        <obo:IAO_0000119>United Nations Educational, Scientific, and Cultural Organization Courier 
+
+March 2018
+
+https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SilicaAerogel -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SilicaAerogel">
@@ -3210,6 +3435,20 @@ Space systems — Test procedure to evaluate spacecraft material ejecta upon hyp
 Publication Date: 2012-09
 
 1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#StrongAI -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#StrongAI">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
+        <obo:IAO_0000115>Strong AI or AGI would be a machine that has consciousness and feelings, and is capable of providing  solutions for any kind of problem – that is pure fiction, for now.</obo:IAO_0000115>
+        <obo:IAO_0000119>United Nations Educational, Scientific, and Cultural Organization Courier 
+
+March 2018
+
+https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3471,6 +3710,20 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Transhumanism -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Transhumanism">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
+        <obo:IAO_0000115>A movement whose followers want to reach the “post-human” condition by eliminating disabilities, suffering, illness, ageing and death, through the “NBIC convergence” (the convergence of nanotechnology, biotechnology, information technology and cognitive science). They promote the use of human cloning, virtual reality*, hybridization between humans and machines and mind uploading*. Their opponents accuse them of excessive speculation, of founding a new mystical order which idolizes technology, and of fantasizing about a “superhuman” with eugenicist overtones.</obo:IAO_0000115>
+        <obo:IAO_0000119>United Nations Educational, Scientific, and Cultural Organization Courier 
+
+March 2018
+
+https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend">
@@ -3555,6 +3808,20 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WeakAI -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WeakAI">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
+        <obo:IAO_0000115>Weak AI or Artificial Narrow Intelligence (ANI) is the only form of AI that humanity has achieved so far – machines that are capable of performing certain precise tasks autonomously but without consciousness, within a framework defined by humans and following decisions taken by humans alone.</obo:IAO_0000115>
+        <obo:IAO_0000119>United Nations Educational, Scientific, and Cultural Organization Courier 
+
+March 2018
+
+https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WitnessPlate -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WitnessPlate">
@@ -3578,6 +3845,14 @@ Publication Date: 2012-09
         <obo:IAO_0000115>Fault Lines Analysis provides the command with an understanding of the most exploitable sources of instability in the OE. The Fault Lines Analysis Methodology is based on co-created analysis:  research and analysis conducted as a team. There are 3 distinct stages to the team research and analysis process:  Analysis 1 (A1), Analysis (A2), and Analysis 3 (A3). A1 reviews and develops categories from source text by assigning relevant words, phrases or labels to significant portions of the text.  These categories become the foundation for early analysis.  A2 organizes the categories around themes based on the relationship of ideas developed from the comparisons and analytic memos. A3 generates plausible explanations and responses to the research question (becoming assumptions or hypotheses tested in the next stage).  Each analysis stage builds on the analysis of the previous stage(s). The evolution of sound analytic explanation occurs through a systematic and defensible inductive research process. The independent stages are inductively generated to be later deductively tested by a pool of SMEs in an OE.  GCKN is available to assist with the research process.</obo:IAO_0000115>
         <obo:IAO_0000119>Fault Lines Methodology Infographic</obo:IAO_0000119>
     </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Algorithm -->
+
+    <rdf:Description rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Algorithm">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
+    </rdf:Description>
 </rdf:RDF>
 
 
