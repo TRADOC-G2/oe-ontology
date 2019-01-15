@@ -76,6 +76,22 @@
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AbilityToPrintMaterial -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AbilityToPrintMaterial">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatSupply"/>
+        <obo:IAO_0000115>Ability to print materiel, in theater, on an as-needed basis. Example: Print a small drone with specific capabilities for a mission in 24 hours. [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]
+
+In-theater on-demand manufacturing of platform and weapon parts using high performance printable alloys and other materials, with significant performance gains using new structures and materials [SOURCE: ARL ERP documents]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AccessControl -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AccessControl">
@@ -102,6 +118,84 @@ Publication date : 2018-02
                 <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatProtect"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdaptiveProtectiveSystems -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdaptiveProtectiveSystems">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatProtect"/>
+        <obo:IAO_0000115>Intelligent and adaptive protective systems must alter in real time its adaptive properties depending on threats, resulting in lightweight and flexible armor that can sense impending danger, react at the “speed of the fight” to mitigate a broad range  of near peer lethal mechanisms, including Multi-hit [SOURCE: ARL ERP documents]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdvancedAirToGroundMissiles -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdvancedAirToGroundMissiles">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatShoot"/>
+        <obo:IAO_0000115>Extended range. Proliferate more rapidly than Active Protection systems develop, putting armored vehicles and helicopters at risk. [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdvancedManPortableAirDefenseSystems -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdvancedManPortableAirDefenseSystems">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatShoot"/>
+        <obo:IAO_0000115>Extended range. Proliferate more rapidly than Active Protection systems develop, putting armored vehicles and helicopters at risk. [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Algorithms -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Algorithms">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatSeeThinkCommunicate"/>
+        <obo:IAO_0000115>Projected breakthroughs in algorithms that combine images to produce a coherent aperture in near real time will enable creation of “seeing skins” for high-resolution, 3-D imaging in the visible and IR bands over a large field of view. [SOURCE: ARL-TR-8283]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AntiSatellite -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AntiSatellite">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ActiveDenialSystems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialCells -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialCells">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatSupply"/>
+        <obo:IAO_0000115>Projected breakthroughs in creation of artificial cells will enable on-demand, on-base production of high-value molecules, significantly reducing the logistics tail and associated transport and storage costs. [SOURCE: ARL-TR-8283]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -267,6 +361,30 @@ Security techniques — Information security management systems — Overview and
 Publication date : 2018-02
 
 5th Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AutonomousIntelligentMunitions -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AutonomousIntelligentMunitions">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatMove"/>
+        <obo:IAO_0000115>Autonomous intelligent munitions will fly and navigate in highly contested environments, avoiding effects of the OPFOR countermeasures [SOURCE: ARL ERP documents]
+
+Autonomous intelligent munitions will collaborate to synchronize lethal effects -- which enables dispersed engagements by multiple smaller weapons -- to destroy targets that change (move, hide, deploy soldiers) during the flight time [SOURCE: ARL ERP documents]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AutonomousNanoWeapons -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AutonomousNanoWeapons">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatShoot"/>
     </owl:Class>
     
 
@@ -440,6 +558,20 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_00
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BrainToBrainInterfaces -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BrainToBrainInterfaces">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatSoldier"/>
+        <obo:IAO_0000115>Projected breakthrough in brain-to-brain and brain-to-artificial-intelligence (AI) interfaces will enable high-performance warfighting teams that understand each other in complex operations, nearly instantly, without any verbal communications and even with little training. [SOURCE: ARL-TR-8283]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BrittleMaterial -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BrittleMaterial">
@@ -452,6 +584,20 @@ Space systems — Test procedure to evaluate spacecraft material ejecta upon hyp
 Publication Date: 2012-09
 
 1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ChemicalWeapons -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ChemicalWeapons">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatShoot"/>
+        <obo:IAO_0000115>Non-traditional agents developed to defeat detection and protection capabilities. [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -561,6 +707,20 @@ Security techniques — Information security management systems — Overview and
 Publication date : 2018-02
 
 5th Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ComplexityScience -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ComplexityScience">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatSeeThinkCommunicate"/>
+        <obo:IAO_0000119>Projected breakthroughs in Complexity Science, particularly in Fractional Calculus, will enable new methods to anticipate and mitigate failures in planning exceptionally complex operations like interventions in megacities. [SOURCE: ARL-TR-8283]</obo:IAO_0000119>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1009,6 +1169,20 @@ https://www.iso.org/jtc1</obo:IAO_0000119>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Decoys -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Decoys">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatProtect"/>
+        <obo:IAO_0000115>Must deceive multi-disciplined intelligence. [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DeepLearning -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DeepLearning">
@@ -1250,6 +1424,14 @@ Publication Date: 2012-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyScavengingFromTheEnvironment -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyScavengingFromTheEnvironment">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatMove"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EvaluateWithSubjectMatterExperts -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EvaluateWithSubjectMatterExperts">
@@ -1437,6 +1619,20 @@ https://www.iso.org/jtc1</obo:IAO_0000119>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GeneticModification -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GeneticModification">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatSoldier"/>
+        <obo:IAO_0000115>Genetic Modification: Disease resistant, potentially designer babies and super athletes/soldiers.. CRISPR: Genome editing. [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GeoStationaryOrbit -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GeoStationaryOrbit">
@@ -1499,6 +1695,14 @@ Security techniques — Information security management systems — Overview and
 Publication date : 2018-02
 
 5th Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HardenedMunitions -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HardenedMunitions">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatShoot"/>
     </owl:Class>
     
 
@@ -1598,6 +1802,22 @@ https://www.iso.org/jtc1</obo:IAO_0000119>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanAgentTeaming -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanAgentTeaming">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatSoldier"/>
+        <obo:IAO_0000115>Human-Agent Teaming, i.e., where humans and intelligent systems work together to achieve either a physical or mental task. Human and the intelligent system will trade off cognitive and physical loads in a collaborative fashion. [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]
+
+Interface: From mouse/keyboard/wearables to digital telepathy, centaur systems. [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanComputerInteractionControlledVocabulary -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanComputerInteractionControlledVocabulary">
@@ -1639,6 +1859,20 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_00
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HunterKillerSwarm -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HunterKillerSwarm">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnmannedAirVehicles"/>
+        <obo:IAO_0000115>Massed, coordinated, fast, collaborative, small, stand-off. Overwhelm target systems. Mass or disaggregate. [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HybridizationBetweenHumansAndMachines -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HybridizationBetweenHumansAndMachines">
@@ -1649,6 +1883,20 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_00
 March 2018
 
 https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HyperGlideVehicles -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HyperGlideVehicles">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatMove"/>
+        <obo:IAO_0000115>Less susceptible to anti ballistic missile countermeasures. [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1911,6 +2159,34 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InsensitiveMunitions -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InsensitiveMunitions">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatShoot"/>
+        <obo:IAO_0000115>Chemically stable munitions withstand shock, fire, projectiles; yet explode as intended. [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntegrationOfNeuroscienceIntoAI -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntegrationOfNeuroscienceIntoAI">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatSoldier"/>
+        <obo:IAO_0000115>Projected breakthroughs in integration of neuroscience and conventional computing into AI will lead to omnipresent, highly distributed machine intelligence embedded within a multitude of physical objects surrounding and teaming with the warfighters. [SOURCE: ARL-TR-8283]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Integrity -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Integrity">
@@ -2001,6 +2277,20 @@ Publication Date: 2016-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Laser -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Laser">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatShoot"/>
+        <obo:IAO_0000115>Directed energy damages intended target. Targets: Counter Aircraft, UAS, Missiles, Projectiles, Sensors, Swarms. [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LevelOfRisk -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LevelOfRisk">
@@ -2051,6 +2341,20 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LogisticsManufacturing -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LogisticsManufacturing">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CombatApplication"/>
+        <obo:IAO_0000115>Ability to print materiel, in theater, on an as-needed basis. 
+
+Example: Print a small drone with specific capabilities for a mission in 24 hours.</obo:IAO_0000115>
+        <obo:IAO_0000119>Potential Game Changers Infographic
+
+7/11/2018</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LongRangePrecisionFires -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LongRangePrecisionFires">
@@ -2067,6 +2371,14 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LongRangedMilitary -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LongRangedMilitary">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatShoot"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LowEarthOrbits -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LowEarthOrbits">
@@ -2079,6 +2391,14 @@ Space systems -- Space environment simulation for material tests -- General prin
 Publication Date: 2016-09
 
 1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LowEnergyNuclearReactions -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LowEnergyNuclearReactions">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatShoot"/>
     </owl:Class>
     
 
@@ -2240,6 +2560,20 @@ Publication Date: 2016-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MedicalAdvancesInSyntheticBiology -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MedicalAdvancesInSyntheticBiology">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatSoldier"/>
+        <obo:IAO_0000115>Synthetic Biology - Medical Advances: Enhance soldier survivability. [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Metadata -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Metadata">
@@ -2303,6 +2637,20 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_00
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Missiles -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Missiles">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatShoot"/>
+        <obo:IAO_0000115>Developed for greater range and improved accuracy using inertial guidance. [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Monitoring -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Monitoring">
@@ -2317,6 +2665,36 @@ Security techniques — Information security management systems — Overview and
 Publication date : 2018-02
 
 5th Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MultiFuelBasedHybridElectricEngines -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MultiFuelBasedHybridElectricEngines">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatMove"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MultifunctionalBatteries -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MultifunctionalBatteries">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatMove"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#NanoMaterials -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#NanoMaterials">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatShoot"/>
+        <obo:IAO_0000115>Miniaturized power sources; reduce bulk, increase yield. [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -2430,6 +2808,20 @@ Security techniques — Information security management systems — Overview and
 Publication date : 2018-02
 
 5th Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Obscurants -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Obscurants">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatProtect"/>
+        <obo:IAO_0000115>Obscurants/Thermal Paint - Confuse sensors. [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -2588,6 +2980,20 @@ Publication Date: 2012-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PointAirDefenseSystems -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PointAirDefenseSystems">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatProtect"/>
+        <obo:IAO_0000115>Point air defense systems defend against PGM. [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Policy -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Policy">
@@ -2600,6 +3006,20 @@ Security techniques — Information security management systems — Overview and
 Publication date : 2018-02
 
 5th Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerDistributionViaWireless -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerDistributionViaWireless">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerSystems"/>
+        <obo:IAO_0000115>Power and charging over the air (long distances). [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -2618,6 +3038,14 @@ Publication date : 2018-02
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
         <obo:IAO_0000115>Although more human beings stress available resources, population growth has also compounded the rate of innovation and technology development.  Human creativity is now clearly the most transformative force in the world, both enhancing human life, but also upending it, and – at times – precipitating catastrophic, disruptive events.  Information technology will continue to improve exponentially, and most of the developed world already is instrumented in some way.  Nearly every person on Earth has access to a connected, mobile device.  Advanced material capabilities have, and will continue to extend the trend of reduced size, weight, and power requirements, as nanomaterials, metamaterials, and bespoke structures allow multifunctional assemblies, vastly improving overall systems integration, reliability, and performance.  Advanced materials also foster increases in battery power and performance, allowing large amounts of power to be stored across a distributed grid, and miniaturized storage powers mobile robotics and vehicles of all types</obo:IAO_0000115>
         <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerSystems -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerSystems">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatMove"/>
     </owl:Class>
     
 
@@ -2683,6 +3111,11 @@ Publication date : 2018-02
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#QuantumComputing">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CombatApplication"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatSeeThinkCommunicate"/>
+        <obo:IAO_0000115>From 1&amp;0 binary to quantum superpositions &amp; entanglement (e.g., 0 and 1 at same time)</obo:IAO_0000115>
+        <obo:IAO_0000119>Potential Game Changers Infographic
+
+7/11/2018</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -2711,6 +3144,44 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RadarJammer -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RadarJammer">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ActiveDenialSystems"/>
+        <obo:IAO_0000115>Sophisticated noise or repeaters. Convergence of RF+Cyber through software defined radios. Controlled modulation can make signals look like noise to interceptors.</obo:IAO_0000115>
+        <obo:IAO_0000119>Potential Game Changers Infographic
+
+7/11/2018</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RadioFrequencyWeapons -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RadioFrequencyWeapons">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatShoot"/>
+        <obo:IAO_0000115>Attack targets across the frequency spectrum. Targets: Not just RF: Microwave weapons “cook targets,” people, electronics. [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RailGun -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RailGun">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RailGunsAndEnhancedDirectedKineticEnergyWeapons"/>
+        <obo:IAO_0000115>Electromagnetic projectile launchers: High velocity/energy and space (Mach 5 or higher). Not powered by explosive</obo:IAO_0000115>
+        <obo:IAO_0000119>Potential Game Changers Infographic
+
+7/11/2018</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RailGunsAndEnhancedDirectedKineticEnergyWeapons -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RailGunsAndEnhancedDirectedKineticEnergyWeapons">
@@ -2733,6 +3204,20 @@ Publication date : 2018-02
                 <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LongRangePrecisionFires"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RedirectedEnergy -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RedirectedEnergy">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatProtect"/>
+        <obo:IAO_0000115>Hyper stealth invisibility, Electromagnetic illusion. [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3290,6 +3775,20 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_00
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SentientData -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SentientData">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatSeeThinkCommunicate"/>
+        <obo:IAO_0000115>Pinpoints who can/cannot access and interact with, without human intervention. [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SilicaAerogel -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SilicaAerogel">
@@ -3360,6 +3859,20 @@ https://www.arl.army.mil/www/default.cfm?page=2645</obo:IAO_0000119>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SoldierWearableInterface -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SoldierWearableInterface">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatSoldier"/>
+        <obo:IAO_0000115>Soldier-wearable interface for immersive training, including AI-based “virtual coach” Soldier interface that: - Functions pervasively to provide relevant feedback for real-world learning - Recognizes and exploits similarities across Soldier tasks to speed learning - Applies augmentation approaches to optimize cognitive and affective states for learning [SOURCE: ARL ERP documents]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SpaceEnvironmentControlledVocabulary -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SpaceEnvironmentControlledVocabulary">
@@ -3406,6 +3919,20 @@ Space systems — Test procedure to evaluate spacecraft material ejecta upon hyp
 Publication Date: 2012-09
 
 1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#StealthCommunications -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#StealthCommunications">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatProtect"/>
+        <obo:IAO_0000115>Stealth communications, nearly undetectable by the adversary based on novel physical principles such as quantum [SOURCE: ARL ERP documents]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3512,6 +4039,28 @@ Publication Date: 2016-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SyntheticBiology -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SyntheticBiology">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CombatApplication"/>
+        <obo:IAO_0000115>Engineering/modification of biological entities.
+
+-Increased Crop Yield: Potential to reduce food scarcity
+
+-Weaponization: Potential for micro-targeting, seek &amp; destroy microbes that can target DNA. Potentially accessible to super-empowered individuals.
+
+-Medical Advances: Enhance soldier survivability
+
+-Genetic Modification: Disease resistant, potentially designer babies and super athletes/soldiers. Synthetic DNA stores digital data. Data can be used for micro-targeting.
+
+CRISPR: Genome Editing</obo:IAO_0000115>
+        <obo:IAO_0000119>Potential Game Changers Infographic
+
+7/11/2018</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#System -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#System">
@@ -3580,6 +4129,28 @@ US Army Research Laboratory</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatSoldier">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FunctionalSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatSupply -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatSupply">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FunctionalSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatUseQuantumEntanglement -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatUseQuantumEntanglement">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatSeeThinkCommunicate"/>
+        <obo:IAO_0000119>Projected breakthroughs in ways to measure, distribute, and exploit quantum entanglement will enable ultra-precise timing and time distribution, improved sensing, faster information processing, and new security in communications that are impossible by any other means. [SOURCE: ARL-TR-8283]</obo:IAO_0000119>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3672,6 +4243,20 @@ Publication Date: 2012-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ThinSupercapacitors -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ThinSupercapacitors">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerSystems"/>
+        <obo:IAO_0000115>Store exponentially more energy and recharge faster. [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Threat -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Threat">
@@ -3748,6 +4333,34 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnmannedAirVehicles -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnmannedAirVehicles">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatMove"/>
+        <obo:IAO_0000115>Multiple combat vehicles will generate collaborative real-time AI-generated courses of action; with explanations, 90% understood by Soldier teams; with rationale provided by AI agents to improve Soldier decisions 80% of the time [SOURCE: ARL ERP documents]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnmannedGroundVehicles -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnmannedGroundVehicles">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatMove"/>
+        <obo:IAO_0000115>Multiple combat vehicles will generate collaborative real-time AI-generated courses of action; with explanations, 90% understood by Soldier teams; with rationale provided by AI agents to improve Soldier decisions 80% of the time [SOURCE: ARL ERP documents]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnstructuredData -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnstructuredData">
@@ -3818,6 +4431,20 @@ Publication date : 2018-02
 March 2018
 
 https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WeaponizationOfSyntheticBiology -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WeaponizationOfSyntheticBiology">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatSoldier"/>
+        <obo:IAO_0000115>Synthetic Biology - Weaponization: Potential for micro-targeting, Seek &amp; destroy microbes that can target DNA. Potentially accessible to super-empowered individuals. [SOURCE: TRADOC G-2 Potential Game Changers, May 2018]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
     </owl:Class>
     
 
