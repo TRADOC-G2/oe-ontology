@@ -122,6 +122,20 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ActiveProtectionSystem -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ActiveProtectionSystem">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatProtect"/>
+        <obo:IAO_0000115>Intelligent and adaptive protective systems must alter in real time its adaptive properties depending on threats, resulting in lightweight and flexible armor that can sense impending danger, react at the “speed of the fight” to mitigate a broad range  of near peer lethal mechanisms, including Multi-hit [SOURCE: ARL ERP documents]</obo:IAO_0000115>
+        <obo:IAO_0000119>Technology Environment of Ground Warfare in 2035-2050
+
+Projections made in 2018 by ARL and TRADOC
+
+[This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdaptiveProtectiveSystems -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdaptiveProtectiveSystems">
@@ -174,6 +188,26 @@ Projections made in 2018 by ARL and TRADOC
 Projections made in 2018 by ARL and TRADOC
 
 [This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AnthropogenicBiogenicGreenhouseGasEmission -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AnthropogenicBiogenicGreenhouseGasEmission">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>GHG emission (3.1.5) from biogenic material as a result of human activities</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -423,6 +457,26 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BaseYear -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BaseYear">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>specific, historical period identified for the purpose of comparing GHGemissions (3.1.5) or GHGremovals (3.1.6) or other GHG-related information over time</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Benefit -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Benefit">
@@ -558,6 +612,68 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_00
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BiogenicCarbon -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BiogenicCarbon">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>carbon derived from biomass (3.3.1)</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BiogenicCarbonDioxide -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BiogenicCarbonDioxide">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>CO2 obtained by the oxidation of biogenic carbon (3.3.2)</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Biomass -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Biomass">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>material of biological origin, excluding material embedded in geological formations and material transformed to fossilized material
+
+Note 1 to entry: Biomass includes organic material (both living and dead), e.g. trees, crops, grasses, tree litter, algae, animals, manure and waste of biological origin.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BrainToBrainInterfaces -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BrainToBrainInterfaces">
@@ -588,6 +704,28 @@ Publication Date: 2012-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonDioxideEquivalent -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonDioxideEquivalent">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>unit for comparing the radiative forcing of a greenhouse gas to that of carbon dioxide
+
+Note 1 to entry: The carbon dioxide equivalent is calculated using the mass of a given greenhouse gas multiplied by its global warming potential</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ChemicalWeapons -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ChemicalWeapons">
@@ -602,10 +740,31 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Client -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Client">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>organization (3.4.2) or person requesting verification (3.4.9) or validation (3.4.10)</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+        <obo:IAO_0000115>index, based on radiative properties of greenhouse gases, measuring the radiative forcing following a pulse emission of a unit mass of a given greenhouse gas in the present-day atmosphere integrated over a chosen time horizon, relative to that of carbon dioxide (CO2)</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1232,6 +1391,70 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DirectGreenhouseGasEmission -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DirectGreenhouseGasEmission">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>Greenhouse gas emission from greenhouse gas sources owned or controlled by the organization
+
+Note 1 to entry: This document uses the concepts of equity share or control (financial or operational control) to establish organizational boundaries.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DirectGreenhouseGasRemoval -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DirectGreenhouseGasRemoval">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>Greenhouse gas removal (3.1.6) from greenhouse gas sinks (3.1.3) owned or controlled by the organization (3.4.2)</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DirectLandUseChange -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DirectLandUseChange">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>change in the human use of land within the relevant boundary
+
+Note 1 to entry: Relevant boundary is the reporting boundary (3.4.8).</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DirectedEnergyWeapons -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DirectedEnergyWeapons">
@@ -1524,6 +1747,26 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Facility -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Facility">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>single installation, set of installations or production processes (stationary or mobile), which can be defined within a single geographical boundary, organizational unit or production process</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FaultLine -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FaultLine">
@@ -1665,6 +1908,26 @@ Publication Date: 2016-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GlobalWarmingPotential -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GlobalWarmingPotential">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>index, based on radiative properties of greenhouse gases, measuring the radiative forcing following a pulse emission of a unit mass of a given greenhouse gas in the present-day atmosphere integrated over a chosen time horizon, relative to that of carbon dioxide (CO2)</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernanceOfInformationSecurity -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernanceOfInformationSecurity">
@@ -1695,6 +1958,330 @@ Security techniques — Information security management systems — Overview and
 Publication date : 2018-02
 
 5th Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreehouseGasEmission -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreehouseGasEmission">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>release of a greehouse gas into the atmosphere</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGas -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGas">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>gaseous constituent of the atmosphere, both natural and anthropogenic, that absorbs and emits radiation at specific wavelengths within the spectrum of infrared radiation emitted by the Earth’s surface, the atmosphere and clouds
+
+Note 1 to entry: For a list of GHGs, see the latest Intergovernmental Panel on Climate Change (IPCC) Assessment Report.
+
+Note 2 to entry: Water vapour and ozone are anthropogenic as well as natural GHGs, but are not included as recognized GHGs due to difficulties, in most cases, in isolating the human-induced component of global warming attributable to their presence in the atmosphere.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasActivityData -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasActivityData">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>quantitative measure of activity that results in a greenhouse gas emission (3.1.5) or greenhouse gas removal (3.1.6)
+
+EXAMPLE:Amount of energy, fuels or electricity consumed, material produced, service provided, area of land affected.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasAssertion -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasAssertion">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>factual and objective declaration that provides the subject matter for the verification (3.4.9) or validation (3.4.10)
+
+Note 1 to entry: The GHG statement could be presented at a point in time or could cover a period of time.
+
+Note 2 to entry: The GHG statement provided by the responsible party (3.4.3) should be clearly identifiable, capable of consistent evaluation or measurement against suitable criteria by a verifier (3.4.11) or validator (3.4.12).
+
+Note 3 to entry: The GHG statement could be provided in a GHG report (3.2.9) or GHG project (3.2.7) plan.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasEmissionFactor -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasEmissionFactor">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>coefficient relating greenhouse gas activity data (3.2.1) with the greenhouse gas emission (3.1.5)
+
+Note 1 to entry: A GHG emission factor could include an oxidation component.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasInventory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasInventory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>list of greenhouse gas sources (3.1.2) and greenhouse gas sinks (3.1.3), and their quantified greenhouse gas emissions (3.1.5) and greenhouse gas removals (3.1.6)</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasProgram -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasProgram">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>voluntary or mandatory international, national or subnational system or scheme that registers, accounts or manages greenhouse gas emissions (3.1.5), greenhouse gas removals (3.1.6), greenhouse gas emission reductions or greenhouse gas removal enhancements outside the organization (3.4.2) or greenhouse gas project (3.2.7)</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasProject -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasProject">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>activity or activities that alter the conditions of a greenhouse gas baseline and which cause greenhouse gas emission (3.1.5) reductions or greenhouse gas removal (3.1.6) enhancements
+
+Note 1 to entry: ISO 14064-2 provides information on how to determine and use greenhouse gas baselines.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasReductionInitiative -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasReductionInitiative">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>specific activity or initiative, not organized as a GHG project (3.2.7), implemented by an organization (3.4.2) on a discrete or continuous basis, to reduce or prevent direct or indirect GHGemissions (3.1.5) or enhance direct or indirect GHGremovals (3.1.6)</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasRemoval -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasRemoval">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>withdrawal of a greenhouse gas from the atmosphere by greenhouse gas sinks</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasRemovalFactor -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasRemovalFactor">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>coefficient relating greenhouse gas activity data (3.2.1) with the greenhouse gas removal (3.1.6)
+
+Note 1 to entry: A GHG removal factor could include an oxidation component.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasReport -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasReport">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>standalone document intended to communicate an organization’s (3.4.2) or GHG project’s (3.2.7) GHG-related information to its intended users (3.4.4)
+
+Note 1 to entry: A GHG report can include a GHG statement (3.2.5).</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasReservoir -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasReservoir">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>component, other than the atmosphere, that has the capacity to accumulate greenhouse gases, and to store and release them
+
+Note 1 to entry: Oceans, soils and forests are examples of components that can act as reservoirs.
+
+Note 2 to entry: GHG capture and storage is one of the processes that results in a GHG reservoir.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasSink -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasSink">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>process that removes a greenhouse gas from the atmosphere</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasSource -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseGasSource">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>process that releases a greenhouse gas into the atmosphere</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1995,6 +2582,28 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IndirectGreenhouseGasEmission -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IndirectGreenhouseGasEmission">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>Greenhouse gas emission that is a consequence of an organization’s operations and activities, but that arises from greenhouse gas sources that are not owned or controlled by the organization
+
+Note 1 to entry: These emissions occur generally in the upstream and/or downstream chain.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InformationNeed -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InformationNeed">
@@ -2203,6 +2812,48 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntendedUseOfTheGreenhouseGasInventory -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntendedUseOfTheGreenhouseGasInventory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>main purpose set by the organization (3.4.2), or a programme, to quantify its GHGemissions (3.1.5) and GHGremovals (3.1.6) consistent with the needs of the intended user (3.4.4)</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntendedUser -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntendedUser">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>individual or organization (3.4.2) identified by those reporting GHG-related information as being the one who relies on that information to make decisions
+
+Note 1 to entry: The intended user can be the client (3.4.5), the responsible party (3.4.3), the organization itself, GHG programme (3.2.8) administrators, regulators, the financial community or other affected interested parties, such as local communities, government departments, general public or non-governmental organizations.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InterestedParty -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InterestedParty">
@@ -2277,6 +2928,28 @@ Publication Date: 2016-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LandUse -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LandUse">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>human use or management of land within the relevant boundary
+
+Note 1 to entry: Relevant boundary is the reporting boundary (3.4.8).</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Laser -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Laser">
@@ -2287,6 +2960,26 @@ Publication Date: 2016-09
 Projections made in 2018 by ARL and TRADOC
 
 [This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LevelOfAssurance -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LevelOfAssurance">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>degree of confidence in the GHG statement (3.2.5)</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -2729,6 +3422,26 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_00
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#NonAnthropogenicBioGenicGreenhouseGasEmission -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#NonAnthropogenicBioGenicGreenhouseGasEmission">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>GHG emission (3.1.5) from biogenic material caused by natural disasters (e.g. wildfire or infestation by insects) or natural evolution (e.g. growth, decomposition)</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#NonRelationalDatabase -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#NonRelationalDatabase">
@@ -2875,6 +3588,26 @@ Security techniques — Information security management systems — Overview and
 Publication date : 2018-02
 
 5th Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#OrganizationalBoundary -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#OrganizationalBoundary">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>grouping of activities or facilities in which an organization (3.4.2) exercises operational or financial control or has an equity share</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3046,6 +3779,28 @@ Projections made in 2018 by ARL and TRADOC
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerSystems">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatMove"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PrimaryData -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PrimaryData">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>quantified value of a process or an activity obtained from a direct measurement or a calculation based on direct measurements
+
+Note 1 to entry: Primary data can include greenhouse gas emission factors or greenhouse gas removal factors and/or greenhouse gas activity data</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3277,6 +4032,26 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ReportingBoundary -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ReportingBoundary">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>grouping of GHGemission (3.1.5) or GHGremovals (3.1.6) reported from within the organizational boundary (3.4.7), as well as those significant indirect emissions that are a consequence of the organization’s (3.4.2) operations and activities</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Requirement -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Requirement">
@@ -3313,6 +4088,28 @@ Security techniques — Information security management systems — Overview and
 Publication date : 2018-02
 
 5th Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ResponsibleParty -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ResponsibleParty">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>person or persons responsible for the provision of the GHG statement (3.2.5) and the supporting GHG (3.1.1) information
+
+Note 1 to entry: The responsible party can be either individuals or representatives of an organization (3.4.2) or project, and can be the party who engages the verifier (3.4.11) or validator (3.4.12).</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3710,6 +4507,28 @@ Timeline: A rough projection of the stages of development and timeline for deliv
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecondaryData -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecondaryData">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>data obtained from sources other than primary data (3.2.2)
+
+Note 1 to entry: Such sources can include databases and published literature validated by competent authorities.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecondaryFactors -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecondaryFactors">
@@ -3789,6 +4608,26 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SignificantIndirectGreenhouseGasEmission -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SignificantIndirectGreenhouseGasEmission">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>organization’s (3.4.2) quantified and reported GHGemissions (3.1.5) complying with the significance criteria set by the organization</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SilicaAerogel -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SilicaAerogel">
@@ -3801,6 +4640,28 @@ Space systems — Test procedure to evaluate spacecraft material ejecta upon hyp
 Publication Date: 2012-09
 
 1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SiteSpecificData -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SiteSpecificData">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>primary data (3.2.2) obtained within the organizational boundary (3.4.7)
+
+Note 1 to entry: All site-specific data are primary data, but not all primary data are site-specific data.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -4333,6 +5194,28 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Uncertainty -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Uncertainty">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>parameter associated with the result of quantification that characterizes the dispersion of the values that could be reasonably attributed to the quantified amount
+
+Note 1 to entry: Uncertainty information typically specifies quantitative estimates of the likely dispersion of values and a qualitative description of the likely causes of the dispersion.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnmannedAirVehicles -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnmannedAirVehicles">
@@ -4370,6 +5253,86 @@ Projections made in 2018 by ARL and TRADOC
         <obo:IAO_0000119>Information technology — Big data — Overview and vocabulary
 
 https://www.iso.org/jtc1</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Validation -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Validation">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>process for evaluating the reasonableness of the assumptions, limitations and methods that support a statement about the outcome of future activities</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Validator -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Validator">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>competent and impartial person with responsibility for performing and reporting on a validation (3.4.10)</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Verification -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Verification">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>process for evaluating a statement of historical data and information to determine if the statement is materially correct and conforms to criteria</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Verifier -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Verifier">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+        <obo:IAO_0000115>competent and impartial person with responsibility for performing and reporting on a verification (3.4.9)</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission 27000:2018
+
+Technical Committee : ISO/TC 207/SC 7  Greenhouse gas management and related activities
+
+ICS :  13.020.40  Pollution, pollution control and conservation
+
+Greenhouse gases -- Part 1: Specification with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals 
+
+Publication date : 2018-12
+
+2nd Edition</obo:IAO_0000119>
     </owl:Class>
     
 
