@@ -740,6 +740,30 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CleanRenewableEnergy -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CleanRenewableEnergy">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+        <obo:IAO_0000115>renewable energy (3.38) whose direct or indirect emissions of greenhouse gases, other gases with adverse impacts on human health, water pollutants, or other toxic releases, and whose impacts on ecosystems are substantially lower than those of conventional alternatives such as gas-fired generation
+
+Note 1 to entry: Geothermal energy that releases high-SO2 gases to the atmosphere does not qualify under this definition
+
+Note 2 to entry: Wood pellet or solid wood combustion does not qualify if the greenhouse gas emissions associated with producing the wood are similar to those of coal on the basis of a megajoule of fuel.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 50007:2017
+
+Technical Committee : ISO/TC 301  Energy management and energy savings
+
+ICS :  27.015  Energy efficiency. Energy conservation in general
+
+Energy services -- Guidelines for the assessment and improvement of the energy service to users
+
+Publication date : 2017-06
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Client -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Client">
@@ -850,6 +874,31 @@ AI has the capacity to change paradigms, revolutionize everyday life, and take m
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CombatApplication">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CombinedCycle -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CombinedCycle">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasEnergyGeneration"/>
+        <obo:IAO_0000115>thermodynamic cycle employing the combination of a gas turbine cycle with a steam or other fluid Rankine cycle
+
+Note 1 to entry: In a common example, the gas turbine exhaust heat is used to generate steam for the Rankine cycle.
+
+Note 2 to entry: The superior thermal performance of this cycle is due to a combination of the best thermodynamic attributes of each cycle, namely the addition of thermal energy at higher temperatures in the gas turbine cycle and the rejection of thermal energy at lower temperatures in the Rankine cycle.
+[SOURCE: ISO 11086:1996, 1.12]</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 19859:2016
+
+Technical Committee : ISO/TC 192  Gas turbines
+
+ICS :  29.160.99  Other standards related to rotating machinery 27.040  Gas and steam turbines. Steam engines
+
+Gas turbine applications -- Requirements for power generation
+
+Publication date : 2016-08
+
+1st Edition</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1647,10 +1696,386 @@ Publication Date: 2012-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Enclosure -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Enclosure">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasEnergyGeneration"/>
+        <obo:IAO_0000115>structure enveloping/enclosing sections of equipment for the applicable requirements of —weather protection (all applicable types), — noise attenuation, —ventilation for removal of hazardous gases and vapours, —ventilation for temperature control, —control of radiated heat, and —contamination due to local environment conditions.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 19859:2016
+
+Technical Committee : ISO/TC 192  Gas turbines
+
+ICS :  29.160.99  Other standards related to rotating machinery 27.040  Gas and steam turbines. Steam engines
+
+Gas turbine applications -- Requirements for power generation
+
+Publication date : 2016-08
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Energy -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Energy">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+        <obo:IAO_0000115>electricity, fuels, steam, heat, compressed air and other similar media
+
+Note 1 to entry: For the purposes of this document, energy refers to the various types of energy, including renewable, which can be purchased, stored, treated, used in an equipment or in a process, or recovered.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 50001:2018
+
+Technical Committee : ISO/TC 301  Energy management and energy savings
+
+ICS :  27.015  Energy efficiency. Energy conservation in general 03.100.70 Management systems
+
+Energy management systems -- Requirements with guidance for use
+
+Publication date : 2018-08
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyBaseline -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyBaseline">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+        <obo:IAO_0000115>quantitative reference(s) providing a basis for comparison of energy performance (3.4.3)
+
+Note 1 to entry: An energy baseline is based on data from a specified period of time and/or conditions, as defined by the organization (3.1.1).
+
+Note 2 to entry: One or more energy baselines are used for determination of energy performance improvement (3.4.6), as a reference before and after, or with and without implementation of energy performance improvement actions.
+
+Note 3 to entry: See ISO 50015 for additional information on measurement and verification of energy performance.
+
+Note 4 to entry: See ISO 50006 for additional information on EnPIs and EnBs.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 50001:2018
+
+Technical Committee : ISO/TC 301  Energy management and energy savings
+
+ICS :  27.015  Energy efficiency. Energy conservation in general 03.100.70 Management systems
+
+Energy management systems -- Requirements with guidance for use
+
+Publication date : 2018-08
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyConsumption -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyConsumption">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+        <obo:IAO_0000115>quantity of energy (3.5.1) applied</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 50001:2018
+
+Technical Committee : ISO/TC 301  Energy management and energy savings
+
+ICS :  27.015  Energy efficiency. Energy conservation in general 03.100.70 Management systems
+
+Energy management systems -- Requirements with guidance for use
+
+Publication date : 2018-08
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyEfficiency -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyEfficiency">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+        <obo:IAO_0000115>ratio or other quantitative relationship between an output of performance (3.4.2), service, goods, commodities, or energy (3.5.1), and an input of energy
+
+EXAMPLE:Conversion efficiency; energy required/energy consumed.
+
+Note 1 to entry: Both input and output should be clearly specified in terms of quantity and quality and be measurable.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 50001:2018
+
+Technical Committee : ISO/TC 301  Energy management and energy savings
+
+ICS :  27.015  Energy efficiency. Energy conservation in general 03.100.70 Management systems
+
+Energy management systems -- Requirements with guidance for use
+
+Publication date : 2018-08
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyManagementSystem -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyManagementSystem">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+        <obo:IAO_0000115>management system (3.2.1) to establish an energy policy (3.2.4), objectives (3.4.13), energy targets (3.4.15), action plans and process(es) (3.3.6) to achieve the objectives and energy targets</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 50001:2018
+
+Technical Committee : ISO/TC 301  Energy management and energy savings
+
+ICS :  27.015  Energy efficiency. Energy conservation in general 03.100.70 Management systems
+
+Energy management systems -- Requirements with guidance for use
+
+Publication date : 2018-08
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyManagementTeam -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyManagementTeam">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+        <obo:IAO_0000115>person(s) with responsibility and authority for effective implementation of an energy managementsystem (3.2.2) and for delivering energy performance improvement (3.4.6)
+
+Note 1 to entry: The size and nature of an organization (3.1.1) and available resources are taken into account when determining the size of an energy management team. A single person can perform the role of the team.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 50001:2018
+
+Technical Committee : ISO/TC 301  Energy management and energy savings
+
+ICS :  27.015  Energy efficiency. Energy conservation in general 03.100.70 Management systems
+
+Energy management systems -- Requirements with guidance for use
+
+Publication date : 2018-08
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyPerformance -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyPerformance">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+        <obo:IAO_0000115>measurable result(s) related to energy efficiency (3.5.3), energy use (3.5.4) and energy consumption (3.5.2)
+
+Note 1 to entry: Energy performance can be measured against the organization’s (3.1.1)objectives (3.4.13), energy targets (3.4.15) and other energy performance requirements.
+
+Note 2 to entry: Energy performance is one component of the performance (3.4.2) of the energy managementsystem (3.2.2).</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 50001:2018
+
+Technical Committee : ISO/TC 301  Energy management and energy savings
+
+ICS :  27.015  Energy efficiency. Energy conservation in general 03.100.70 Management systems
+
+Energy management systems -- Requirements with guidance for use
+
+Publication date : 2018-08
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyPerformanceImprovement -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyPerformanceImprovement">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+        <obo:IAO_0000115>improvement in measurable results of energy efficiency (3.5.3), or energy consumption (3.5.2) related to energy use (3.5.4), compared to the energy baseline (3.4.7)</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 50001:2018
+
+Technical Committee : ISO/TC 301  Energy management and energy savings
+
+ICS :  27.015  Energy efficiency. Energy conservation in general 03.100.70 Management systems
+
+Energy management systems -- Requirements with guidance for use
+
+Publication date : 2018-08
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyPerformanceIndicator -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyPerformanceIndicator">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+        <obo:IAO_0000115>measure or unit of energy performance (3.4.3), as defined by the organization (3.1.1)
+
+Note 1 to entry: EnPI(s) can be expressed by using a simple metric, ratio, or a model, depending on the nature of the activities being measured.
+
+Note 2 to entry: See ISO 50006 for additional information on EnPI(s).</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 50001:2018
+
+Technical Committee : ISO/TC 301  Energy management and energy savings
+
+ICS :  27.015  Energy efficiency. Energy conservation in general 03.100.70 Management systems
+
+Energy management systems -- Requirements with guidance for use
+
+Publication date : 2018-08
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyPerformanceIndicatorValue -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyPerformanceIndicatorValue">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+        <obo:IAO_0000115>quantification of the EnPI (3.4.4) at a point in or over a specified period of time</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 50001:2018
+
+Technical Committee : ISO/TC 301  Energy management and energy savings
+
+ICS :  27.015  Energy efficiency. Energy conservation in general 03.100.70 Management systems
+
+Energy management systems -- Requirements with guidance for use
+
+Publication date : 2018-08
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyPolicy -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyPolicy">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+        <obo:IAO_0000115>statement by the organization (3.1.1) of its overall intention(s), direction(s), and commitment(s) related to its energy performance (3.4.3), as formally expressed by top management (3.1.2)</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 50001:2018
+
+Technical Committee : ISO/TC 301  Energy management and energy savings
+
+ICS :  27.015  Energy efficiency. Energy conservation in general 03.100.70 Management systems
+
+Energy management systems -- Requirements with guidance for use
+
+Publication date : 2018-08
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyReview -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyReview">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+        <obo:IAO_0000115>analysis of energy efficiency (3.5.3), energy use (3.5.4) and energy consumption (3.5.2) based on data and other information, leading to identification of SEUs (3.5.6) and opportunities for energy performance improvement (3.4.6)</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 50001:2018
+
+Technical Committee : ISO/TC 301  Energy management and energy savings
+
+ICS :  27.015  Energy efficiency. Energy conservation in general 03.100.70 Management systems
+
+Energy management systems -- Requirements with guidance for use
+
+Publication date : 2018-08
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyScavengingFromTheEnvironment -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyScavengingFromTheEnvironment">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatMove"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyService -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyService">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+        <obo:IAO_0000115>set of organization, processes (3.31), activities, means and resources necessary for production, transmission, distribution and supply of energy and for providing a physical benefit, utility or goods, which are derived from a combination of energy with energy-efficient technology or with action, which can include the operations, maintenance (3.21) and control necessary to deliver the service (3.44)
+
+Note 1 to entry: Key features for an energy service include: —   its mission to provide an energy service; —   its physical area of responsibility and the population within this area; —   its responsible body (3.42); —   the general organization, with the function of operator (3.25) being carried out by the responsible body; —   the scope of the energy service offered by the energy service provider (3.14), or by other organizations operating in the same geographic area; —   the type of physical or information technology systems used to provide the services, with various degrees of centralization.
+
+Note 2 to entry: When it is not necessary or it is difficult to make a distinction between responsible body and operator, the term “energy service provider” covers both.
+
+Note 3 to entry: In this document, the term “energy services (3.15)” (plural) refers to generic activities or energy uses such as heating or lighting or supply of natural gas, whereas the term “energy service” (singular) is used to refer to the activity by an organization (an energy service provider) to a user (3.50) or consumer to provide energy services in the best way, such as offering incentives for energy efficient air conditioning systems or financing for consumer-provided solar energy generating systems.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 50007:2017
+
+Technical Committee : ISO/TC 301  Energy management and energy savings
+
+ICS :  27.015  Energy efficiency. Energy conservation in general
+
+Energy services -- Guidelines for the assessment and improvement of the energy service to users
+
+Publication date : 2017-06
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyServiceProvider -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyServiceProvider">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+        <obo:IAO_0000115>energy entity or person that provides service (3.44) to a retail or end-use customer</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 50007:2017
+
+Technical Committee : ISO/TC 301  Energy management and energy savings
+
+ICS :  27.015  Energy efficiency. Energy conservation in general
+
+Energy services -- Guidelines for the assessment and improvement of the energy service to users
+
+Publication date : 2017-06
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyTarget -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyTarget">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+        <obo:IAO_0000115>quantifiable objective (3.4.13) of energyperformance improvement (3.4.6)
+
+Note 1 to entry: An energy target can be included within an objective.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 50001:2018
+
+Technical Committee : ISO/TC 301  Energy management and energy savings
+
+ICS :  27.015  Energy efficiency. Energy conservation in general 03.100.70 Management systems
+
+Energy management systems -- Requirements with guidance for use
+
+Publication date : 2018-08
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyUse -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyUse">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+        <obo:IAO_0000115>application of energy (3.5.1)
+
+EXAMPLE:Ventilation; lighting; heating; cooling; transportation; data storage; production process.
+
+Note 1 to entry: Energy use is sometimes referred to as “energy end-use”.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 50001:2018
+
+Technical Committee : ISO/TC 301  Energy management and energy savings
+
+ICS :  27.015  Energy efficiency. Energy conservation in general 03.100.70 Management systems
+
+Energy management systems -- Requirements with guidance for use
+
+Publication date : 2018-08
+
+2nd Edition</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1846,6 +2271,94 @@ Publication Date: 2012-09
                 <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HighPowerMicrowavePrecisionWeaponPointDefense"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasEnergyGeneration -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasEnergyGeneration">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasTurbineCore -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasTurbineCore">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasEnergyGeneration"/>
+        <obo:IAO_0000115>assembly that includes the gas turbine compressor, combustion system, power turbine and integral equipment</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 19859:2016
+
+Technical Committee : ISO/TC 192  Gas turbines
+
+ICS :  29.160.99  Other standards related to rotating machinery 27.040  Gas and steam turbines. Steam engines
+
+Gas turbine applications -- Requirements for power generation
+
+Publication date : 2016-08
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasTurbineEnclosure -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasTurbineEnclosure">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasEnergyGeneration"/>
+        <obo:IAO_0000115>local enclosure (3.4) covering a single gas turbine</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 19859:2016
+
+Technical Committee : ISO/TC 192  Gas turbines
+
+ICS :  29.160.99  Other standards related to rotating machinery 27.040  Gas and steam turbines. Steam engines
+
+Gas turbine applications -- Requirements for power generation
+
+Publication date : 2016-08
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasTurbineHall -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasTurbineHall">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasEnergyGeneration"/>
+        <obo:IAO_0000115>arge structure that may enclose one or more gas turbine packages, each of which may have their own local enclosure(s) (3.4)</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 19859:2016
+
+Technical Committee : ISO/TC 192  Gas turbines
+
+ICS :  29.160.99  Other standards related to rotating machinery 27.040  Gas and steam turbines. Steam engines
+
+Gas turbine applications -- Requirements for power generation
+
+Publication date : 2016-08
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasTurbinePackage -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasTurbinePackage">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasEnergyGeneration"/>
+        <obo:IAO_0000115>assembly that includes the gas turbine core (3.5), gas turbine load and auxiliary gearboxes, core integral equipment, applicable auxiliary systems and enclosure (3.4)</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 19859:2016
+
+Technical Committee : ISO/TC 192  Gas turbines
+
+ICS :  29.160.99  Other standards related to rotating machinery 27.040  Gas and steam turbines. Steam engines
+
+Gas turbine applications -- Requirements for power generation
+
+Publication date : 2016-08
+
+1st Edition</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3162,6 +3675,26 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MaximumContinuousRating -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MaximumContinuousRating">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasEnergyGeneration"/>
+        <obo:IAO_0000115>International Organization for Standardization/International ISO 19859:2016
+
+Technical Committee : ISO/TC 192  Gas turbines
+
+ICS :  29.160.99  Other standards related to rotating machinery 27.040  Gas and steam turbines. Steam engines
+
+Gas turbine applications -- Requirements for power generation
+
+Publication date : 2016-08
+
+1st Edition</obo:IAO_0000115>
+        <obo:IAO_0000115>maximum continuous electrical output for the power generation package with the gas turbine package (3.8) operating at its maximum reference turbine control temperature [exhaust temperature, TIT (3.27) or RIT (3.20)] and its inlet guide vanes (where fitted) fully open</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Measure -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Measure">
@@ -3326,6 +3859,46 @@ Publication Date: 2016-09
 March 2018
 
 https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MinimumContinuousRating -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MinimumContinuousRating">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasEnergyGeneration"/>
+        <obo:IAO_0000115>minimum continuous electrical output for the power generation package (3.14) without meeting emission limits and environmental constraints</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 19859:2016
+
+Technical Committee : ISO/TC 192  Gas turbines
+
+ICS :  29.160.99  Other standards related to rotating machinery 27.040  Gas and steam turbines. Steam engines
+
+Gas turbine applications -- Requirements for power generation
+
+Publication date : 2016-08
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MinimumEnvironmentalLoad -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MinimumEnvironmentalLoad">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasEnergyGeneration"/>
+        <obo:IAO_0000115>minimum continuous electrical output for the power generation package (3.14) while meeting all emission limits and environmental constraints</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 19859:2016
+
+Technical Committee : ISO/TC 192  Gas turbines
+
+ICS :  29.160.99  Other standards related to rotating machinery 27.040  Gas and steam turbines. Steam engines
+
+Gas turbine applications -- Requirements for power generation
+
+Publication date : 2016-08
+
+1st Edition</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3497,6 +4070,26 @@ Security techniques — Information security management systems — Overview and
 Publication date : 2018-02
 
 5th Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Normalization -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Normalization">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+        <obo:IAO_0000115>modification of data to account for changes to enable comparison of energy performance (3.4.3) under equivalent conditions</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 50001:2018
+
+Technical Committee : ISO/TC 301  Energy management and energy savings
+
+ICS :  27.015  Energy efficiency. Energy conservation in general 03.100.70 Management systems
+
+Energy management systems -- Requirements with guidance for use
+
+Publication date : 2018-08
+
+2nd Edition</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3765,6 +4358,46 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerPlant -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerPlant">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasEnergyGeneration"/>
+        <obo:IAO_0000115>all main equipment and auxiliary equipment employed in producing electrical power at a site (3.23) and may include one or more power generation packages (3.14)</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 19859:2016
+
+Technical Committee : ISO/TC 192  Gas turbines
+
+ICS :  29.160.99  Other standards related to rotating machinery 27.040  Gas and steam turbines. Steam engines
+
+Gas turbine applications -- Requirements for power generation
+
+Publication date : 2016-08
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerRating -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerRating">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasEnergyGeneration"/>
+        <obo:IAO_0000115>net electrical power developed by the gas turbine when it is operated at a defined reference turbine control temperature [exhaust temperature, TIT (3.27) or RIT (3.20)] and standard reference conditions</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 19859:2016
+
+Technical Committee : ISO/TC 192  Gas turbines
+
+ICS :  29.160.99  Other standards related to rotating machinery 27.040  Gas and steam turbines. Steam engines
+
+Gas turbine applications -- Requirements for power generation
+
+Publication date : 2016-08
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerStorageAndGenerationTrend -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerStorageAndGenerationTrend">
@@ -3963,6 +4596,26 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RatedSpeed -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RatedSpeed">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasEnergyGeneration"/>
+        <obo:IAO_0000115>speed expressed in revolutions per minute of the gas turbine core (3.5) output shaft required for generator synchronous speed</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 19859:2016
+
+Technical Committee : ISO/TC 192  Gas turbines
+
+ICS :  29.160.99  Other standards related to rotating machinery 27.040  Gas and steam turbines. Steam engines
+
+Gas turbine applications -- Requirements for power generation
+
+Publication date : 2016-08
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RedirectedEnergy -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RedirectedEnergy">
@@ -4028,6 +4681,35 @@ Security techniques — Information security management systems — Overview and
 Publication date : 2018-02
 
 5th Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RenewableEnergy -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RenewableEnergy">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+        <obo:IAO_0000115>energy not depleted by extraction as it is naturally replenished at a rate faster than it is extracted
+
+Note 1 to entry: Renewable energy excludes recovered or wasted energy.
+
+Note 2 to entry: Organic fraction of municipal waste can be considered as a renewable energy.
+
+Note 3 to entry: Whether the energy stored in a technical system is renewable or not depends upon the nature of the original energy.
+
+Note 4 to entry: Criteria to categorize an energy as renewable can differ amongst jurisdictions, based on local environmental or other reasons.
+[SOURCE: ISO/IEC 13273‑2:2015, 3.1.5, modified — The term “renewable energy source” has been replaced by “renewable energy”; the word “source” has been deleted after “energy” in the definition and in each of the Notes to entry; the verb “may” has been replaced by “can” in Note 2 to entry. The term “renewable energy” is defined differently in ISO/IEC 13273‑2:2015, 3.1.6.]</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 50007:2017
+
+Technical Committee : ISO/TC 301  Energy management and energy savings
+
+ICS :  27.015  Energy efficiency. Energy conservation in general
+
+Energy services -- Guidelines for the assessment and improvement of the energy service to users
+
+Publication date : 2017-06
+
+1st Edition</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -4431,6 +5113,27 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RotorInletTemperature -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RotorInletTemperature">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasEnergyGeneration"/>
+        <obo:IAO_0000115>flow weighted mean total temperature of the working fluid relative to a stationary plane immediately upstream of the first rotating row of turbine blades
+Note 1 to entry: Also known as the firing temperature.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 19859:2016
+
+Technical Committee : ISO/TC 192  Gas turbines
+
+ICS :  29.160.99  Other standards related to rotating machinery 27.040  Gas and steam turbines. Steam engines
+
+Gas turbine applications -- Requirements for power generation
+
+Publication date : 2016-08
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SQL -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SQL">
@@ -4604,6 +5307,50 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_00
 Projections made in 2018 by ARL and TRADOC
 
 [This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SequentialCombustion -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SequentialCombustion">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasEnergyGeneration"/>
+        <obo:IAO_0000115>process created by a gas turbine that typically consists of two combustors, a high pressure combustor followed by a high pressure turbine and a low pressure combustor followed by a low pressure turbine</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 19859:2016
+
+Technical Committee : ISO/TC 192  Gas turbines
+
+ICS :  29.160.99  Other standards related to rotating machinery 27.040  Gas and steam turbines. Steam engines
+
+Gas turbine applications -- Requirements for power generation
+
+Publication date : 2016-08
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SignificantEnergyUse -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SignificantEnergyUse">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+        <obo:IAO_0000115>energy use (3.5.4) accounting for substantial energy consumption (3.5.2) and/or offering considerable potential for energy performance improvement (3.4.6)
+
+Note 1 to entry: Significance criteria are determined by the organization (3.1.1).
+
+Note 2 to entry: SEUs can be facilities, systems, processes, or equipment.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 50001:2018
+
+Technical Committee : ISO/TC 301  Energy management and energy savings
+
+ICS :  27.015  Energy efficiency. Energy conservation in general 03.100.70 Management systems
+
+Energy management systems -- Requirements with guidance for use
+
+Publication date : 2018-08
+
+2nd Edition</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -4784,6 +5531,32 @@ Publication Date: 2012-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#StaticFactor -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#StaticFactor">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+        <obo:IAO_0000115>identified factor that significantly impacts energy performance (3.4.3) and does not routinely change
+
+Note 1 to entry: Significance criteria are determined by the organization (3.1.1).
+
+EXAMPLE:Facility size; design of installed equipment; number of weekly shifts; range of products.
+
+[SOURCE: ISO 50015:2014, 3.22, modified — Note 1 to entry and EXAMPLE 1 have been modified and EXAMPLE 2 has been deleted.]</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 50001:2018
+
+Technical Committee : ISO/TC 301  Energy management and energy savings
+
+ICS :  27.015  Energy efficiency. Energy conservation in general 03.100.70 Management systems
+
+Energy management systems -- Requirements with guidance for use
+
+Publication date : 2018-08
+
+2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#StealthCommunications -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#StealthCommunications">
@@ -4878,6 +5651,28 @@ https://www.iso.org/jtc1</obo:IAO_0000119>
 Space systems -- Space environment simulation for material tests -- General principles and criteria
 
 Publication Date: 2016-09
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SustainableDevelopment -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SustainableDevelopment">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary"/>
+        <obo:IAO_0000115>development that meets the needs of the present generation without compromising the ability of future generations to meet their own needs
+
+Note 1 to entry: A key component of sustainability is continually increasing reductions in greenhouse gas emissions.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 50007:2017
+
+Technical Committee : ISO/TC 301  Energy management and energy savings
+
+ICS :  27.015  Energy efficiency. Energy conservation in general
+
+Energy services -- Guidelines for the assessment and improvement of the energy service to users
+
+Publication date : 2017-06
 
 1st Edition</obo:IAO_0000119>
     </owl:Class>
@@ -5190,6 +5985,26 @@ Security techniques — Information security management systems — Overview and
 Publication date : 2018-02
 
 5th Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TurbineInletTemperature -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TurbineInletTemperature">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GasEnergyGeneration"/>
+        <obo:IAO_0000115>mean temperature of the working fluid upstream of the first stage turbine stator blades</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International ISO 19859:2016
+
+Technical Committee : ISO/TC 192  Gas turbines
+
+ICS :  29.160.99  Other standards related to rotating machinery 27.040  Gas and steam turbines. Steam engines
+
+Gas turbine applications -- Requirements for power generation
+
+Publication date : 2016-08
+
+1st Edition</obo:IAO_0000119>
     </owl:Class>
     
 
