@@ -92,6 +92,28 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Absorbent -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Absorbent">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PollutionControlledVocabulary"/>
+        <obo:IAO_0000115>substance able to absorb liquid or gas
+
+[SOURCE: ISO/TR 27912:2016, definition 3.1]</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission ISO 27919-1:2018
+
+Technical Committee : ISO/TC 265 Carbon dioxide capture, transportation, and geological storage 
+
+ICS : 13.020.40 Pollution, pollution control and conservation 
+
+Carbon dioxide capture -- Part 1: Performance evaluation methods for post-combustion CO2 capture integrated with a power plant
+
+Publication date : 2018-09
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AccessControl -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AccessControl">
@@ -704,6 +726,117 @@ Publication Date: 2012-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CO2CaptureEfficiency -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CO2CaptureEfficiency">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PollutionControlledVocabulary"/>
+        <obo:IAO_0000115>CO2 removal efficiency of the capture plant calculated as the amount of CO2 captured divided by the total amount of CO2 contained in the flue gas at the inlet of the capture plant
+
+Note 1 to entry: The CO2 capture efficiency is expressed as a percentage.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission ISO 27919-1:2018
+
+Technical Committee : ISO/TC 265 Carbon dioxide capture, transportation, and geological storage 
+
+ICS : 13.020.40 Pollution, pollution control and conservation 
+
+Carbon dioxide capture -- Part 1: Performance evaluation methods for post-combustion CO2 capture integrated with a power plant
+
+Publication date : 2018-09
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CO2Captured -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CO2Captured">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PollutionControlledVocabulary"/>
+        <obo:IAO_0000115>absolute amount of pure CO2 captured by the capture plant</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission ISO 27919-1:2018
+
+Technical Committee : ISO/TC 265 Carbon dioxide capture, transportation, and geological storage 
+
+ICS : 13.020.40 Pollution, pollution control and conservation 
+
+Carbon dioxide capture -- Part 1: Performance evaluation methods for post-combustion CO2 capture integrated with a power plant
+
+Publication date : 2018-09
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CO2Stream -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CO2Stream">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PollutionControlledVocabulary"/>
+        <obo:IAO_0000115>stream consisting overwhelmingly of carbon dioxide</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission ISO 27919-1:2018
+
+Technical Committee : ISO/TC 265 Carbon dioxide capture, transportation, and geological storage 
+
+ICS : 13.020.40 Pollution, pollution control and conservation 
+
+Carbon dioxide capture -- Part 1: Performance evaluation methods for post-combustion CO2 capture integrated with a power plant
+
+Publication date : 2018-09
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CapturePlant -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CapturePlant">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PollutionControlledVocabulary"/>
+        <obo:IAO_0000115>process and associated equipment that produces a CO2 stream</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission ISO 27919-1:2018
+
+Technical Committee : ISO/TC 265 Carbon dioxide capture, transportation, and geological storage 
+
+ICS : 13.020.40 Pollution, pollution control and conservation 
+
+Carbon dioxide capture -- Part 1: Performance evaluation methods for post-combustion CO2 capture integrated with a power plant
+
+Publication date : 2018-09
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonCaptureAndStorage -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonCaptureAndStorage">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PollutionControlledVocabulary"/>
+        <obo:IAO_0000115>process consisting of the separation of CO2 from industrial and energy-related sources, transportation and injection into a geological formation, resulting in long term isolation from the atmosphere
+
+Note 1 to entry: CCS is often referred to as Carbon Capture and Storage. This terminology is not encouraged because it is inaccurate: the objective is the capture of carbon dioxide and not the capture of carbon. Tree plantation is another form of carbon capture that does not describe precisely the physical process of removing CO2 from industrial emission sources.
+
+Note 2 to entry: The term &quot;sequestration&quot; is also used alternatively to &quot;storage&quot;. The term &quot;storage&quot; is preferred since “sequestration” is more generic and can also refer to biological processes (absorption of carbon by living organisms).
+Note 3 to entry: Long term means the minimum period necessary for CO2 geological storage to be considered an effective and environmentally safe climate-change-mitigation-option.
+
+Note 4 to entry: The term carbon dioxide capture, utilization (or use) and storage (CCUS) includes the concept that isolation from the atmosphere could be associated with a beneficial outcome. CCUS is embodied within the definition of CCS to the extent that long term isolation of the CO2 occurs through storage within geological formations. CCU is Carbon Capture and utilization (or use) without storage within geological formations.
+
+Note 5 to entry: CCS should also ensure long term isolation of CO2 from oceans, lakes, potable water supplies and other natural resources.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission ISO 27919-1:2018
+
+Technical Committee : ISO/TC 265 Carbon dioxide capture, transportation, and geological storage 
+
+ICS : 13.020.40 Pollution, pollution control and conservation 
+
+Carbon dioxide capture -- Part 1: Performance evaluation methods for post-combustion CO2 capture integrated with a power plant
+
+Publication date : 2018-09
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonDioxideEquivalent -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonDioxideEquivalent">
@@ -722,6 +855,26 @@ Greenhouse gases -- Part 1: Specification with guidance at the organization leve
 Publication date : 2018-12
 
 2nd Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonacrousFuel -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonacrousFuel">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PollutionControlledVocabulary"/>
+        <obo:IAO_0000115>any solid, liquid or gaseous fuels containing carbon atoms</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission ISO 27919-1:2018
+
+Technical Committee : ISO/TC 265 Carbon dioxide capture, transportation, and geological storage 
+
+ICS : 13.020.40 Pollution, pollution control and conservation 
+
+Carbon dioxide capture -- Part 1: Performance evaluation methods for post-combustion CO2 capture integrated with a power plant
+
+Publication date : 2018-09
+
+1st Edition</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1045,6 +1198,7 @@ Publication date : 2018-02
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <rdfs:label>Controlled Vocabulary</rdfs:label>
     </owl:Class>
     
 
@@ -1391,16 +1545,40 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DeepFlueGasDesulfurization -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DeepFlueGasDesulfurization">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PollutionControlledVocabulary"/>
+        <obo:IAO_0000115>SO2 removal unit placed downstream of the main flue gas desulfurization process intended to lower the SO2 content to the level required by the CO2 capture plant
+
+Note 1 to entry: Also called a “polishing” FGD.
+
+Note 2 to entry: In the case where no FGD is required by local regulations, and FGD is installed for the purposes of CCS, the new unit will be considered as deep FGD.</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission ISO 27919-1:2018
+
+Technical Committee : ISO/TC 265 Carbon dioxide capture, transportation, and geological storage 
+
+ICS : 13.020.40 Pollution, pollution control and conservation 
+
+Carbon dioxide capture -- Part 1: Performance evaluation methods for post-combustion CO2 capture integrated with a power plant
+
+Publication date : 2018-09
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DeepLearning -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DeepLearning">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
         <obo:IAO_0000115>At the cutting edge of machine learning*, this technique enables a machine to independently recognize complex concepts such as faces, human bodies, or images of cats. This is done by scouring millions of images picked from the internet – images that have not been labelled by humans. The result of a combination of learning algorithms and formal neural networks* and the use of mass data, deep learning has revolutionized artificial intelligence. It has countless applications, including search engines, medical diagnosis, autonomous cars, etc. In 2015, the AlphaGo computer used deep learning to beat humans at Go, the ancient Chinese board game.</obo:IAO_0000115>
-        <obo:IAO_0000115>United Nations Educational, Scientific, and Cultural Organization Courier 
+        <obo:IAO_0000119>United Nations Educational, Scientific, and Cultural Organization Courier 
 
 March 2018
 
-https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000115>
+https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -4254,6 +4432,46 @@ https://www.iso.org/jtc1</obo:IAO_0000119>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ParticulateMatter -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ParticulateMatter">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PollutionControlledVocabulary"/>
+        <obo:IAO_0000115>particulate matter including PM2,5, PM10, and/or total suspended particulate matter</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission ISO 27919-1:2018
+
+Technical Committee : ISO/TC 265 Carbon dioxide capture, transportation, and geological storage 
+
+ICS : 13.020.40 Pollution, pollution control and conservation 
+
+Carbon dioxide capture -- Part 1: Performance evaluation methods for post-combustion CO2 capture integrated with a power plant
+
+Publication date : 2018-09
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ParticulateRemoval -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ParticulateRemoval">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PollutionControlledVocabulary"/>
+        <obo:IAO_0000115>action to remove particulate matter from the flue gas stream</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission ISO 27919-1:2018
+
+Technical Committee : ISO/TC 265 Carbon dioxide capture, transportation, and geological storage 
+
+ICS : 13.020.40 Pollution, pollution control and conservation 
+
+Carbon dioxide capture -- Part 1: Performance evaluation methods for post-combustion CO2 capture integrated with a power plant
+
+Publication date : 2018-09
+
+1st Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Perforation -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Perforation">
@@ -4332,6 +4550,36 @@ Security techniques — Information security management systems — Overview and
 Publication date : 2018-02
 
 5th Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PollutionControlledVocabulary -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PollutionControlledVocabulary">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PostCombustionCO2Capture -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PostCombustionCO2Capture">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PollutionControlledVocabulary"/>
+        <obo:IAO_0000115>capture of carbon dioxide from flue gas stream produced by carbonaceous fuel combustion
+
+[SOURCE: ISO/TR 27912:2016, definition 3.51, modified — In the term, “CO2” was added and “fuel air combustion” was modified to “carbonaceous fuel combustion” in the definition.]</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission ISO 27919-1:2018
+
+Technical Committee : ISO/TC 265 Carbon dioxide capture, transportation, and geological storage 
+
+ICS : 13.020.40 Pollution, pollution control and conservation 
+
+Carbon dioxide capture -- Part 1: Performance evaluation methods for post-combustion CO2 capture integrated with a power plant
+
+Publication date : 2018-09
+
+1st Edition</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -4473,6 +4721,26 @@ Security techniques — Information security management systems — Overview and
 Publication date : 2018-02
 
 5th Edition</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ProductCO2Stream -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ProductCO2Stream">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PollutionControlledVocabulary"/>
+        <obo:IAO_0000115>stream produced by a CO2 capture and compression/liquefaction process</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission ISO 27919-1:2018
+
+Technical Committee : ISO/TC 265 Carbon dioxide capture, transportation, and geological storage 
+
+ICS : 13.020.40 Pollution, pollution control and conservation 
+
+Carbon dioxide capture -- Part 1: Performance evaluation methods for post-combustion CO2 capture integrated with a power plant
+
+Publication date : 2018-09
+
+1st Edition</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -5895,6 +6163,26 @@ Publication Date: 2012-09
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
         <obo:IAO_0000115>The timeframe of 2035-2050 is a period marked by significant breakthroughs in technology and convergences in terms of capabilities, which lead to significant changes in the character of warfare.  During this period, traditional aspects of warfare undergo dramatic, almost revolutionary changes which at the end of this timeframe may even challenge the very nature of warfare itself. In this era, no one actor is likely to have any long-term strategic or technological advantage, with aggregate power between the U.S. and its peer and near-peer rivals being equivalent, but not necessarily symmetric.  Prevailing in this period will depend on an ability to synchronize multi-domain capabilities against an artificial intelligence-enhanced adversary with an overarching capability to visualize and understand the battlespace at even greater ranges and velocities.</obo:IAO_0000115>
         <obo:IAO_0000119>The Operational Environment and the Changing Character of Future Warfare</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ThermalPowerPlant -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ThermalPowerPlant">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PollutionControlledVocabulary"/>
+        <obo:IAO_0000115>power plant that converts heat e.g. released by the combustion of carbonaceous fuels into electricity</obo:IAO_0000115>
+        <obo:IAO_0000119>International Organization for Standardization/International Electrotechnical Commission ISO 27919-1:2018
+
+Technical Committee : ISO/TC 265 Carbon dioxide capture, transportation, and geological storage 
+
+ICS : 13.020.40 Pollution, pollution control and conservation 
+
+Carbon dioxide capture -- Part 1: Performance evaluation methods for post-combustion CO2 capture integrated with a power plant
+
+Publication date : 2018-09
+
+1st Edition</obo:IAO_0000119>
     </owl:Class>
     
 
