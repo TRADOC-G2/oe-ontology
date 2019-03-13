@@ -1,22 +1,39 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#"
      xml:base="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
     <owl:Ontology rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology">
-        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology"/>
-        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Upper/ExtendedRelationOntology"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
         <owl:imports rdf:resource="http://www.obofoundry.org/ro/ro.owl"/>
-        <owl:versionInfo>DISTRIBUTION A: Approved for public release; distribution is unlimited.  For more information contact United States Army TRADOC G-27 at usarmy.jble.tradoc.list.tboc-operations@mail.mil (or Kaye Darone, Data Science Branch Chief, DSMS, Kaye.t.darone.civ@mail.mil, (757) 878-9547)</owl:versionInfo>
+        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology"/>
+        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Upper/ExtendedRelationOntology"/>
+        <owl:versionInfo xml:lang="mail.mil, (757) 878-9547)">DISTRIBUTION A: Approved for public release; distribution is unlimited.  For more information contact United States Army TRADOC G-27 at usarmy.jble.tradoc.list.tboc-operations@mail.mil (or Kaye Darone, Data Science Branch Chief, DSMS, Kaye.t.darone.civ</owl:versionInfo>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
     
 
 
@@ -208,7 +225,23 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Algorithm -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AgingPopulations -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AgingPopulations">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Agriculture -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Agriculture">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicActivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Algorithms -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Algorithm">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatSeeThinkCommunicate"/>
@@ -268,6 +301,30 @@ Publication date : 2018-12
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AntiSatellite">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ActiveDenialSystem"/>
         <rdfs:label>Anti Satellite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AntipovertyPrograms -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AntipovertyPrograms">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WelfareState"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Arms -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Arms">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolentConflict"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArmsRaces -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArmsRaces">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Arms"/>
     </owl:Class>
     
 
@@ -463,7 +520,22 @@ Publication date : 2018-02
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AutonomousIntelligentMunition -->
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AuthoritarianInstitutions -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AuthoritarianInstitutions">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions"/>
+        <obo:IAO_0000115>Authoritarianism [is the] principle of blind submission to authority, as opposed to individual freedom of thought and action. In government, authoritarianism denotes any political system that concentrates power in the hands of a leader or a small elite that is not constitutionally responsible to the body of the people. Authoritarian leaders often exercise power arbitrarily and without regard to existing bodies of law, and they usually cannot be replaced by citizens choosing freely among various competitors in elections. The freedom to create opposition political parties or other alternative political groupings with which to compete for power with the ruling group is either limited or nonexistent in authoritarian regimes.</obo:IAO_0000115>
+        <obo:IAO_0000115>Editors of Encyclopaedia Britannica &amp; Amy Tikkanen, &quot;Authoritarianism&quot;, Encyclopaedia Britannica
+
+March 12, 2019
+
+https://www.britannica.com/topic/authoritarianism</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AutonomousIntelligentMunitions -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AutonomousIntelligentMunition">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatMove"/>
@@ -943,6 +1015,40 @@ Publication date : 2018-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Bureaucracy -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Bureaucracy">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Executive"/>
+        <obo:IAO_0000115>Bureaucracy...refers to both a body of non-elective government officials and an administrative policy-making group.  [A bureaucracy is] a government administration managed by departments staffed with non-elected officials. Today, bureaucracy is the administrative system governing any large institution....The public administration in many countries is an example of a bureaucracy.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Bureaucracy&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Bureaucracy</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Cabinet -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Cabinet">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Executive"/>
+        <obo:IAO_0000115>A Cabinet is a body of high-ranking state officials, typically consisting of the top leaders of the executive branch. Members of a cabinet are usually called Cabinet ministers or secretaries. The function of a Cabinet varies: in some countries it is a collegiate decision-making body with collective responsibility, while in others it may function either as a purely advisory body or an assisting institution to a decision making head of state or head of government. Cabinets are typically the body responsible for the day-to-day management of the government and response to sudden events, whereas the legislative and judicial branches work in a measured pace, in sessions according to lengthy procedures.
+
+In some countries, particularly those that use a parliamentary system...the Cabinet collectively decides the government&apos;s direction, especially in regard to legislation passed by the parliament. In countries with a presidential system...the Cabinet does not function as a collective legislative influence; rather, their primary role is as an official advisory council to the head of government. In this way, the President obtains opinions and advice relating to forthcoming decisions.
+
+...
+
+The second role of cabinet officials is to administer executive branches, government agencies, or departments....Cabinets are also important originators for legislation. Cabinets and ministers are usually in charge of the preparation of proposed legislation in the ministries before it is passed to the parliament. Thus, often the majority of new legislation actually originates from the cabinet and its ministries.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Cabinent (government)&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Cabinet_(government)</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonDioxideEquivalent -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonDioxideEquivalent">
@@ -998,6 +1104,36 @@ Projections made in 2018 by ARL and TRADOC
 
 [This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</CommonCoreOntologies:definition_source>
         <rdfs:label>Chemical Weapon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CivilLaw -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CivilLaw">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#JudicialSystem"/>
+        <obo:IAO_0000115>The law relating to civil wrongs and quasi-contracts is part of the civil law, as is law of property....The rights and duties of persons (natural persons and legal persons) amongst themselves is the primary concern of civil law. It is often suggested that civil proceedings are taken for the purpose of obtaining compensation for injury, and may thus be distinguished from criminal proceedings, whose purpose is to inflict punishment. However, exemplary damages or punitive damages may be awarded in civil proceedings.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Civil Law (Common Law)&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Civil_law_(common_law)</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CivilWar -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CivilWar">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubstateConflict"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Class -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Class">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity"/>
     </owl:Class>
     
 
@@ -1384,6 +1520,52 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Corruption -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Corruption">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InformalInstitutions"/>
+        <obo:IAO_0000115>In general, corruption is a form of dishonesty or criminal activity undertaken by a person or organization entrusted with a position of authority, often to acquire illicit benefit. Corruption may include many activities including bribery and embezzlement, though it may also involve practices that are legal in many countries. Political corruption occurs when an office-holder or other governmental employee acts in an official capacity for personal gain. Corruption is most commonplace in kleptocracies, oligarchies, narco-states and mafia states.
+
+Corruption can occur on different scales. Corruption ranges from small favors between a small number of people (petty corruption), to corruption that affects the government on a large scale (grand corruption), and corruption that is so prevalent that it is part of the everyday structure of society, including corruption as one of the symptoms of organized crime.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Corruption&quot;, Wikiepedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Corruption</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Coup -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Coup">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubstateConflict"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Crime -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Crime">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolentConflict"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CriminalLaw -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CriminalLaw">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#JudicialSystem"/>
+        <obo:IAO_0000115>Criminal law is the body of law that relates to crime. It proscribes conduct perceived as threatening, harmful, or otherwise endangering to the property, health, safety, and moral welfare of people inclusive of one&apos;s self. Most criminal law is established by statute, which is to say that the laws are enacted by a legislature. Criminal law includes the punishment and rehabilitation of people who violate such laws.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Criminal Law&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Criminal_law</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CyberAndSpaceControlledVocabulary -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CyberAndSpaceControlledVocabulary">
@@ -1757,6 +1939,32 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</CommonCore
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemocraticInsitutions -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemocraticInsitutions">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions"/>
+        <obo:IAO_0000115>Democracy...is a system of government where the citizens exercise power by voting....In a representative democracy the citizens elect representatives from among themselves. These representatives meet to form a governing body, such as a legislature. In a constitutional democracy the powers of the majority are exercised within the framework of a representative democracy, but the constitution limits the majority and protects the minority, usually through the enjoyment by all of certain individual rights, e.g. freedom of speech, or freedom of association. &quot;Rule of the majority&quot; is sometimes referred to as democracy
+
+...
+
+...[Democracy] consists of four key elements: a political system for choosing and replacing the government through free and fair elections; the active participation of the people, as citizens, in politics and civic life; protection of the human rights of all citizens; a rule of law, in which the laws and procedures apply equally to all citizens.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Democracy&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Democracy</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactors"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemographicsAndUrbanizationControlledVocabulary -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemographicsAndUrbanizationControlledVocabulary">
@@ -1791,6 +1999,40 @@ Publication date : 2018-02
 
 5th Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Derived Measure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Dictatorship -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Dictatorship">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AuthoritarianInstitutions"/>
+        <obo:IAO_0000115>(1)
+
+A dictatorship is an authoritarian form of government, characterized by a single leader or group of leaders with either no party or a weak party, little mass mobilization, and limited political pluralism....A common aspect that characterized dictators is taking advantage of their strong personality, usually by suppressing freedom of thought and speech of the masses, in order to maintain complete political and social supremacy and stability. Dictatorships and totalitarian societies generally employ political propaganda to decrease the influence of proponents of alternative governing systems.</obo:IAO_0000115>
+        <obo:IAO_0000115>(2)
+
+A dictator is a political leader who possesses absolute power. A state which is ruled by a dictator is called a dictatorship
+
+...
+
+...[The] term &quot;dictator&quot; is generally used to describe a leader who holds or abuses an extraordinary amount of personal power. Dictatorships are often characterised by some of the following: suspension of elections and civil liberties; proclamation of a state of emergency; rule by decree; repression of political opponents; not abiding by the rule of law procedures, and cult of personality. Dictatorships are often one-party or dominant-party states.
+
+A wide variety of leaders coming to power in different kinds of regimes, such as military juntas, one-party states, dominant-party states, and civilian governments under a personal rule, have been described as dictators. They may hold left or right-wing views, or may be apolitical.</obo:IAO_0000115>
+        <obo:IAO_0000119>(1)
+
+&quot;Dictatorship&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Dictatorship</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
+
+&quot;Dictator&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Dictator</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1998,6 +2240,22 @@ Publication Date: 2016-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicActivity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicActivity">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicDevelopment -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicDevelopment">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicRebalancingControlledVocabulary -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicRebalancingControlledVocabulary">
@@ -2014,6 +2272,22 @@ Publication Date: 2016-09
         <CommonCoreOntologies:definition>Although AI and its associated technologies will shatter many industries and livelihoods, a wide range of advances continue to create new sources of wealth and economic development – while also significantly impacting the strategic security environment. Robotics and autonomous systems will underpin the smooth functioning of advanced societies.  Additive manufacturing, computer-aided design and millions of industrial robots will dislocate significant portions of the global supply chain.  Virtually anyone in the world with access to a computer system and 3D printer will be able to “print” anything from drones to weapons.  Encrypted blockchains will be massively disruptive to commerce functions. Together with robotics, autonomy, and AI they comprise a perfect storm for “blue collar” and “white collars” alike, causing vast economic displacement as formerly high-quality information technology and management jobs follow the previous path of agricultural and manufacturing labor.  Militaries, paramilitaries, mercenary groups, criminal elements, and even extremists groups all will be able to take advantage of this potential pool of manpower.  Biotechnology will see major advances, with many chemical and materials industry being replaced or augmented by a “bio-based economy” in which precision genetic engineering allows for bulk chemical production.  Individualized genetics enable precise performance enhancements for cognition, health, longevity, and fitness.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>The Operational Environment and the Changing Character of Future Warfare</CommonCoreOntologies:definition_source>
         <rdfs:label>Economic Rebalancing Trend</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Education -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Education">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WelfareState"/>
     </owl:Class>
     
 
@@ -2048,6 +2322,22 @@ Publication Date: 2012-09
 
 1st Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Ejecta Cone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Elections -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Elections">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemocraticInsitutions"/>
+        <obo:IAO_0000115>Electoral systems are the detailed constitutional arrangements and voting systems that convert the vote into a political decision. The first step is to tally the votes, for which various vote counting systems and ballot types are used. Voting systems then determine the result on the basis of the tally. Most systems can be categorized as either proportional or majoritarian. Among the former are party-list proportional representation and additional member system. Among the latter are First Past the Post electoral system (relative majority) and absolute majority. Many countries have growing electoral reform movements, which advocate systems such as approval voting, single transferable vote, instant runoff voting or a Condorcet method; these methods are also gaining popularity for lesser elections in some countries where more important elections still use more traditional counting methods.
+
+While openness and accountability are usually considered cornerstones of a democratic system, the act of casting a vote and the content of a voter&apos;s ballot are usually an important exception. The secret ballot is a relatively modern development, but it is now considered crucial in most free and fair elections, as it limits the effectiveness of intimidation.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Election&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Election#Electoral_systems</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -2497,6 +2787,14 @@ Publication date : 2018-08
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicRegionalReligiousAndRacialIdentities -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicRegionalReligiousAndRacialIdentities">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EvaluateWithSubjectMatterExperts -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EvaluateWithSubjectMatterExperts">
@@ -2527,6 +2825,20 @@ Publication date : 2018-02
 
 5th Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Executive -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Executive">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions"/>
+        <obo:IAO_0000115>[The executive is] a person or persons constituting the branch of government charged with executing or carrying out the laws and appointing officials, formulating and instituting foreign policy, and providing diplomatic representation.</obo:IAO_0000115>
+        <obo:IAO_0000119>Editors of Encyclopaedia Brittanica, &quot;Executive, Government&quot;, Encyclopaedia Britannica
+
+March 12, 2019
+
+https://www.britannica.com/topic/executive-government</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -2593,6 +2905,35 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ExtrajudicialViolence -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ExtrajudicialViolence">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InformalInstitutions"/>
+        <obo:IAO_0000115>(1)
+
+Extrajudicial punishment is punishment for an alleged crime or offense carried out without legal process or supervision from a court or tribunal through a legal proceeding. Such actions are carried out by state actors.</obo:IAO_0000115>
+        <obo:IAO_0000115>(2)
+
+Extrajudicial punishment consists of various actions to imprison, relocate, harm, torture, or kill someone outside of the legal system, without legal process, and without supervision from a court and its systems of recourse.</obo:IAO_0000115>
+        <obo:IAO_0000119>(1)
+
+&quot;Extrajudcial punishment&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Extrajudicial_punishment</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
+
+&quot;Extrajudicial punishment&quot;, RationalWiki
+
+March 12th, 2019
+
+https://rationalwiki.org/wiki/Extrajudicial_punishment</obo:IAO_0000119>
+        <obo:IAO_0000232>The articles in source #2 are, on the the whole, tendentious and of uneven quality.  However, this particular definition is correct, and, usually for topic modeling, written in everyday language.</obo:IAO_0000232>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Facility -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Facility">
@@ -2636,6 +2977,14 @@ Publication date : 2018-12
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FertilityRates -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FertilityRates">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AgingPopulations"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#File -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#File">
@@ -2650,7 +2999,24 @@ https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FormalNeuralNetwork -->
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Finance -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Finance">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicActivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FiscalAndMonetaryPolicy -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FiscalAndMonetaryPolicy">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FormalNeuralNetworks -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FormalNeuralNetwork">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
@@ -2678,6 +3044,22 @@ Publication Date: 2012-09
 
 1st Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Fragmentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FreeSpeech -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FreeSpeech">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemocraticInsitutions"/>
+        <obo:IAO_0000115>Freedom of speech is a principle that supports the freedom of an individual or a community to articulate their opinions and ideas without fear of retaliation, censorship, or legal sanction. The term &quot;freedom of expression&quot; is sometimes used synonymously but includes any act of seeking, receiving, and imparting information or ideas, regardless of the medium used.
+
+Freedom of expression is recognized as a human right under article 19 of the Universal Declaration of Human Rights (UDHR) and recognized in international human rights law in the International Covenant on Civil and Political Rights (ICCPR). Article 19 of the UDHR states that &quot;everyone shall have the right to hold opinions without interference&quot; and &quot;everyone shall have the right to freedom of expression; this right shall include freedom to seek, receive and impart information and ideas of all kinds, regardless of frontiers, either orally, in writing or in print, in the form of art, or through any other media of his choice&quot;.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Freedom of Speech&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Freedom_of_speech</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -2809,6 +3191,22 @@ https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GenderAndSexualIdentities -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GenderAndSexualIdentities">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GenderImbalance -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GenderImbalance">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GeneticModification -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GeneticModification">
@@ -2911,6 +3309,14 @@ Publication date : 2018-02
 
 5th Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Governing Body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactors"/>
     </owl:Class>
     
 
@@ -3263,6 +3669,14 @@ Publication date : 2018-12
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Healthcare -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Healthcare">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WelfareState"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HighEllipticalOrbits -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HighEllipticalOrbits">
@@ -3423,6 +3837,14 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</CommonCore
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactors -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactors">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HunterKillerSwarm -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HunterKillerSwarm">
@@ -3500,12 +3922,21 @@ Publication Date: 2012-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity -->
+
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactors"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ImmersiveVirtualReality -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ImmersiveVirtualReality">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
-        <CommonCoreOntologies:definition>A virtual, computer-generated universe, into which the user is immersed via various sensors or objects (glasses, sensory feedback suits, etc.). Immersion in virtual reality may involve the player of a video game or an aircraft pilot in training.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>United Nations Educational, Scientific, and Cultural Organization Courier 
+        <obo:IAO_0000115>A virtual, computer-generated universe, into which the user is immersed via various sensors or objects (glasses, sensory feedback suits, etc.). Immersion in virtual reality may involve the player of a video game or an aircraft pilot in training.</obo:IAO_0000115>
+        <obo:IAO_0000119>United Nations Educational, Scientific, and Cultural Organization Courier 
 
 March 2018
 
@@ -3588,6 +4019,20 @@ Publication date : 2018-12
 
 2nd Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Indirect Greenhouse Gas Emission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InformalInstitutions -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InformalInstitutions">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions"/>
+        <obo:IAO_0000115>To understand the political behaviour in a country it is important to look at how that behaviour is enabled or constrained by informal institutions, and how this affects how formal institutions are run. For example, if there are high levels of extrajudicial killings in a country, it might be that while it is prohibited by the state the police are actually enabled to carry out such killings and informally encouraged to prop up an inefficient formal state police institution. An informal institution tends to have socially shared rules, which are unwritten and yet are often known by all inhabitants of a certain country, as such they are often referred to as being an inherent part of the culture of a given country. Informal practices are often referred to as &quot;cultural&quot;, for example clientelism or corruption is sometimes stated as a part of the political culture in a certain place, but an informal institution itself is not cultural, it may be shaped by culture or behaviour of a given political landscape, but they should be looked at in the same way as formal institutions to understand their role in a given country. Informal institutions might be particularly used to pursue a political agenda, or a course of action that might not be publicly popular, or even legal, and can be seen as an effective way of making up for lack of efficiency in a formal institution. For example, in countries where formal institutions are particularly inefficient, an informal institution may be the most cost effective way or actually carrying out a given task, and this ensures that there is little pressure on the formal institutions to become more efficient.The relationship between formal and informal institutions is often closely aligned and informal institutions step in to prop up inefficient institutions.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Institution&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Institution#Informal_institutions</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3781,6 +4226,14 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Insurgency -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Insurgency">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubstateConflict"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntegrationOfNeuroscienceIntoAI -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntegrationOfNeuroscienceIntoAI">
@@ -3874,6 +4327,20 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntergovernmentalOrganizations -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntergovernmentalOrganizations">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalInstitutions"/>
+        <obo:IAO_0000119>&quot;Intergovernment Organization&quot;, Wikipedia
+
+March 13, 2019
+
+https://en.wikipedia.org/wiki/Intergovernmental_organization#Types_and_purpose</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>[Intergovernmental organizations] have various goals and scopes, often outlined in the treaty or charter. Some IGOs developed to fulfill a need for a neutral forum for debate or negotiation to resolve disputes. Others developed to carry out mutual interests with unified aims to preserve peace through conflict resolution and better international relations, promote international cooperation on matters such as environmental protection, to promote human rights, to promote social development (education, health care), to render humanitarian aid, and to economic development. Some are more general in scope (the United Nations) while others may have subject-specific missions (such as Interpol or the International Organization for Standardization and other standards organizations).</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternalContext -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternalContext">
@@ -3899,6 +4366,58 @@ Publication date : 2018-02
 5th Edition</CommonCoreOntologies:definition_source>
         <CommonCoreOntologies:definition_source>[SOURCE: ISO Guide 73:2009, 3.3.1.2]</CommonCoreOntologies:definition_source>
         <rdfs:label>Internal Context</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalAlliances -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalAlliances">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolentConflict"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalInstitutions -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalInstitutions">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions"/>
+        <obo:IAO_0000115>(1)
+
+An international organization is an organization with an international membership, scope, or presence.</obo:IAO_0000115>
+        <obo:IAO_0000115>(2)
+
+International organizations serve many diverse functions, including collecting information and monitoring trends...delivering services and aid...and providing forums for bargaining...and settling disputes.... By providing political institutions through which states can work together to achieve common objectives, international organizations can help to foster cooperative behaviour. IGOs also serve useful purposes for individual states, which often use them as instruments of foreign policy to legitimate their actions and to constrain the behaviour of other states.</obo:IAO_0000115>
+        <obo:IAO_0000119>(1)
+
+&quot;International Organiztion&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/International_organization</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
+
+Karen Mingst, &quot;International Organization&quot;, Encyclopaedia Britannica
+
+March 12, 2019
+
+https://www.britannica.com/topic/international-organization</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalMigration -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalMigration">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Migration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalTrade -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalTrade">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade"/>
     </owl:Class>
     
 
@@ -3931,6 +4450,30 @@ Publication Date: 2016-09
 
 1st Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Interplanetary Space</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InterstateConflict -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InterstateConflict">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolentConflict"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#JudicialSystem -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#JudicialSystem">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions"/>
+        <obo:IAO_0000115>The judiciary (also known as the judicial system, judicial branch or court system) is the system of courts that interprets and applies the law in the name of the state. Under the doctrine of the separation of powers, the judiciary generally does not make statutory law (which is the responsibility of the legislature) or enforce law (which is the responsibility of the executive), but rather interprets law and applies it to the facts of each case. However, in some countries the judiciary does make common law, setting precedent for other courts to follow. This branch of the state is often tasked with ensuring equal justice under law. 
+
+In many jurisdictions the judicial branch has the power to change laws through the process of judicial review. Courts with judicial review power may annul the laws and rules of the state when it finds them incompatible with a higher norm, such as primary legislation, the provisions of the constitution or international law. Judges constitute a critical force for interpretation and implementation of a constitution, thus de facto in common law countries creating the body of constitutional law.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Judiciary&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Judiciary</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3969,6 +4512,47 @@ Projections made in 2018 by ARL and TRADOC
 
 [This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</CommonCoreOntologies:definition_source>
         <rdfs:label>Laser</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Legislature -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Legislature">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemocraticInsitutions"/>
+        <obo:IAO_0000115>(1)
+
+A legislature is a deliberative assembly with the authority to make laws for a political entity such as a country or city. Legislatures form important parts of most governments.
+
+...
+
+Laws enacted by legislatures are known as primary legislation. Legislatures observe and steer governing actions and usually have exclusive authority to amend the budget or budgets involved in the process.
+
+The members of a legislature are called legislators. In a democracy, legislators are most commonly popularly elected, although indirect election and appointment by the executive are also used, particularly for bicameral legislatures featuring an upper chamber.</obo:IAO_0000115>
+        <obo:IAO_0000119>(1)
+
+&quot;Legislature&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Legislature</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
+
+&quot;Legislation&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Legislation</obo:IAO_0000119>
+        <obo:IAO_0000232>&quot;Legislature&quot; is placed under &quot;DemocraticPolitics&quot; rather than constituting a category of it&apos;s own, like the other two branches of government, because the legislature has little importance outside a democracy.</obo:IAO_0000232>
+        <CommonCoreOntologies:definition>(2)
+
+Legislation (or &quot;statutory law&quot;) is law which has been promulgated (or &quot;enacted&quot;) by a legislature or other governing body or the process of making it. Before an item of legislation becomes law it may be known as a bill, and may be broadly referred to as &quot;legislation&quot;, while it remains under consideration to distinguish it from other business. Legislation can have many purposes: to regulate, to authorize, to outlaw, to provide (funds), to sanction, to grant, to declare or to restrict.
+
+...
+
+Legislation is usually proposed by a member of the legislature (e.g. a member of Congress or Parliament), or by the executive, where upon it is debated by members of the legislature and is often amended before passage. Most large legislatures enact only a small fraction of the bills proposed in a given session. Whether a given bill will be proposed and is generally a matter of the legislative priorities of government.
+
+Legislation is regarded as one of the three main functions of government. Those who have the formal power to create legislation are known as legislators.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -4184,6 +4768,14 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Manufacturing -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Manufacturing">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicActivity"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MaximumContinuousRating -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MaximumContinuousRating">
@@ -4389,6 +4981,14 @@ Publication Date: 2016-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Migration -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Migration">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MindUploading -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MindUploading">
@@ -4559,7 +5159,24 @@ Publication date : 2018-02
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#NanoMaterial -->
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MultipartySystem -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MultipartySystem">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PoliticalParties"/>
+        <obo:IAO_0000115>A multi-party system is a system in which multiple political parties across the political spectrum run for national election, and all have the capacity to gain control of government offices, separately or in coalition. Apart from one-party-dominant and two-party systems, multi-party systems tend to be more common in parliamentary systems than presidential systems and far more common in countries that use proportional representation compared to countries that use first-past-the-post elections.
+
+First-past-the-post requires concentrated areas of support for large representation in the legislature whereas proportional representation better reflects the range of a population&apos;s views. Proportional systems may have multi-member districts with more than one representative elected from a given district to the same legislative body, and thus a greater number of viable parties.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Multi-party System&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Multi-party_system</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#NanoMaterials -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#NanoMaterial">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatShoot"/>
@@ -4570,6 +5187,22 @@ Projections made in 2018 by ARL and TRADOC
 
 [This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</CommonCoreOntologies:definition_source>
         <rdfs:label>Nano Material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Nationalism -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Nationalism">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#NaturalResources -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#NaturalResources">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade"/>
     </owl:Class>
     
 
@@ -4770,6 +5403,20 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#One-partyRule -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#One-partyRule">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AuthoritarianInstitutions"/>
+        <obo:IAO_0000115>A one-party state, single-party state, one-party system, or single-party system is a type of state in which one political party has the right to form the government, usually based on the existing constitution. All other parties are either outlawed or allowed to take only a limited and controlled participation in elections. Sometimes the term de facto one-party state is used to describe a dominant-party system...[whose] existing practices or balance of political power effectively prevent the opposition from winning the elections.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;One-party State&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/One-party_state</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#OperationalRelevance -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#OperationalRelevance">
@@ -4937,6 +5584,28 @@ Publication date : 2018-09
 
 1st Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Particulate Removal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Patronage -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Patronage">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InformalInstitutions"/>
+        <obo:IAO_0000115>In some countries the term [&quot;patronage&quot;] is used to describe political patronage, which is the use of state resources to reward individuals for their electoral support. Some patronage systems are legal, [such as a head of government&apos;s appointment powers]; in many cases, these appointments go to people who have supported the political party of the Prime Minister. As well, the term may refer to a type of corruption or favoritism in which a party in power rewards groups, families, ethnicities for their electoral support using illegal gifts or fraudulently awarded appointments or government contracts.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Patronage&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Patronage</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Pensions -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Pensions">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WelfareState"/>
     </owl:Class>
     
 
@@ -5125,6 +5794,20 @@ Publication date : 2018-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PoliticalParties -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PoliticalParties">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemocraticInsitutions"/>
+        <obo:IAO_0000115>A political party is an organized group of people, often with common views, who come together to contest elections and hold power in the government. The party agrees on some proposed policies and programmes, with a view to promoting the collective good or furthering their supporters&apos; interests.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Political Party&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Political_party</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerDistributionViaWireless -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerDistributionViaWireless">
@@ -5234,6 +5917,20 @@ Publication date : 2014-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#President -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#President">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Executive"/>
+        <obo:IAO_0000115>In almost all states with a presidential system of government, the president exercises the functions of head of state and head of government, i.e. the president directs the executive branch of government.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;President&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/President#Presidential_systems</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PrimaryData -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PrimaryData">
@@ -5277,6 +5974,30 @@ Publication Date: 2016-09
 
 1st Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Primary Factors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PrimeMinister -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PrimeMinister">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Executive"/>
+        <obo:IAO_0000115>A prime minister is the head of a cabinet and the leader of the ministers in the executive branch of government, often in a parliamentary or semi-presidential system.
+
+...
+
+In parliamentary systems fashioned after the Westminster system, the prime minister is the presiding and actual head of government and head of the executive branch.
+
+...
+
+In many systems, the prime minister selects and may dismiss other members of the cabinet, and allocates posts to members within the government. In most systems, the prime minister is the presiding member and chairman of the cabinet. 
+
+The prime minister is often, but not always, a member of the Legislature or the Lower House thereof and is expected with other ministers to ensure the passage of bills through the legislature.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Prime Minister&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Prime_minister</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -5369,6 +6090,30 @@ Publication date : 2014-02
 
 1st Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Protective Stop Space</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Proliferation -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Proliferation">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Arms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Propaganda -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Propaganda">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AuthoritarianInstitutions"/>
+        <obo:IAO_0000115>Propaganda [is] dissemination of information—facts, arguments, rumours, half-truths, or lies—to influence public opinion.
+
+Propaganda is the more or less systematic effort to manipulate other people’s beliefs, attitudes, or actions by means of symbols.....The propagandist...deliberately selects facts, arguments, and displays of symbols and presents them in ways he thinks will have the most effect. To maximize effect, he may omit pertinent facts or distort them, and he may try to divert the attention of the...people whom he is trying to sway...from everything but his own propaganda.</obo:IAO_0000115>
+        <obo:IAO_0000119>Bruce Lannes Smith, &quot;Propaganda&quot;
+
+March 12, 2019
+
+https://www.britannica.com/topic/propaganda</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -5527,6 +6272,14 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Refugees -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Refugees">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Migration"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RelationalAlgebra -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RelationalAlgebra">
@@ -5654,6 +6407,26 @@ Publication date : 2018-12
 
 2nd Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Reporting Boundary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Repression -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Repression">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AuthoritarianInstitutions"/>
+        <obo:IAO_0000115>Political repression is the persecution of an individual or group within society for political reasons, particularly for the purpose of restricting or preventing their ability to take part in the political life of a society thereby reducing their standing among their fellow citizens.
+
+...
+
+It often is manifested through discriminatory policies, such as human rights violations, surveillance abuse, police brutality, imprisonment, involuntary settlement, stripping of citizen&apos;s rights, lustration and violent action or terror such as the murder, summary executions, torture, forced disappearance and other extrajudicial punishment of political activists, dissidents, or general population. Political repression can also be reinforced by means outside of written policy, such as by public and private media ownership and by self-censorship within the public.
+
+Where political repression is sanctioned and organised by the state, it may constitute state terrorism, genocide, politicide or crimes against humanity. Systemic and violent political repression is a typical feature of dictatorships, totalitarian states and similar regimes. Acts of political repression may be carried out by secret police forces, army, paramilitary groups or death squads.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Politiical Repression&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Political_repression</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -6183,6 +6956,42 @@ Publication date : 2016-08
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RuleOfLaw -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RuleOfLaw">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#JudicialSystem"/>
+        <obo:IAO_0000115>(1)
+
+In general, the rule of law implies that the creation of laws, their enforcement, and the relationships among legal rules are themselves legally regulated, so that no one—including the most highly placed official—is above the law. The legal constraint on rulers means that the government is subject to existing laws as much as its citizens are. Thus, a closely related notion is the idea of equality before the law, which holds that no “legal” person shall enjoy privileges that are not extended to all and that no person shall be immune from legal sanctions.</obo:IAO_0000115>
+        <obo:IAO_0000115>(2)
+
+Judicial independence means that judges are independent from political pressures and influences when they make their decisions. An independent judiciary is essential to maintaining the rule of law. Judges should not be pressured by a political party, a private interest, or popular opinion when they are called upon to determine what the law requires. Keeping the judiciary independent of these influences ensures that everyone has a fair chance to make their case in court and that judges will be impartial in making their decisions. Judges also must explain their decisions in public written opinions, and their decisions can be appealed to a higher court for review. These elements of judicial decision- making ensure that judges remain accountable to the rule of law.</obo:IAO_0000115>
+        <obo:IAO_0000119>(1)
+
+Naomi Choi, &quot;Rule of Law, Political Philosophy&quot;, Encyclopedia Britannica
+
+March 12, 2019
+
+https://www.britannica.com/topic/rule-of-law</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
+
+&quot;What Is the Rule of Law&quot;, American Bar Association Rule of Law Initiative
+
+March 12, 2019
+
+https://www.americanbar.org/advocacy/rule_of_law/what-is-the-rule-of-law/</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RuralUrbanMigration -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RuralUrbanMigration">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Migration"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SQL -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SQL">
@@ -6467,6 +7276,14 @@ NIST Big Data Public Working Group (NBD-PWG) Reference Architecture Subgroup Inf
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolentConflict -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolentConflict">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactors"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityImplementationStandard -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityImplementationStandard">
@@ -6572,6 +7389,14 @@ Publication date : 2014-02
 
 1st Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Service Robot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Services -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Services">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicActivity"/>
     </owl:Class>
     
 
@@ -6904,6 +7729,52 @@ https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubsidizedDaycare -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubsidizedDaycare">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WelfareState"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubstateConflict -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubstateConflict">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolentConflict"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SupranationalOrganizations -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SupranationalOrganizations">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalInstitutions"/>
+        <obo:IAO_0000115>(1)
+
+A supranational union is a type of multinational political union where negotiated power is delegated to an authority by governments of member states.</obo:IAO_0000115>
+        <obo:IAO_0000115>(2)
+
+In addition to basic trade, supranational organizations may be involved in other activities designed to promote international standards. This can include activities related to food production, such as agriculture and fisheries, and those concerning the environment or energy production.
+
+Supranational organizations may also be involved in education and forms of foreign aid or assistance to countries. Certain organizations are involved in areas with significant political impact on the member nations, including arms, the acceptable treatment of prisoners of war, nuclear power, and other nuclear-development capabilities.</obo:IAO_0000115>
+        <obo:IAO_0000119>(1)
+
+&quot;Supranational Union&quot;, Wikipedia
+
+March 13, 2019
+
+https://en.wikipedia.org/wiki/Supranational_union</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
+
+Marshall Hargrave, &quot;Supranational&quot;, Investopedia
+
+March 13, 2019
+
+https://www.investopedia.com/terms/s/supranational.asp</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SurfaceImpactFactors -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SurfaceImpactFactors">
@@ -7160,6 +8031,14 @@ Publication Date: 2012-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Terrorism -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Terrorism">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolentConflict"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TheEraOfAcceleratedHumanProgress -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TheEraOfAcceleratedHumanProgress">
@@ -7320,6 +8199,20 @@ Publication date : 2016-08
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Two-partySystem -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Two-partySystem">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PoliticalParties"/>
+        <obo:IAO_0000115>A two-party system is a party system where two major political parties dominate the government. One of the two parties typically holds a majority in the legislature and is usually referred to as the majority or governing party while the other is the minority or opposition party. Around the world, the term has different senses. [In some countries], the sense of two-party system describes an arrangement in which all or nearly all elected officials belong to one of the only two major parties, and third parties rarely win any seats in the legislature. In such arrangements, two-party systems are thought to result from various factors like winner-takes-all election rules. In such systems, while chances for third-party candidates winning election to major national office are remote, it is possible for groups within the larger parties, or in opposition to one or both of them, to exert influence on the two major parties. In contrast, in [some] parliamentary systems and elsewhere, the term two-party system is sometimes used to indicate an arrangement in which two major parties dominate elections but in which there are viable third parties which do win seats in the legislature, and in which the two major parties exert proportionately greater influence than their percentage of votes would suggest.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Two-party System&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Two-party_system</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Uncertainty -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Uncertainty">
@@ -7362,7 +8255,16 @@ Publication date : 2014-02
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnmannedAirVehicle -->
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnemploymentBenefits -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnemploymentBenefits">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WelfareState"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnmannedAirVehicles -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnmannedAirVehicle">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatMove"/>
@@ -7402,6 +8304,14 @@ Projections made in 2018 by ARL and TRADOC
 
 https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
         <rdfs:label>Unstructured Data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Urbanization -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Urbanization">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics"/>
     </owl:Class>
     
 
@@ -7505,6 +8415,14 @@ https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ViolentProtest -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ViolentProtest">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubstateConflict"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#VolumeImpactFactors -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#VolumeImpactFactors">
@@ -7570,6 +8488,14 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WelfareState -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WelfareState">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WitnessPlate -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WitnessPlate">
@@ -7600,12 +8526,18 @@ Publication Date: 2012-09
 
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Algorithm -->
 
-    <rdf:Description rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Algorithm">
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Algorithm">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi -->
 
