@@ -265,6 +265,18 @@ From the twentieth century, intensive agriculture increased productivity. It sub
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Agriculture">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicActivity"/>
+        <obo:IAO_0000119>&quot;Agriculture&quot;, Wikipedia
+
+March 13, 2019
+
+https://en.wikipedia.org/wiki/Agriculture</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>Modern agronomy, plant breeding, agrochemicals such as pesticides and fertilizers, and technological developments have sharply increased yields, while causing widespread ecological and environmental damage. Selective breeding and modern practices in animal husbandry have similarly increased the output of meat, but have raised concerns about animal welfare and environmental damage. Environmental issues include contributions to global warming, depletion of aquifers, deforestation, antibiotic resistance, and growth hormones in industrial meat production. Genetically modified organisms are widely used, although some are banned in certain countries.
+
+The major agricultural products can be broadly grouped into foods, fibers, fuels and raw materials (such as rubber). Food classes include cereals (grains), vegetables, fruits, oils, meat, milk, fungi and eggs.
+
+...
+
+From the twentieth century, intensive agriculture increased productivity. It substituted synthetic fertilizers and pesticides for labor, but caused increased water pollution, and often involved farm subsidies. In recent years there has been a backlash against the environmental effects of conventional agriculture, resulting in the organic, regenerative, and sustainable agriculture movements.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -2168,7 +2180,7 @@ https://en.wikipedia.org/wiki/Democracy</obo:IAO_0000119>
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactors"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactorsControlledVocabulary"/>
     </owl:Class>
     
 
@@ -2552,6 +2564,26 @@ Growth is usually calculated in real terms - i.e., inflation-adjusted terms – 
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicActivity">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade"/>
+        <obo:IAO_0000119>(1)
+
+&quot;Economy&quot;, Wikipedia
+
+March 13, 2019
+
+https://en.wikipedia.org/wiki/Economy</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
+
+&quot;Economic Activity&quot;, BusinessDictionary.com
+
+March 13, 2019
+
+http://www.businessdictionary.com/definition/economic-activity.html</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>(1)
+
+Economic activity is spurred by production which uses natural resources, labor, and capital. It has changed over time due to technology (automation, accelerator of process, reduction of cost functions), innovation (new products, services, processes, expanding markets, diversification of markets, niche markets, increases revenue functions) such as, that which produces intellectual property and changes in industrial relations....</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+Actions that involve the production, distribution and consumption of goods and services at all levels within a society. Gross domestic product or GDP is one way of assessing economic activity, and the degree of current economic activity and forecasts for its future level can significantly impact business activity and profits, as well as inflation and interest rates.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -2560,6 +2592,36 @@ Growth is usually calculated in real terms - i.e., inflation-adjusted terms – 
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicDevelopment">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade"/>
+        <obo:IAO_0000119>&quot;Economic Development&quot;, Wikipedia
+
+March 19, 2019
+
+https://en.wikipedia.org/wiki/Economic_development</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>Economic development was concerned with the expansion of people&apos;s entitlements and their corresponding capabilities, morbidity, nourishment, literacy, education, and other socio-economic indicators.
+
+...
+
+Economic growth deals with increase in the level of output, but economic development is related to increase in output coupled with improvement in social and political welfare of people within a country. Therefore, economic development encompasses both growth and welfare values. 
+
+...
+
+[E]conomic development is typically associated with improvements in a variety of areas or indicators (such as literacy rates, life expectancy, and poverty rates), that may be causes of economic development rather than consequences of specific economic development programs.</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicGrowth -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicGrowth">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicDevelopment"/>
+        <obo:IAO_0000119>&quot;Economic Growth&quot;, Wikipedia
+
+March 19, 2019
+
+https://en.wikipedia.org/wiki/Economic_growth</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>Economic growth is the increase in the inflation-adjusted market value of the goods and services produced by an economy over time. It is conventionally measured as the percent rate of increase in real gross domestic product, or real GDP.
+
+Growth is usually calculated in real terms - i.e., inflation-adjusted terms – to eliminate the distorting effect of inflation on the price of goods produced. Measurement of economic growth uses national income accounting. Since economic growth is measured as the annual percent change of gross domestic product (GDP), it has all the advantages and drawbacks of that measure. The economic growth rates of nations are commonly compared using the ratio of the GDP to population or per-capita income.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -2611,7 +2673,7 @@ While such schools are to be found in virtually every country, there are signifi
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactors"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactorsControlledVocabulary"/>
     </owl:Class>
     
 
@@ -3453,14 +3515,26 @@ Expansionary fiscal policy is usually characterized by deficit spending, when go
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Finance">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicActivity"/>
+        <obo:IAO_0000119>Will Kenton (ed.), &quot;Financial Sector&quot;, Investopedia
+
+March 13, 2019
+
+https://www.investopedia.com/terms/f/financial_sector.asp</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>The financial sector is a section of the economy made up of firms and institutions that provide financial services to commercial and retail customers. This sector comprises a broad range of industries including banks, investment companies, insurance companies, and real estate firms.
+
+...
+
+In order for an economy to remain stable, it needs to have a healthy financial sector. This sector advances loans for businesses so they can expand, grants mortgages to homeowners, and issues insurance policies to protect people, companies, and their assets. It also helps build up savings for retirement....
+
+The financial sector generates a good portion of its revenue from loans and mortgages. These gain value in an environment where interest rates drop. When rates are low, the economic conditions open up the doors for more capital projects and investment. When this happens, the financial sector benefits, meaning more economic growth.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FiscalAndMonetaryPolicy -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FiscalPolicy -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FiscalAndMonetaryPolicy">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FiscalPolicy">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MacroeconomicPolicy"/>
     </owl:Class>
     
 
@@ -3805,7 +3879,7 @@ Publication date : 2018-02
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactors"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactorsControlledVocabulary"/>
     </owl:Class>
     
 
@@ -4350,9 +4424,9 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</CommonCore
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactors -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactorsControlledVocabulary -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactors">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactorsControlledVocabulary">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
     </owl:Class>
     
@@ -4447,7 +4521,7 @@ Publication Date: 2012-09
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactors"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactorsControlledVocabulary"/>
     </owl:Class>
     
 
@@ -4540,6 +4614,20 @@ Publication date : 2018-12
 
 2nd Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Indirect Greenhouse Gas Emission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Industrialization -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Industrialization">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicDevelopment"/>
+        <obo:IAO_0000119>Will Kenton (ed.), &quot;Industrialization&quot;, Investopedia
+
+April 7, 2018
+
+https://www.investopedia.com/terms/i/industrialization.asp</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>Industrialization is the process by which an economy is transformed from primarily agricultural to one based on the manufacturing of goods. Individual manual labor is often replaced by mechanized mass production, and craftsmen are replaced by assembly lines. Characteristics of industrialization include economic growth, more efficient division of labor, and the use of technological innovation to solve problems as opposed to dependency on conditions outside human control.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -5456,6 +5544,14 @@ Macroeconomic policy aims to provide a stable economic environment that is condu
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MacroeconomicPolicy -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MacroeconomicPolicy">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ManagementFabric -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ManagementFabric">
@@ -5540,6 +5636,40 @@ Manufacturing industries are broadly categorized into engineering industries, co
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Manufacturing">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicActivity"/>
+        <obo:IAO_0000119>&quot;Manufacturing&quot;, Wikipedia
+
+March 14, 2019
+
+https://en.wikipedia.org/wiki/Manufacturing</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
+
+Chelsea Levinson, &quot;Definition of the Manufacturing Industry&quot;, BIZFLUENT.COM
+
+March 14, 2019
+
+https://bizfluent.com/facts-6853113-definition-manufacturing-industry.html</obo:IAO_0000119>
+        <obo:IAO_0000119>(3)
+
+EconomyWatch, &quot;Manufacturing Industry&quot;, Economywatch.com
+
+March 14, 2019
+
+http://www.economywatch.com/world-industries/manufacturing</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>(1)
+
+The term [&quot;manufacturing&quot;] is most commonly applied to industrial design, in which raw materials are transformed into finished goods on a large scale. Such finished goods may be sold to other manufacturers for the production of other, more complex products, such as aircraft, household appliances, furniture, sports equipment or automobiles, or sold to wholesalers, who in turn sell them to retailers, who then sell them to end users and consumers.
+
+Manufacturing engineering or manufacturing process are the steps through which raw materials are transformed into a final product. The manufacturing process begins with the product design, and materials specification from which the product is made. These materials are then modified through manufacturing processes to become the required part.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+Manufacturers create physical goods. How these goods are created varies depending on the specific company and industry. However, most manufacturers use machinery and industrial equipment to produce goods for public consumption. The manufacturing process creates value, meaning companies can charge a premium for what they create.
+
+...
+
+Today’s advancement of computer technology allows manufacturers to do more with less time. Now, thousands of items can be manufactured within the space of minutes. Computer technology can be used to assemble, test and track production. Each year, technology continues to make manufacturing increasingly efficient, faster and more cost-effective. However, automation also eliminates many manufacturing jobs, leaving skilled employees without work.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(3)
+
+Manufacturing industries are broadly categorized into engineering industries, construction industries, electronics industries, chemical industries, energy industries, textile industries, food and beverage industries, metalworking industries, plastic industries, transport and telecommunication industries.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -5786,6 +5916,27 @@ https://en.wikipedia.org/wiki/Millennium_Development_Goals</obo:IAO_0000119>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MilleniumDevelopmentGoals -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MilleniumDevelopmentGoals">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicDevelopment"/>
+        <obo:IAO_0000119>&quot;Millenium Development Goals&quot;, Wikipedia
+
+March 19, 2019
+
+https://en.wikipedia.org/wiki/Millennium_Development_Goals</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>To eradicate extreme poverty and hunger
+    To achieve universal primary education
+    To promote gender equality and empower women
+    To reduce child mortality
+    To improve maternal health
+    To combat HIV/AIDS, malaria, and other diseases
+    To ensure environmental sustainability
+    To develop a global partnership for development</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MindUploading -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MindUploading">
@@ -5935,6 +6086,14 @@ Further goals of a monetary policy are usually to contribute to the stability of
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MonetaryPolicy -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MonetaryPolicy">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MacroeconomicPolicy"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Monitoring -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Monitoring">
@@ -6032,14 +6191,6 @@ Projections made in 2018 by ARL and TRADOC
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Nationalism">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#NaturalResources -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#NaturalResources">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade"/>
     </owl:Class>
     
 
@@ -7110,6 +7261,20 @@ https://en.wikipedia.org/wiki/Productivity</obo:IAO_0000119>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Productivity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Productivity">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicDevelopment"/>
+        <obo:IAO_0000119>&quot;Productivity&quot;, Wikipedia
+
+March 19, 2019
+
+https://en.wikipedia.org/wiki/Productivity</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>Productivity describes various measures of the efficiency of production. A productivity measure is expressed as the ratio of output to inputs used in a production process, i.e. output per unit of input. Productivity is a crucial factor in production performance of firms and nations. Increasing national productivity can raise living standards because more real income improves people&apos;s ability to purchase goods and services, enjoy leisure, improve housing and education and contribute to social and environmental programs. Productivity growth can also help businesses to be more profitable.</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Proliferation -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Proliferation">
@@ -7537,6 +7702,20 @@ Publication date : 2018-02
 
 5th Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Residual Risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ResourceExtraction -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ResourceExtraction">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicActivity"/>
+        <obo:IAO_0000119>&quot;Natural Resource&quot;, Wikipedia
+
+March 13, 2019
+
+https://en.wikipedia.org/wiki/Natural_resource#Extraction</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>Extraction produces raw material, which is then processed to add value. Examples of extractive industries are hunting, trapping, mining, oil and gas drilling, and forestry. Natural resources can add substantial amounts to a country&apos;s wealth, however, a sudden inflow of money caused by a resource boom can create social problems including inflation harming other industries (&quot;Dutch disease&quot;) and corruption, leading to inequality and underdevelopment, this is known as the &quot;resource curse&quot;.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -8405,7 +8584,7 @@ NIST Big Data Public Working Group (NBD-PWG) Reference Architecture Subgroup Inf
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolentConflict -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolentConflict">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactors"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactorsControlledVocabulary"/>
     </owl:Class>
     
 
@@ -8557,6 +8736,32 @@ Technology, specifically information technology systems, is shaping the way busi
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Services">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicActivity"/>
+        <obo:IAO_0000119>(1)
+
+Editors of Encyclopaedia Britannica, &quot;Service Industry, Economics&quot;, Encyclodpaedia Britannica
+
+March 14, 2019
+
+https://www.britannica.com/topic/service-industry</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
+
+&quot;What is Service Sector&quot;, IGI Global
+
+https://www.igi-global.com/dictionary/service-sector/47133</obo:IAO_0000119>
+        <obo:IAO_0000119>(3)
+
+Will Kenton, &quot;Service Sector&quot;, Investopedia
+
+https://www.investopedia.com/terms/s/service-sector.asp</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>(1)
+
+Service industries include everything else: banking, communications, wholesale and retail trade, all professional services such as engineering, computer software development, and medicine, nonprofit economic activity, all consumer services, and all government services, including defense and administration of justice.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+Activities in the service sector include retail, banks, hotels, real estate, education, health, social work, computer services, recreation, media, communications, electricity, gas and water supply.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(3)
+
+Technology, specifically information technology systems, is shaping the way businesses in the service sector operate. In nearly all industries within the sector, businesses institute technology to bolster production, increase speed and efficiency and cut down on the number of employees required for operation. This cuts down on costs and improves incoming revenue streams.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
