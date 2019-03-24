@@ -265,14 +265,6 @@ Publication date : 2018-12
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AntipovertyPrograms -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AntipovertyPrograms">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WelfareState"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Arms -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Arms">
@@ -791,12 +783,26 @@ Publication Date: 2012-09
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Bureaucracy">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Executive"/>
-        <obo:IAO_0000115>Bureaucracy...refers to both a body of non-elective government officials and an administrative policy-making group.  [A bureaucracy is] a government administration managed by departments staffed with non-elected officials. Today, bureaucracy is the administrative system governing any large institution....The public administration in many countries is an example of a bureaucracy.</obo:IAO_0000115>
+        <obo:IAO_0000115>Bureaucracy...refers to both a body of non-elective government officials and an administrative policy-making group.  [A bureaucracy is] a government administration managed by departments staffed with non-elected officials. Today, bureaucracy is the administrative system governing any large institution.... The public administration in many countries is an example of a bureaucracy.</obo:IAO_0000115>
         <obo:IAO_0000119>&quot;Bureaucracy&quot;, Wikipedia
 
 March 12, 2019
 
 https://en.wikipedia.org/wiki/Bureaucracy</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BusinessCycle -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BusinessCycle">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MacroeconomicPolicy"/>
+        <obo:IAO_0000119>Christina D. Romer, &quot;Business Cycles&quot;, The Library of Economics and LIberty
+
+March 21, 2019
+
+https://www.econlib.org/library/Enc/BusinessCycles.html</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>The United States and all other modern industrial economies experience significant swings in economic activity. In some years, most industries are booming and unemployment is low; in other years, most industries are operating well below capacity and unemployment is high. Periods of economic prosperity are typically called expansions or booms; periods of economic decline are called recessions or depressions. The combination of expansions and recessions, the ebb and flow of economic activity, is called the business cycle.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -861,7 +867,7 @@ Projections made in 2018 by ARL and TRADOC
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CivilLaw">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#JudicialSystem"/>
-        <obo:IAO_0000115>The law relating to civil wrongs and quasi-contracts is part of the civil law, as is law of property....The rights and duties of persons (natural persons and legal persons) amongst themselves is the primary concern of civil law. It is often suggested that civil proceedings are taken for the purpose of obtaining compensation for injury, and may thus be distinguished from criminal proceedings, whose purpose is to inflict punishment. However, exemplary damages or punitive damages may be awarded in civil proceedings.</obo:IAO_0000115>
+        <obo:IAO_0000115>The law relating to civil wrongs and quasi-contracts is part of the civil law, as is law of property.... The rights and duties of persons (natural persons and legal persons) amongst themselves is the primary concern of civil law. It is often suggested that civil proceedings are taken for the purpose of obtaining compensation for injury, and may thus be distinguished from criminal proceedings, whose purpose is to inflict punishment. However, exemplary damages or punitive damages may be awarded in civil proceedings.</obo:IAO_0000115>
         <obo:IAO_0000119>&quot;Civil Law (Common Law)&quot;, Wikipedia
 
 March 12, 2019
@@ -1602,7 +1608,7 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_00
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemocraticInsitutions">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions"/>
-        <obo:IAO_0000115>Democracy...is a system of government where the citizens exercise power by voting....In a representative democracy the citizens elect representatives from among themselves. These representatives meet to form a governing body, such as a legislature. In a constitutional democracy the powers of the majority are exercised within the framework of a representative democracy, but the constitution limits the majority and protects the minority, usually through the enjoyment by all of certain individual rights, e.g. freedom of speech, or freedom of association. &quot;Rule of the majority&quot; is sometimes referred to as democracy
+        <obo:IAO_0000115>Democracy...is a system of government where the citizens exercise power by voting.... In a representative democracy the citizens elect representatives from among themselves. These representatives meet to form a governing body, such as a legislature. In a constitutional democracy the powers of the majority are exercised within the framework of a representative democracy, but the constitution limits the majority and protects the minority, usually through the enjoyment by all of certain individual rights, e.g. freedom of speech, or freedom of association. &quot;Rule of the majority&quot; is sometimes referred to as democracy
 
 ...
 
@@ -1981,6 +1987,14 @@ Growth is usually calculated in real terms - i.e., inflation-adjusted terms – 
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Education">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WelfareState"/>
+        <obo:IAO_0000119>&quot;State School&quot;, Wikipedia
+
+March 23, 2019
+
+https://en.wikipedia.org/wiki/State_school</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>State schools (known as public schools in some parts of the world) are generally primary or secondary schools mandated for or offered to all children without charge, funded in whole or in part by taxation. These schools are generally inclusive (non-selective) in admitting all students within the geographical area that they serve.
+
+While such schools are to be found in virtually every country, there are significant variations in their structure and educational programs. State education generally encompasses primary and secondary education (kindergarten to twelfth grade, or equivalent), as well as post-secondary educational institutions such as universities, colleges, and technical schools that are funded and overseen by government rather than by private entities.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -2659,6 +2673,20 @@ The financial sector generates a good portion of its revenue from loans and mort
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FiscalPolicy">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MacroeconomicPolicy"/>
+        <obo:IAO_0000119>Will Kenton (ed.), &quot;Fiscal Policy&quot;, Investopedia
+
+Nov 2, 2017
+
+https://www.investopedia.com/terms/f/fiscalpolicy.asp</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>To illustrate how the government could try to use fiscal policy to affect the economy, consider an economy that&apos;s experiencing recession. The government might lower tax rates to increase aggregate demand and fuel economic growth; this is known as expansionary fiscal policy.
+
+...
+
+Rather than lowering taxes, the government might decide to increase spending. 
+
+...
+
+Expansionary fiscal policy is usually characterized by deficit spending, when government expenditures exceed receipts from taxes and other sources. In practice, deficit spending tends to result from a combination of tax cuts and higher spending.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -3289,6 +3317,14 @@ Publication date : 2018-12
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Healthcare">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WelfareState"/>
+        <obo:IAO_0000119>&quot;Health Care&quot;, Wikipedia
+
+March 23, 2019
+
+https://en.wikipedia.org/wiki/Health_care</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>Health care or healthcare is the maintenance or improvement of health via the prevention, diagnosis, and treatment of disease, illness, injury, and other physical and mental impairments in people. Health care is delivered by health professionals (providers or practitioners) in allied health fields. Physicians and physician associates are a part of these health professionals. Dentistry, midwifery, nursing, medicine, optometry, audiology, pharmacy, psychology, occupational therapy, physical therapy and other health professions are all part of health care. It includes work done in providing primary care, secondary care, and tertiary care, as well as in public health.
+
+Access to health care may vary across countries, communities, and individuals, largely influenced by social and economic conditions as well as health policies. Health care systems are organizations established to meet the health needs of targeted populations. According to the World Health Organization (WHO), a well-functioning health care system requires a financing mechanism, a well-trained and adequately paid workforce, reliable information on which to base decisions and policies, and well maintained health facilities to deliver quality medicines and technologies.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -4011,6 +4047,16 @@ https://www.britannica.com/topic/international-organization</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalTrade">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade"/>
+        <obo:IAO_0000119>Reem Heakal, &quot;What Is International Trade?&quot;, Investopedia
+
+Jan 12, 2018
+
+https://www.investopedia.com/insights/what-is-international-trade/</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>International trade is the exchange of goods and services between countries. This type of trade gives rise to a world economy, in which prices, or supply and demand, affect and are affected by global events.
+
+...
+
+Trading globally gives consumers and countries the opportunity to be exposed to goods and services not available in their own countries..... A product that is sold to the global market is an export, and a product that is bought from the global market is an import. Imports and exports are accounted for in a country&apos;s current account in the balance of payments.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -4312,6 +4358,26 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_00
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MacroeconomicPolicy">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade"/>
+        <obo:IAO_0000119>(1)
+
+&quot;Macroeconomic Policy&quot;, The World Bank
+
+December 22, 2014
+
+http://www.worldbank.org/en/topic/macroeconomics/brief/macroeconomic-policy</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
+
+Robert Dolamore, &quot;The Tools of Macroeconomic Policy--A Short Primer&quot;, Paliament of Australia
+
+March 21, 2019
+
+https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/pubs/BriefingBook44p/MacroeconomicPolicy</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>(1)
+
+Macroeconomic policies include taxes, government spending and borrowing, exchange rate determinants, and monetary and credit rules.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+Macroeconomic policy aims to provide a stable economic environment that is conducive to fostering strong and sustainable economic growth. The key pillars of macroeconomic policy are fiscal policy, monetary policy and exchange rate policy.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -4669,6 +4735,14 @@ Projections made in 2018 by ARL and TRADOC
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MonetaryPolicy">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MacroeconomicPolicy"/>
+        <obo:IAO_0000119>&quot;Monetary Policy&quot;, Wikipedia
+
+March 21, 2019
+
+https://en.wikipedia.org/wiki/Monetary_policy</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>Monetary policy is the process by which the monetary authority of a country, typically the central bank or currency board, controls either the cost of very short-term borrowing or the money supply, often targeting an inflation rate or interest rate to ensure price stability and general trust in the currency.[1][2][3]
+
+Further goals of a monetary policy are usually to contribute to the stability of gross domestic product, to achieve and maintain low unemployment, and to maintain predictable exchange rates with other currencies.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -4771,6 +4845,45 @@ Publication Date: 2016-09
 March 2018
 
 https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Non-tariffBarriers -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Non-tariffBarriers">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalTrade"/>
+        <obo:IAO_0000119>&quot;Non-Tariff Barriers to Trade&quot;, Non-Tariff Barriers:  Reporting, Monitoring and Eliminating Mechanism
+
+March 21, 2019
+
+https://www.tradebarriers.org/ntb/non_tariff_barriers</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>Non-Tariff Barriers to trade can arise from:
+        Import bans
+        General or product-specific quotas
+        Complex/discriminatory Rules of Origin
+        Quality conditions imposed by the importing country on the exporting countries
+        Unjustified Sanitary and Phyto-sanitary conditions
+        Unreasonable/unjustified packaging, labelling, product standards
+        Complex regulatory environment
+        Determination of eligibility of an exporting country by the importing country
+        Determination of eligibility of an exporting establishment (firm, company) by the importing country.
+        Additional trade documents like Certificate of Origin, Certificate of Authenticity etc
+        Occupational safety and health regulation
+        Employment law
+        Import licenses
+        State subsidies, procurement, trading, state ownership
+        Export subsidies
+        Fixation of a minimum import price
+        Product classification
+        Quota shares
+        Multiplicity and Controls of Foreign exchange market
+        Inadequate infrastructure
+        &quot;Buy national&quot; policy
+        Over-valued currency
+        Restrictive licenses
+        Seasonal import regimes
+        Corrupt and/or lengthy customs procedures</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -5066,6 +5179,14 @@ https://en.wikipedia.org/wiki/Patronage</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Pensions">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WelfareState"/>
+        <obo:IAO_0000119>&quot;Pension&quot;, Wikipedia
+
+March 23, 2019
+
+https://en.wikipedia.org/wiki/Pension</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>A pension...is a fund into which a sum of money is added during an employee&apos;s employment years, and from which payments are drawn to support the person&apos;s retirement from work in the form of periodic payments. A pension may be a &quot;defined benefit plan&quot; where a fixed sum is paid regularly to a person, or a &quot;defined contribution plan&quot; under which a fixed sum is invested and then becomes available at retirement age. Pensions should not be confused with severance pay; the former is usually paid in regular installments for life after retirement, while the latter is typically paid as a fixed amount after involuntary termination of employment prior to retirement.
+
+The terms &quot;retirement plan&quot; and &quot;superannuation&quot; tend to refer to a pension granted upon retirement of the individual. Retirement plans may be set up by employers, insurance companies, the government or other institutions such as employer associations or trade unions.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -5162,6 +5283,36 @@ Publication date : 2018-02
 March 12, 2019
 
 https://en.wikipedia.org/wiki/Political_party</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PovertyReduction -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PovertyReduction">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WelfareState"/>
+        <obo:IAO_0000119>&quot;Poverty Reduction&quot;, Wikipedia
+
+March 22, 2019
+
+https://en.wikipedia.org/wiki/Poverty_reduction</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>Aid in its simplest form is a basic income grant, a form of social security periodically providing citizens with money. 
+
+...
+
+Aid could also be rewarded based on doing certain requirements. Conditional Cash Transfers, widely credited as a successful anti-poverty program, is based on actions such as enrolling children in school or receiving vaccinations.
+
+...
+
+Welfare states have an effect on poverty reduction. Currently modern, expansive welfare states that ensure economic opportunity, independence and security in a near universal manner are still the exclusive domain of the developed nations.
+
+...
+
+Following his recommendations, international organizations...are working to help eradicate poverty worldwide with intervention in the areas of housing, food, education, basic health, agricultural inputs, safe drinking water, transportation and communications. 
+
+...
+
+There are several poverty targeting methods through which poor communities are identified and tracked for poverty reduction programmes. For instance, one common method of poverty targeting is &apos;means testing&apos; that uses a certain income or expenditure threshold for an individual or the a household to be considered as poor and eligible for support.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -5383,7 +5534,7 @@ https://en.wikipedia.org/wiki/Productivity</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AuthoritarianInstitutions"/>
         <obo:IAO_0000115>Propaganda [is] dissemination of information—facts, arguments, rumours, half-truths, or lies—to influence public opinion.
 
-Propaganda is the more or less systematic effort to manipulate other people’s beliefs, attitudes, or actions by means of symbols.....The propagandist...deliberately selects facts, arguments, and displays of symbols and presents them in ways he thinks will have the most effect. To maximize effect, he may omit pertinent facts or distort them, and he may try to divert the attention of the...people whom he is trying to sway...from everything but his own propaganda.</obo:IAO_0000115>
+Propaganda is the more or less systematic effort to manipulate other people’s beliefs, attitudes, or actions by means of symbols..... The propagandist...deliberately selects facts, arguments, and displays of symbols and presents them in ways he thinks will have the most effect. To maximize effect, he may omit pertinent facts or distort them, and he may try to divert the attention of the...people whom he is trying to sway...from everything but his own propaganda.</obo:IAO_0000115>
         <obo:IAO_0000119>Bruce Lannes Smith, &quot;Propaganda&quot;
 
 March 12, 2019
@@ -6666,14 +6817,6 @@ https://www.iso.org/jtc1</obo:IAO_0000119>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubsidizedDaycare -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubsidizedDaycare">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WelfareState"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubstateConflict -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubstateConflict">
@@ -6883,6 +7026,34 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Tariffs -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Tariffs">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalTrade"/>
+        <obo:IAO_0000119>(1)
+
+&quot;Tariffs&quot;, World Trade Organization
+
+March 21, 2019
+
+https://www.wto.org/english/tratop_e/tariffs_e/tariffs_e.htm</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
+
+Will Kenton, &quot;Tariff&quot;, Investopedia
+
+February 16, 2019
+
+https://www.investopedia.com/terms/t/tariff.asp</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>(1)
+
+Customs duties on merchandise imports are called tariffs. Tariffs give a price advantage to locally-produced goods over similar goods which are imported, and they raise revenues for governments.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+Governments may impose tariffs to raise revenue or to protect domestic industries – particularly nascent ones – from foreign competition. By making foreign-produced goods more expensive, tariffs can make domestic-produced ones more attractive. By protecting these industries, governments can also protect jobs.</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TechnologyEngineeringAndManufacturingControlledVocabulary -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TechnologyEngineeringAndManufacturingControlledVocabulary">
@@ -7031,6 +7202,24 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TradeAgreements -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TradeAgreements">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalTrade"/>
+        <obo:IAO_0000119>Letricia Dixon &amp; Editors of Encyclopaedia Britannica, &quot;Trade Agreement&quot;, Encyclopaedia Britannica
+
+March 21, 2019
+
+https://www.britannica.com/topic/trade-agreement</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>Trade agreements are one way to reduce [trade] barriers, thereby opening all parties to the benefits of increased trade.
+
+...
+
+Even without the constraints imposed by most-favoured-nation and national treatment clauses, sometimes general multilateral agreements are easier to reach than separate bilateral agreements. In many cases the possible loss from a concession to one country is almost as great as that which would result from a similar concession to many countries. The gains that the most efficient producers realize from worldwide tariff reductions are large enough to warrant substantial concessions.</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Transhumanism -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Transhumanism">
@@ -7129,6 +7318,12 @@ Publication date : 2018-12
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnemploymentBenefits">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WelfareState"/>
+        <obo:IAO_0000119>Julia Kagan, &quot;Unemployment Compensatin&quot;, Investopedia
+
+Feb 23, 2018
+
+https://www.investopedia.com/terms/u/unemployment-compensation.asp</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>Unemployment compensation is paid by the state to unemployed workers who have lost their jobs due to layoffs or retrenchment. Unemployment compensation is meant to provide a source of income for jobless workers until they can find employment. In order to be eligible for it, certain criteria must be satisfied by an unemployed worker, such as having worked for a minimum stipulated period and actively looking for employment. Unemployment compensation provides partial income replacement..... It&apos;s also known as unemployment insurance or unemployment benefits.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
@@ -7349,6 +7544,20 @@ Projections made in 2018 by ARL and TRADOC
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WelfareState">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade"/>
+        <obo:IAO_0000119>Peter Bondarenko &amp; Editors of Encyclopaedia Britannica, &quot;Welfare State&quot;, Encyclopaedia Britannica
+
+March 22, 2019
+
+https://www.britannica.com/topic/welfare-state</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>Welfare state, concept of government in which the state or a well-established network of social institutions plays a key role in the protection and promotion of the economic and social well-being of citizens. It is based on the principles of equality of opportunity, equitable distribution of wealth, and public responsibility for those unable to avail themselves of the minimal provisions for a good life. The general term may cover a variety of forms of economic and social organization.
+
+A fundamental feature of the welfare state is social insurance, a provision common to most advanced industrialized countries.... Such insurance is usually financed by compulsory contributions and is intended to provide benefits to persons and families during periods of greatest need. It is widely recognized, however, that in practice the cash benefits fall considerably short of the levels intended by the designers of the plans.
+
+The welfare state also usually includes public provision of basic education, health services, and housing (in some cases at low cost or without charge).
+
+...
+
+Antipoverty programs and the system of personal taxation may also be regarded as aspects of the welfare state. Personal taxation falls into this category insofar as its progressivity is used to achieve greater justice in income distribution (rather than merely to raise revenue) and also insofar as it used to finance social insurance payments and other benefits not completely financed by compulsory contributions. In socialist countries the welfare state also covers employment and administration of consumer prices.</CommonCoreOntologies:definition>
     </owl:Class>
     
 
