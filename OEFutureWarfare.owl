@@ -223,6 +223,25 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AllowedContact -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AllowedContact">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>any touching with the personal care robot (3.13) that is permitted by the manufacturer</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Allowed Contact</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AnthropogenicBiogenicGreenhouseGasEmission -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AnthropogenicBiogenicGreenhouseGasEmission">
@@ -461,11 +480,52 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AutonomousMode -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AutonomousMode">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>operational mode in which the robot (3.2) function accomplishes its assigned mission without direct human intervention
+
+EXAMPLE:
+Mobile servant robot (3.14) waiting for an interaction (a command).</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Autonomous Mode</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AutonomousNanoWeapon -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AutonomousNanoWeapon">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatShoot"/>
         <rdfs:label>Autonomous Nano Weapon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Autonomy -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Autonomy">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>ability to perform intended tasks based on current state and sensing, without human intervention</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Autonomy</rdfs:label>
     </owl:Class>
     
 
@@ -1203,6 +1263,25 @@ Publication date : 2018-02
 
 5th Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Consequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ContactSensing -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ContactSensing">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>detection or measurement capability that requires touching objects (including humans) in the environment</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Contact Sensing</rdfs:label>
     </owl:Class>
     
 
@@ -1984,6 +2063,34 @@ Publication Date: 2012-09
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Electro Dynamic Kinetic Energy Weapons Precision Weapon Point Defense</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ElectroSensitiveProtectiveEquipment -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ElectroSensitiveProtectiveEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>assembly of devices and/or components working together for protective tripping or presence-sensing purposes, and comprising as a minimum 
+— a sensing device;
+— controlling/monitoring devices;
+— output signal switching devices and/or a safety-related data interface
+
+Note 1 to entry: The safety-related control system associated with the ESPE, or the ESPE itself, might further include a secondary switching device, muting functions, stopping performance monitor, etc.
+
+Note 2 to entry: A safety-related communication interface can be integrated in the same enclosure as the ESPE.
+
+[SOURCE: IEC 61496-1:2004, 3.5, modified]</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Electo-Sensitive Protective Equipment</rdfs:label>
     </owl:Class>
     
 
@@ -4098,6 +4205,27 @@ Publication date : 2016-08
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MaximumSpace -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MaximumSpace">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>volume which can be swept by the moving parts of the robot (3.2) as defined by the manufacturer, plus the volume which can be swept by manipulators and payloads
+
+Note 1 to entry: For mobile platforms, this volume can be defined by the physical boundaries through which the robot can move around.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Maximum Space</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Measure -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Measure">
@@ -4333,6 +4461,67 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MobileRobot -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MobileRobot">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>robot (3.2) able to travel under its own control</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Mobile Robot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MobileServantRobot -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MobileServantRobot">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>personal care robot (3.13) that is capable of travelling to perform serving tasks in interaction with humans, such as handling objects or exchanging information</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Mobile Servant Robot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MonitoredSpace -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MonitoredSpace">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>space observed by sensors available to the personal care robot (3.13) in which a safety-related object (3.21.1) is detected
+
+Note 1 to entry: Monitored space can reach beyond the maximum space (3.18.1) and can be defined by a collection of mobile sensors on the robot and stationary sensors in and outside the maximum space.
+
+Note 2 to entry: This space can be static or dynamic depending on the personal care robot and its application.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Monitored Space</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Monitoring -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Monitoring">
@@ -4434,6 +4623,25 @@ Publication date : 2018-12
 
 2nd Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Non Anthropogenic Bio Genic Greenhouse Gas Emission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#NonContactSensing -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#NonContactSensing">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>detection or measurement capability that does not require touching objects (including humans) in the environment</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Non-Contact Sensing</rdfs:label>
     </owl:Class>
     
 
@@ -4771,6 +4979,71 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PersonCarrierRobot -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PersonCarrierRobot">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>personal care robot (3.13) with the purpose of transporting humans to an intended destination
+
+Note 1 to entry: It might possess a cabin and might be equipped with a seat and/or standing support (or similar).
+
+Note 2 to entry: In addition to humans, transportation might include other objects, e.g. pets and property.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Person Carrier Robot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PersonalCareRobot -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PersonalCareRobot">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>service robot (3.4) that performs actions contributing directly towards improvement in the quality of life of humans, excluding medical applications
+
+Note 1 to entry: This might include physical contact (3.19.1) with the human to perform the task.
+
+Note 2 to entry: Typical types of personal care robots include: mobile servant robot (3.14), physical assistant robot (3.15) and person carrier robot (3.16).</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Personal Care Robot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PhysicalAssistantRobot -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PhysicalAssistantRobot">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>personal care robot (3.13) that physically assists a user (3.26) to perform required tasks by providing supplementation or augmentation of personal capabilities</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Physical Assistant Robot</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PlasmaGun -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PlasmaGun">
@@ -4938,6 +5211,29 @@ Publication date : 2016-08
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PressureSensitiveProtectiveEquipment -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PressureSensitiveProtectiveEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>assembly of devices and components triggered using the “mechanical activated trip” method to provide protection under hazardous situations
+
+Note 1 to entry: Examples of PSPE are pressure sensitive mats and floors, bumpers, pressure sensitive edges and bars.
+
+Note 2 to entry: PSPE generate a stopping signal by the use of different techniques, e.g. mechanical contacts, fibre-optic sensors, pneumatic sensors.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Pressure Sensitive Protective Equipment</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PrimaryData -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PrimaryData">
@@ -5030,6 +5326,49 @@ Publication date : 2018-09
         <CommonCoreOntologies:definition>Transform the analysis into some kind of useable format for an intended audience. The fault line analysis, initially developed as an infographic, can formatted as a brief, a report, or simply be briefed orally. The strength of the analysis is amplified by combining discursive and visual descriptions into one format, accompanied with a clear and influential narrative.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>Fault Lines Methodology Infographic</CommonCoreOntologies:definition_source>
         <rdfs:label>Production</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ProtectiveStop -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ProtectiveStop">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>interruption of operation that allows an orderly cessation of motion for safeguarding purposes</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Protective Stop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ProtectiveStopSpace -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ProtectiveStopSpace">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>space in which the personal care robot (3.13) will perform a protective stop (3.17) if a safety-related object (3.21.1) enters it
+
+EXAMPLE:
+Examples of operational spaces for some different personal care robots are presented in Annex B.
+
+Note 1 to entry: Space can be static or dynamic, depending on the personal care robot, its application and its (dynamic) shape.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Protective Stop Space</rdfs:label>
     </owl:Class>
     
 
@@ -5230,6 +5569,27 @@ https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RelativeSpeed -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RelativeSpeed">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>magnitude of the difference between the velocity vectors of the robot (3.2) and an object (including a human) about to be touched
+
+Note 1 to entry: The robot velocity is the vector sum of velocities of the robot body and its moving parts.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Relative Speed</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Reliability -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Reliability">
@@ -5359,6 +5719,72 @@ Publication date : 2018-12
 
 2nd Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Responsible Party</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RestraintFreeTypePhysicalAssistantRobot -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RestraintFreeTypePhysicalAssistantRobot">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>physical assistant robot (3.15) that is not fastened to a human during use
+
+Note 1 to entry: This allows free holding/releasing of the robot by the human in order to control or stop the physical assistance. Examples include power assisted devices and/or powered walking aids.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Restraint-Free Type Physical Assistant Robot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RestraintTypePhysicalAssistantRobot -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RestraintTypePhysicalAssistantRobot">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>physical assistant robot (3.15) that is fastened to a human during use
+
+EXAMPLE:
+This includes wearable suits or non-medical physical assistance exoskeletons.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Restraint Type Physical Assistant Robot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RestrictedSpace -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RestrictedSpace">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>portion of the maximum space (3.18.1) confined by limiting devices that establish boundaries which will not be exceeded by the robot (3.2)
+
+Note 1 to entry: For mobile robots (3.5), this volume can be limited by special markers on floors and walls, or by software limits (3.27) defined in the internal map of the robot or facility (maximum space).
+
+[SOURCE: ISO 8373:2012, 4.8.2, modified]</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Restricted Space</rdfs:label>
     </owl:Class>
     
 
@@ -5677,6 +6103,44 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Robot -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Robot">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>actuated mechanism programmable in two or more axes with a degree of autonomy (3.1) moving within its environment, to perform intended tasks</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Robot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticDevice -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticDevice">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>actuated mechanism fulfilling the characteristics of an industrial robot or a service robot (3.4), but lacking either the number of programmable axes or the degree of autonomy (3.1)</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Robotic Device</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary">
@@ -5730,6 +6194,149 @@ Note 1 to entry: SQL is sometimes interpreted to stand for Structured Query Lang
 
 https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
         <rdfs:label>SQL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SafeState -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SafeState">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>condition of a personal care robot (3.13) where it does not present an impending hazard (3.6)</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Safe State</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SafeguardedSpace -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SafeguardedSpace">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>space in which the personal care robot (3.13) initiates a safety-related function if a safety-related object (3.21.1) is detected within it
+
+Note 1 to entry: Examples of safety-related functions include trajectory changes, speed reduction, protective stop (3.17), force limiting.
+
+Note 2 to entry: Annex C provides more details on possible implementations of algorithms for the speed reduction.
+
+Note 3 to entry: Space can be static or dynamic, depending on the personal care robot, its application and its (dynamic) shape.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Safeguarded Space</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SafetyRelatedForceLimit -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SafetyRelatedForceLimit">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>upper boundary of force that a certain point of a personal care robot (3.13) can exert against a human, or other surrounding objects without creating an unacceptable risk (3.7)</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Safety-Related Force Limit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SafetyRelatedObject -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SafetyRelatedObject">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>human, domestic animal, or property to be protected from harm
+
+Note 1 to entry: The kinds of domestic animals (especially pets) and property to be protected depends on the intended use of the personal care robot.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Safety-Related Object</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SafetyRelatedObstacle -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SafetyRelatedObstacle">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>object, obstacle, or ground condition which can cause harm if it comes into contact or collision with the robot (3.2)</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Safety-Related Obstacle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SafetyRelatedPartOfAControlSystem -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SafetyRelatedPartOfAControlSystem">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>part of a control system that responds to safety-related input signals and generates safety-related output signals</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Safety Related Part Of A Control System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SafetyRelatedSpeedLimit -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SafetyRelatedSpeedLimit">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>upper boundary of speed that a certain point (body location) of a personal care robot (3.13) may reach without creating an unacceptable risk (3.7)
+
+Note 1 to entry: In the definition, speed can be absolute or relative to the point of interest.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Safety-Related Speed Limit</rdfs:label>
     </owl:Class>
     
 
@@ -5892,6 +6499,28 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</CommonCore
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SemiAutonomousMode -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SemiAutonomousMode">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>operational mode in which the robot (3.2) function accomplishes its mission with partial human intervention
+
+EXAMPLE:
+Physical assistant robot (3.15) that tries to correct the human-chosen path to avoid collisions.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Semi Autonomous Mode</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SentientData -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SentientData">
@@ -5924,6 +6553,25 @@ Publication date : 2016-08
 
 1st Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Sequential Combustion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ServiceRobot -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ServiceRobot">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>robot (3.2) that performs useful tasks for humans or equipment excluding industrial automation applications</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Service Robot</rdfs:label>
     </owl:Class>
     
 
@@ -6691,6 +7339,25 @@ Publication date : 2018-12
 
 2nd Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Uncertainty</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnintendedContact -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnintendedContact">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary"/>
+        <CommonCoreOntologies:definition>unplanned touching between personal care robot (3.13) and object while performing the intended task</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
+
+Robots and robotic devices -- Safety requirements for personal care robots
+
+ICS : 25.040.30 Industrial robots. Manipulators 
+
+Publication date : 2014-02
+
+1st Edition</CommonCoreOntologies:definition_source>
+        <rdfs:label>Unintended Contact</rdfs:label>
     </owl:Class>
     
 
