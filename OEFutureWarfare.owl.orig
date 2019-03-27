@@ -1285,6 +1285,7 @@ Projections made in 2018 by ARL and TRADOC
 March 12, 2019
 
 https://en.wikipedia.org/wiki/Civil_law_(common_law)</obo:IAO_0000119>
+        <rdfs:label>Civil Law</rdfs:label>
     </owl:Class>
     
 
@@ -1315,7 +1316,6 @@ https://en.wikipedia.org/wiki/Civil_law_(common_law)</obo:IAO_0000119>
 March 12, 2019
 
 https://en.wikipedia.org/wiki/Civil_law_(common_law)</obo:IAO_0000119>
-        <rdfs:label>Civil Law</rdfs:label>
     </owl:Class>
     
 
@@ -1747,52 +1747,6 @@ Corruption can occur on different scales. Corruption ranges from small favors be
 March 12, 2019
 
 https://en.wikipedia.org/wiki/Corruption</obo:IAO_0000119>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Coup -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Coup">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubstateConflict"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Crime -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Crime">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolentConflict"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CriminalLaw -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CriminalLaw">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#JudicialSystem"/>
-        <obo:IAO_0000115>Criminal law is the body of law that relates to crime. It proscribes conduct perceived as threatening, harmful, or otherwise endangering to the property, health, safety, and moral welfare of people inclusive of one&apos;s self. Most criminal law is established by statute, which is to say that the laws are enacted by a legislature. Criminal law includes the punishment and rehabilitation of people who violate such laws.</obo:IAO_0000115>
-        <obo:IAO_0000119>&quot;Criminal Law&quot;, Wikipedia
-
-March 12, 2019
-
-https://en.wikipedia.org/wiki/Criminal_law</obo:IAO_0000119>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Corruption -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Corruption">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InformalInstitutions"/>
-        <obo:IAO_0000115>In general, corruption is a form of dishonesty or criminal activity undertaken by a person or organization entrusted with a position of authority, often to acquire illicit benefit. Corruption may include many activities including bribery and embezzlement, though it may also involve practices that are legal in many countries. Political corruption occurs when an office-holder or other governmental employee acts in an official capacity for personal gain. Corruption is most commonplace in kleptocracies, oligarchies, narco-states and mafia states.
-
-Corruption can occur on different scales. Corruption ranges from small favors between a small number of people (petty corruption), to corruption that affects the government on a large scale (grand corruption), and corruption that is so prevalent that it is part of the everyday structure of society, including corruption as one of the symptoms of organized crime.</obo:IAO_0000115>
-        <obo:IAO_0000119>&quot;Corruption&quot;, Wikiepedia
-
-March 12, 2019
-
-https://en.wikipedia.org/wiki/Corruption</obo:IAO_0000119>
         <rdfs:label>Corruption</rdfs:label>
     </owl:Class>
     
@@ -1825,6 +1779,52 @@ March 12, 2019
 
 https://en.wikipedia.org/wiki/Criminal_law</obo:IAO_0000119>
         <rdfs:label>Criminal Law</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Corruption -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Corruption">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InformalInstitutions"/>
+        <obo:IAO_0000115>In general, corruption is a form of dishonesty or criminal activity undertaken by a person or organization entrusted with a position of authority, often to acquire illicit benefit. Corruption may include many activities including bribery and embezzlement, though it may also involve practices that are legal in many countries. Political corruption occurs when an office-holder or other governmental employee acts in an official capacity for personal gain. Corruption is most commonplace in kleptocracies, oligarchies, narco-states and mafia states.
+
+Corruption can occur on different scales. Corruption ranges from small favors between a small number of people (petty corruption), to corruption that affects the government on a large scale (grand corruption), and corruption that is so prevalent that it is part of the everyday structure of society, including corruption as one of the symptoms of organized crime.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Corruption&quot;, Wikiepedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Corruption</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Coup -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Coup">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubstateConflict"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Crime -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Crime">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolentConflict"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CriminalLaw -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CriminalLaw">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#JudicialSystem"/>
+        <obo:IAO_0000115>Criminal law is the body of law that relates to crime. It proscribes conduct perceived as threatening, harmful, or otherwise endangering to the property, health, safety, and moral welfare of people inclusive of one&apos;s self. Most criminal law is established by statute, which is to say that the laws are enacted by a legislature. Criminal law includes the punishment and rehabilitation of people who violate such laws.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Criminal Law&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Criminal_law</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -2147,6 +2147,9 @@ https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
     
 
 
+<<<<<<< HEAD
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Decoy -->
+=======
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DecliningFertilityRate -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DecliningFertilityRate">
@@ -2162,7 +2165,8 @@ https://www.theguardian.com/world/2018/dec/26/falling-total-fertility-rate-shoul
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Decoy -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Decoys -->
+>>>>>>> Finished demographics.
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Decoy">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatProtect"/>
@@ -2217,37 +2221,11 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</CommonCore
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemocraticInsitutions -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemocraticInsitutions">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions"/>
-        <obo:IAO_0000115>Democracy...is a system of government where the citizens exercise power by voting.... In a representative democracy the citizens elect representatives from among themselves. These representatives meet to form a governing body, such as a legislature. In a constitutional democracy the powers of the majority are exercised within the framework of a representative democracy, but the constitution limits the majority and protects the minority, usually through the enjoyment by all of certain individual rights, e.g. freedom of speech, or freedom of association. &quot;Rule of the majority&quot; is sometimes referred to as democracy
-
-...
-
-...[Democracy] consists of four key elements: a political system for choosing and replacing the government through free and fair elections; the active participation of the people, as citizens, in politics and civic life; protection of the human rights of all citizens; a rule of law, in which the laws and procedures apply equally to all citizens.</obo:IAO_0000115>
-        <obo:IAO_0000119>&quot;Democracy&quot;, Wikipedia
-
-March 12, 2019
-
-https://en.wikipedia.org/wiki/Democracy</obo:IAO_0000119>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactorsControlledVocabulary"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Democracy -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Democracy">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Government"/>
-        <obo:IAO_0000115>Democracy...is a system of government where the citizens exercise power by voting....In a representative democracy the citizens elect representatives from among themselves. These representatives meet to form a governing body, such as a legislature. In a constitutional democracy the powers of the majority are exercised within the framework of a representative democracy, but the constitution limits the majority and protects the minority, usually through the enjoyment by all of certain individual rights, e.g. freedom of speech, or freedom of association. &quot;Rule of the majority&quot; is sometimes referred to as democracy
+        <obo:IAO_0000115>Democracy...is a system of government where the citizens exercise power by voting.... In a representative democracy the citizens elect representatives from among themselves. These representatives meet to form a governing body, such as a legislature. In a constitutional democracy the powers of the majority are exercised within the framework of a representative democracy, but the constitution limits the majority and protects the minority, usually through the enjoyment by all of certain individual rights, e.g. freedom of speech, or freedom of association. &quot;Rule of the majority&quot; is sometimes referred to as democracy
 
 ...
 
@@ -2267,6 +2245,32 @@ https://en.wikipedia.org/wiki/Democracy</obo:IAO_0000119>
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactorsControlledVocabulary"/>
         <rdfs:label>Demographics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemocraticInsitutions -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemocraticInsitutions">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions"/>
+        <obo:IAO_0000115>Democracy...is a system of government where the citizens exercise power by voting....In a representative democracy the citizens elect representatives from among themselves. These representatives meet to form a governing body, such as a legislature. In a constitutional democracy the powers of the majority are exercised within the framework of a representative democracy, but the constitution limits the majority and protects the minority, usually through the enjoyment by all of certain individual rights, e.g. freedom of speech, or freedom of association. &quot;Rule of the majority&quot; is sometimes referred to as democracy
+
+...
+
+...[Democracy] consists of four key elements: a political system for choosing and replacing the government through free and fair elections; the active participation of the people, as citizens, in politics and civic life; protection of the human rights of all citizens; a rule of law, in which the laws and procedures apply equally to all citizens.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Democracy&quot;, Wikipedia
+
+March 12, 2019
+
+https://en.wikipedia.org/wiki/Democracy</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactorsControlledVocabulary"/>
     </owl:Class>
     
 
@@ -3466,6 +3470,7 @@ March 12th, 2019
 
 https://rationalwiki.org/wiki/Extrajudicial_punishment</obo:IAO_0000119>
         <obo:IAO_0000232>The articles in source #2 are, on the the whole, tendentious and of uneven quality.  However, this particular definition is correct, and, usually for topic modeling, written in everyday language.</obo:IAO_0000232>
+        <rdfs:label>Extrajudicial Violence</rdfs:label>
     </owl:Class>
     
 
@@ -3495,7 +3500,6 @@ March 12th, 2019
 
 https://rationalwiki.org/wiki/Extrajudicial_punishment</obo:IAO_0000119>
         <obo:IAO_0000232>The articles in source #2 are, on the the whole, tendentious and of uneven quality.  However, this particular definition is correct, and, usually for topic modeling, written in everyday language.</obo:IAO_0000232>
-        <rdfs:label>Extrajudicial Violence</rdfs:label>
     </owl:Class>
     
 
@@ -4640,8 +4644,8 @@ Publication Date: 2012-09
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ImmersiveVirtualReality">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
-        <CommonCoreOntologies:definition>A virtual, computer-generated universe, into which the user is immersed via various sensors or objects (glasses, sensory feedback suits, etc.). Immersion in virtual reality may involve the player of a video game or an aircraft pilot in training.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>United Nations Educational, Scientific, and Cultural Organization Courier 
+        <obo:IAO_0000115>A virtual, computer-generated universe, into which the user is immersed via various sensors or objects (glasses, sensory feedback suits, etc.). Immersion in virtual reality may involve the player of a video game or an aircraft pilot in training.</obo:IAO_0000115>
+        <obo:IAO_0000119>United Nations Educational, Scientific, and Cultural Organization Courier 
 
 March 2018
 
@@ -4692,11 +4696,11 @@ Publication Date: 2012-09
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IncreasingLongevity">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AgingPopulation"/>
-        <CommonCoreOntologies:definition_source>&quot;Life Expectancy around the World Has Increased Steadily for Nearly 200 Years&quot;, Scitable
+        <obo:IAO_0000119>&quot;Life Expectancy around the World Has Increased Steadily for Nearly 200 Years&quot;, Scitable
 
 2014
 
-https://www.nature.com/scitable/content/life-expectancy-around-the-world-has-increased-19786</CommonCoreOntologies:definition_source>
+https://www.nature.com/scitable/content/life-expectancy-around-the-world-has-increased-19786</obo:IAO_0000119>
         <CommonCoreOntologies:definition>During the nineteenth and early twentieth centuries, an increase in life expectancy was driven mainly by improvements in sanitation, housing, and education, causing a steady decline in early and mid-life mortality, which was chiefly due to infections. This trend continued with the development of vaccines and then antibiotics. By the latter half of the twentieth century, there was little room for further reduction in early and mid-life mortality. The continuing increase is due almost entirely to a new phenomenon: the decline in late-life mortality.</CommonCoreOntologies:definition>
         <rdfs:label>Increasing Longevity</rdfs:label>
     </owl:Class>
@@ -4747,11 +4751,25 @@ Publication date : 2018-12
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Industrialization">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicDevelopment"/>
-        <CommonCoreOntologies:definition_source>Will Kenton (ed.), &quot;Industrialization&quot;, Investopedia
+        <obo:IAO_0000119>Will Kenton (ed.), &quot;Industrialization&quot;, Investopedia
 
 April 7, 2018
 
-https://www.investopedia.com/terms/i/industrialization.asp</CommonCoreOntologies:definition_source>
+https://www.investopedia.com/terms/i/industrialization.asp</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>Industrialization is the process by which an economy is transformed from primarily agricultural to one based on the manufacturing of goods. Individual manual labor is often replaced by mechanized mass production, and craftsmen are replaced by assembly lines. Characteristics of industrialization include economic growth, more efficient division of labor, and the use of technological innovation to solve problems as opposed to dependency on conditions outside human control.</CommonCoreOntologies:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Industrialization -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Industrialization">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicDevelopment"/>
+        <obo:IAO_0000119>Will Kenton (ed.), &quot;Industrialization&quot;, Investopedia
+
+April 7, 2018
+
+https://www.investopedia.com/terms/i/industrialization.asp</obo:IAO_0000119>
         <CommonCoreOntologies:definition>Industrialization is the process by which an economy is transformed from primarily agricultural to one based on the manufacturing of goods. Individual manual labor is often replaced by mechanized mass production, and craftsmen are replaced by assembly lines. Characteristics of industrialization include economic growth, more efficient division of labor, and the use of technological innovation to solve problems as opposed to dependency on conditions outside human control.</CommonCoreOntologies:definition>
         <rdfs:label>Industrialization</rdfs:label>
     </owl:Class>
@@ -4762,11 +4780,11 @@ https://www.investopedia.com/terms/i/industrialization.asp</CommonCoreOntologies
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InformalEconomy">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicActivity"/>
-        <CommonCoreOntologies:definition_source>Diana Farrell, &quot;The Hidden Dangers of the Informal Economy&quot;, McKinsey Quarterly
+        <obo:IAO_0000119>Diana Farrell, &quot;The Hidden Dangers of the Informal Economy&quot;, McKinsey Quarterly
 
 July, 2004
 
-https://www.mckinsey.com/featured-insights/employment-and-growth/the-hidden-dangers-of-the-informal-economy</CommonCoreOntologies:definition_source>
+https://www.mckinsey.com/featured-insights/employment-and-growth/the-hidden-dangers-of-the-informal-economy</obo:IAO_0000119>
         <CommonCoreOntologies:definition>The informal economy refers to companies that are engaged in legitimate business activities but don&apos;t fully comply with tax, labor market obligations, or product market regulations.
 
 ...
@@ -4779,16 +4797,17 @@ MGI&apos;s investigation also found that the substantial cost advantage that inf
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Industrialization -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InformalInstitutions -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Industrialization">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicDevelopment"/>
-        <CommonCoreOntologies:definition_source>Will Kenton (ed.), &quot;Industrialization&quot;, Investopedia
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InformalInstitutions">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Government"/>
+        <obo:IAO_0000115>To understand the political behaviour in a country it is important to look at how that behaviour is enabled or constrained by informal institutions, and how this affects how formal institutions are run. For example, if there are high levels of extrajudicial killings in a country, it might be that while it is prohibited by the state the police are actually enabled to carry out such killings and informally encouraged to prop up an inefficient formal state police institution. An informal institution tends to have socially shared rules, which are unwritten and yet are often known by all inhabitants of a certain country, as such they are often referred to as being an inherent part of the culture of a given country. Informal practices are often referred to as &quot;cultural&quot;, for example clientelism or corruption is sometimes stated as a part of the political culture in a certain place, but an informal institution itself is not cultural, it may be shaped by culture or behaviour of a given political landscape, but they should be looked at in the same way as formal institutions to understand their role in a given country. Informal institutions might be particularly used to pursue a political agenda, or a course of action that might not be publicly popular, or even legal, and can be seen as an effective way of making up for lack of efficiency in a formal institution. For example, in countries where formal institutions are particularly inefficient, an informal institution may be the most cost effective way or actually carrying out a given task, and this ensures that there is little pressure on the formal institutions to become more efficient.The relationship between formal and informal institutions is often closely aligned and informal institutions step in to prop up inefficient institutions.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Institution&quot;, Wikipedia
 
-April 7, 2018
+March 12, 2019
 
-https://www.investopedia.com/terms/i/industrialization.asp</CommonCoreOntologies:definition_source>
-        <CommonCoreOntologies:definition>Industrialization is the process by which an economy is transformed from primarily agricultural to one based on the manufacturing of goods. Individual manual labor is often replaced by mechanized mass production, and craftsmen are replaced by assembly lines. Characteristics of industrialization include economic growth, more efficient division of labor, and the use of technological innovation to solve problems as opposed to dependency on conditions outside human control.</CommonCoreOntologies:definition>
+https://en.wikipedia.org/wiki/Institution#Informal_institutions</obo:IAO_0000119>
+        <rdfs:label>Informal Institutions</rdfs:label>
     </owl:Class>
     
 
@@ -4797,27 +4816,12 @@ https://www.investopedia.com/terms/i/industrialization.asp</CommonCoreOntologies
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InformalInstitutions">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions"/>
-        <CommonCoreOntologies:definition>To understand the political behaviour in a country it is important to look at how that behaviour is enabled or constrained by informal institutions, and how this affects how formal institutions are run. For example, if there are high levels of extrajudicial killings in a country, it might be that while it is prohibited by the state the police are actually enabled to carry out such killings and informally encouraged to prop up an inefficient formal state police institution. An informal institution tends to have socially shared rules, which are unwritten and yet are often known by all inhabitants of a certain country, as such they are often referred to as being an inherent part of the culture of a given country. Informal practices are often referred to as &quot;cultural&quot;, for example clientelism or corruption is sometimes stated as a part of the political culture in a certain place, but an informal institution itself is not cultural, it may be shaped by culture or behaviour of a given political landscape, but they should be looked at in the same way as formal institutions to understand their role in a given country. Informal institutions might be particularly used to pursue a political agenda, or a course of action that might not be publicly popular, or even legal, and can be seen as an effective way of making up for lack of efficiency in a formal institution. For example, in countries where formal institutions are particularly inefficient, an informal institution may be the most cost effective way or actually carrying out a given task, and this ensures that there is little pressure on the formal institutions to become more efficient.The relationship between formal and informal institutions is often closely aligned and informal institutions step in to prop up inefficient institutions.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>&quot;Institution&quot;, Wikipedia
+        <obo:IAO_0000115>To understand the political behaviour in a country it is important to look at how that behaviour is enabled or constrained by informal institutions, and how this affects how formal institutions are run. For example, if there are high levels of extrajudicial killings in a country, it might be that while it is prohibited by the state the police are actually enabled to carry out such killings and informally encouraged to prop up an inefficient formal state police institution. An informal institution tends to have socially shared rules, which are unwritten and yet are often known by all inhabitants of a certain country, as such they are often referred to as being an inherent part of the culture of a given country. Informal practices are often referred to as &quot;cultural&quot;, for example clientelism or corruption is sometimes stated as a part of the political culture in a certain place, but an informal institution itself is not cultural, it may be shaped by culture or behaviour of a given political landscape, but they should be looked at in the same way as formal institutions to understand their role in a given country. Informal institutions might be particularly used to pursue a political agenda, or a course of action that might not be publicly popular, or even legal, and can be seen as an effective way of making up for lack of efficiency in a formal institution. For example, in countries where formal institutions are particularly inefficient, an informal institution may be the most cost effective way or actually carrying out a given task, and this ensures that there is little pressure on the formal institutions to become more efficient.The relationship between formal and informal institutions is often closely aligned and informal institutions step in to prop up inefficient institutions.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Institution&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/Institution#Informal_institutions</CommonCoreOntologies:definition_source>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InformalInstitutions -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InformalInstitutions">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Government"/>
-        <CommonCoreOntologies:definition>To understand the political behaviour in a country it is important to look at how that behaviour is enabled or constrained by informal institutions, and how this affects how formal institutions are run. For example, if there are high levels of extrajudicial killings in a country, it might be that while it is prohibited by the state the police are actually enabled to carry out such killings and informally encouraged to prop up an inefficient formal state police institution. An informal institution tends to have socially shared rules, which are unwritten and yet are often known by all inhabitants of a certain country, as such they are often referred to as being an inherent part of the culture of a given country. Informal practices are often referred to as &quot;cultural&quot;, for example clientelism or corruption is sometimes stated as a part of the political culture in a certain place, but an informal institution itself is not cultural, it may be shaped by culture or behaviour of a given political landscape, but they should be looked at in the same way as formal institutions to understand their role in a given country. Informal institutions might be particularly used to pursue a political agenda, or a course of action that might not be publicly popular, or even legal, and can be seen as an effective way of making up for lack of efficiency in a formal institution. For example, in countries where formal institutions are particularly inefficient, an informal institution may be the most cost effective way or actually carrying out a given task, and this ensures that there is little pressure on the formal institutions to become more efficient.The relationship between formal and informal institutions is often closely aligned and informal institutions step in to prop up inefficient institutions.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>&quot;Institution&quot;, Wikipedia
-
-March 12, 2019
-
-https://en.wikipedia.org/wiki/Institution#Informal_institutions</CommonCoreOntologies:definition_source>
-        <rdfs:label>Informal Institutions</rdfs:label>
+https://en.wikipedia.org/wiki/Institution#Informal_institutions</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -5124,11 +5128,11 @@ Publication date : 2018-02
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntergovernmentalOrganizations">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalInstitutions"/>
-        <CommonCoreOntologies:definition_source>&quot;Intergovernment Organization&quot;, Wikipedia
+        <obo:IAO_0000119>&quot;Intergovernment Organization&quot;, Wikipedia
 
 March 13, 2019
 
-https://en.wikipedia.org/wiki/Intergovernmental_organization#Types_and_purpose</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Intergovernmental_organization#Types_and_purpose</obo:IAO_0000119>
         <CommonCoreOntologies:definition>[Intergovernmental organizations] have various goals and scopes, often outlined in the treaty or charter. Some IGOs developed to fulfill a need for a neutral forum for debate or negotiation to resolve disputes. Others developed to carry out mutual interests with unified aims to preserve peace through conflict resolution and better international relations, promote international cooperation on matters such as environmental protection, to promote human rights, to promote social development (education, health care), to render humanitarian aid, and to economic development. Some are more general in scope (the United Nations) while others may have subject-specific missions (such as Interpol or the International Organization for Standardization and other standards organizations).</CommonCoreOntologies:definition>
     </owl:Class>
     
@@ -5138,11 +5142,11 @@ https://en.wikipedia.org/wiki/Intergovernmental_organization#Types_and_purpose</
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntergovernmentalOrganization">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalSystem"/>
-        <CommonCoreOntologies:definition_source>&quot;Intergovernment Organization&quot;, Wikipedia
+        <obo:IAO_0000119>&quot;Intergovernment Organization&quot;, Wikipedia
 
 March 13, 2019
 
-https://en.wikipedia.org/wiki/Intergovernmental_organization#Types_and_purpose</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Intergovernmental_organization#Types_and_purpose</obo:IAO_0000119>
         <CommonCoreOntologies:definition>[Intergovernmental organizations] have various goals and scopes, often outlined in the treaty or charter. Some IGOs developed to fulfill a need for a neutral forum for debate or negotiation to resolve disputes. Others developed to carry out mutual interests with unified aims to preserve peace through conflict resolution and better international relations, promote international cooperation on matters such as environmental protection, to promote human rights, to promote social development (education, health care), to render humanitarian aid, and to economic development. Some are more general in scope (the United Nations) while others may have subject-specific missions (such as Interpol or the International Organization for Standardization and other standards organizations).</CommonCoreOntologies:definition>
         <rdfs:label>Intergovernment Organization</rdfs:label>
     </owl:Class>
@@ -5190,11 +5194,11 @@ Publication date : 2018-02
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalMigration">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Migration"/>
-        <CommonCoreOntologies:definition_source>&quot;International Migration&quot;, Wikipedia
+        <obo:IAO_0000119>&quot;International Migration&quot;, Wikipedia
 
 March 26, 2019
 
-https://en.wikipedia.org/wiki/International_migration</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/International_migration</obo:IAO_0000119>
         <CommonCoreOntologies:definition>nternational migration occurs when people cross state boundaries and stay in the host state for some minimum length of time. Migration occurs for many reasons. Many people leave their home countries in order to look for economic opportunities in another country. Others migrate to be with family members who have migrated or because of political conditions in their countries. Education is another reason for international migration, as students pursue their studies abroad. While there are several different potential systems for categorizing international migrants, one system organizes them into nine groups: temporary labour migrants; irregular, illegal, or undocumented migrants; highly skilled and business migrants; refugees; asylum seekers; forced migration; family members; return migrants; and long-term, low-skilled migrants. These migrants can also be divided into two large groups, permanent and temporary. Permanent migrants intend to establish their permanent residence in a new country and possibly obtain that country’s citizenship. Temporary migrants intend only to stay for a limited periods of time; perhaps until the end of a particular program of study or for the duration of a their work contract or a certain work season. Both types of migrants have a significant effect on the economies and societies of the chosen destination country and the country of origin.</CommonCoreOntologies:definition>
         <rdfs:label>International Migration</rdfs:label>
     </owl:Class>
@@ -5205,26 +5209,26 @@ https://en.wikipedia.org/wiki/International_migration</CommonCoreOntologies:defi
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalSystem">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Government"/>
-        <CommonCoreOntologies:definition>(1)
+        <obo:IAO_0000115>(1)
 
-An international organization is an organization with an international membership, scope, or presence.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition>(2)
+An international organization is an organization with an international membership, scope, or presence.</obo:IAO_0000115>
+        <obo:IAO_0000115>(2)
 
-International organizations serve many diverse functions, including collecting information and monitoring trends...delivering services and aid...and providing forums for bargaining...and settling disputes.... By providing political institutions through which states can work together to achieve common objectives, international organizations can help to foster cooperative behaviour. IGOs also serve useful purposes for individual states, which often use them as instruments of foreign policy to legitimate their actions and to constrain the behaviour of other states.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>(1)
+International organizations serve many diverse functions, including collecting information and monitoring trends...delivering services and aid...and providing forums for bargaining...and settling disputes.... By providing political institutions through which states can work together to achieve common objectives, international organizations can help to foster cooperative behaviour. IGOs also serve useful purposes for individual states, which often use them as instruments of foreign policy to legitimate their actions and to constrain the behaviour of other states.</obo:IAO_0000115>
+        <obo:IAO_0000119>(1)
 
 &quot;International Organiztion&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/International_organization</CommonCoreOntologies:definition_source>
-        <CommonCoreOntologies:definition_source>(2)
+https://en.wikipedia.org/wiki/International_organization</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
 
 Karen Mingst, &quot;International Organization&quot;, Encyclopaedia Britannica
 
 March 12, 2019
 
-https://www.britannica.com/topic/international-organization</CommonCoreOntologies:definition_source>
+https://www.britannica.com/topic/international-organization</obo:IAO_0000119>
         <rdfs:label>International System</rdfs:label>
     </owl:Class>
     
@@ -5234,11 +5238,11 @@ https://www.britannica.com/topic/international-organization</CommonCoreOntologie
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalTrade">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade"/>
-        <CommonCoreOntologies:definition_source>Reem Heakal, &quot;What Is International Trade?&quot;, Investopedia
+        <obo:IAO_0000119>Reem Heakal, &quot;What Is International Trade?&quot;, Investopedia
 
 Jan 12, 2018
 
-https://www.investopedia.com/insights/what-is-international-trade/</CommonCoreOntologies:definition_source>
+https://www.investopedia.com/insights/what-is-international-trade/</obo:IAO_0000119>
         <CommonCoreOntologies:definition>International trade is the exchange of goods and services between countries. This type of trade gives rise to a world economy, in which prices, or supply and demand, affect and are affected by global events.
 
 ...
@@ -5261,26 +5265,26 @@ Trading globally gives consumers and countries the opportunity to be exposed to 
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalInstitutions">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions"/>
-        <CommonCoreOntologies:definition>(1)
+        <obo:IAO_0000115>(1)
 
-An international organization is an organization with an international membership, scope, or presence.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition>(2)
+An international organization is an organization with an international membership, scope, or presence.</obo:IAO_0000115>
+        <obo:IAO_0000115>(2)
 
-International organizations serve many diverse functions, including collecting information and monitoring trends...delivering services and aid...and providing forums for bargaining...and settling disputes.... By providing political institutions through which states can work together to achieve common objectives, international organizations can help to foster cooperative behaviour. IGOs also serve useful purposes for individual states, which often use them as instruments of foreign policy to legitimate their actions and to constrain the behaviour of other states.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>(1)
+International organizations serve many diverse functions, including collecting information and monitoring trends...delivering services and aid...and providing forums for bargaining...and settling disputes.... By providing political institutions through which states can work together to achieve common objectives, international organizations can help to foster cooperative behaviour. IGOs also serve useful purposes for individual states, which often use them as instruments of foreign policy to legitimate their actions and to constrain the behaviour of other states.</obo:IAO_0000115>
+        <obo:IAO_0000119>(1)
 
 &quot;International Organiztion&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/International_organization</CommonCoreOntologies:definition_source>
-        <CommonCoreOntologies:definition_source>(2)
+https://en.wikipedia.org/wiki/International_organization</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
 
 Karen Mingst, &quot;International Organization&quot;, Encyclopaedia Britannica
 
 March 12, 2019
 
-https://www.britannica.com/topic/international-organization</CommonCoreOntologies:definition_source>
+https://www.britannica.com/topic/international-organization</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -5344,15 +5348,16 @@ Publication Date: 2016-09
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#JudicialSystem -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#JudicialSystem">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions"/>
-        <CommonCoreOntologies:definition>The judiciary (also known as the judicial system, judicial branch or court system) is the system of courts that interprets and applies the law in the name of the state. Under the doctrine of the separation of powers, the judiciary generally does not make statutory law (which is the responsibility of the legislature) or enforce law (which is the responsibility of the executive), but rather interprets law and applies it to the facts of each case. However, in some countries the judiciary does make common law, setting precedent for other courts to follow. This branch of the state is often tasked with ensuring equal justice under law. 
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Government"/>
+        <obo:IAO_0000115>The judiciary (also known as the judicial system, judicial branch or court system) is the system of courts that interprets and applies the law in the name of the state. Under the doctrine of the separation of powers, the judiciary generally does not make statutory law (which is the responsibility of the legislature) or enforce law (which is the responsibility of the executive), but rather interprets law and applies it to the facts of each case. However, in some countries the judiciary does make common law, setting precedent for other courts to follow. This branch of the state is often tasked with ensuring equal justice under law. 
 
-In many jurisdictions the judicial branch has the power to change laws through the process of judicial review. Courts with judicial review power may annul the laws and rules of the state when it finds them incompatible with a higher norm, such as primary legislation, the provisions of the constitution or international law. Judges constitute a critical force for interpretation and implementation of a constitution, thus de facto in common law countries creating the body of constitutional law.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>&quot;Judiciary&quot;, Wikipedia
+In many jurisdictions the judicial branch has the power to change laws through the process of judicial review. Courts with judicial review power may annul the laws and rules of the state when it finds them incompatible with a higher norm, such as primary legislation, the provisions of the constitution or international law. Judges constitute a critical force for interpretation and implementation of a constitution, thus de facto in common law countries creating the body of constitutional law.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Judiciary&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/Judiciary</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Judiciary</obo:IAO_0000119>
+        <rdfs:label>Judicial System</rdfs:label>
     </owl:Class>
     
 
@@ -5368,16 +5373,15 @@ https://en.wikipedia.org/wiki/Judiciary</CommonCoreOntologies:definition_source>
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#JudicialSystem -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#JudicialSystem">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Government"/>
-        <CommonCoreOntologies:definition>The judiciary (also known as the judicial system, judicial branch or court system) is the system of courts that interprets and applies the law in the name of the state. Under the doctrine of the separation of powers, the judiciary generally does not make statutory law (which is the responsibility of the legislature) or enforce law (which is the responsibility of the executive), but rather interprets law and applies it to the facts of each case. However, in some countries the judiciary does make common law, setting precedent for other courts to follow. This branch of the state is often tasked with ensuring equal justice under law. 
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions"/>
+        <obo:IAO_0000115>The judiciary (also known as the judicial system, judicial branch or court system) is the system of courts that interprets and applies the law in the name of the state. Under the doctrine of the separation of powers, the judiciary generally does not make statutory law (which is the responsibility of the legislature) or enforce law (which is the responsibility of the executive), but rather interprets law and applies it to the facts of each case. However, in some countries the judiciary does make common law, setting precedent for other courts to follow. This branch of the state is often tasked with ensuring equal justice under law. 
 
-In many jurisdictions the judicial branch has the power to change laws through the process of judicial review. Courts with judicial review power may annul the laws and rules of the state when it finds them incompatible with a higher norm, such as primary legislation, the provisions of the constitution or international law. Judges constitute a critical force for interpretation and implementation of a constitution, thus de facto in common law countries creating the body of constitutional law.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>&quot;Judiciary&quot;, Wikipedia
+In many jurisdictions the judicial branch has the power to change laws through the process of judicial review. Courts with judicial review power may annul the laws and rules of the state when it finds them incompatible with a higher norm, such as primary legislation, the provisions of the constitution or international law. Judges constitute a critical force for interpretation and implementation of a constitution, thus de facto in common law countries creating the body of constitutional law.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Judiciary&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/Judiciary</CommonCoreOntologies:definition_source>
-        <rdfs:label>Judicial System</rdfs:label>
+https://en.wikipedia.org/wiki/Judiciary</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -5424,7 +5428,7 @@ Projections made in 2018 by ARL and TRADOC
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Legislature">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemocraticInsitutions"/>
-        <CommonCoreOntologies:definition>(1)
+        <obo:IAO_0000115>(1)
 
 A legislature is a deliberative assembly with the authority to make laws for a political entity such as a country or city. Legislatures form important parts of most governments.
 
@@ -5432,21 +5436,21 @@ A legislature is a deliberative assembly with the authority to make laws for a p
 
 Laws enacted by legislatures are known as primary legislation. Legislatures observe and steer governing actions and usually have exclusive authority to amend the budget or budgets involved in the process.
 
-The members of a legislature are called legislators. In a democracy, legislators are most commonly popularly elected, although indirect election and appointment by the executive are also used, particularly for bicameral legislatures featuring an upper chamber.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>(1)
+The members of a legislature are called legislators. In a democracy, legislators are most commonly popularly elected, although indirect election and appointment by the executive are also used, particularly for bicameral legislatures featuring an upper chamber.</obo:IAO_0000115>
+        <obo:IAO_0000119>(1)
 
 &quot;Legislature&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/Legislature</CommonCoreOntologies:definition_source>
-        <CommonCoreOntologies:definition_source>(2)
+https://en.wikipedia.org/wiki/Legislature</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
 
 &quot;Legislation&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/Legislation</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Legislation</obo:IAO_0000119>
         <obo:IAO_0000232>&quot;Legislature&quot; is placed under &quot;DemocraticPolitics&quot; rather than constituting a category of it&apos;s own, like the other two branches of government, because the legislature has little importance outside a democracy.</obo:IAO_0000232>
         <CommonCoreOntologies:definition>(2)
 
@@ -5465,7 +5469,7 @@ Legislation is regarded as one of the three main functions of government. Those 
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Legislature">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Democracy"/>
-        <CommonCoreOntologies:definition>(1)
+        <obo:IAO_0000115>(1)
 
 A legislature is a deliberative assembly with the authority to make laws for a political entity such as a country or city. Legislatures form important parts of most governments.
 
@@ -5473,21 +5477,21 @@ A legislature is a deliberative assembly with the authority to make laws for a p
 
 Laws enacted by legislatures are known as primary legislation. Legislatures observe and steer governing actions and usually have exclusive authority to amend the budget or budgets involved in the process.
 
-The members of a legislature are called legislators. In a democracy, legislators are most commonly popularly elected, although indirect election and appointment by the executive are also used, particularly for bicameral legislatures featuring an upper chamber.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>(1)
+The members of a legislature are called legislators. In a democracy, legislators are most commonly popularly elected, although indirect election and appointment by the executive are also used, particularly for bicameral legislatures featuring an upper chamber.</obo:IAO_0000115>
+        <obo:IAO_0000119>(1)
 
 &quot;Legislature&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/Legislature</CommonCoreOntologies:definition_source>
-        <CommonCoreOntologies:definition_source>(2)
+https://en.wikipedia.org/wiki/Legislature</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
 
 &quot;Legislation&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/Legislation</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Legislation</obo:IAO_0000119>
         <obo:IAO_0000232>&quot;Legislature&quot; is placed under &quot;DemocraticPolitics&quot; rather than constituting a category of it&apos;s own, like the other two branches of government, because the legislature has little importance outside a democracy.</obo:IAO_0000232>
         <CommonCoreOntologies:definition>(2)
 
@@ -5680,20 +5684,20 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</CommonCore
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MacroeconomicPolicy">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade"/>
-        <CommonCoreOntologies:definition_source>(1)
+        <obo:IAO_0000119>(1)
 
 &quot;Macroeconomic Policy&quot;, The World Bank
 
 December 22, 2014
 
-http://www.worldbank.org/en/topic/macroeconomics/brief/macroeconomic-policy</CommonCoreOntologies:definition_source>
-        <CommonCoreOntologies:definition_source>(2)
+http://www.worldbank.org/en/topic/macroeconomics/brief/macroeconomic-policy</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
 
 Robert Dolamore, &quot;The Tools of Macroeconomic Policy--A Short Primer&quot;, Paliament of Australia
 
 March 21, 2019
 
-https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/pubs/BriefingBook44p/MacroeconomicPolicy</CommonCoreOntologies:definition_source>
+https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/pubs/BriefingBook44p/MacroeconomicPolicy</obo:IAO_0000119>
         <CommonCoreOntologies:definition>(1)
 
 Macroeconomic policies include taxes, government spending and borrowing, exchange rate determinants, and monetary and credit rules.</CommonCoreOntologies:definition>
@@ -5755,25 +5759,25 @@ Publication date : 2018-02
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Manufacturing">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicActivity"/>
-        <CommonCoreOntologies:definition_source>&quot;Manufacturing&quot;, Wikipedia
+        <obo:IAO_0000119>&quot;Manufacturing&quot;, Wikipedia
 
 March 14, 2019
 
-https://en.wikipedia.org/wiki/Manufacturing</CommonCoreOntologies:definition_source>
-        <CommonCoreOntologies:definition_source>(2)
+https://en.wikipedia.org/wiki/Manufacturing</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
 
 Chelsea Levinson, &quot;Definition of the Manufacturing Industry&quot;, BIZFLUENT.COM
 
 March 14, 2019
 
-https://bizfluent.com/facts-6853113-definition-manufacturing-industry.html</CommonCoreOntologies:definition_source>
-        <CommonCoreOntologies:definition_source>(3)
+https://bizfluent.com/facts-6853113-definition-manufacturing-industry.html</obo:IAO_0000119>
+        <obo:IAO_0000119>(3)
 
 EconomyWatch, &quot;Manufacturing Industry&quot;, Economywatch.com
 
 March 14, 2019
 
-http://www.economywatch.com/world-industries/manufacturing</CommonCoreOntologies:definition_source>
+http://www.economywatch.com/world-industries/manufacturing</obo:IAO_0000119>
         <CommonCoreOntologies:definition>(1)
 
 The term [&quot;manufacturing&quot;] is most commonly applied to industrial design, in which raw materials are transformed into finished goods on a large scale. Such finished goods may be sold to other manufacturers for the production of other, more complex products, such as aircraft, household appliances, furniture, sports equipment or automobiles, or sold to wholesalers, who in turn sell them to retailers, who then sell them to end users and consumers.
@@ -5797,25 +5801,25 @@ Manufacturing industries are broadly categorized into engineering industries, co
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Manufacturing">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicActivity"/>
-        <CommonCoreOntologies:definition_source>&quot;Manufacturing&quot;, Wikipedia
+        <obo:IAO_0000119>&quot;Manufacturing&quot;, Wikipedia
 
 March 14, 2019
 
-https://en.wikipedia.org/wiki/Manufacturing</CommonCoreOntologies:definition_source>
-        <CommonCoreOntologies:definition_source>(2)
+https://en.wikipedia.org/wiki/Manufacturing</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
 
 Chelsea Levinson, &quot;Definition of the Manufacturing Industry&quot;, BIZFLUENT.COM
 
 March 14, 2019
 
-https://bizfluent.com/facts-6853113-definition-manufacturing-industry.html</CommonCoreOntologies:definition_source>
-        <CommonCoreOntologies:definition_source>(3)
+https://bizfluent.com/facts-6853113-definition-manufacturing-industry.html</obo:IAO_0000119>
+        <obo:IAO_0000119>(3)
 
 EconomyWatch, &quot;Manufacturing Industry&quot;, Economywatch.com
 
 March 14, 2019
 
-http://www.economywatch.com/world-industries/manufacturing</CommonCoreOntologies:definition_source>
+http://www.economywatch.com/world-industries/manufacturing</obo:IAO_0000119>
         <CommonCoreOntologies:definition>(1)
 
 The term [&quot;manufacturing&quot;] is most commonly applied to industrial design, in which raw materials are transformed into finished goods on a large scale. Such finished goods may be sold to other manufacturers for the production of other, more complex products, such as aircraft, household appliances, furniture, sports equipment or automobiles, or sold to wholesalers, who in turn sell them to retailers, who then sell them to end users and consumers.
@@ -5993,20 +5997,20 @@ Projections made in 2018 by ARL and TRADOC
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Megacity">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Urbanization"/>
-        <CommonCoreOntologies:definition_source>(1)
+        <obo:IAO_0000119>(1)
 
 &quot;Megacity&quot;, Wikipedia
 
 March 26, 2019
 
-https://en.wikipedia.org/wiki/Megacity</CommonCoreOntologies:definition_source>
-        <CommonCoreOntologies:definition_source>(2)
+https://en.wikipedia.org/wiki/Megacity</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
 
 &quot;What Is a Megacity?&quot;, worldatlas.com
 
 June 28, 2018
 
-https://www.worldatlas.com/articles/what-is-a-megacity.html</CommonCoreOntologies:definition_source>
+https://www.worldatlas.com/articles/what-is-a-megacity.html</obo:IAO_0000119>
         <CommonCoreOntologies:definition>(1)
 
 A megacity is a very large city metropolitan area, typically with a population of more than 10 million people.
@@ -6090,11 +6094,11 @@ Publication Date: 2016-09
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MilleniumDevelopmentGoals">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicDevelopment"/>
-        <CommonCoreOntologies:definition_source>&quot;Millenium Development Goals&quot;, Wikipedia
+        <obo:IAO_0000119>&quot;Millenium Development Goals&quot;, Wikipedia
 
 March 19, 2019
 
-https://en.wikipedia.org/wiki/Millennium_Development_Goals</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Millennium_Development_Goals</obo:IAO_0000119>
         <CommonCoreOntologies:definition>To eradicate extreme poverty and hunger
     To achieve universal primary education
     To promote gender equality and empower women
@@ -6111,11 +6115,11 @@ https://en.wikipedia.org/wiki/Millennium_Development_Goals</CommonCoreOntologies
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Migration">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics"/>
-        <CommonCoreOntologies:definition_source>&quot;Migration&quot;, United Nations
+        <obo:IAO_0000119>&quot;Migration&quot;, United Nations
 
 March 25, 2019
 
-http://www.un.org/en/sections/issues-depth/migration/index.html</CommonCoreOntologies:definition_source>
+http://www.un.org/en/sections/issues-depth/migration/index.html</obo:IAO_0000119>
         <CommonCoreOntologies:definition>Some people move in search of labour or economic opportunities, to join family, or to study. Others move to escape conflict, persecution, terrorism, or human rights violations. Still others move in response to the adverse effects of climate change, natural disasters, or other environmental factors.</CommonCoreOntologies:definition>
         <rdfs:label>Migration</rdfs:label>
     </owl:Class>
@@ -6126,11 +6130,11 @@ http://www.un.org/en/sections/issues-depth/migration/index.html</CommonCoreOntol
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MilleniumDevelopmentGoals">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicDevelopment"/>
-        <CommonCoreOntologies:definition_source>&quot;Millenium Development Goals&quot;, Wikipedia
+        <obo:IAO_0000119>&quot;Millenium Development Goals&quot;, Wikipedia
 
 March 19, 2019
 
-https://en.wikipedia.org/wiki/Millennium_Development_Goals</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Millennium_Development_Goals</obo:IAO_0000119>
         <CommonCoreOntologies:definition>To eradicate extreme poverty and hunger
     To achieve universal primary education
     To promote gender equality and empower women
@@ -6281,11 +6285,11 @@ Publication date : 2014-02
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MonetaryPolicy">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MacroeconomicPolicy"/>
-        <CommonCoreOntologies:definition_source>&quot;Monetary Policy&quot;, Wikipedia
+        <obo:IAO_0000119>&quot;Monetary Policy&quot;, Wikipedia
 
 March 21, 2019
 
-https://en.wikipedia.org/wiki/Monetary_policy</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Monetary_policy</obo:IAO_0000119>
         <CommonCoreOntologies:definition>Monetary policy is the process by which the monetary authority of a country, typically the central bank or currency board, controls either the cost of very short-term borrowing or the money supply, often targeting an inflation rate or interest rate to ensure price stability and general trust in the currency.
 Further goals of a monetary policy are usually to contribute to the stability of gross domestic product, to achieve and maintain low unemployment, and to maintain predictable exchange rates with other currencies.</CommonCoreOntologies:definition>
         <rdfs:label>Monetary Policy</rdfs:label>
@@ -6343,14 +6347,14 @@ Publication date : 2018-02
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MultipartySystem">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PoliticalParties"/>
-        <CommonCoreOntologies:definition>A multi-party system is a system in which multiple political parties across the political spectrum run for national election, and all have the capacity to gain control of government offices, separately or in coalition. Apart from one-party-dominant and two-party systems, multi-party systems tend to be more common in parliamentary systems than presidential systems and far more common in countries that use proportional representation compared to countries that use first-past-the-post elections.
+        <obo:IAO_0000115>A multi-party system is a system in which multiple political parties across the political spectrum run for national election, and all have the capacity to gain control of government offices, separately or in coalition. Apart from one-party-dominant and two-party systems, multi-party systems tend to be more common in parliamentary systems than presidential systems and far more common in countries that use proportional representation compared to countries that use first-past-the-post elections.
 
-First-past-the-post requires concentrated areas of support for large representation in the legislature whereas proportional representation better reflects the range of a population&apos;s views. Proportional systems may have multi-member districts with more than one representative elected from a given district to the same legislative body, and thus a greater number of viable parties.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>&quot;Multi-party System&quot;, Wikipedia
+First-past-the-post requires concentrated areas of support for large representation in the legislature whereas proportional representation better reflects the range of a population&apos;s views. Proportional systems may have multi-member districts with more than one representative elected from a given district to the same legislative body, and thus a greater number of viable parties.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Multi-party System&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/Multi-party_system</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Multi-party_system</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -6359,14 +6363,14 @@ https://en.wikipedia.org/wiki/Multi-party_system</CommonCoreOntologies:definitio
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MultipartySystem">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PoliticalPartySystem"/>
-        <CommonCoreOntologies:definition>A multi-party system is a system in which multiple political parties across the political spectrum run for national election, and all have the capacity to gain control of government offices, separately or in coalition. Apart from one-party-dominant and two-party systems, multi-party systems tend to be more common in parliamentary systems than presidential systems and far more common in countries that use proportional representation compared to countries that use first-past-the-post elections.
+        <obo:IAO_0000115>A multi-party system is a system in which multiple political parties across the political spectrum run for national election, and all have the capacity to gain control of government offices, separately or in coalition. Apart from one-party-dominant and two-party systems, multi-party systems tend to be more common in parliamentary systems than presidential systems and far more common in countries that use proportional representation compared to countries that use first-past-the-post elections.
 
-First-past-the-post requires concentrated areas of support for large representation in the legislature whereas proportional representation better reflects the range of a population&apos;s views. Proportional systems may have multi-member districts with more than one representative elected from a given district to the same legislative body, and thus a greater number of viable parties.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>&quot;Multi-party System&quot;, Wikipedia
+First-past-the-post requires concentrated areas of support for large representation in the legislature whereas proportional representation better reflects the range of a population&apos;s views. Proportional systems may have multi-member districts with more than one representative elected from a given district to the same legislative body, and thus a greater number of viable parties.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Multi-party System&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/Multi-party_system</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Multi-party_system</obo:IAO_0000119>
         <rdfs:label>Multiparty System</rdfs:label>
     </owl:Class>
     
@@ -6439,11 +6443,11 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</CommonCore
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Non-tariffBarriers">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalTrade"/>
-        <CommonCoreOntologies:definition_source>&quot;Non-Tariff Barriers to Trade&quot;, Non-Tariff Barriers:  Reporting, Monitoring and Eliminating Mechanism
+        <obo:IAO_0000119>&quot;Non-Tariff Barriers to Trade&quot;, Non-Tariff Barriers:  Reporting, Monitoring and Eliminating Mechanism
 
 March 21, 2019
 
-https://www.tradebarriers.org/ntb/non_tariff_barriers</CommonCoreOntologies:definition_source>
+https://www.tradebarriers.org/ntb/non_tariff_barriers</obo:IAO_0000119>
         <CommonCoreOntologies:definition>Non-Tariff Barriers to trade can arise from:
         Import bans
         General or product-specific quotas
@@ -6643,12 +6647,12 @@ Projections made in 2018 by ARL and TRADOC
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#One-partyRule">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AuthoritarianInstitutions"/>
-        <CommonCoreOntologies:definition>A one-party state, single-party state, one-party system, or single-party system is a type of state in which one political party has the right to form the government, usually based on the existing constitution. All other parties are either outlawed or allowed to take only a limited and controlled participation in elections. Sometimes the term de facto one-party state is used to describe a dominant-party system...[whose] existing practices or balance of political power effectively prevent the opposition from winning the elections.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>&quot;One-party State&quot;, Wikipedia
+        <obo:IAO_0000115>A one-party state, single-party state, one-party system, or single-party system is a type of state in which one political party has the right to form the government, usually based on the existing constitution. All other parties are either outlawed or allowed to take only a limited and controlled participation in elections. Sometimes the term de facto one-party state is used to describe a dominant-party system...[whose] existing practices or balance of political power effectively prevent the opposition from winning the elections.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;One-party State&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/One-party_state</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/One-party_state</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -6657,12 +6661,12 @@ https://en.wikipedia.org/wiki/One-party_state</CommonCoreOntologies:definition_s
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#One-partyRule">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Authoritariansim"/>
-        <CommonCoreOntologies:definition>A one-party state, single-party state, one-party system, or single-party system is a type of state in which one political party has the right to form the government, usually based on the existing constitution. All other parties are either outlawed or allowed to take only a limited and controlled participation in elections. Sometimes the term de facto one-party state is used to describe a dominant-party system...[whose] existing practices or balance of political power effectively prevent the opposition from winning the elections.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>&quot;One-party State&quot;, Wikipedia
+        <obo:IAO_0000115>A one-party state, single-party state, one-party system, or single-party system is a type of state in which one political party has the right to form the government, usually based on the existing constitution. All other parties are either outlawed or allowed to take only a limited and controlled participation in elections. Sometimes the term de facto one-party state is used to describe a dominant-party system...[whose] existing practices or balance of political power effectively prevent the opposition from winning the elections.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;One-party State&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/One-party_state</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/One-party_state</obo:IAO_0000119>
         <rdfs:label>One-party Rule</rdfs:label>
     </owl:Class>
     
@@ -6806,6 +6810,7 @@ https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
 
 Technical Committee : ISO/TC 265 Carbon dioxide capture, transportation, and geological storage 
 
+<<<<<<< HEAD
 ICS : 13.020.40 Pollution, pollution control and conservation 
 
 Carbon dioxide capture -- Part 1: Performance evaluation methods for post-combustion CO2 capture integrated with a power plant
@@ -6814,6 +6819,10 @@ Publication date : 2018-09
 
 1st Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Particulate Matter</rdfs:label>
+=======
+https://en.wikipedia.org/wiki/Patronage</obo:IAO_0000119>
+        <rdfs:label>Patronage</rdfs:label>
+>>>>>>> Finished demographics.
     </owl:Class>
     
 
@@ -6829,6 +6838,7 @@ Technical Committee : ISO/TC 265 Carbon dioxide capture, transportation, and geo
 
 ICS : 13.020.40 Pollution, pollution control and conservation 
 
+<<<<<<< HEAD
 Carbon dioxide capture -- Part 1: Performance evaluation methods for post-combustion CO2 capture integrated with a power plant
 
 Publication date : 2018-09
@@ -6843,13 +6853,12 @@ Publication date : 2018-09
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Patronage">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InformalInstitutions"/>
-        <CommonCoreOntologies:definition>In some countries the term [&quot;patronage&quot;] is used to describe political patronage, which is the use of state resources to reward individuals for their electoral support. Some patronage systems are legal, [such as a head of government&apos;s appointment powers]; in many cases, these appointments go to people who have supported the political party of the Prime Minister. As well, the term may refer to a type of corruption or favoritism in which a party in power rewards groups, families, ethnicities for their electoral support using illegal gifts or fraudulently awarded appointments or government contracts.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>&quot;Patronage&quot;, Wikipedia
+        <obo:IAO_0000115>In some countries the term [&quot;patronage&quot;] is used to describe political patronage, which is the use of state resources to reward individuals for their electoral support. Some patronage systems are legal, [such as a head of government&apos;s appointment powers]; in many cases, these appointments go to people who have supported the political party of the Prime Minister. As well, the term may refer to a type of corruption or favoritism in which a party in power rewards groups, families, ethnicities for their electoral support using illegal gifts or fraudulently awarded appointments or government contracts.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Patronage&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/Patronage</CommonCoreOntologies:definition_source>
-        <rdfs:label>Patronage</rdfs:label>
+https://en.wikipedia.org/wiki/Patronage</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -6858,15 +6867,14 @@ https://en.wikipedia.org/wiki/Patronage</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Pensions">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WelfareState"/>
-        <CommonCoreOntologies:definition_source>&quot;Pension&quot;, Wikipedia
+        <obo:IAO_0000119>&quot;Pension&quot;, Wikipedia
 
 March 23, 2019
 
-https://en.wikipedia.org/wiki/Pension</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Pension</obo:IAO_0000119>
         <CommonCoreOntologies:definition>A pension...is a fund into which a sum of money is added during an employee&apos;s employment years, and from which payments are drawn to support the person&apos;s retirement from work in the form of periodic payments. A pension may be a &quot;defined benefit plan&quot; where a fixed sum is paid regularly to a person, or a &quot;defined contribution plan&quot; under which a fixed sum is invested and then becomes available at retirement age. Pensions should not be confused with severance pay; the former is usually paid in regular installments for life after retirement, while the latter is typically paid as a fixed amount after involuntary termination of employment prior to retirement.
 
 The terms &quot;retirement plan&quot; and &quot;superannuation&quot; tend to refer to a pension granted upon retirement of the individual. Retirement plans may be set up by employers, insurance companies, the government or other institutions such as employer associations or trade unions.</CommonCoreOntologies:definition>
-        <rdfs:label>Pensions</rdfs:label>
     </owl:Class>
     
 
@@ -6875,12 +6883,12 @@ The terms &quot;retirement plan&quot; and &quot;superannuation&quot; tend to ref
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Patronage">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InformalInstitutions"/>
-        <CommonCoreOntologies:definition>In some countries the term [&quot;patronage&quot;] is used to describe political patronage, which is the use of state resources to reward individuals for their electoral support. Some patronage systems are legal, [such as a head of government&apos;s appointment powers]; in many cases, these appointments go to people who have supported the political party of the Prime Minister. As well, the term may refer to a type of corruption or favoritism in which a party in power rewards groups, families, ethnicities for their electoral support using illegal gifts or fraudulently awarded appointments or government contracts.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>&quot;Patronage&quot;, Wikipedia
+        <obo:IAO_0000115>In some countries the term [&quot;patronage&quot;] is used to describe political patronage, which is the use of state resources to reward individuals for their electoral support. Some patronage systems are legal, [such as a head of government&apos;s appointment powers]; in many cases, these appointments go to people who have supported the political party of the Prime Minister. As well, the term may refer to a type of corruption or favoritism in which a party in power rewards groups, families, ethnicities for their electoral support using illegal gifts or fraudulently awarded appointments or government contracts.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Patronage&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/Patronage</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Patronage</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -6889,6 +6897,10 @@ https://en.wikipedia.org/wiki/Patronage</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Pensions">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WelfareState"/>
+=======
+The terms &quot;retirement plan&quot; and &quot;superannuation&quot; tend to refer to a pension granted upon retirement of the individual. Retirement plans may be set up by employers, insurance companies, the government or other institutions such as employer associations or trade unions.</CommonCoreOntologies:definition>
+        <rdfs:label>Pensions</rdfs:label>
+>>>>>>> Finished demographics.
     </owl:Class>
     
 
@@ -7081,12 +7093,12 @@ Publication date : 2018-09
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PoliticalPartySystem">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Democracy"/>
-        <CommonCoreOntologies:definition>A political party is an organized group of people, often with common views, who come together to contest elections and hold power in the government. The party agrees on some proposed policies and programmes, with a view to promoting the collective good or furthering their supporters&apos; interests.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>&quot;Political Party&quot;, Wikipedia
+        <obo:IAO_0000115>A political party is an organized group of people, often with common views, who come together to contest elections and hold power in the government. The party agrees on some proposed policies and programmes, with a view to promoting the collective good or furthering their supporters&apos; interests.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Political Party&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/Political_party</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Political_party</obo:IAO_0000119>
         <rdfs:label>Political Party System</rdfs:label>
     </owl:Class>
     
@@ -7096,11 +7108,11 @@ https://en.wikipedia.org/wiki/Political_party</CommonCoreOntologies:definition_s
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PovertyReduction">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WelfareState"/>
-        <CommonCoreOntologies:definition_source>&quot;Poverty Reduction&quot;, Wikipedia
+        <obo:IAO_0000119>&quot;Poverty Reduction&quot;, Wikipedia
 
 March 22, 2019
 
-https://en.wikipedia.org/wiki/Poverty_reduction</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Poverty_reduction</obo:IAO_0000119>
         <CommonCoreOntologies:definition>Aid in its simplest form is a basic income grant, a form of social security periodically providing citizens with money. 
 
 ...
@@ -7127,12 +7139,12 @@ There are several poverty targeting methods through which poor communities are i
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PoliticalParties">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemocraticInsitutions"/>
-        <CommonCoreOntologies:definition>A political party is an organized group of people, often with common views, who come together to contest elections and hold power in the government. The party agrees on some proposed policies and programmes, with a view to promoting the collective good or furthering their supporters&apos; interests.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>&quot;Political Party&quot;, Wikipedia
+        <obo:IAO_0000115>A political party is an organized group of people, often with common views, who come together to contest elections and hold power in the government. The party agrees on some proposed policies and programmes, with a view to promoting the collective good or furthering their supporters&apos; interests.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Political Party&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/Political_party</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Political_party</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -7250,12 +7262,12 @@ Publication date : 2014-02
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#President">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Executive"/>
-        <CommonCoreOntologies:definition>In almost all states with a presidential system of government, the president exercises the functions of head of state and head of government, i.e. the president directs the executive branch of government.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>&quot;President&quot;, Wikipedia
+        <obo:IAO_0000115>In almost all states with a presidential system of government, the president exercises the functions of head of state and head of government, i.e. the president directs the executive branch of government.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;President&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/President#Presidential_systems</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/President#Presidential_systems</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -7264,12 +7276,12 @@ https://en.wikipedia.org/wiki/President#Presidential_systems</CommonCoreOntologi
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#President">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Executive"/>
-        <CommonCoreOntologies:definition>In almost all states with a presidential system of government, the president exercises the functions of head of state and head of government, i.e. the president directs the executive branch of government.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>&quot;President&quot;, Wikipedia
+        <obo:IAO_0000115>In almost all states with a presidential system of government, the president exercises the functions of head of state and head of government, i.e. the president directs the executive branch of government.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;President&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/President#Presidential_systems</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/President#Presidential_systems</obo:IAO_0000119>
         <rdfs:label>President</rdfs:label>
     </owl:Class>
     
@@ -7326,7 +7338,7 @@ Publication Date: 2016-09
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PrimeMinister">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Executive"/>
-        <CommonCoreOntologies:definition>A prime minister is the head of a cabinet and the leader of the ministers in the executive branch of government, often in a parliamentary or semi-presidential system.
+        <obo:IAO_0000115>A prime minister is the head of a cabinet and the leader of the ministers in the executive branch of government, often in a parliamentary or semi-presidential system.
 
 ...
 
@@ -7336,12 +7348,12 @@ In parliamentary systems fashioned after the Westminster system, the prime minis
 
 In many systems, the prime minister selects and may dismiss other members of the cabinet, and allocates posts to members within the government. In most systems, the prime minister is the presiding member and chairman of the cabinet. 
 
-The prime minister is often, but not always, a member of the Legislature or the Lower House thereof and is expected with other ministers to ensure the passage of bills through the legislature.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>&quot;Prime Minister&quot;, Wikipedia
+The prime minister is often, but not always, a member of the Legislature or the Lower House thereof and is expected with other ministers to ensure the passage of bills through the legislature.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Prime Minister&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/Prime_minister</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Prime_minister</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -7350,7 +7362,7 @@ https://en.wikipedia.org/wiki/Prime_minister</CommonCoreOntologies:definition_so
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PrimeMinister">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Executive"/>
-        <CommonCoreOntologies:definition>A prime minister is the head of a cabinet and the leader of the ministers in the executive branch of government, often in a parliamentary or semi-presidential system.
+        <obo:IAO_0000115>A prime minister is the head of a cabinet and the leader of the ministers in the executive branch of government, often in a parliamentary or semi-presidential system.
 
 ...
 
@@ -7360,12 +7372,12 @@ In parliamentary systems fashioned after the Westminster system, the prime minis
 
 In many systems, the prime minister selects and may dismiss other members of the cabinet, and allocates posts to members within the government. In most systems, the prime minister is the presiding member and chairman of the cabinet. 
 
-The prime minister is often, but not always, a member of the Legislature or the Lower House thereof and is expected with other ministers to ensure the passage of bills through the legislature.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>&quot;Prime Minister&quot;, Wikipedia
+The prime minister is often, but not always, a member of the Legislature or the Lower House thereof and is expected with other ministers to ensure the passage of bills through the legislature.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Prime Minister&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/Prime_minister</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Prime_minister</obo:IAO_0000119>
         <rdfs:label>Prime Mininster</rdfs:label>
     </owl:Class>
     
@@ -7467,11 +7479,11 @@ Publication date : 2014-02
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Productivity">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicDevelopment"/>
-        <CommonCoreOntologies:definition_source>&quot;Productivity&quot;, Wikipedia
+        <obo:IAO_0000119>&quot;Productivity&quot;, Wikipedia
 
 March 19, 2019
 
-https://en.wikipedia.org/wiki/Productivity</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Productivity</obo:IAO_0000119>
         <CommonCoreOntologies:definition>Productivity describes various measures of the efficiency of production. A productivity measure is expressed as the ratio of output to inputs used in a production process, i.e. output per unit of input. Productivity is a crucial factor in production performance of firms and nations. Increasing national productivity can raise living standards because more real income improves people&apos;s ability to purchase goods and services, enjoy leisure, improve housing and education and contribute to social and environmental programs. Productivity growth can also help businesses to be more profitable.</CommonCoreOntologies:definition>
     </owl:Class>
     
@@ -7481,11 +7493,11 @@ https://en.wikipedia.org/wiki/Productivity</CommonCoreOntologies:definition_sour
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Productivity">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicDevelopment"/>
-        <CommonCoreOntologies:definition_source>&quot;Productivity&quot;, Wikipedia
+        <obo:IAO_0000119>&quot;Productivity&quot;, Wikipedia
 
 March 19, 2019
 
-https://en.wikipedia.org/wiki/Productivity</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Productivity</obo:IAO_0000119>
         <CommonCoreOntologies:definition>Productivity describes various measures of the efficiency of production. A productivity measure is expressed as the ratio of output to inputs used in a production process, i.e. output per unit of input. Productivity is a crucial factor in production performance of firms and nations. Increasing national productivity can raise living standards because more real income improves people&apos;s ability to purchase goods and services, enjoy leisure, improve housing and education and contribute to social and environmental programs. Productivity growth can also help businesses to be more profitable.</CommonCoreOntologies:definition>
         <rdfs:label>Productivity</rdfs:label>
     </owl:Class>
@@ -7504,14 +7516,14 @@ https://en.wikipedia.org/wiki/Productivity</CommonCoreOntologies:definition_sour
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Propaganda">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Authoritariansim"/>
-        <CommonCoreOntologies:definition>Propaganda [is] dissemination of information—facts, arguments, rumours, half-truths, or lies—to influence public opinion.
+        <obo:IAO_0000115>Propaganda [is] dissemination of information—facts, arguments, rumours, half-truths, or lies—to influence public opinion.
 
-Propaganda is the more or less systematic effort to manipulate other people’s beliefs, attitudes, or actions by means of symbols..... The propagandist...deliberately selects facts, arguments, and displays of symbols and presents them in ways he thinks will have the most effect. To maximize effect, he may omit pertinent facts or distort them, and he may try to divert the attention of the...people whom he is trying to sway...from everything but his own propaganda.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>Bruce Lannes Smith, &quot;Propaganda&quot;
+Propaganda is the more or less systematic effort to manipulate other people’s beliefs, attitudes, or actions by means of symbols..... The propagandist...deliberately selects facts, arguments, and displays of symbols and presents them in ways he thinks will have the most effect. To maximize effect, he may omit pertinent facts or distort them, and he may try to divert the attention of the...people whom he is trying to sway...from everything but his own propaganda.</obo:IAO_0000115>
+        <obo:IAO_0000119>Bruce Lannes Smith, &quot;Propaganda&quot;
 
 March 12, 2019
 
-https://www.britannica.com/topic/propaganda</CommonCoreOntologies:definition_source>
+https://www.britannica.com/topic/propaganda</obo:IAO_0000119>
         <rdfs:label>Propaganda</rdfs:label>
     </owl:Class>
     
@@ -7529,14 +7541,14 @@ https://www.britannica.com/topic/propaganda</CommonCoreOntologies:definition_sou
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Propaganda">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AuthoritarianInstitutions"/>
-        <CommonCoreOntologies:definition>Propaganda [is] dissemination of information—facts, arguments, rumours, half-truths, or lies—to influence public opinion.
+        <obo:IAO_0000115>Propaganda [is] dissemination of information—facts, arguments, rumours, half-truths, or lies—to influence public opinion.
 
-Propaganda is the more or less systematic effort to manipulate other people’s beliefs, attitudes, or actions by means of symbols.....The propagandist...deliberately selects facts, arguments, and displays of symbols and presents them in ways he thinks will have the most effect. To maximize effect, he may omit pertinent facts or distort them, and he may try to divert the attention of the...people whom he is trying to sway...from everything but his own propaganda.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>Bruce Lannes Smith, &quot;Propaganda&quot;
+Propaganda is the more or less systematic effort to manipulate other people’s beliefs, attitudes, or actions by means of symbols.....The propagandist...deliberately selects facts, arguments, and displays of symbols and presents them in ways he thinks will have the most effect. To maximize effect, he may omit pertinent facts or distort them, and he may try to divert the attention of the...people whom he is trying to sway...from everything but his own propaganda.</obo:IAO_0000115>
+        <obo:IAO_0000119>Bruce Lannes Smith, &quot;Propaganda&quot;
 
 March 12, 2019
 
-https://www.britannica.com/topic/propaganda</CommonCoreOntologies:definition_source>
+https://www.britannica.com/topic/propaganda</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -7707,11 +7719,11 @@ Projections made in 2018 by ARL and TRADOC
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RefugeesAndDisplacedPersons">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Migration"/>
-        <CommonCoreOntologies:definition_source>&quot;What Is a Refugee?&quot;, USA for UNHCR
+        <obo:IAO_0000119>&quot;What Is a Refugee?&quot;, USA for UNHCR
 
 March 25, 2019
 
-https://www.unrefugees.org/refugee-facts/what-is-a-refugee/</CommonCoreOntologies:definition_source>
+https://www.unrefugees.org/refugee-facts/what-is-a-refugee/</obo:IAO_0000119>
         <CommonCoreOntologies:definition>Who is a refugee?
 
 A refugee is someone who has been forced to flee his or her country because of persecution, war or violence. A refugee has a well-founded fear of persecution for reasons of race, religion, nationality, political opinion or membership in a particular social group. Most likely, they cannot return home or are afraid to do so. War and ethnic, tribal and religious violence are leading causes of refugees fleeing their countries.
@@ -7859,18 +7871,18 @@ Publication date : 2018-12
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Repression">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AuthoritarianInstitutions"/>
-        <CommonCoreOntologies:definition>Political repression is the persecution of an individual or group within society for political reasons, particularly for the purpose of restricting or preventing their ability to take part in the political life of a society thereby reducing their standing among their fellow citizens.
+        <obo:IAO_0000115>Political repression is the persecution of an individual or group within society for political reasons, particularly for the purpose of restricting or preventing their ability to take part in the political life of a society thereby reducing their standing among their fellow citizens.
 
 ...
 
 It often is manifested through discriminatory policies, such as human rights violations, surveillance abuse, police brutality, imprisonment, involuntary settlement, stripping of citizen&apos;s rights, lustration and violent action or terror such as the murder, summary executions, torture, forced disappearance and other extrajudicial punishment of political activists, dissidents, or general population. Political repression can also be reinforced by means outside of written policy, such as by public and private media ownership and by self-censorship within the public.
 
-Where political repression is sanctioned and organised by the state, it may constitute state terrorism, genocide, politicide or crimes against humanity. Systemic and violent political repression is a typical feature of dictatorships, totalitarian states and similar regimes. Acts of political repression may be carried out by secret police forces, army, paramilitary groups or death squads.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>&quot;Politiical Repression&quot;, Wikipedia
+Where political repression is sanctioned and organised by the state, it may constitute state terrorism, genocide, politicide or crimes against humanity. Systemic and violent political repression is a typical feature of dictatorships, totalitarian states and similar regimes. Acts of political repression may be carried out by secret police forces, army, paramilitary groups or death squads.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Politiical Repression&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/Political_repression</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Political_repression</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -7879,18 +7891,18 @@ https://en.wikipedia.org/wiki/Political_repression</CommonCoreOntologies:definit
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Repression">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Authoritariansim"/>
-        <CommonCoreOntologies:definition>Political repression is the persecution of an individual or group within society for political reasons, particularly for the purpose of restricting or preventing their ability to take part in the political life of a society thereby reducing their standing among their fellow citizens.
+        <obo:IAO_0000115>Political repression is the persecution of an individual or group within society for political reasons, particularly for the purpose of restricting or preventing their ability to take part in the political life of a society thereby reducing their standing among their fellow citizens.
 
 ...
 
 It often is manifested through discriminatory policies, such as human rights violations, surveillance abuse, police brutality, imprisonment, involuntary settlement, stripping of citizen&apos;s rights, lustration and violent action or terror such as the murder, summary executions, torture, forced disappearance and other extrajudicial punishment of political activists, dissidents, or general population. Political repression can also be reinforced by means outside of written policy, such as by public and private media ownership and by self-censorship within the public.
 
-Where political repression is sanctioned and organised by the state, it may constitute state terrorism, genocide, politicide or crimes against humanity. Systemic and violent political repression is a typical feature of dictatorships, totalitarian states and similar regimes. Acts of political repression may be carried out by secret police forces, army, paramilitary groups or death squads.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>&quot;Politiical Repression&quot;, Wikipedia
+Where political repression is sanctioned and organised by the state, it may constitute state terrorism, genocide, politicide or crimes against humanity. Systemic and violent political repression is a typical feature of dictatorships, totalitarian states and similar regimes. Acts of political repression may be carried out by secret police forces, army, paramilitary groups or death squads.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Politiical Repression&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/Political_repression</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Political_repression</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -7941,11 +7953,11 @@ Publication date : 2018-02
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ResourceExtraction">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicActivity"/>
-        <CommonCoreOntologies:definition_source>&quot;Natural Resource&quot;, Wikipedia
+        <obo:IAO_0000119>&quot;Natural Resource&quot;, Wikipedia
 
 March 13, 2019
 
-https://en.wikipedia.org/wiki/Natural_resource#Extraction</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Natural_resource#Extraction</obo:IAO_0000119>
         <CommonCoreOntologies:definition>Extraction produces raw material, which is then processed to add value. Examples of extractive industries are hunting, trapping, mining, oil and gas drilling, and forestry. Natural resources can add substantial amounts to a country&apos;s wealth, however, a sudden inflow of money caused by a resource boom can create social problems including inflation harming other industries (&quot;Dutch disease&quot;) and corruption, leading to inequality and underdevelopment, this is known as the &quot;resource curse&quot;.</CommonCoreOntologies:definition>
     </owl:Class>
     
@@ -7955,11 +7967,11 @@ https://en.wikipedia.org/wiki/Natural_resource#Extraction</CommonCoreOntologies:
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ResourceExtraction">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicActivity"/>
-        <CommonCoreOntologies:definition_source>&quot;Natural Resource&quot;, Wikipedia
+        <obo:IAO_0000119>&quot;Natural Resource&quot;, Wikipedia
 
 March 13, 2019
 
-https://en.wikipedia.org/wiki/Natural_resource#Extraction</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Natural_resource#Extraction</obo:IAO_0000119>
         <CommonCoreOntologies:definition>Extraction produces raw material, which is then processed to add value. Examples of extractive industries are hunting, trapping, mining, oil and gas drilling, and forestry. Natural resources can add substantial amounts to a country&apos;s wealth, however, a sudden inflow of money caused by a resource boom can create social problems including inflation harming other industries (&quot;Dutch disease&quot;) and corruption, leading to inequality and underdevelopment, this is known as the &quot;resource curse&quot;.</CommonCoreOntologies:definition>
         <rdfs:label>Resource Extraction</rdfs:label>
     </owl:Class>
@@ -8453,26 +8465,26 @@ Publication date : 2016-08
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RuleOfLaw">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#JudicialSystem"/>
-        <CommonCoreOntologies:definition>(1)
+        <obo:IAO_0000115>(1)
 
-In general, the rule of law implies that the creation of laws, their enforcement, and the relationships among legal rules are themselves legally regulated, so that no one—including the most highly placed official—is above the law. The legal constraint on rulers means that the government is subject to existing laws as much as its citizens are. Thus, a closely related notion is the idea of equality before the law, which holds that no “legal” person shall enjoy privileges that are not extended to all and that no person shall be immune from legal sanctions.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition>(2)
+In general, the rule of law implies that the creation of laws, their enforcement, and the relationships among legal rules are themselves legally regulated, so that no one—including the most highly placed official—is above the law. The legal constraint on rulers means that the government is subject to existing laws as much as its citizens are. Thus, a closely related notion is the idea of equality before the law, which holds that no “legal” person shall enjoy privileges that are not extended to all and that no person shall be immune from legal sanctions.</obo:IAO_0000115>
+        <obo:IAO_0000115>(2)
 
-Judicial independence means that judges are independent from political pressures and influences when they make their decisions. An independent judiciary is essential to maintaining the rule of law. Judges should not be pressured by a political party, a private interest, or popular opinion when they are called upon to determine what the law requires. Keeping the judiciary independent of these influences ensures that everyone has a fair chance to make their case in court and that judges will be impartial in making their decisions. Judges also must explain their decisions in public written opinions, and their decisions can be appealed to a higher court for review. These elements of judicial decision- making ensure that judges remain accountable to the rule of law.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>(1)
+Judicial independence means that judges are independent from political pressures and influences when they make their decisions. An independent judiciary is essential to maintaining the rule of law. Judges should not be pressured by a political party, a private interest, or popular opinion when they are called upon to determine what the law requires. Keeping the judiciary independent of these influences ensures that everyone has a fair chance to make their case in court and that judges will be impartial in making their decisions. Judges also must explain their decisions in public written opinions, and their decisions can be appealed to a higher court for review. These elements of judicial decision- making ensure that judges remain accountable to the rule of law.</obo:IAO_0000115>
+        <obo:IAO_0000119>(1)
 
 Naomi Choi, &quot;Rule of Law, Political Philosophy&quot;, Encyclopedia Britannica
 
 March 12, 2019
 
-https://www.britannica.com/topic/rule-of-law</CommonCoreOntologies:definition_source>
-        <CommonCoreOntologies:definition_source>(2)
+https://www.britannica.com/topic/rule-of-law</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
 
 &quot;What Is the Rule of Law&quot;, American Bar Association Rule of Law Initiative
 
 March 12, 2019
 
-https://www.americanbar.org/advocacy/rule_of_law/what-is-the-rule-of-law/</CommonCoreOntologies:definition_source>
+https://www.americanbar.org/advocacy/rule_of_law/what-is-the-rule-of-law/</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -8489,37 +8501,34 @@ https://www.americanbar.org/advocacy/rule_of_law/what-is-the-rule-of-law/</Commo
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RuleOfLaw">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#JudicialSystem"/>
-        <CommonCoreOntologies:definition>(1)
+        <obo:IAO_0000115>(1)
 
-In general, the rule of law implies that the creation of laws, their enforcement, and the relationships among legal rules are themselves legally regulated, so that no one—including the most highly placed official—is above the law. The legal constraint on rulers means that the government is subject to existing laws as much as its citizens are. Thus, a closely related notion is the idea of equality before the law, which holds that no “legal” person shall enjoy privileges that are not extended to all and that no person shall be immune from legal sanctions.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition>(2)
+In general, the rule of law implies that the creation of laws, their enforcement, and the relationships among legal rules are themselves legally regulated, so that no one—including the most highly placed official—is above the law. The legal constraint on rulers means that the government is subject to existing laws as much as its citizens are. Thus, a closely related notion is the idea of equality before the law, which holds that no “legal” person shall enjoy privileges that are not extended to all and that no person shall be immune from legal sanctions.</obo:IAO_0000115>
+        <obo:IAO_0000115>(2)
 
-Judicial independence means that judges are independent from political pressures and influences when they make their decisions. An independent judiciary is essential to maintaining the rule of law. Judges should not be pressured by a political party, a private interest, or popular opinion when they are called upon to determine what the law requires. Keeping the judiciary independent of these influences ensures that everyone has a fair chance to make their case in court and that judges will be impartial in making their decisions. Judges also must explain their decisions in public written opinions, and their decisions can be appealed to a higher court for review. These elements of judicial decision- making ensure that judges remain accountable to the rule of law.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>(1)
+Judicial independence means that judges are independent from political pressures and influences when they make their decisions. An independent judiciary is essential to maintaining the rule of law. Judges should not be pressured by a political party, a private interest, or popular opinion when they are called upon to determine what the law requires. Keeping the judiciary independent of these influences ensures that everyone has a fair chance to make their case in court and that judges will be impartial in making their decisions. Judges also must explain their decisions in public written opinions, and their decisions can be appealed to a higher court for review. These elements of judicial decision- making ensure that judges remain accountable to the rule of law.</obo:IAO_0000115>
+        <obo:IAO_0000119>(1)
 
 Naomi Choi, &quot;Rule of Law, Political Philosophy&quot;, Encyclopedia Britannica
 
 March 12, 2019
 
-https://www.britannica.com/topic/rule-of-law</CommonCoreOntologies:definition_source>
-        <CommonCoreOntologies:definition_source>(2)
+https://www.britannica.com/topic/rule-of-law</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
 
 &quot;What Is the Rule of Law&quot;, American Bar Association Rule of Law Initiative
 
 March 12, 2019
 
-https://www.americanbar.org/advocacy/rule_of_law/what-is-the-rule-of-law/</CommonCoreOntologies:definition_source>
-        <rdfs:label>Rule of Law</rdfs:label>
+https://www.americanbar.org/advocacy/rule_of_law/what-is-the-rule-of-law/</obo:IAO_0000119>
     </owl:Class>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Rural-urbanMigration -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RuralUrbanMigration -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Rural-urbanMigration">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RuralUrbanMigration">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Migration"/>
-        <obo:IAO_0000232>See the &quot;Urbanization&quot; class.  For a topic model that makes the sub-categories of &quot;Demographics&quot; topics in their own right, some or all of the vocabulary from &quot;Urbanization&quot;--at least, that pertaining to migration per se--would need to be duplicated here.</obo:IAO_0000232>
-        <rdfs:label>Rural-urban Migration</rdfs:label>
     </owl:Class>
     
 
@@ -8649,14 +8658,30 @@ Publication date : 2014-02
         <CommonCoreOntologies:definition>part of a control system that responds to safety-related input signals and generates safety-related output signals</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 13482:2014
 
+<<<<<<< HEAD
 Robots and robotic devices -- Safety requirements for personal care robots
+=======
+https://www.americanbar.org/advocacy/rule_of_law/what-is-the-rule-of-law/</obo:IAO_0000119>
+        <rdfs:label>Rule of Law</rdfs:label>
+    </owl:Class>
+    
+>>>>>>> Finished demographics.
 
 ICS : 25.040.30 Industrial robots. Manipulators 
 
+<<<<<<< HEAD
 Publication date : 2014-02
 
 1st Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Safety Related Part Of A Control System</rdfs:label>
+=======
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Rural-urbanMigration -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Rural-urbanMigration">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Migration"/>
+        <obo:IAO_0000232>See the &quot;Urbanization&quot; class.  For a topic model that makes the sub-categories of &quot;Demographics&quot; topics in their own right, some or all of the vocabulary from &quot;Urbanization&quot;--at least, that pertaining to migration per se--would need to be duplicated here.</obo:IAO_0000232>
+        <rdfs:label>Rural-urban Migration</rdfs:label>
+>>>>>>> Finished demographics.
     </owl:Class>
     
 
@@ -8938,23 +8963,23 @@ Publication date : 2014-02
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Services">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicActivity"/>
-        <CommonCoreOntologies:definition_source>(1)
+        <obo:IAO_0000119>(1)
 
 Editors of Encyclopaedia Britannica, &quot;Service Industry, Economics&quot;, Encyclodpaedia Britannica
 
 March 14, 2019
 
-https://www.britannica.com/topic/service-industry</CommonCoreOntologies:definition_source>
-        <CommonCoreOntologies:definition_source>(2)
+https://www.britannica.com/topic/service-industry</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
 
 &quot;What is Service Sector&quot;, IGI Global
 
-https://www.igi-global.com/dictionary/service-sector/47133</CommonCoreOntologies:definition_source>
-        <CommonCoreOntologies:definition_source>(3)
+https://www.igi-global.com/dictionary/service-sector/47133</obo:IAO_0000119>
+        <obo:IAO_0000119>(3)
 
 Will Kenton, &quot;Service Sector&quot;, Investopedia
 
-https://www.investopedia.com/terms/s/service-sector.asp</CommonCoreOntologies:definition_source>
+https://www.investopedia.com/terms/s/service-sector.asp</obo:IAO_0000119>
         <CommonCoreOntologies:definition>(1)
 
 Service industries include everything else: banking, communications, wholesale and retail trade, all professional services such as engineering, computer software development, and medicine, nonprofit economic activity, all consumer services, and all government services, including defense and administration of justice.</CommonCoreOntologies:definition>
@@ -8972,23 +8997,23 @@ Technology, specifically information technology systems, is shaping the way busi
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ServiceSector">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicActivity"/>
-        <CommonCoreOntologies:definition_source>(1)
+        <obo:IAO_0000119>(1)
 
 Editors of Encyclopaedia Britannica, &quot;Service Industry, Economics&quot;, Encyclodpaedia Britannica
 
 March 14, 2019
 
-https://www.britannica.com/topic/service-industry</CommonCoreOntologies:definition_source>
-        <CommonCoreOntologies:definition_source>(2)
+https://www.britannica.com/topic/service-industry</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
 
 &quot;What is Service Sector&quot;, IGI Global
 
-https://www.igi-global.com/dictionary/service-sector/47133</CommonCoreOntologies:definition_source>
-        <CommonCoreOntologies:definition_source>(3)
+https://www.igi-global.com/dictionary/service-sector/47133</obo:IAO_0000119>
+        <obo:IAO_0000119>(3)
 
 Will Kenton, &quot;Service Sector&quot;, Investopedia
 
-https://www.investopedia.com/terms/s/service-sector.asp</CommonCoreOntologies:definition_source>
+https://www.investopedia.com/terms/s/service-sector.asp</obo:IAO_0000119>
         <CommonCoreOntologies:definition>(1)
 
 Service industries include everything else: banking, communications, wholesale and retail trade, all professional services such as engineering, computer software development, and medicine, nonprofit economic activity, all consumer services, and all government services, including defense and administration of justice.</CommonCoreOntologies:definition>
@@ -9007,11 +9032,11 @@ Technology, specifically information technology systems, is shaping the way busi
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Sex-selectiveAbortion">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SkewedSexRatio"/>
-        <CommonCoreOntologies:definition_source>&quot;Sex-selective Abortions During Past Three Decades May Explain Absence of Millions of Girls in India&quot;, International Perspectives on Sexual and Reproductive Health
+        <obo:IAO_0000119>&quot;Sex-selective Abortions During Past Three Decades May Explain Absence of Millions of Girls in India&quot;, International Perspectives on Sexual and Reproductive Health
 
 September 27, 2011
 
-https://www.guttmacher.org/journals/ipsrh/2011/09/sex-selective-abortions-during-past-three-decades-may-explain-absence</CommonCoreOntologies:definition_source>
+https://www.guttmacher.org/journals/ipsrh/2011/09/sex-selective-abortions-during-past-three-decades-may-explain-absence</obo:IAO_0000119>
         <CommonCoreOntologies:definition>[The researchers] suggest that the increases in sex-selective abortion may be due to son preference combined with declines in fertility; the finding that selective abortion of females appears to be especially common among educated and wealthy women may reflect that these women are better able than others to afford ultrasound and abortion services.</CommonCoreOntologies:definition>
         <rdfs:label>Sex-selective Abortion</rdfs:label>
     </owl:Class>
@@ -9022,11 +9047,11 @@ https://www.guttmacher.org/journals/ipsrh/2011/09/sex-selective-abortions-during
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Shantytown">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Urbanization"/>
-        <CommonCoreOntologies:definition_source>&quot;Shanty Town&quot;, Wikipedia
+        <obo:IAO_0000119>&quot;Shanty Town&quot;, Wikipedia
 
 March 26, 2019
 
-https://en.wikipedia.org/wiki/Shanty_town</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Shanty_town</obo:IAO_0000119>
         <CommonCoreOntologies:definition>A shanty town or squatter area is a settlement of improvised housing which is known as shanties or shacks, made of plywood, corrugated metal, sheets of plastic, and cardboard boxes. Such settlements are usually found on the periphery of cities, in public parks, or near railroad tracks, rivers, lagoons or city trash dump sites. Sometimes called a squatter, or spontaneous settlement, a typical shanty town often lacks adequate infrastructure, including proper sanitation, safe water supply, electricity, hygienic streets, or other basic necessities to support human settlements.
 
 Shanty towns are mostly found in developing nations....
@@ -9128,20 +9153,20 @@ Publication date : 2018-12
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SkewedSexRatio">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics"/>
-        <CommonCoreOntologies:definition_source>(1)
+        <obo:IAO_0000119>(1)
 
 Jospeh Chamie, &quot;Six Asian Nations Lead in Seriously Skewed Sex Ratios as Birth&quot;, PassBlue
 
 September 28, 2016
 
-https://www.passblue.com/2016/09/28/six-asian-nations-lead-in-seriously-skewed-sex-ratios-at-birth/</CommonCoreOntologies:definition_source>
-        <CommonCoreOntologies:definition_source>(2)
+https://www.passblue.com/2016/09/28/six-asian-nations-lead-in-seriously-skewed-sex-ratios-at-birth/</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
 
 Simon Denyer &amp; Annie Gowen, &quot;Too Many Men:  China and India Battle with the Consequences of Gender Imbalance&quot;
 
 April 24, 2018
 
-https://www.scmp.com/magazines/post-magazine/long-reads/article/2142658/too-many-men-china-and-india-battle-consequences</CommonCoreOntologies:definition_source>
+https://www.scmp.com/magazines/post-magazine/long-reads/article/2142658/too-many-men-china-and-india-battle-consequences</obo:IAO_0000119>
         <CommonCoreOntologies:definition>(1)
 
 [S]ex imbalances at birth are primarily a result of a combination of three important factors: a strong preference of couples for sons over daughters; fetal-sex determination followed by abortions of female fetuses; and rapid declines in the number of children per couple to comparatively low levels.</CommonCoreOntologies:definition>
@@ -9407,28 +9432,28 @@ https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SupranationalOrganizations">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalInstitutions"/>
-        <CommonCoreOntologies:definition>(1)
+        <obo:IAO_0000115>(1)
 
-A supranational union is a type of multinational political union where negotiated power is delegated to an authority by governments of member states.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition>(2)
+A supranational union is a type of multinational political union where negotiated power is delegated to an authority by governments of member states.</obo:IAO_0000115>
+        <obo:IAO_0000115>(2)
 
 In addition to basic trade, supranational organizations may be involved in other activities designed to promote international standards. This can include activities related to food production, such as agriculture and fisheries, and those concerning the environment or energy production.
 
-Supranational organizations may also be involved in education and forms of foreign aid or assistance to countries. Certain organizations are involved in areas with significant political impact on the member nations, including arms, the acceptable treatment of prisoners of war, nuclear power, and other nuclear-development capabilities.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>(1)
+Supranational organizations may also be involved in education and forms of foreign aid or assistance to countries. Certain organizations are involved in areas with significant political impact on the member nations, including arms, the acceptable treatment of prisoners of war, nuclear power, and other nuclear-development capabilities.</obo:IAO_0000115>
+        <obo:IAO_0000119>(1)
 
 &quot;Supranational Union&quot;, Wikipedia
 
 March 13, 2019
 
-https://en.wikipedia.org/wiki/Supranational_union</CommonCoreOntologies:definition_source>
-        <CommonCoreOntologies:definition_source>(2)
+https://en.wikipedia.org/wiki/Supranational_union</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
 
 Marshall Hargrave, &quot;Supranational&quot;, Investopedia
 
 March 13, 2019
 
-https://www.investopedia.com/terms/s/supranational.asp</CommonCoreOntologies:definition_source>
+https://www.investopedia.com/terms/s/supranational.asp</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -9453,28 +9478,28 @@ https://www.investopedia.com/terms/s/supranational.asp</CommonCoreOntologies:def
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SupranationalOrganization">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalSystem"/>
-        <CommonCoreOntologies:definition>(1)
+        <obo:IAO_0000115>(1)
 
-A supranational union is a type of multinational political union where negotiated power is delegated to an authority by governments of member states.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition>(2)
+A supranational union is a type of multinational political union where negotiated power is delegated to an authority by governments of member states.</obo:IAO_0000115>
+        <obo:IAO_0000115>(2)
 
 In addition to basic trade, supranational organizations may be involved in other activities designed to promote international standards. This can include activities related to food production, such as agriculture and fisheries, and those concerning the environment or energy production.
 
-Supranational organizations may also be involved in education and forms of foreign aid or assistance to countries. Certain organizations are involved in areas with significant political impact on the member nations, including arms, the acceptable treatment of prisoners of war, nuclear power, and other nuclear-development capabilities.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>(1)
+Supranational organizations may also be involved in education and forms of foreign aid or assistance to countries. Certain organizations are involved in areas with significant political impact on the member nations, including arms, the acceptable treatment of prisoners of war, nuclear power, and other nuclear-development capabilities.</obo:IAO_0000115>
+        <obo:IAO_0000119>(1)
 
 &quot;Supranational Union&quot;, Wikipedia
 
 March 13, 2019
 
-https://en.wikipedia.org/wiki/Supranational_union</CommonCoreOntologies:definition_source>
-        <CommonCoreOntologies:definition_source>(2)
+https://en.wikipedia.org/wiki/Supranational_union</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
 
 Marshall Hargrave, &quot;Supranational&quot;, Investopedia
 
 March 13, 2019
 
-https://www.investopedia.com/terms/s/supranational.asp</CommonCoreOntologies:definition_source>
+https://www.investopedia.com/terms/s/supranational.asp</obo:IAO_0000119>
         <rdfs:label>Supranational Organization</rdfs:label>
     </owl:Class>
     
@@ -9668,20 +9693,20 @@ Projections made in 2018 by ARL and TRADOC
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Tariffs">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalTrade"/>
-        <CommonCoreOntologies:definition_source>(1)
+        <obo:IAO_0000119>(1)
 
 &quot;Tariffs&quot;, World Trade Organization
 
 March 21, 2019
 
-https://www.wto.org/english/tratop_e/tariffs_e/tariffs_e.htm</CommonCoreOntologies:definition_source>
-        <CommonCoreOntologies:definition_source>(2)
+https://www.wto.org/english/tratop_e/tariffs_e/tariffs_e.htm</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
 
 Will Kenton, &quot;Tariff&quot;, Investopedia
 
 February 16, 2019
 
-https://www.investopedia.com/terms/t/tariff.asp</CommonCoreOntologies:definition_source>
+https://www.investopedia.com/terms/t/tariff.asp</obo:IAO_0000119>
         <CommonCoreOntologies:definition>(1)
 
 Customs duties on merchandise imports are called tariffs. Tariffs give a price advantage to locally-produced goods over similar goods which are imported, and they raise revenues for governments.</CommonCoreOntologies:definition>
@@ -9883,11 +9908,11 @@ Publication date : 2018-02
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TradeAgreement">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalTrade"/>
-        <CommonCoreOntologies:definition_source>Letricia Dixon &amp; Editors of Encyclopaedia Britannica, &quot;Trade Agreement&quot;, Encyclopaedia Britannica
+        <obo:IAO_0000119>Letricia Dixon &amp; Editors of Encyclopaedia Britannica, &quot;Trade Agreement&quot;, Encyclopaedia Britannica
 
 March 21, 2019
 
-https://www.britannica.com/topic/trade-agreement</CommonCoreOntologies:definition_source>
+https://www.britannica.com/topic/trade-agreement</obo:IAO_0000119>
         <CommonCoreOntologies:definition>Trade agreements are one way to reduce [trade] barriers, thereby opening all parties to the benefits of increased trade.
 
 ...
@@ -9964,12 +9989,12 @@ Publication date : 2016-08
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Two-partySystem">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PoliticalParties"/>
-        <CommonCoreOntologies:definition>A two-party system is a party system where two major political parties dominate the government. One of the two parties typically holds a majority in the legislature and is usually referred to as the majority or governing party while the other is the minority or opposition party. Around the world, the term has different senses. [In some countries], the sense of two-party system describes an arrangement in which all or nearly all elected officials belong to one of the only two major parties, and third parties rarely win any seats in the legislature. In such arrangements, two-party systems are thought to result from various factors like winner-takes-all election rules. In such systems, while chances for third-party candidates winning election to major national office are remote, it is possible for groups within the larger parties, or in opposition to one or both of them, to exert influence on the two major parties. In contrast, in [some] parliamentary systems and elsewhere, the term two-party system is sometimes used to indicate an arrangement in which two major parties dominate elections but in which there are viable third parties which do win seats in the legislature, and in which the two major parties exert proportionately greater influence than their percentage of votes would suggest.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>&quot;Two-party System&quot;, Wikipedia
+        <obo:IAO_0000115>A two-party system is a party system where two major political parties dominate the government. One of the two parties typically holds a majority in the legislature and is usually referred to as the majority or governing party while the other is the minority or opposition party. Around the world, the term has different senses. [In some countries], the sense of two-party system describes an arrangement in which all or nearly all elected officials belong to one of the only two major parties, and third parties rarely win any seats in the legislature. In such arrangements, two-party systems are thought to result from various factors like winner-takes-all election rules. In such systems, while chances for third-party candidates winning election to major national office are remote, it is possible for groups within the larger parties, or in opposition to one or both of them, to exert influence on the two major parties. In contrast, in [some] parliamentary systems and elsewhere, the term two-party system is sometimes used to indicate an arrangement in which two major parties dominate elections but in which there are viable third parties which do win seats in the legislature, and in which the two major parties exert proportionately greater influence than their percentage of votes would suggest.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Two-party System&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/Two-party_system</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Two-party_system</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -9978,12 +10003,12 @@ https://en.wikipedia.org/wiki/Two-party_system</CommonCoreOntologies:definition_
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Two-partySystem">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PoliticalPartySystem"/>
-        <CommonCoreOntologies:definition>A two-party system is a party system where two major political parties dominate the government. One of the two parties typically holds a majority in the legislature and is usually referred to as the majority or governing party while the other is the minority or opposition party. Around the world, the term has different senses. [In some countries], the sense of two-party system describes an arrangement in which all or nearly all elected officials belong to one of the only two major parties, and third parties rarely win any seats in the legislature. In such arrangements, two-party systems are thought to result from various factors like winner-takes-all election rules. In such systems, while chances for third-party candidates winning election to major national office are remote, it is possible for groups within the larger parties, or in opposition to one or both of them, to exert influence on the two major parties. In contrast, in [some] parliamentary systems and elsewhere, the term two-party system is sometimes used to indicate an arrangement in which two major parties dominate elections but in which there are viable third parties which do win seats in the legislature, and in which the two major parties exert proportionately greater influence than their percentage of votes would suggest.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>&quot;Two-party System&quot;, Wikipedia
+        <obo:IAO_0000115>A two-party system is a party system where two major political parties dominate the government. One of the two parties typically holds a majority in the legislature and is usually referred to as the majority or governing party while the other is the minority or opposition party. Around the world, the term has different senses. [In some countries], the sense of two-party system describes an arrangement in which all or nearly all elected officials belong to one of the only two major parties, and third parties rarely win any seats in the legislature. In such arrangements, two-party systems are thought to result from various factors like winner-takes-all election rules. In such systems, while chances for third-party candidates winning election to major national office are remote, it is possible for groups within the larger parties, or in opposition to one or both of them, to exert influence on the two major parties. In contrast, in [some] parliamentary systems and elsewhere, the term two-party system is sometimes used to indicate an arrangement in which two major parties dominate elections but in which there are viable third parties which do win seats in the legislature, and in which the two major parties exert proportionately greater influence than their percentage of votes would suggest.</obo:IAO_0000115>
+        <obo:IAO_0000119>&quot;Two-party System&quot;, Wikipedia
 
 March 12, 2019
 
-https://en.wikipedia.org/wiki/Two-party_system</CommonCoreOntologies:definition_source>
+https://en.wikipedia.org/wiki/Two-party_system</obo:IAO_0000119>
         <rdfs:label>Two-party System</rdfs:label>
     </owl:Class>
     
@@ -10036,11 +10061,11 @@ Publication date : 2014-02
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnemploymentBenefits">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WelfareState"/>
-        <CommonCoreOntologies:definition_source>Julia Kagan, &quot;Unemployment Compensatin&quot;, Investopedia
+        <obo:IAO_0000119>Julia Kagan, &quot;Unemployment Compensatin&quot;, Investopedia
 
 Feb 23, 2018
 
-https://www.investopedia.com/terms/u/unemployment-compensation.asp</CommonCoreOntologies:definition_source>
+https://www.investopedia.com/terms/u/unemployment-compensation.asp</obo:IAO_0000119>
         <CommonCoreOntologies:definition>Unemployment compensation is paid by the state to unemployed workers who have lost their jobs due to layoffs or retrenchment. Unemployment compensation is meant to provide a source of income for jobless workers until they can find employment. In order to be eligible for it, certain criteria must be satisfied by an unemployed worker, such as having worked for a minimum stipulated period and actively looking for employment. Unemployment compensation provides partial income replacement..... It&apos;s also known as unemployment insurance or unemployment benefits.</CommonCoreOntologies:definition>
         <rdfs:label>Unemployment Benefits</rdfs:label>
     </owl:Class>
@@ -10111,11 +10136,11 @@ https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UrbanSprawl">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Urbanization"/>
-        <CommonCoreOntologies:definition_source>&quot;What Is Urban Sprawl?&quot;, Conserve Energy Future
+        <obo:IAO_0000119>&quot;What Is Urban Sprawl?&quot;, Conserve Energy Future
 
 March 26, 2019
 
-https://www.conserve-energy-future.com/causes-and-effects-of-urban-sprawl.php</CommonCoreOntologies:definition_source>
+https://www.conserve-energy-future.com/causes-and-effects-of-urban-sprawl.php</obo:IAO_0000119>
         <CommonCoreOntologies:definition>[Urban sprawl] refers to the migration of a population from populated towns and cities to low density residential development over more and more rural land.
  ...
 
@@ -10129,11 +10154,11 @@ https://www.conserve-energy-future.com/causes-and-effects-of-urban-sprawl.php</C
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Urbanization">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics"/>
-        <CommonCoreOntologies:definition_source>Josy O&apos;Donnel, &quot;What is Urbanization and What are the Positive and Negative Effects?, Conservation Institute
+        <obo:IAO_0000119>Josy O&apos;Donnel, &quot;What is Urbanization and What are the Positive and Negative Effects?, Conservation Institute
 
 April 30, 2018
 
-https://www.conservationinstitute.org/what-is-urbanization/</CommonCoreOntologies:definition_source>
+https://www.conservationinstitute.org/what-is-urbanization/</obo:IAO_0000119>
         <CommonCoreOntologies:definition>Urbanization is when people move from rural farmland to cities and towns. Rural areas are more densely packed and offer greater opportunities to their residents in the form of higher paying jobs and a larger variety of job opportunities.
 
 Most developing countries experience the process of urbanization, especially once they start becoming industrialized. Cities and towns become hubs of trade and culture, and more people start moving out of the country to gain access to some of these social and financial benefits.
@@ -10334,11 +10359,11 @@ Projections made in 2018 by ARL and TRADOC
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#WelfareState">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade"/>
-        <CommonCoreOntologies:definition_source>Peter Bondarenko &amp; Editors of Encyclopaedia Britannica, &quot;Welfare State&quot;, Encyclopaedia Britannica
+        <obo:IAO_0000119>Peter Bondarenko &amp; Editors of Encyclopaedia Britannica, &quot;Welfare State&quot;, Encyclopaedia Britannica
 
 March 22, 2019
 
-https://www.britannica.com/topic/welfare-state</CommonCoreOntologies:definition_source>
+https://www.britannica.com/topic/welfare-state</obo:IAO_0000119>
         <CommonCoreOntologies:definition>Welfare state, concept of government in which the state or a well-established network of social institutions plays a key role in the protection and promotion of the economic and social well-being of citizens. It is based on the principles of equality of opportunity, equitable distribution of wealth, and public responsibility for those unable to avail themselves of the minimal provisions for a good life. The general term may cover a variety of forms of economic and social organization.
 
 A fundamental feature of the welfare state is social insurance, a provision common to most advanced industrialized countries.... Such insurance is usually financed by compulsory contributions and is intended to provide benefits to persons and families during periods of greatest need. It is widely recognized, however, that in practice the cash benefits fall considerably short of the levels intended by the designers of the plans.
