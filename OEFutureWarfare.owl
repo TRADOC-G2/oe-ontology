@@ -253,10 +253,31 @@ From the twentieth century, intensive agriculture increased productivity. It sub
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AgingPopulations -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AgingPopulation -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AgingPopulations">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AgingPopulation">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics"/>
+        <obo:IAO_0000119>(1)
+
+&quot;Population Ageing&quot;, Wikipedia
+
+March 25, 2019
+
+https://en.wikipedia.org/wiki/Population_ageing</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
+
+Population Reference Bureau, &quot;Featured Graphic:  Many Countries&apos; Populations are Again&quot;, Population Reference Bureau
+
+October 2, 2018
+
+https://www.prb.org/insight/featured-graphic-many-countries-populations-are-aging/</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>(1)
+
+Population aging is a shift in the distribution of a country&apos;s population towards older ages. This is usually reflected in an increase in the population&apos;s mean and median ages, a decline in the proportion of the population composed of children, and a rise in the proportion of the population composed of elderly.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+Shifts in a country’s age structure over time can have important implications for a country’s economic and social trajectory, as well as its resource allocations and policy agendas. For example, many countries in the world are experiencing—and will continue to experience—steady increases in the number of older adults, both in absolute terms and as a percentage of the total population. This trend poses challenges for countries in balancing the pension, health, and other benefits that older adults typically receive with investments in the well-being of younger generations. In addition, some countries may choose to incentivize older adults to remain in the work force longer.</CommonCoreOntologies:definition>
+        <rdfs:label>Aging Population</rdfs:label>
     </owl:Class>
     
 
@@ -277,6 +298,7 @@ The major agricultural products can be broadly grouped into foods, fibers, fuels
 ...
 
 From the twentieth century, intensive agriculture increased productivity. It substituted synthetic fertilizers and pesticides for labor, but caused increased water pollution, and often involved farm subsidies. In recent years there has been a backlash against the environmental effects of conventional agriculture, resulting in the organic, regenerative, and sustainable agriculture movements.</CommonCoreOntologies:definition>
+        <rdfs:label>Agriculture</rdfs:label>
     </owl:Class>
     
 
@@ -332,6 +354,29 @@ Publication date : 2018-12
 
 2nd Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Anthropogenic Biogenic Greenhouse Gas Emission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Anti-immigrantOpinion -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Anti-immigrantOpinion">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Migration"/>
+        <obo:IAO_0000119>&quot;Immigration and Populism&quot;, Stanford Workshop, Freeman Spogli Institute for International Studies, Stanford University
+
+March 25, 2019
+
+https://fsi.stanford.edu/populism-and-immigration</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>Critics of immigration, populist and otherwise, view it as posing unfair economic competition: whether [skilled workers], undocumented domestic and service workers, or the undercutting of wages and job availability. In addition, populist parties (among others) often charge that immigrants overuse and strain the welfare states of recipient countries.
+
+...
+
+One of the critical concerns of populist parties is protecting “the people” or “the nation,” defined in historical and homogenous terms. Populist parties frequently criticize immigrant and minority populations for diluting and undermining “the people” and their  well-being: in other words, these populations are a cultural threat to historical identities. At the same time, there is a broader concern with the integration of immigration populations.
+
+...
+
+[Electoral] data shows that the rise in immigration flows and the surge in electoral support for populist parties are closely aligned.</CommonCoreOntologies:definition>
+        <rdfs:label>Anti-immigrant Opinion</rdfs:label>
     </owl:Class>
     
 
@@ -591,16 +636,17 @@ https://www.britannica.com/topic/authoritarianism</obo:IAO_0000115>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AuthoritarianInstitutions -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Authoritariansim -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AuthoritarianInstitutions">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Authoritariansim">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Government"/>
         <obo:IAO_0000115>Authoritarianism [is the] principle of blind submission to authority, as opposed to individual freedom of thought and action. In government, authoritarianism denotes any political system that concentrates power in the hands of a leader or a small elite that is not constitutionally responsible to the body of the people. Authoritarian leaders often exercise power arbitrarily and without regard to existing bodies of law, and they usually cannot be replaced by citizens choosing freely among various competitors in elections. The freedom to create opposition political parties or other alternative political groupings with which to compete for power with the ruling group is either limited or nonexistent in authoritarian regimes.</obo:IAO_0000115>
         <obo:IAO_0000115>Editors of Encyclopaedia Britannica &amp; Amy Tikkanen, &quot;Authoritarianism&quot;, Encyclopaedia Britannica
 
 March 12, 2019
 
 https://www.britannica.com/topic/authoritarianism</obo:IAO_0000115>
+        <rdfs:label>Authoritarianism</rdfs:label>
     </owl:Class>
     
 
@@ -1095,6 +1141,7 @@ Publication date : 2018-09
 March 12, 2019
 
 https://en.wikipedia.org/wiki/Bureaucracy</obo:IAO_0000119>
+        <rdfs:label>Bureaucracy</rdfs:label>
     </owl:Class>
     
 
@@ -1109,6 +1156,7 @@ March 21, 2019
 
 https://www.econlib.org/library/Enc/BusinessCycles.html</obo:IAO_0000119>
         <CommonCoreOntologies:definition>The United States and all other modern industrial economies experience significant swings in economic activity. In some years, most industries are booming and unemployment is low; in other years, most industries are operating well below capacity and unemployment is high. Periods of economic prosperity are typically called expansions or booms; periods of economic decline are called recessions or depressions. The combination of expansions and recessions, the ebb and flow of economic activity, is called the business cycle.</CommonCoreOntologies:definition>
+        <rdfs:label>Business Cycle</rdfs:label>
     </owl:Class>
     
 
@@ -1129,6 +1177,7 @@ The second role of cabinet officials is to administer executive branches, govern
 March 12, 2019
 
 https://en.wikipedia.org/wiki/Cabinet_(government)</obo:IAO_0000119>
+        <rdfs:label>Cabinet</rdfs:label>
     </owl:Class>
     
 
@@ -1266,6 +1315,7 @@ https://en.wikipedia.org/wiki/Civil_law_(common_law)</obo:IAO_0000119>
 March 12, 2019
 
 https://en.wikipedia.org/wiki/Civil_law_(common_law)</obo:IAO_0000119>
+        <rdfs:label>Civil Law</rdfs:label>
     </owl:Class>
     
 
@@ -1349,6 +1399,23 @@ Publication date : 2018-12
         <CommonCoreOntologies:definition>Humanity will become richer, older, more urban, and better educated, but the uneven distribution of this progress will accelerate tension and conflict.  The convergence of more information and more people with fewer state resources will constrain governments’ efforts to address rampant poverty, violence, and pollution, and create a breeding ground for dissatisfaction among increasingly aware, yet still disempowered populations. These factors will be attenuated by a changing climate, which has the potential to create additional crises and discontent.  The addition of over seven billion people over the last century has altered geography itself, and cities now sprawl over large areas of the globe and contain almost two-thirds of the world’s population. These numbers will only increase.  Some megacities will become more important politically and economically than the nationstate in which they reside.  Life will become both easier and more complex, with those able to take advantage of the leading edge of technological advancement increasingly exploiting those who cannot.  New social stresses and fractures will lead to strife and population migrations, which in turn create further challenges for urbanized areas.  Furthermore, the move of large numbers of people to large urban areas and megacities will strain resources, as these area will become increasingly reliant on rural areas for food, water, and even additional power.  From a military perspective, cities represent challenges, opportunities, and unique vulnerabilities.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>The Operational Environment and the Changing Character of Future Warfare</CommonCoreOntologies:definition_source>
         <rdfs:label>Climate Change And Resource Competition Trend</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateRefugees -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateRefugees">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Migration"/>
+        <obo:IAO_0000119>&quot;Environmental Migrant&quot;, Wikipedia
+
+March 26, 2019
+
+https://en.wikipedia.org/wiki/Environmental_migrant</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>Environmental migrants are people who are forced to leave their home region due to sudden or long-term changes to their local environment. These are changes which compromise their well-being or secure livelihood. Such changes are held to include increased droughts, desertification, sea level rise, and disruption of seasonal weather patterns (i.e. monsoons). Climate refugees may choose to flee to or migrate to another country, or they may migrate internally within their own country.
+
+The term &quot;environmental migrant&quot; is used somewhat interchangeably with a range of similar terms, such as ecological refugee, environmental refugee, climate refugee, forced environmental migrant, environmentally motivated migrant, climate change refugee, environmentally displaced person (EDP), disaster refugee, environmental displacee, eco-refugee, ecologically displaced person, or environmental-refugee-to-be (ERTB)</CommonCoreOntologies:definition>
+        <rdfs:label>Climate Refugees</rdfs:label>
     </owl:Class>
     
 
@@ -1726,6 +1793,7 @@ Corruption can occur on different scales. Corruption ranges from small favors be
 March 12, 2019
 
 https://en.wikipedia.org/wiki/Corruption</obo:IAO_0000119>
+        <rdfs:label>Corruption</rdfs:label>
     </owl:Class>
     
 
@@ -1756,6 +1824,7 @@ https://en.wikipedia.org/wiki/Corruption</obo:IAO_0000119>
 March 12, 2019
 
 https://en.wikipedia.org/wiki/Criminal_law</obo:IAO_0000119>
+        <rdfs:label>Criminal Law</rdfs:label>
     </owl:Class>
     
 
@@ -2078,6 +2147,21 @@ https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DecliningFertilityRate -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DecliningFertilityRate">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AgingPopulation"/>
+        <obo:IAO_0000119>Nicola Davis, &quot;Falling Total Fertility Rate Should Be Welcomed, Population Expert Says&quot;, The Guardian
+
+December 26, 2018
+
+https://www.theguardian.com/world/2018/dec/26/falling-total-fertility-rate-should-be-welcomed-population-expert-says</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>Declines in total fertility rate have been seen time and again after national economies develop, public health improves, and infant mortality falls, and women find themselves raising larger families. ...[Drivers] for such declines included huge strides in family planning and women’s education – with girls staying at school and entering the workforce - allowing women to delay childbearing and choose how many children to have – if any.</CommonCoreOntologies:definition>
+        <rdfs:label>Declining Fertility Rate</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Decoy -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Decoy">
@@ -2159,10 +2243,10 @@ https://en.wikipedia.org/wiki/Democracy</obo:IAO_0000119>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemocraticInsitutions -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Democracy -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemocraticInsitutions">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Democracy">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Government"/>
         <obo:IAO_0000115>Democracy...is a system of government where the citizens exercise power by voting....In a representative democracy the citizens elect representatives from among themselves. These representatives meet to form a governing body, such as a legislature. In a constitutional democracy the powers of the majority are exercised within the framework of a representative democracy, but the constitution limits the majority and protects the minority, usually through the enjoyment by all of certain individual rights, e.g. freedom of speech, or freedom of association. &quot;Rule of the majority&quot; is sometimes referred to as democracy
 
 ...
@@ -2173,6 +2257,7 @@ https://en.wikipedia.org/wiki/Democracy</obo:IAO_0000119>
 March 12, 2019
 
 https://en.wikipedia.org/wiki/Democracy</obo:IAO_0000119>
+        <rdfs:label>Democracy</rdfs:label>
     </owl:Class>
     
 
@@ -2181,6 +2266,7 @@ https://en.wikipedia.org/wiki/Democracy</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactorsControlledVocabulary"/>
+        <rdfs:label>Demographics</rdfs:label>
     </owl:Class>
     
 
@@ -2202,6 +2288,16 @@ https://en.wikipedia.org/wiki/Democracy</obo:IAO_0000119>
         <CommonCoreOntologies:definition>Our adversaries will operate in and among populations and in complex terrain, and endeavor to mitigate many of our own traditional technological advantages and force us to operate with degraded capabilities and take advantage of the infrastructure and other resources cities offer.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>The Operational Environment and the Changing Character of Future Warfare</CommonCoreOntologies:definition_source>
         <rdfs:label>Demographics And Urbanization Trend</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DenseUrbanArea -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DenseUrbanArea">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Urbanization"/>
+        <obo:IAO_0000232>There&apos;s essentially nothing in the public discourse that addresses the Army&apos;s concerns about dense urban areas:  whereas the Army sees these areas as posing unusual operational challenges (that is, making operations more difficult), most social scientists and commentators focus on the ways in which dense urban areas make commerce, culture, and the provision of services easier.</obo:IAO_0000232>
+        <rdfs:label>Dense Urban Area</rdfs:label>
     </owl:Class>
     
 
@@ -2260,7 +2356,7 @@ https://en.wikipedia.org/wiki/Dictator</obo:IAO_0000119>
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Dictatorship -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Dictatorship">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AuthoritarianInstitutions"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Authoritariansim"/>
         <obo:IAO_0000115>(1)
 
 A dictatorship is an authoritarian form of government, characterized by a single leader or group of leaders with either no party or a weak party, little mass mobilization, and limited political pluralism....A common aspect that characterized dictators is taking advantage of their strong personality, usually by suppressing freedom of thought and speech of the masses, in order to maintain complete political and social supremacy and stability. Dictatorships and totalitarian societies generally employ political propaganda to decrease the influence of proponents of alternative governing systems.</obo:IAO_0000115>
@@ -2287,6 +2383,7 @@ https://en.wikipedia.org/wiki/Dictatorship</obo:IAO_0000119>
 March 12, 2019
 
 https://en.wikipedia.org/wiki/Dictator</obo:IAO_0000119>
+        <rdfs:label>Dictatorship</rdfs:label>
     </owl:Class>
     
 
@@ -2584,6 +2681,7 @@ Economic activity is spurred by production which uses natural resources, labor, 
         <CommonCoreOntologies:definition>(2)
 
 Actions that involve the production, distribution and consumption of goods and services at all levels within a society. Gross domestic product or GDP is one way of assessing economic activity, and the degree of current economic activity and forecasts for its future level can significantly impact business activity and profits, as well as inflation and interest rates.</CommonCoreOntologies:definition>
+        <rdfs:label>Economic Activity</rdfs:label>
     </owl:Class>
     
 
@@ -2606,6 +2704,7 @@ Economic growth deals with increase in the level of output, but economic develop
 ...
 
 [E]conomic development is typically associated with improvements in a variety of areas or indicators (such as literacy rates, life expectancy, and poverty rates), that may be causes of economic development rather than consequences of specific economic development programs.</CommonCoreOntologies:definition>
+        <rdfs:label>Economic Development</rdfs:label>
     </owl:Class>
     
 
@@ -2622,6 +2721,7 @@ https://en.wikipedia.org/wiki/Economic_growth</obo:IAO_0000119>
         <CommonCoreOntologies:definition>Economic growth is the increase in the inflation-adjusted market value of the goods and services produced by an economy over time. It is conventionally measured as the percent rate of increase in real gross domestic product, or real GDP.
 
 Growth is usually calculated in real terms - i.e., inflation-adjusted terms – to eliminate the distorting effect of inflation on the price of goods produced. Measurement of economic growth uses national income accounting. Since economic growth is measured as the annual percent change of gross domestic product (GDP), it has all the advantages and drawbacks of that measure. The economic growth rates of nations are commonly compared using the ratio of the GDP to population or per-capita income.</CommonCoreOntologies:definition>
+        <rdfs:label>Economic Growth</rdfs:label>
     </owl:Class>
     
 
@@ -2650,6 +2750,7 @@ Growth is usually calculated in real terms - i.e., inflation-adjusted terms – 
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactorsControlledVocabulary"/>
+        <rdfs:label>Economics and Trade</rdfs:label>
     </owl:Class>
     
 
@@ -2666,6 +2767,7 @@ https://en.wikipedia.org/wiki/State_school</obo:IAO_0000119>
         <CommonCoreOntologies:definition>State schools (known as public schools in some parts of the world) are generally primary or secondary schools mandated for or offered to all children without charge, funded in whole or in part by taxation. These schools are generally inclusive (non-selective) in admitting all students within the geographical area that they serve.
 
 While such schools are to be found in virtually every country, there are significant variations in their structure and educational programs. State education generally encompasses primary and secondary education (kindergarten to twelfth grade, or equivalent), as well as post-secondary educational institutions such as universities, colleges, and technical schools that are funded and overseen by government rather than by private entities.</CommonCoreOntologies:definition>
+        <rdfs:label>Education</rdfs:label>
     </owl:Class>
     
 
@@ -2736,10 +2838,10 @@ https://en.wikipedia.org/wiki/Election#Electoral_systems</obo:IAO_0000119>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Elections -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Election -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Elections">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemocraticInsitutions"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Election">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Democracy"/>
         <obo:IAO_0000115>Electoral systems are the detailed constitutional arrangements and voting systems that convert the vote into a political decision. The first step is to tally the votes, for which various vote counting systems and ballot types are used. Voting systems then determine the result on the basis of the tally. Most systems can be categorized as either proportional or majoritarian. Among the former are party-list proportional representation and additional member system. Among the latter are First Past the Post electoral system (relative majority) and absolute majority. Many countries have growing electoral reform movements, which advocate systems such as approval voting, single transferable vote, instant runoff voting or a Condorcet method; these methods are also gaining popularity for lesser elections in some countries where more important elections still use more traditional counting methods.
 
 While openness and accountability are usually considered cornerstones of a democratic system, the act of casting a vote and the content of a voter&apos;s ballot are usually an important exception. The secret ballot is a relatively modern development, but it is now considered crucial in most free and fair elections, as it limits the effectiveness of intimidation.</obo:IAO_0000115>
@@ -2748,6 +2850,7 @@ While openness and accountability are usually considered cornerstones of a democ
 March 12, 2019
 
 https://en.wikipedia.org/wiki/Election#Electoral_systems</obo:IAO_0000119>
+        <rdfs:label>Election</rdfs:label>
     </owl:Class>
     
 
@@ -3264,13 +3367,14 @@ https://www.britannica.com/topic/executive-government</obo:IAO_0000119>
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Executive -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Executive">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Government"/>
         <obo:IAO_0000115>[The executive is] a person or persons constituting the branch of government charged with executing or carrying out the laws and appointing officials, formulating and instituting foreign policy, and providing diplomatic representation.</obo:IAO_0000115>
         <obo:IAO_0000119>Editors of Encyclopaedia Brittanica, &quot;Executive, Government&quot;, Encyclopaedia Britannica
 
 March 12, 2019
 
 https://www.britannica.com/topic/executive-government</obo:IAO_0000119>
+        <rdfs:label>Executive</rdfs:label>
     </owl:Class>
     
 
@@ -3391,6 +3495,7 @@ March 12th, 2019
 
 https://rationalwiki.org/wiki/Extrajudicial_punishment</obo:IAO_0000119>
         <obo:IAO_0000232>The articles in source #2 are, on the the whole, tendentious and of uneven quality.  However, this particular definition is correct, and, usually for topic modeling, written in everyday language.</obo:IAO_0000232>
+        <rdfs:label>Extrajudicial Violence</rdfs:label>
     </owl:Class>
     
 
@@ -3446,10 +3551,17 @@ Publication date : 2018-12
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FertilityRates -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FemaleNeglect -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FertilityRates">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AgingPopulations"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FemaleNeglect">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SkewedSexRatio"/>
+        <CommonCoreOntologies:definition>&quot;Sex-selective Abortion&quot;, Wikipedia
+
+March 25, 2019
+
+https://en.wikipedia.org/wiki/Sex-selective_abortion#Disparate_gendered_access_to_resources</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>[Some] of the variation in global sex ratios is due to disparate access to resources. ...[There] can be significant differences in gender violence and access to food, healthcare, immunizations between male and female children. This leads to high infant and childhood mortality among girls, which causes changes in sex ratio.</CommonCoreOntologies:definition>
+        <rdfs:label>Female Neglect</rdfs:label>
     </owl:Class>
     
 
@@ -3485,6 +3597,7 @@ https://www.investopedia.com/terms/f/financial_sector.asp</obo:IAO_0000119>
 In order for an economy to remain stable, it needs to have a healthy financial sector. This sector advances loans for businesses so they can expand, grants mortgages to homeowners, and issues insurance policies to protect people, companies, and their assets. It also helps build up savings for retirement....
 
 The financial sector generates a good portion of its revenue from loans and mortgages. These gain value in an environment where interest rates drop. When rates are low, the economic conditions open up the doors for more capital projects and investment. When this happens, the financial sector benefits, meaning more economic growth.</CommonCoreOntologies:definition>
+        <rdfs:label>Finance</rdfs:label>
     </owl:Class>
     
 
@@ -3507,6 +3620,7 @@ Rather than lowering taxes, the government might decide to increase spending.
 ...
 
 Expansionary fiscal policy is usually characterized by deficit spending, when government expenditures exceed receipts from taxes and other sources. In practice, deficit spending tends to result from a combination of tax cuts and higher spending.</CommonCoreOntologies:definition>
+        <rdfs:label>Fiscal Policy</rdfs:label>
     </owl:Class>
     
 
@@ -3590,7 +3704,7 @@ https://en.wikipedia.org/wiki/Freedom_of_speech</obo:IAO_0000119>
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FreeSpeech -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FreeSpeech">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemocraticInsitutions"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Democracy"/>
         <obo:IAO_0000115>Freedom of speech is a principle that supports the freedom of an individual or a community to articulate their opinions and ideas without fear of retaliation, censorship, or legal sanction. The term &quot;freedom of expression&quot; is sometimes used synonymously but includes any act of seeking, receiving, and imparting information or ideas, regardless of the medium used.
 
 Freedom of expression is recognized as a human right under article 19 of the Universal Declaration of Human Rights (UDHR) and recognized in international human rights law in the International Covenant on Civil and Political Rights (ICCPR). Article 19 of the UDHR states that &quot;everyone shall have the right to hold opinions without interference&quot; and &quot;everyone shall have the right to freedom of expression; this right shall include freedom to seek, receive and impart information and ideas of all kinds, regardless of frontiers, either orally, in writing or in print, in the form of art, or through any other media of his choice&quot;.</obo:IAO_0000115>
@@ -3599,6 +3713,7 @@ Freedom of expression is recognized as a human right under article 19 of the Uni
 March 12, 2019
 
 https://en.wikipedia.org/wiki/Freedom_of_speech</obo:IAO_0000119>
+        <rdfs:label>Free Speech</rdfs:label>
     </owl:Class>
     
 
@@ -3754,14 +3869,6 @@ https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GenderImbalance -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GenderImbalance">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GeneticModification -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GeneticModification">
@@ -3876,10 +3983,11 @@ Publication date : 2018-02
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Government -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Government">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactorsControlledVocabulary"/>
+        <rdfs:label>Government</rdfs:label>
     </owl:Class>
     
 
@@ -4244,6 +4352,7 @@ https://en.wikipedia.org/wiki/Health_care</obo:IAO_0000119>
         <CommonCoreOntologies:definition>Health care or healthcare is the maintenance or improvement of health via the prevention, diagnosis, and treatment of disease, illness, injury, and other physical and mental impairments in people. Health care is delivered by health professionals (providers or practitioners) in allied health fields. Physicians and physician associates are a part of these health professionals. Dentistry, midwifery, nursing, medicine, optometry, audiology, pharmacy, psychology, occupational therapy, physical therapy and other health professions are all part of health care. It includes work done in providing primary care, secondary care, and tertiary care, as well as in public health.
 
 Access to health care may vary across countries, communities, and individuals, largely influenced by social and economic conditions as well as health policies. Health care systems are organizations established to meet the health needs of targeted populations. According to the World Health Organization (WHO), a well-functioning health care system requires a financing mechanism, a well-trained and adequately paid workforce, reliable information on which to base decisions and policies, and well maintained health facilities to deliver quality medicines and technologies.</CommonCoreOntologies:definition>
+        <rdfs:label>Healthcare</rdfs:label>
     </owl:Class>
     
 
@@ -4428,6 +4537,7 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</CommonCore
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactorsControlledVocabulary">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+        <rdfs:label>Human Factors Controlled Vocabulary</rdfs:label>
     </owl:Class>
     
 
@@ -4578,6 +4688,21 @@ Publication Date: 2012-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IncreasingLongevity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IncreasingLongevity">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AgingPopulation"/>
+        <obo:IAO_0000119>&quot;Life Expectancy around the World Has Increased Steadily for Nearly 200 Years&quot;, Scitable
+
+2014
+
+https://www.nature.com/scitable/content/life-expectancy-around-the-world-has-increased-19786</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>During the nineteenth and early twentieth centuries, an increase in life expectancy was driven mainly by improvements in sanitation, housing, and education, causing a steady decline in early and mid-life mortality, which was chiefly due to infections. This trend continued with the development of vaccines and then antibiotics. By the latter half of the twentieth century, there was little room for further reduction in early and mid-life mortality. The continuing increase is due almost entirely to a new phenomenon: the decline in late-life mortality.</CommonCoreOntologies:definition>
+        <rdfs:label>Increasing Longevity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Indicator -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Indicator">
@@ -4628,6 +4753,28 @@ April 7, 2018
 
 https://www.investopedia.com/terms/i/industrialization.asp</obo:IAO_0000119>
         <CommonCoreOntologies:definition>Industrialization is the process by which an economy is transformed from primarily agricultural to one based on the manufacturing of goods. Individual manual labor is often replaced by mechanized mass production, and craftsmen are replaced by assembly lines. Characteristics of industrialization include economic growth, more efficient division of labor, and the use of technological innovation to solve problems as opposed to dependency on conditions outside human control.</CommonCoreOntologies:definition>
+        <rdfs:label>Industrialization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InformalEconomy -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InformalEconomy">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicActivity"/>
+        <obo:IAO_0000119>Diana Farrell, &quot;The Hidden Dangers of the Informal Economy&quot;, McKinsey Quarterly
+
+July, 2004
+
+https://www.mckinsey.com/featured-insights/employment-and-growth/the-hidden-dangers-of-the-informal-economy</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>The informal economy refers to companies that are engaged in legitimate business activities but don&apos;t fully comply with tax, labor market obligations, or product market regulations.
+
+...
+
+Around the world, these informal players operate at just half the average productivity level of formal companies in the same sectors and at a small fraction of the productivity of the best companies. As a result, informal companies persistently drag down a country&apos;s overall productivity and standard of living.
+
+MGI&apos;s investigation also found that the substantial cost advantage that informal companies gain by avoiding taxes and regulations more than offsets their low productivity and small scale. Competition is therefore distorted because inefficient informal players stay in business and prevent more productive, formal companies from gaining market share.</CommonCoreOntologies:definition>
+        <rdfs:label>Informal Economy</rdfs:label>
     </owl:Class>
     
 
@@ -4663,13 +4810,14 @@ https://en.wikipedia.org/wiki/Institution#Informal_institutions</obo:IAO_0000119
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InformalInstitutions -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InformalInstitutions">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Government"/>
         <obo:IAO_0000115>To understand the political behaviour in a country it is important to look at how that behaviour is enabled or constrained by informal institutions, and how this affects how formal institutions are run. For example, if there are high levels of extrajudicial killings in a country, it might be that while it is prohibited by the state the police are actually enabled to carry out such killings and informally encouraged to prop up an inefficient formal state police institution. An informal institution tends to have socially shared rules, which are unwritten and yet are often known by all inhabitants of a certain country, as such they are often referred to as being an inherent part of the culture of a given country. Informal practices are often referred to as &quot;cultural&quot;, for example clientelism or corruption is sometimes stated as a part of the political culture in a certain place, but an informal institution itself is not cultural, it may be shaped by culture or behaviour of a given political landscape, but they should be looked at in the same way as formal institutions to understand their role in a given country. Informal institutions might be particularly used to pursue a political agenda, or a course of action that might not be publicly popular, or even legal, and can be seen as an effective way of making up for lack of efficiency in a formal institution. For example, in countries where formal institutions are particularly inefficient, an informal institution may be the most cost effective way or actually carrying out a given task, and this ensures that there is little pressure on the formal institutions to become more efficient.The relationship between formal and informal institutions is often closely aligned and informal institutions step in to prop up inefficient institutions.</obo:IAO_0000115>
         <obo:IAO_0000119>&quot;Institution&quot;, Wikipedia
 
 March 12, 2019
 
 https://en.wikipedia.org/wiki/Institution#Informal_institutions</obo:IAO_0000119>
+        <rdfs:label>Informal Institutions</rdfs:label>
     </owl:Class>
     
 
@@ -4986,16 +5134,17 @@ https://en.wikipedia.org/wiki/Intergovernmental_organization#Types_and_purpose</
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntergovernmentalOrganizations -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntergovernmentalOrganization -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntergovernmentalOrganizations">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalInstitutions"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntergovernmentalOrganization">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalSystem"/>
         <obo:IAO_0000119>&quot;Intergovernment Organization&quot;, Wikipedia
 
 March 13, 2019
 
 https://en.wikipedia.org/wiki/Intergovernmental_organization#Types_and_purpose</obo:IAO_0000119>
         <CommonCoreOntologies:definition>[Intergovernmental organizations] have various goals and scopes, often outlined in the treaty or charter. Some IGOs developed to fulfill a need for a neutral forum for debate or negotiation to resolve disputes. Others developed to carry out mutual interests with unified aims to preserve peace through conflict resolution and better international relations, promote international cooperation on matters such as environmental protection, to promote human rights, to promote social development (education, health care), to render humanitarian aid, and to economic development. Some are more general in scope (the United Nations) while others may have subject-specific missions (such as Interpol or the International Organization for Standardization and other standards organizations).</CommonCoreOntologies:definition>
+        <rdfs:label>Intergovernment Organization</rdfs:label>
     </owl:Class>
     
 
@@ -5037,10 +5186,25 @@ Publication date : 2018-02
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalInstitutions -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalMigration -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalInstitutions">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalMigration">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Migration"/>
+        <obo:IAO_0000119>&quot;International Migration&quot;, Wikipedia
+
+March 26, 2019
+
+https://en.wikipedia.org/wiki/International_migration</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>nternational migration occurs when people cross state boundaries and stay in the host state for some minimum length of time. Migration occurs for many reasons. Many people leave their home countries in order to look for economic opportunities in another country. Others migrate to be with family members who have migrated or because of political conditions in their countries. Education is another reason for international migration, as students pursue their studies abroad. While there are several different potential systems for categorizing international migrants, one system organizes them into nine groups: temporary labour migrants; irregular, illegal, or undocumented migrants; highly skilled and business migrants; refugees; asylum seekers; forced migration; family members; return migrants; and long-term, low-skilled migrants. These migrants can also be divided into two large groups, permanent and temporary. Permanent migrants intend to establish their permanent residence in a new country and possibly obtain that country’s citizenship. Temporary migrants intend only to stay for a limited periods of time; perhaps until the end of a particular program of study or for the duration of a their work contract or a certain work season. Both types of migrants have a significant effect on the economies and societies of the chosen destination country and the country of origin.</CommonCoreOntologies:definition>
+        <rdfs:label>International Migration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalSystem -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalSystem">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Government"/>
         <obo:IAO_0000115>(1)
 
 An international organization is an organization with an international membership, scope, or presence.</obo:IAO_0000115>
@@ -5061,14 +5225,7 @@ Karen Mingst, &quot;International Organization&quot;, Encyclopaedia Britannica
 March 12, 2019
 
 https://www.britannica.com/topic/international-organization</obo:IAO_0000119>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalMigration -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalMigration">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Migration"/>
+        <rdfs:label>International System</rdfs:label>
     </owl:Class>
     
 
@@ -5087,6 +5244,7 @@ https://www.investopedia.com/insights/what-is-international-trade/</obo:IAO_0000
 ...
 
 Trading globally gives consumers and countries the opportunity to be exposed to goods and services not available in their own countries..... A product that is sold to the global market is an export, and a product that is bought from the global market is an import. Imports and exports are accounted for in a country&apos;s current account in the balance of payments.</CommonCoreOntologies:definition>
+        <rdfs:label>International Trade</rdfs:label>
     </owl:Class>
     
 
@@ -5210,7 +5368,7 @@ https://en.wikipedia.org/wiki/Judiciary</obo:IAO_0000119>
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#JudicialSystem -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#JudicialSystem">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GovernmentInstitutions"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Government"/>
         <obo:IAO_0000115>The judiciary (also known as the judicial system, judicial branch or court system) is the system of courts that interprets and applies the law in the name of the state. Under the doctrine of the separation of powers, the judiciary generally does not make statutory law (which is the responsibility of the legislature) or enforce law (which is the responsibility of the executive), but rather interprets law and applies it to the facts of each case. However, in some countries the judiciary does make common law, setting precedent for other courts to follow. This branch of the state is often tasked with ensuring equal justice under law. 
 
 In many jurisdictions the judicial branch has the power to change laws through the process of judicial review. Courts with judicial review power may annul the laws and rules of the state when it finds them incompatible with a higher norm, such as primary legislation, the provisions of the constitution or international law. Judges constitute a critical force for interpretation and implementation of a constitution, thus de facto in common law countries creating the body of constitutional law.</obo:IAO_0000115>
@@ -5219,6 +5377,7 @@ In many jurisdictions the judicial branch has the power to change laws through t
 March 12, 2019
 
 https://en.wikipedia.org/wiki/Judiciary</obo:IAO_0000119>
+        <rdfs:label>Judicial System</rdfs:label>
     </owl:Class>
     
 
@@ -5305,7 +5464,7 @@ Legislation is regarded as one of the three main functions of government. Those 
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Legislature -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Legislature">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemocraticInsitutions"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Democracy"/>
         <obo:IAO_0000115>(1)
 
 A legislature is a deliberative assembly with the authority to make laws for a political entity such as a country or city. Legislatures form important parts of most governments.
@@ -5339,6 +5498,7 @@ Legislation (or &quot;statutory law&quot;) is law which has been promulgated (or
 Legislation is usually proposed by a member of the legislature (e.g. a member of Congress or Parliament), or by the executive, where upon it is debated by members of the legislature and is often amended before passage. Most large legislatures enact only a small fraction of the bills proposed in a given session. Whether a given bill will be proposed and is generally a matter of the legislative priorities of government.
 
 Legislation is regarded as one of the three main functions of government. Those who have the formal power to create legislation are known as legislators.</CommonCoreOntologies:definition>
+        <rdfs:label>Legislature</rdfs:label>
     </owl:Class>
     
 
@@ -5540,6 +5700,7 @@ Macroeconomic policies include taxes, government spending and borrowing, exchang
         <CommonCoreOntologies:definition>(2)
 
 Macroeconomic policy aims to provide a stable economic environment that is conducive to fostering strong and sustainable economic growth. The key pillars of macroeconomic policy are fiscal policy, monetary policy and exchange rate policy.</CommonCoreOntologies:definition>
+        <rdfs:label>Macroeconomic Policy</rdfs:label>
     </owl:Class>
     
 
@@ -5670,6 +5831,7 @@ Today’s advancement of computer technology allows manufacturers to do more wit
         <CommonCoreOntologies:definition>(3)
 
 Manufacturing industries are broadly categorized into engineering industries, construction industries, electronics industries, chemical industries, energy industries, textile industries, food and beverage industries, metalworking industries, plastic industries, transport and telecommunication industries.</CommonCoreOntologies:definition>
+        <rdfs:label>Manufacturing</rdfs:label>
     </owl:Class>
     
 
@@ -5827,6 +5989,43 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Megacity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Megacity">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Urbanization"/>
+        <obo:IAO_0000119>(1)
+
+&quot;Megacity&quot;, Wikipedia
+
+March 26, 2019
+
+https://en.wikipedia.org/wiki/Megacity</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
+
+&quot;What Is a Megacity?&quot;, worldatlas.com
+
+June 28, 2018
+
+https://www.worldatlas.com/articles/what-is-a-megacity.html</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>(1)
+
+A megacity is a very large city metropolitan area, typically with a population of more than 10 million people.
+
+...
+
+A megacity can be a single metropolitan area or two or more metropolitan areas that converge. The terms conurbation, metropolis, and metroplex are also applied to the latter. The term metacity has been used to describe metropolitan conurbations containing over 20 million people.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+Due to their high populations, megacities face several challenges. These challenges revolve around slums, crime, energy and material resources, homelessness, and traffic congestion. Slums are settlement areas which are characterized by improper housing facilities and poor sanitation. They have been caused by the rise in population and massive local and international immigration. Individuals who live in slums seldom receive access to proper education, healthcare, and housing. Slums are generally found in cities in developing countries. The rise of criminal activities due to discontentment of city residents is another limitation megacities face. A lack of fulfillment of basic needs such as food, water, and shelter can increase crime rates.
+
+...
+
+Megacities also face the challenge of managing limited energy and material resources such as electricity and water consumption, waste generation, transport energy, and steel production. There are many children and families who live on the streets in many megacities in spite of they many attempts by government and non-governmental organizations to end homelessness. The final challenge is traffic congestion which refers to transport delays that occur on the roads as a result of increase of use.</CommonCoreOntologies:definition>
+        <rdfs:label>Megacity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Metadata -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Metadata">
@@ -5912,6 +6111,13 @@ https://en.wikipedia.org/wiki/Millennium_Development_Goals</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Migration">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics"/>
+        <obo:IAO_0000119>&quot;Migration&quot;, United Nations
+
+March 25, 2019
+
+http://www.un.org/en/sections/issues-depth/migration/index.html</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>Some people move in search of labour or economic opportunities, to join family, or to study. Others move to escape conflict, persecution, terrorism, or human rights violations. Still others move in response to the adverse effects of climate change, natural disasters, or other environmental factors.</CommonCoreOntologies:definition>
+        <rdfs:label>Migration</rdfs:label>
     </owl:Class>
     
 
@@ -5933,6 +6139,7 @@ https://en.wikipedia.org/wiki/Millennium_Development_Goals</obo:IAO_0000119>
     To combat HIV/AIDS, malaria, and other diseases
     To ensure environmental sustainability
     To develop a global partnership for development</CommonCoreOntologies:definition>
+        <rdfs:label>Millenium Development Goals</rdfs:label>
     </owl:Class>
     
 
@@ -6079,9 +6286,9 @@ Publication date : 2014-02
 March 21, 2019
 
 https://en.wikipedia.org/wiki/Monetary_policy</obo:IAO_0000119>
-        <CommonCoreOntologies:definition>Monetary policy is the process by which the monetary authority of a country, typically the central bank or currency board, controls either the cost of very short-term borrowing or the money supply, often targeting an inflation rate or interest rate to ensure price stability and general trust in the currency.[1][2][3]
-
+        <CommonCoreOntologies:definition>Monetary policy is the process by which the monetary authority of a country, typically the central bank or currency board, controls either the cost of very short-term borrowing or the money supply, often targeting an inflation rate or interest rate to ensure price stability and general trust in the currency.
 Further goals of a monetary policy are usually to contribute to the stability of gross domestic product, to achieve and maintain low unemployment, and to maintain predictable exchange rates with other currencies.</CommonCoreOntologies:definition>
+        <rdfs:label>Monetary Policy</rdfs:label>
     </owl:Class>
     
 
@@ -6151,7 +6358,7 @@ https://en.wikipedia.org/wiki/Multi-party_system</obo:IAO_0000119>
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MultipartySystem -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MultipartySystem">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PoliticalParties"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PoliticalPartySystem"/>
         <obo:IAO_0000115>A multi-party system is a system in which multiple political parties across the political spectrum run for national election, and all have the capacity to gain control of government offices, separately or in coalition. Apart from one-party-dominant and two-party systems, multi-party systems tend to be more common in parliamentary systems than presidential systems and far more common in countries that use proportional representation compared to countries that use first-past-the-post elections.
 
 First-past-the-post requires concentrated areas of support for large representation in the legislature whereas proportional representation better reflects the range of a population&apos;s views. Proportional systems may have multi-member districts with more than one representative elected from a given district to the same legislative body, and thus a greater number of viable parties.</obo:IAO_0000115>
@@ -6160,6 +6367,7 @@ First-past-the-post requires concentrated areas of support for large representat
 March 12, 2019
 
 https://en.wikipedia.org/wiki/Multi-party_system</obo:IAO_0000119>
+        <rdfs:label>Multiparty System</rdfs:label>
     </owl:Class>
     
 
@@ -6262,6 +6470,7 @@ https://www.tradebarriers.org/ntb/non_tariff_barriers</obo:IAO_0000119>
         Restrictive licenses
         Seasonal import regimes
         Corrupt and/or lengthy customs procedures</CommonCoreOntologies:definition>
+        <rdfs:label>Non-tariff Barriers</rdfs:label>
     </owl:Class>
     
 
@@ -6447,13 +6656,14 @@ https://en.wikipedia.org/wiki/One-party_state</obo:IAO_0000119>
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#One-partyRule -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#One-partyRule">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AuthoritarianInstitutions"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Authoritariansim"/>
         <obo:IAO_0000115>A one-party state, single-party state, one-party system, or single-party system is a type of state in which one political party has the right to form the government, usually based on the existing constitution. All other parties are either outlawed or allowed to take only a limited and controlled participation in elections. Sometimes the term de facto one-party state is used to describe a dominant-party system...[whose] existing practices or balance of political power effectively prevent the opposition from winning the elections.</obo:IAO_0000115>
         <obo:IAO_0000119>&quot;One-party State&quot;, Wikipedia
 
 March 12, 2019
 
 https://en.wikipedia.org/wiki/One-party_state</obo:IAO_0000119>
+        <rdfs:label>One-party Rule</rdfs:label>
     </owl:Class>
     
 
@@ -6639,6 +6849,7 @@ Publication date : 2018-09
 March 12, 2019
 
 https://en.wikipedia.org/wiki/Patronage</obo:IAO_0000119>
+        <rdfs:label>Patronage</rdfs:label>
     </owl:Class>
     
 
@@ -6655,6 +6866,7 @@ https://en.wikipedia.org/wiki/Pension</obo:IAO_0000119>
         <CommonCoreOntologies:definition>A pension...is a fund into which a sum of money is added during an employee&apos;s employment years, and from which payments are drawn to support the person&apos;s retirement from work in the form of periodic payments. A pension may be a &quot;defined benefit plan&quot; where a fixed sum is paid regularly to a person, or a &quot;defined contribution plan&quot; under which a fixed sum is invested and then becomes available at retirement age. Pensions should not be confused with severance pay; the former is usually paid in regular installments for life after retirement, while the latter is typically paid as a fixed amount after involuntary termination of employment prior to retirement.
 
 The terms &quot;retirement plan&quot; and &quot;superannuation&quot; tend to refer to a pension granted upon retirement of the individual. Retirement plans may be set up by employers, insurance companies, the government or other institutions such as employer associations or trade unions.</CommonCoreOntologies:definition>
+        <rdfs:label>Pensions</rdfs:label>
     </owl:Class>
     
 
@@ -6865,16 +7077,17 @@ Publication date : 2018-09
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PoliticalParties -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PoliticalPartySystem -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PoliticalParties">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DemocraticInsitutions"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PoliticalPartySystem">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Democracy"/>
         <obo:IAO_0000115>A political party is an organized group of people, often with common views, who come together to contest elections and hold power in the government. The party agrees on some proposed policies and programmes, with a view to promoting the collective good or furthering their supporters&apos; interests.</obo:IAO_0000115>
         <obo:IAO_0000119>&quot;Political Party&quot;, Wikipedia
 
 March 12, 2019
 
 https://en.wikipedia.org/wiki/Political_party</obo:IAO_0000119>
+        <rdfs:label>Political Party System</rdfs:label>
     </owl:Class>
     
 
@@ -6905,6 +7118,7 @@ Following his recommendations, international organizations...are working to help
 ...
 
 There are several poverty targeting methods through which poor communities are identified and tracked for poverty reduction programmes. For instance, one common method of poverty targeting is &apos;means testing&apos; that uses a certain income or expenditure threshold for an individual or the a household to be considered as poor and eligible for support.</CommonCoreOntologies:definition>
+        <rdfs:label>Poverty Reduction</rdfs:label>
     </owl:Class>
     
 
@@ -7056,6 +7270,7 @@ https://en.wikipedia.org/wiki/President#Presidential_systems</obo:IAO_0000119>
 March 12, 2019
 
 https://en.wikipedia.org/wiki/President#Presidential_systems</obo:IAO_0000119>
+        <rdfs:label>President</rdfs:label>
     </owl:Class>
     
 
@@ -7151,6 +7366,7 @@ The prime minister is often, but not always, a member of the Legislature or the 
 March 12, 2019
 
 https://en.wikipedia.org/wiki/Prime_minister</obo:IAO_0000119>
+        <rdfs:label>Prime Mininster</rdfs:label>
     </owl:Class>
     
 
@@ -7271,6 +7487,7 @@ March 19, 2019
 
 https://en.wikipedia.org/wiki/Productivity</obo:IAO_0000119>
         <CommonCoreOntologies:definition>Productivity describes various measures of the efficiency of production. A productivity measure is expressed as the ratio of output to inputs used in a production process, i.e. output per unit of input. Productivity is a crucial factor in production performance of firms and nations. Increasing national productivity can raise living standards because more real income improves people&apos;s ability to purchase goods and services, enjoy leisure, improve housing and education and contribute to social and environmental programs. Productivity growth can also help businesses to be more profitable.</CommonCoreOntologies:definition>
+        <rdfs:label>Productivity</rdfs:label>
     </owl:Class>
     
 
@@ -7286,7 +7503,7 @@ https://en.wikipedia.org/wiki/Productivity</obo:IAO_0000119>
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Propaganda -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Propaganda">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AuthoritarianInstitutions"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Authoritariansim"/>
         <obo:IAO_0000115>Propaganda [is] dissemination of information—facts, arguments, rumours, half-truths, or lies—to influence public opinion.
 
 Propaganda is the more or less systematic effort to manipulate other people’s beliefs, attitudes, or actions by means of symbols..... The propagandist...deliberately selects facts, arguments, and displays of symbols and presents them in ways he thinks will have the most effect. To maximize effect, he may omit pertinent facts or distort them, and he may try to divert the attention of the...people whom he is trying to sway...from everything but his own propaganda.</obo:IAO_0000115>
@@ -7295,6 +7512,7 @@ Propaganda is the more or less systematic effort to manipulate other people’s 
 March 12, 2019
 
 https://www.britannica.com/topic/propaganda</obo:IAO_0000119>
+        <rdfs:label>Propaganda</rdfs:label>
     </owl:Class>
     
 
@@ -7485,10 +7703,23 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Refugees -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RefugeesAndDisplacedPersons -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Refugees">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RefugeesAndDisplacedPersons">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Migration"/>
+        <obo:IAO_0000119>&quot;What Is a Refugee?&quot;, USA for UNHCR
+
+March 25, 2019
+
+https://www.unrefugees.org/refugee-facts/what-is-a-refugee/</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>Who is a refugee?
+
+A refugee is someone who has been forced to flee his or her country because of persecution, war or violence. A refugee has a well-founded fear of persecution for reasons of race, religion, nationality, political opinion or membership in a particular social group. Most likely, they cannot return home or are afraid to do so. War and ethnic, tribal and religious violence are leading causes of refugees fleeing their countries.
+
+Who is an internally displaced person?
+
+An internally displaced person, or IDP, is someone who has been forced to flee their home but never cross an international border. These individuals seek safety anywhere they can find it—in nearby towns, schools, settlements, internal camps, even forests and fields. IDPs, which include people displaced by internal strife and natural disasters, are the largest group that UNHCR assists.</CommonCoreOntologies:definition>
+        <rdfs:label>Refugees and Displaced Persons</rdfs:label>
     </owl:Class>
     
 
@@ -7647,7 +7878,7 @@ https://en.wikipedia.org/wiki/Political_repression</obo:IAO_0000119>
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Repression -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Repression">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AuthoritarianInstitutions"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Authoritariansim"/>
         <obo:IAO_0000115>Political repression is the persecution of an individual or group within society for political reasons, particularly for the purpose of restricting or preventing their ability to take part in the political life of a society thereby reducing their standing among their fellow citizens.
 
 ...
@@ -7730,6 +7961,7 @@ March 13, 2019
 
 https://en.wikipedia.org/wiki/Natural_resource#Extraction</obo:IAO_0000119>
         <CommonCoreOntologies:definition>Extraction produces raw material, which is then processed to add value. Examples of extractive industries are hunting, trapping, mining, oil and gas drilling, and forestry. Natural resources can add substantial amounts to a country&apos;s wealth, however, a sudden inflow of money caused by a resource boom can create social problems including inflation harming other industries (&quot;Dutch disease&quot;) and corruption, leading to inequality and underdevelopment, this is known as the &quot;resource curse&quot;.</CommonCoreOntologies:definition>
+        <rdfs:label>Resource Extraction</rdfs:label>
     </owl:Class>
     
 
@@ -8277,14 +8509,17 @@ https://www.britannica.com/topic/rule-of-law</obo:IAO_0000119>
 March 12, 2019
 
 https://www.americanbar.org/advocacy/rule_of_law/what-is-the-rule-of-law/</obo:IAO_0000119>
+        <rdfs:label>Rule of Law</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RuralUrbanMigration -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Rural-urbanMigration -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RuralUrbanMigration">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Rural-urbanMigration">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Migration"/>
+        <obo:IAO_0000232>See the &quot;Urbanization&quot; class.  For a topic model that makes the sub-categories of &quot;Demographics&quot; topics in their own right, some or all of the vocabulary from &quot;Urbanization&quot;--at least, that pertaining to migration per se--would need to be duplicated here.</obo:IAO_0000232>
+        <rdfs:label>Rural-urban Migration</rdfs:label>
     </owl:Class>
     
 
@@ -8585,6 +8820,7 @@ NIST Big Data Public Working Group (NBD-PWG) Reference Architecture Subgroup Inf
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolentConflict">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactorsControlledVocabulary"/>
+        <rdfs:label>Security and Violent Conflict</rdfs:label>
     </owl:Class>
     
 
@@ -8732,9 +8968,9 @@ Technology, specifically information technology systems, is shaping the way busi
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Services -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ServiceSector -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Services">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ServiceSector">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicActivity"/>
         <obo:IAO_0000119>(1)
 
@@ -8762,6 +8998,42 @@ Activities in the service sector include retail, banks, hotels, real estate, edu
         <CommonCoreOntologies:definition>(3)
 
 Technology, specifically information technology systems, is shaping the way businesses in the service sector operate. In nearly all industries within the sector, businesses institute technology to bolster production, increase speed and efficiency and cut down on the number of employees required for operation. This cuts down on costs and improves incoming revenue streams.</CommonCoreOntologies:definition>
+        <rdfs:label>Service Sector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Sex-selectiveAbortion -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Sex-selectiveAbortion">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SkewedSexRatio"/>
+        <obo:IAO_0000119>&quot;Sex-selective Abortions During Past Three Decades May Explain Absence of Millions of Girls in India&quot;, International Perspectives on Sexual and Reproductive Health
+
+September 27, 2011
+
+https://www.guttmacher.org/journals/ipsrh/2011/09/sex-selective-abortions-during-past-three-decades-may-explain-absence</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>[The researchers] suggest that the increases in sex-selective abortion may be due to son preference combined with declines in fertility; the finding that selective abortion of females appears to be especially common among educated and wealthy women may reflect that these women are better able than others to afford ultrasound and abortion services.</CommonCoreOntologies:definition>
+        <rdfs:label>Sex-selective Abortion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Shantytown -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Shantytown">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Urbanization"/>
+        <obo:IAO_0000119>&quot;Shanty Town&quot;, Wikipedia
+
+March 26, 2019
+
+https://en.wikipedia.org/wiki/Shanty_town</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>A shanty town or squatter area is a settlement of improvised housing which is known as shanties or shacks, made of plywood, corrugated metal, sheets of plastic, and cardboard boxes. Such settlements are usually found on the periphery of cities, in public parks, or near railroad tracks, rivers, lagoons or city trash dump sites. Sometimes called a squatter, or spontaneous settlement, a typical shanty town often lacks adequate infrastructure, including proper sanitation, safe water supply, electricity, hygienic streets, or other basic necessities to support human settlements.
+
+Shanty towns are mostly found in developing nations....
+
+Since construction is informal and unguided by urban planning, there is typically no formal street grid, house numbers, or named streets. Such settlements also lack some or all basic public services such as a sewage network, electricity, safe running water, rain water drainage, garbage removal, access to public transport, or insect and disease control services. Even if these resources are present, they are likely to be disorganized, unreliable, and poorly maintained. Shanty towns also tend to lack basic services present in more formally organized settlements, including policing, mail delivery, medical services, and fire fighting.</CommonCoreOntologies:definition>
+        <rdfs:label>Shanty Town</rdfs:label>
+        <rdfs:label>Shantytown</rdfs:label>
     </owl:Class>
     
 
@@ -8848,6 +9120,35 @@ Publication date : 2018-12
 
 2nd Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Site Specific Data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SkewedSexRatio -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SkewedSexRatio">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics"/>
+        <obo:IAO_0000119>(1)
+
+Jospeh Chamie, &quot;Six Asian Nations Lead in Seriously Skewed Sex Ratios as Birth&quot;, PassBlue
+
+September 28, 2016
+
+https://www.passblue.com/2016/09/28/six-asian-nations-lead-in-seriously-skewed-sex-ratios-at-birth/</obo:IAO_0000119>
+        <obo:IAO_0000119>(2)
+
+Simon Denyer &amp; Annie Gowen, &quot;Too Many Men:  China and India Battle with the Consequences of Gender Imbalance&quot;
+
+April 24, 2018
+
+https://www.scmp.com/magazines/post-magazine/long-reads/article/2142658/too-many-men-china-and-india-battle-consequences</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>(1)
+
+[S]ex imbalances at birth are primarily a result of a combination of three important factors: a strong preference of couples for sons over daughters; fetal-sex determination followed by abortions of female fetuses; and rapid declines in the number of children per couple to comparatively low levels.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+The consequences of having too many men, now coming of age, are far-reaching: beyond an epidemic of loneliness, the imbalance distorts labour markets, drives up savings rates...and drives down consumption, artificially inflates certain property values and parallels increases in violent crime, trafficking or prostitution in a growing number of locations.</CommonCoreOntologies:definition>
+        <rdfs:label>Skewed Sex Ratio</rdfs:label>
     </owl:Class>
     
 
@@ -9148,10 +9449,10 @@ https://www.investopedia.com/terms/s/supranational.asp</obo:IAO_0000119>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SupranationalOrganizations -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SupranationalOrganization -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SupranationalOrganizations">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalInstitutions"/>
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SupranationalOrganization">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalSystem"/>
         <obo:IAO_0000115>(1)
 
 A supranational union is a type of multinational political union where negotiated power is delegated to an authority by governments of member states.</obo:IAO_0000115>
@@ -9174,6 +9475,7 @@ Marshall Hargrave, &quot;Supranational&quot;, Investopedia
 March 13, 2019
 
 https://www.investopedia.com/terms/s/supranational.asp</obo:IAO_0000119>
+        <rdfs:label>Supranational Organization</rdfs:label>
     </owl:Class>
     
 
@@ -9386,6 +9688,7 @@ Customs duties on merchandise imports are called tariffs. Tariffs give a price a
         <CommonCoreOntologies:definition>(2)
 
 Governments may impose tariffs to raise revenue or to protect domestic industries – particularly nascent ones – from foreign competition. By making foreign-produced goods more expensive, tariffs can make domestic-produced ones more attractive. By protecting these industries, governments can also protect jobs.</CommonCoreOntologies:definition>
+        <rdfs:label>Tariffs</rdfs:label>
     </owl:Class>
     
 
@@ -9576,9 +9879,9 @@ Publication date : 2018-02
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TradeAgreements -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TradeAgreement -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TradeAgreements">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TradeAgreement">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalTrade"/>
         <obo:IAO_0000119>Letricia Dixon &amp; Editors of Encyclopaedia Britannica, &quot;Trade Agreement&quot;, Encyclopaedia Britannica
 
@@ -9590,6 +9893,7 @@ https://www.britannica.com/topic/trade-agreement</obo:IAO_0000119>
 ...
 
 Even without the constraints imposed by most-favoured-nation and national treatment clauses, sometimes general multilateral agreements are easier to reach than separate bilateral agreements. In many cases the possible loss from a concession to one country is almost as great as that which would result from a similar concession to many countries. The gains that the most efficient producers realize from worldwide tariff reductions are large enough to warrant substantial concessions.</CommonCoreOntologies:definition>
+        <rdfs:label>Trade Agreement</rdfs:label>
     </owl:Class>
     
 
@@ -9673,13 +9977,14 @@ https://en.wikipedia.org/wiki/Two-party_system</obo:IAO_0000119>
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Two-partySystem -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Two-partySystem">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PoliticalParties"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PoliticalPartySystem"/>
         <obo:IAO_0000115>A two-party system is a party system where two major political parties dominate the government. One of the two parties typically holds a majority in the legislature and is usually referred to as the majority or governing party while the other is the minority or opposition party. Around the world, the term has different senses. [In some countries], the sense of two-party system describes an arrangement in which all or nearly all elected officials belong to one of the only two major parties, and third parties rarely win any seats in the legislature. In such arrangements, two-party systems are thought to result from various factors like winner-takes-all election rules. In such systems, while chances for third-party candidates winning election to major national office are remote, it is possible for groups within the larger parties, or in opposition to one or both of them, to exert influence on the two major parties. In contrast, in [some] parliamentary systems and elsewhere, the term two-party system is sometimes used to indicate an arrangement in which two major parties dominate elections but in which there are viable third parties which do win seats in the legislature, and in which the two major parties exert proportionately greater influence than their percentage of votes would suggest.</obo:IAO_0000115>
         <obo:IAO_0000119>&quot;Two-party System&quot;, Wikipedia
 
 March 12, 2019
 
 https://en.wikipedia.org/wiki/Two-party_system</obo:IAO_0000119>
+        <rdfs:label>Two-party System</rdfs:label>
     </owl:Class>
     
 
@@ -9737,6 +10042,7 @@ Feb 23, 2018
 
 https://www.investopedia.com/terms/u/unemployment-compensation.asp</obo:IAO_0000119>
         <CommonCoreOntologies:definition>Unemployment compensation is paid by the state to unemployed workers who have lost their jobs due to layoffs or retrenchment. Unemployment compensation is meant to provide a source of income for jobless workers until they can find employment. In order to be eligible for it, certain criteria must be satisfied by an unemployed worker, such as having worked for a minimum stipulated period and actively looking for employment. Unemployment compensation provides partial income replacement..... It&apos;s also known as unemployment insurance or unemployment benefits.</CommonCoreOntologies:definition>
+        <rdfs:label>Unemployment Benefits</rdfs:label>
     </owl:Class>
     
 
@@ -9801,10 +10107,45 @@ https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UrbanSprawl -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UrbanSprawl">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Urbanization"/>
+        <obo:IAO_0000119>&quot;What Is Urban Sprawl?&quot;, Conserve Energy Future
+
+March 26, 2019
+
+https://www.conserve-energy-future.com/causes-and-effects-of-urban-sprawl.php</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>[Urban sprawl] refers to the migration of a population from populated towns and cities to low density residential development over more and more rural land.
+ ...
+
+...[Urban] sprawl is defined as low density residential and commercial development on undeveloped land.</CommonCoreOntologies:definition>
+        <rdfs:label>Urban Sprawl</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Urbanization -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Urbanization">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics"/>
+        <obo:IAO_0000119>Josy O&apos;Donnel, &quot;What is Urbanization and What are the Positive and Negative Effects?, Conservation Institute
+
+April 30, 2018
+
+https://www.conservationinstitute.org/what-is-urbanization/</obo:IAO_0000119>
+        <CommonCoreOntologies:definition>Urbanization is when people move from rural farmland to cities and towns. Rural areas are more densely packed and offer greater opportunities to their residents in the form of higher paying jobs and a larger variety of job opportunities.
+
+Most developing countries experience the process of urbanization, especially once they start becoming industrialized. Cities and towns become hubs of trade and culture, and more people start moving out of the country to gain access to some of these social and financial benefits.
+
+Urbanization is a natural part of developing society, but it has its downside as well. As populations in cities and towns rise, they expand and eventually invade rural areas. We need to strike a balance with urbanization if we want to flourish as a society.
+
+...
+
+Urban areas have more jobs to offer and can lure people out of rural areas with the promise of a better life and a higher-paying salary. People find more jobs in virtually every industry while looking in cities and towns than they do searching rural locations.
+
+There are more people in urban areas, which means there is more demand. The increased demand opens the door to employment opportunities for a lot of people who can’t find a job in their rural hometown.</CommonCoreOntologies:definition>
+        <rdfs:label>Urbanization</rdfs:label>
     </owl:Class>
     
 
@@ -10007,6 +10348,7 @@ The welfare state also usually includes public provision of basic education, hea
 ...
 
 Antipoverty programs and the system of personal taxation may also be regarded as aspects of the welfare state. Personal taxation falls into this category insofar as its progressivity is used to achieve greater justice in income distribution (rather than merely to raise revenue) and also insofar as it used to finance social insurance payments and other benefits not completely financed by compulsory contributions. In socialist countries the welfare state also covers employment and administration of consumer prices.</CommonCoreOntologies:definition>
+        <rdfs:label>Welfare State</rdfs:label>
     </owl:Class>
     
 
