@@ -198,6 +198,26 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Anti-globalization -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Anti-globalization">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Nationalism"/>
+        <CommonCoreOntologies:definition>In nations both rich and poor, however, people worry about globalization’s downsides. Many are concerned about the disadvantaged in society who are left behind by the economic growth globalization can bring. Increasingly, they are alarmed by the negative effects of growth on the environment. Nearly everywhere, people worry about the potential loss of their own traditions and cultures in an interconnected world. Many are also troubled by the growing flow of immigrants across national borders.
+
+...
+
+In many ways, the pattern of public opinion on trade is reflected in public attitudes toward one of the key players in the global economy: multinational corporations.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Andrew Kohut, &quot;Assessing Globalization:  Benefits and Drawbacks of Trade and Integration&quot;, Pew Research Center:  Global Attitudes and Trends
+
+June 24, 2008
+
+https://www.pewglobal.org/2008/06/24/assessing-globalization/</CommonCoreOntologies:definition_source>
+        <rdfs:label>Anti-globalization</rdfs:label>
+        <rdfs:label>Antiglobalization</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Anti-immigrantOpinion -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Anti-immigrantOpinion">
@@ -217,6 +237,7 @@ March 25, 2019
 
 https://fsi.stanford.edu/populism-and-immigration</CommonCoreOntologies:definition_source>
         <rdfs:label>Anti-immigrant Opinion</rdfs:label>
+        <rdfs:seeAlso>http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Nationalism</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -475,6 +496,21 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CivicNationalism -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CivicNationalism">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Nationalism"/>
+        <CommonCoreOntologies:definition>&quot;Civic Nationalism&quot;, Wikipedia
+
+March 28, 2019
+
+https://en.wikipedia.org/wiki/Civic_nationalism#Overview</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>Civic nationhood is a political identity built around shared citizenship within the state. Thus, a &quot;civic nation&quot; isn&apos;t defined by its language or culture, but by its political institutions and liberal principles, which its citizens pledge to uphold. Membership in the civic nation is open to anyone who shares these values.</CommonCoreOntologies:definition>
+        <rdfs:label>Civic Nationalism</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CivilLaw -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CivilLaw">
@@ -502,6 +538,13 @@ https://en.wikipedia.org/wiki/Civil_law_(common_law)</CommonCoreOntologies:defin
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Class">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity"/>
+        <CommonCoreOntologies:definition>Modern social democracy is characterized by a commitment to policies aimed at curbing inequality, oppression of underprivileged groups and poverty, including support for universally accessible public services like care for the elderly, child care, education, health care and workers&apos; compensation. The social democratic movement often has strong connections with the labour movement and trade unions which are supportive of collective bargaining rights for workers as well as measures to extend decision-making beyond politics into the economic sphere in the form of co-determination for employees and other economic stakeholders.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Social Democracy&quot;, Wikipedia
+
+March 29, 2019
+
+https://en.wikipedia.org/wiki/Social_democracy</CommonCoreOntologies:definition_source>
+        <rdfs:label>Class</rdfs:label>
     </owl:Class>
     
 
@@ -723,6 +766,14 @@ https://en.wikipedia.org/wiki/Democracy</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactorsControlledVocabulary"/>
+        <obo:IAO_0000232>Demography...is the statistical study of populations, especially human beings. As a very general science, it can analyze any kind of dynamic living population, i.e., one that changes over time or space (see population dynamics). Demography encompasses the study of the size, structure, and distribution of these populations, and spatial or temporal changes in them in response to birth, migration, aging, and death.
+
+
+&quot;Demography&quot;, Wikipedia
+
+March 27, 2019
+
+https://en.wikipedia.org/wiki/Demography</obo:IAO_0000232>
         <rdfs:label>Demographics</rdfs:label>
     </owl:Class>
     
@@ -881,6 +932,16 @@ https://en.wikipedia.org/wiki/Economic_growth</CommonCoreOntologies:definition_s
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactorsControlledVocabulary"/>
+        <obo:IAO_0000232>Economics...is the social science that studies the production, distribution, and consumption of goods and services.
+
+Economics focuses on the behaviour and interactions of economic agents and how economies work. Microeconomics analyzes basic elements in the economy, including individual agents and markets, their interactions, and the outcomes of interactions. Individual agents may include, for example, households, firms, buyers, and sellers. Macroeconomics analyzes the entire economy (meaning aggregated production, consumption, saving, and investment) and issues affecting it, including unemployment of resources (labour, capital, and land), inflation, economic growth, and the public policies that address these issues (monetary, fiscal, and other policies).
+
+
+&quot;Economics&quot;, Wikipedia
+
+March 28, 2019
+
+https://en.wikipedia.org/wiki/Economics</obo:IAO_0000232>
         <rdfs:label>Economics and Trade</rdfs:label>
     </owl:Class>
     
@@ -942,10 +1003,79 @@ https://en.wikipedia.org/wiki/Election#Electoral_systems</CommonCoreOntologies:d
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicRegionalReligiousAndRacialIdentities -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicAndRacialIdentity -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicRegionalReligiousAndRacialIdentities">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicAndRacialIdentity">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicRacialRegionalAndReligiousIdentity"/>
+        <obo:IAO_0000232>While &quot;ethnicity&quot; and &quot;race&quot; have different meanings in most places, there&apos;s no consistency across place and time about which of them means what.  It therefore makes no sense to specify a separate generalized category for each.</obo:IAO_0000232>
+        <CommonCoreOntologies:definition>(1)
+
+ An ‘ethnic group’ has been defined as a group that regards itself or is regarded by others as a distinct community by virtue of certain characteristics that will help to distinguish the group from the surrounding community. Ethnicity is considered to be shared characteristics such as culture, language, religion, and traditions, which contribute to a person or group’s identity.
+
+Ethnicity has been described as residing in:
+
+• the belief by members of a social group that they are culturally distinctive and different to outsiders;
+
+• their willingness to find symbolic markers of that difference (food habits, religion, forms of dress, language) and to emphasise their significance; and
+
+• their willingness to organise relationships with outsiders so that a kind of ‘group boundary’ is preserved and reproduced</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+Race is socially understood to be derived from an individual&apos;s physical features, such as white or black skin tone. The social construction of racial identity can be referred as a sense of group or collective identity based on one&apos;s perception that he or she shares a common heritage with a particular racial group. Racial identity is a surface-level manifestation based on what people look like yet has deep implications in how people are treated.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>(1)
+
+&quot;Ethnicity and Ethnic Groups - An Explanation of these Terms&quot;, National Youth Council of Ireland
+
+March 29, 2019
+
+http://www.intercultural.ie/content/ethnicity-and-ethnic-groups-%E2%80%93-explanation-these-terms</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:definition_source>(2)
+
+&quot;Ethnic Identity Development&quot;, Wikipedia
+
+March 28, 2019
+
+https://en.wikipedia.org/wiki/Ethnic_identity_development</CommonCoreOntologies:definition_source>
+        <rdfs:label>Ethnic and Racial Identity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicRacialRegionalAndReligiousIdentity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicRacialRegionalAndReligiousIdentity">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity"/>
+        <CommonCoreOntologies:definition>The term identity politics in common usage refers to a tendency of people sharing a particular racial, religious, ethnic, social, or cultural identity to form exclusive political alliances, instead of engaging in traditional broad-based party politics, or promote their particular interests without regard for interests of a larger political group.
+
+,,,
+
+Identity is used as a tool to articulate political claims, promote political ideologies, and guide political action with the aim of asserting group distinctiveness and gaining power and recognition in the context of perceived inequality or injustice.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Identity Politics&quot;, Wikipedia
+
+March 28, 2019
+
+https://en.wikipedia.org/wiki/Identity_politics</CommonCoreOntologies:definition_source>
+        <rdfs:label>Ethnic, Racial, Regional, and Religious Identity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Ethnonationalism -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Ethnonationalism">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Nationalism"/>
+        <CommonCoreOntologies:definition>Ethnic nationalism, also known as ethno-nationalism, is a form of nationalism wherein the nation is defined in terms of ethnicity.
+
+The central theme of ethnic nationalists is that &quot;nations are defined by a shared heritage, which usually includes a common language, a common faith, and a common ethnic ancestry&quot;. It also includes ideas of a culture shared between members of the group, and with their ancestors.
+
+While some types of ethnic nationalism are firmly rooted in the idea of ethnicity (or race) as an immutable inherited characteristic...often ethnic nationalism also manifests in the assimilation of minority ethnic groups into the dominant group....</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Ethnic Nationalism&quot;, Wikipedia
+
+March 28, 2019
+
+https://en.wikipedia.org/wiki/Ethnic_nationalism</CommonCoreOntologies:definition_source>
+        <rdfs:label>Ethno-nationalism</rdfs:label>
+        <rdfs:label>Ethnonationalism</rdfs:label>
     </owl:Class>
     
 
@@ -1078,6 +1208,21 @@ https://en.wikipedia.org/wiki/Sex-selective_abortion#Disparate_gendered_access_t
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Feminism -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Feminism">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity"/>
+        <CommonCoreOntologies:definition>Only when women and girls have full access to their rights – from equal pay and land ownership rights to sexual rights, freedom from violence, access to education, and maternal health rights – will true equality exist. Only when women have taken leadership and peacemaking roles and have an equal political voice will economies and countries be transformed. And only then will all women and girls have the self-determination they are entitled to.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Women&apos;s Human Rights&quot;, Global Fund for Women
+
+Match 29, 2019
+
+https://www.globalfundforwomen.org/womens-human-rights</CommonCoreOntologies:definition_source>
+        <rdfs:label>Feminism</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Finance -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Finance">
@@ -1159,14 +1304,6 @@ https://en.wikipedia.org/wiki/Freedom_of_speech</CommonCoreOntologies:definition
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GenderAndSexualIdentities -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GenderAndSexualIdentities">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GeneticModification -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GeneticModification">
@@ -1185,6 +1322,15 @@ Projections made in 2018 by ARL and TRADOC
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Government">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactorsControlledVocabulary"/>
+        <obo:IAO_0000232>A government is the system or group of people governing an organized community, often a state.
+
+In the case of its broad associative definition, government normally consists of legislature, executive, and judiciary. Government is a means by which organizational policies are enforced, as well as a mechanism for determining policy. Each government has a kind of constitution, a statement of its governing principles and philosophy. Typically the philosophy chosen is some balance between the principle of individual freedom and the idea of absolute state authority (tyranny). 
+
+
+&quot;Government&quot;, Wikipedia
+March 28, 2019
+
+https://en.wikipedia.org/wiki/Government</obo:IAO_0000232>
         <rdfs:label>Government</rdfs:label>
     </owl:Class>
     
@@ -1368,6 +1514,17 @@ Projections made in 2018 by ARL and TRADOC
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactorsControlledVocabulary"/>
+        <obo:IAO_0000232>Social identity is the portion of an individual&apos;s self-concept derived from perceived membership in a relevant social group. As originally formulated by social psychologists Henri Tajfel and John Turner in the 1970s and the 1980s, social identity theory introduced the concept of a social identity as a way in which to explain intergroup behaviour.
+
+Social identity theory is described as a theory that predicts certain intergroup behaviours on the basis of perceived group status differences, the perceived legitimacy and stability of those status differences, and the perceived ability to move from one group to another.
+
+
+&quot;Social Identity Theory&quot;, Wikipedia
+
+March 28, 2019
+
+https://en.wikipedia.org/wiki/Social_identity_theory</obo:IAO_0000232>
+        <rdfs:label>Identity</rdfs:label>
     </owl:Class>
     
 
@@ -1578,6 +1735,25 @@ https://www.investopedia.com/insights/what-is-international-trade/</CommonCoreOn
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Irredentism -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Irredentism">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Nationalism"/>
+        <CommonCoreOntologies:definition>Irredentism is any political or popular movement that seeks to claim/reclaim and occupy a land that the movement&apos;s members consider to be a &quot;lost&quot;...territory from their nation&apos;s past.
+
+...
+
+Such territorial claims are justified on the basis of real or imagined national notions of historic territorial, religious or ethnic affiliations.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Irredentism&quot;, Wikipedia
+
+March 29, 2019
+
+https://en.wikipedia.org/wiki/Irredentism</CommonCoreOntologies:definition_source>
+        <rdfs:label>Irredentism</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#JudicialSystem -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#JudicialSystem">
@@ -1591,6 +1767,25 @@ March 12, 2019
 
 https://en.wikipedia.org/wiki/Judiciary</CommonCoreOntologies:definition_source>
         <rdfs:label>Judicial System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LBGTIdentity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LBGTIdentity">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity"/>
+        <CommonCoreOntologies:definition>In too many countries, being lesbian, gay, bisexual, transgender or intersex (LGBTI) means living with daily discrimination. This discrimination could be based on your sexual orientation (who you’re attracted to); gender identity (how you define yourself, irrespective of your biological sex) [or] gender expression (how you express your gender through your clothing, hair or make-up)....
+
+From name-calling and bullying, to being denied a job or appropriate healthcare, the range of unequal treatment faced is extensive and damaging. It can also be life-threatening.
+
+In all too many cases, LGBTI people are harassed in the streets, beaten up and sometimes killed, simply because of who they are.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;LGBTI Rights&quot;, Amnesty International
+
+March 29, 2019
+
+https://www.amnesty.org/en/what-we-do/discrimination/lgbt-rights/</CommonCoreOntologies:definition_source>
+        <rdfs:label>LGBT Identity</rdfs:label>
     </owl:Class>
     
 
@@ -1952,6 +2147,13 @@ Projections made in 2018 by ARL and TRADOC
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Nationalism">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity"/>
+        <CommonCoreOntologies:definition>Nationalism holds that each nation should govern itself, free from outside interference (self-determination), that a nation is a natural and ideal basis for a polity, and that the nation is the only rightful source of political power (popular sovereignty). It further aims to build and maintain a single national identity—based on shared social characteristics such as culture, language, religion, politics, and belief in a shared singular history—and to promote national unity or solidarity. Nationalism, therefore, seeks to preserve and foster a nation&apos;s traditional culture, and cultural revivals have been associated with nationalist movements. It also encourages pride in national achievements, and is closely linked to patriotism.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Nationalism&quot;, Wikipedia
+
+March 28, 2019
+
+https://en.wikipedia.org/wiki/Nationalism</CommonCoreOntologies:definition_source>
+        <rdfs:label>Nationalism</rdfs:label>
     </owl:Class>
     
 
@@ -2056,6 +2258,21 @@ https://en.wikipedia.org/wiki/One-party_state</CommonCoreOntologies:definition_s
                 <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SoldierPsychologicalDomainEnhancement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Patriotism -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Patriotism">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Nationalism"/>
+        <CommonCoreOntologies:definition>Patriotism or national pride is the feeling of love, devotion and sense of attachment to a homeland and alliance with other citizens who share the same sentiment. This attachment can be a combination of many different feelings relating to one&apos;s own homeland, including ethnic, cultural, political or historical aspects.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Patriotism&quot;, Wikipedia
+
+March 28, 2019
+
+https://en.wikipedia.org/wiki/Patriotism</CommonCoreOntologies:definition_source>
+        <rdfs:label>Patriotism</rdfs:label>
     </owl:Class>
     
 
@@ -2418,6 +2635,44 @@ https://www.unrefugees.org/refugee-facts/what-is-a-refugee/</CommonCoreOntologie
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RegionalIdentity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RegionalIdentity">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicRacialRegionalAndReligiousIdentity"/>
+        <CommonCoreOntologies:definition>[These are examples of  the] conflict caused when a group of people want to separate themselves from a state that refuses to let them go.
+
+...
+
+Though several international conventions reaffirm the right to self-determination, they also pledge to uphold the “principle of territorial integrity” — the right of existing states to prevent regions from seceding.
+
+...
+
+Self-determination is often interpreted to mean the right to secede and declare independence. But it can take other forms, too, such as local autonomy...or a federal system with a strong central government that protects minority rights.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Brian Beary, &quot;Separatist Movements:  Should Nations Have a Right to Self-determiniation?&quot;, CQ Researcher
+
+April, 2008, Vol. 2, Issue 4
+
+https://library.cqpress.com/cqresearcher/document.php?id=cqrglobal2008040000</CommonCoreOntologies:definition_source>
+        <rdfs:label>Regional Identity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ReligiousIdentity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ReligiousIdentity">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicRacialRegionalAndReligiousIdentity"/>
+        <CommonCoreOntologies:definition>People derive meaning and self-esteem from the groups to which they belong, and this has potent attitudinal and behavioral consequences. Religious belonging influences political attitudes and behaviors through two mechanisms: first, religious groups develop the religious beliefs that are associated with political beliefs (i.e. attitudes about abortion); second, religious groups help individuals make the connection between their religious views and the appropriate political views. Religious leaders and religious social networks are the primary means through which belonging translates into political attitudes and behaviors.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Matt Miles, &quot;Function of Religious Identity in Politics&quot;, Perspective (BYU-Idaho)
+
+Fall, 2017
+
+http://www.byui.edu/Documents/instructional_development/Perspective/2017%20Fall/Matt%20Miles_Functions%20of%20Religious%20Identity%20in%20Politics.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Religious Identity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Repression -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Repression">
@@ -2496,8 +2751,9 @@ https://www.americanbar.org/advocacy/rule_of_law/what-is-the-rule-of-law/</Commo
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Rural-urbanMigration">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Migration"/>
-        <obo:IAO_0000232>See the &quot;Urbanization&quot; class.  For a topic model that makes the sub-categories of &quot;Demographics&quot; topics in their own right, some or all of the vocabulary from &quot;Urbanization&quot;--at least, that pertaining to migration per se--would need to be duplicated here.</obo:IAO_0000232>
+        <obo:IAO_0000232>For a topic model that makes the sub-categories of &quot;Demographics&quot; topics in their own right, some or all of the vocabulary from &quot;Urbanization&quot;--at least, that pertaining to migration per se--would need to be duplicated here.</obo:IAO_0000232>
         <rdfs:label>Rural-urban Migration</rdfs:label>
+        <rdfs:seeAlso>http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Urbanization</rdfs:seeAlso>
     </owl:Class>
     
 
