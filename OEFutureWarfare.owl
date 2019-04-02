@@ -15,8 +15,25 @@
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Upper/ExtendedRelationOntology"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
         <owl:imports rdf:resource="http://www.obofoundry.org/ro/ro.owl"/>
-        <owl:versionInfo>DISTRIBUTION A: Approved for public release; distribution is unlimited.  For more information contact United States Army TRADOC G-27 at usarmy.jble.tradoc.list.tboc-operations@mail.mil (or Kaye Darone, Data Science Branch Chief, DSMS, Kaye.t.darone.civ@mail.mil, (757) 878-9547)</owl:versionInfo>
+        <owl:versionInfo xml:lang="mail.mil, (757) 878-9547)">DISTRIBUTION A: Approved for public release; distribution is unlimited.  For more information contact United States Army TRADOC G-27 at usarmy.jble.tradoc.list.tboc-operations@mail.mil (or Kaye Darone, Data Science Branch Chief, DSMS, Kaye.t.darone.civ</owl:versionInfo>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
     
 
 
@@ -290,7 +307,7 @@ Projections made in 2018 by ARL and TRADOC
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#STEMControlledVocabulary"/>
         <rdfs:label>Artificial Intelligence Controlled Vocabulary</rdfs:label>
     </owl:Class>
     
@@ -673,7 +690,7 @@ push paradigm for data transfer.</rdfs:comment>
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BigDataControlledVocabulary">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#STEMControlledVocabulary"/>
         <rdfs:label>Big Data Controlled Vocabulary</rdfs:label>
     </owl:Class>
     
@@ -1051,7 +1068,7 @@ Publication date : 2018-12
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetitionControlledVocabulary">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnvironmentControlledVocabulary"/>
         <CommonCoreOntologies:definition>index, based on radiative properties of greenhouse gases, measuring the radiative forcing following a pulse emission of a unit mass of a given greenhouse gas in the present-day atmosphere integrated over a chosen time horizon, relative to that of carbon dioxide (CO2)</CommonCoreOntologies:definition>
         <rdfs:label>Climate Change And Resource Competition Controlled Vocabulary</rdfs:label>
     </owl:Class>
@@ -1109,15 +1126,6 @@ https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
 https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
         <CommonCoreOntologies:definition_source>[SOURCE: ISO/IEC 2382:2015, 18.05.06]</CommonCoreOntologies:definition_source>
         <rdfs:label>Cluster</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CollectiveIntelligenceControlledVocabulary -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CollectiveIntelligenceControlledVocabulary">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
-        <rdfs:label>Collective Intelligence Controlled Vocabulary</rdfs:label>
     </owl:Class>
     
 
@@ -1387,7 +1395,7 @@ Publication date : 2018-02
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CyberAndSpaceControlledVocabulary -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CyberAndSpaceControlledVocabulary">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#STEMControlledVocabulary"/>
         <rdfs:label>Cyber And Space Controlled Vocabulary</rdfs:label>
     </owl:Class>
     
@@ -2497,6 +2505,15 @@ Publication date : 2018-08
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnvironmentControlledVocabulary -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnvironmentControlledVocabulary">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+        <rdfs:label>Environment Controlled Vocabulary</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EvaluateWithSubjectMatterExperts -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EvaluateWithSubjectMatterExperts">
@@ -3379,15 +3396,6 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanComputerInteractionControlledVocabulary -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanComputerInteractionControlledVocabulary">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
-        <rdfs:label>Human Computer Interaction Controlled Vocabulary</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanComputerInteractionTrend -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanComputerInteractionTrend">
@@ -3504,7 +3512,7 @@ Publication Date: 2012-09
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ImmersiveVirtualReality">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
-        <CommonCoreOntologies:definition>A virtual, computer-generated universe, into which the user is immersed via various sensors or objects (glasses, sensory feedback suits, etc.). Immersion in virtual reality may involve the player of a video game or an aircraft pilot in training.</CommonCoreOntologies:definition>
+        <obo:IAO_0000115>A virtual, computer-generated universe, into which the user is immersed via various sensors or objects (glasses, sensory feedback suits, etc.). Immersion in virtual reality may involve the player of a video game or an aircraft pilot in training.</obo:IAO_0000115>
         <CommonCoreOntologies:definition_source>United Nations Educational, Scientific, and Cultural Organization Courier 
 
 March 2018
@@ -3528,15 +3536,6 @@ Publication Date: 2012-09
 
 1st Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Impact Crater</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IncreasedLevelOfHumanPerformanceControlledVocabulary -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IncreasedLevelOfHumanPerformanceControlledVocabulary">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
-        <rdfs:label>Increased Level Of Human Performance Controlled Vocabulary</rdfs:label>
     </owl:Class>
     
 
@@ -5143,7 +5142,7 @@ Projections made in 2018 by ARL and TRADOC
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerGenerationAndStorageControlledVocabulary">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#STEMControlledVocabulary"/>
         <rdfs:label>Power Generation And Storage Controlled Vocabulary</rdfs:label>
     </owl:Class>
     
@@ -6144,7 +6143,7 @@ Publication date : 2014-02
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsControlledVocabulary">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#STEMControlledVocabulary"/>
         <rdfs:label>Robotics Controlled Vocabulary</rdfs:label>
     </owl:Class>
     
@@ -6194,6 +6193,15 @@ Note 1 to entry: SQL is sometimes interpreted to stand for Structured Query Lang
 
 https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
         <rdfs:label>SQL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#STEMControlledVocabulary -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#STEMControlledVocabulary">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
+        <rdfs:label>STEM Controlled Vocabulary</rdfs:label>
     </owl:Class>
     
 
@@ -7088,15 +7096,6 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TechnologyEngineeringAndManufacturingControlledVocabulary -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TechnologyEngineeringAndManufacturingControlledVocabulary">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ControlledVocabulary"/>
-        <rdfs:label>Technology Engineering And Manufacturing Controlled Vocabulary</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TechnologyEngineeringAndManufacturingTrend -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TechnologyEngineeringAndManufacturingTrend">
@@ -7277,7 +7276,7 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</CommonCore
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <rdfs:label>Ternd</rdfs:label>
+        <rdfs:label>Trend</rdfs:label>
     </owl:Class>
     
 
@@ -7600,9 +7599,15 @@ Publication Date: 2012-09
 
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Algorithm -->
 
-    <rdf:Description rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Algorithm">
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Algorithm">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArtificialIntelligenceControlledVocabulary"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
 </rdf:RDF>
 
 
