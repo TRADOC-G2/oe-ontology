@@ -253,15 +253,46 @@ https://fsi.stanford.edu/populism-and-immigration</CommonCoreOntologies:definiti
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Arms -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Arms">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolentConflict"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolence"/>
+        <CommonCoreOntologies:definition>The arms industry is a global industry that involves the sales and manufacture of weaponry. It consists of a commercial industry involved in the research and development, engineering, production, and servicing of military material, equipment, and facilities. Many industrialized countries have a domestic arms-industry to supply their own military forces....
+
+Contracts to supply a given country&apos;s military are awarded by governments, making arms contracts of substantial political importance. The link between politics and the arms trade can result in the development a &quot;military-industrial complex&quot;, where the armed forces, commerce, and politics become closely linked.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Weapon&quot;, Wikipedia
+
+March 30, 2019
+
+https://en.wikipedia.org/wiki/Weapon#Manufacture_of_weapons</CommonCoreOntologies:definition_source>
+        <rdfs:label>Arms</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArmsRaces -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArmsControl -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArmsRaces">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArmsControl">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Arms"/>
+        <CommonCoreOntologies:definition>Arms control is when a country or countries restrict the development, production, stockpiling, proliferation, distribution or usage of weapons. Arms control may refer to small arms, conventional weapons or weapons of mass destruction (WMD) and is usually associated with bilateral or multilateral treaties and agreements.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Barry Kolodkin, &quot;What Is Arms Control?&quot;, ThoughtCo.
+
+February 17, 2019
+
+https://www.thoughtco.com/what-is-arms-control-3310297</CommonCoreOntologies:definition_source>
+        <rdfs:label>Arms Control</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArmsRace -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ArmsRace">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Arms"/>
+        <CommonCoreOntologies:definition>Arms race, a pattern of competitive acquisition of military capability between two or more countries. The term is often used quite loosely to refer to any military buildup or spending increases by a group of countries. This definition requires that there be a competitive nature to this buildup, often reflecting an adversarial relationship.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Sam Perlo-Freeman, &quot;Arms Race&quot;, Encyclopaedia Britannica
+
+March 29, 2019
+
+https://www.britannica.com/topic/arms-race</CommonCoreOntologies:definition_source>
+        <rdfs:label>Arms Race</rdfs:label>
     </owl:Class>
     
 
@@ -529,7 +560,16 @@ https://en.wikipedia.org/wiki/Civil_law_(common_law)</CommonCoreOntologies:defin
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CivilWar -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CivilWar">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubstateConflict"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntrastateConflict"/>
+        <CommonCoreOntologies:definition>A civil war, also known as an intrastate war...is a war between organized groups within the same state or country. The aim of one side may be to take control of the country or a region, to achieve independence for a region or to change government policies.
+
+A civil war is a high-intensity conflict, often involving regular armed forces, that is sustained, organized and large-scale. Civil wars may result in large numbers of casualties and the consumption of significant resources. Most modern civil wars involve intervention by outside powers.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Civil War&quot;, Wikipedia
+
+April 1, 2019
+
+https://en.wikipedia.org/wiki/Civil_war</CommonCoreOntologies:definition_source>
+        <rdfs:label>Civil War</rdfs:label>
     </owl:Class>
     
 
@@ -594,6 +634,21 @@ AI has the capacity to change paradigms, revolutionize everyday life, and take m
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Collective_Defense -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Collective_Defense">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InterstateConflict"/>
+        <CommonCoreOntologies:definition>Collective defense is an arrangement, usually formalized by a treaty and an organization, among participant states that commit support in defense of a member state if it is attacked by another state outside the organization.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Collective Security&quot;, Wikipedia
+
+April 1, 2019
+
+https://en.wikipedia.org/wiki/Collective_security#Collective_defense</CommonCoreOntologies:definition_source>
+        <rdfs:label>Collective Defense</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CombatApplication -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CombatApplication">
@@ -644,7 +699,14 @@ https://en.wikipedia.org/wiki/Corruption</CommonCoreOntologies:definition_source
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Coup -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Coup">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubstateConflict"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntrastateConflict"/>
+        <CommonCoreOntologies:definition>Coup d’état, also called Coup, the sudden, violent overthrow of an existing government by a small group. The chief prerequisite for a coup is control of all or part of the armed forces, the police, and other military elements. [A] coup is a change in power from the top that merely results in the abrupt replacement of leading government personnel.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Editors of Encyclopaedia Britannia, &quot;Coup d&apos;Etat&quot;, Encyclopaedia Britannica
+
+April 1, 2019
+
+https://www.britannica.com/topic/coup-detat</CommonCoreOntologies:definition_source>
+        <rdfs:label>Coup</rdfs:label>
     </owl:Class>
     
 
@@ -652,7 +714,33 @@ https://en.wikipedia.org/wiki/Corruption</CommonCoreOntologies:definition_source
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Crime -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Crime">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolentConflict"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolence"/>
+        <CommonCoreOntologies:definition>In ordinary language, a crime is an unlawful act punishable by a state or other authority.
+
+...
+
+The notion that acts such as murder, rape and theft are to be prohibited exists worldwide. What precisely is a criminal offence is defined by criminal law of each country. While many have a catalogue of crimes called the criminal code, in some common law countries no such comprehensive statute exists.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Crime&quot;, Wikipedia
+
+March 30, 2019
+
+https://en.wikipedia.org/wiki/Crime</CommonCoreOntologies:definition_source>
+        <rdfs:label>Crime</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CrimesAgainstHumanity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CrimesAgainstHumanity">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Crime"/>
+        <CommonCoreOntologies:definition>&quot;Crimes against Humanity&quot;, Wikipedia
+
+March 30, 2109
+
+https://en.wikipedia.org/wiki/Crimes_against_humanity</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>Unlike war crimes, crimes against humanity can be committed during peace or war. They are not isolated or sporadic events, but are part either of a government policy (although the perpetrators need not identify themselves with this policy) or of a wide practice of atrocities tolerated or condoned by a government or a de facto authority. War crimes, murder, massacres, dehumanization, genocide, ethnic cleansing, deportations, unethical human experimentation, extrajudicial punishments including summary executions, use of WMDs, state terrorism or state sponsoring of terrorism, death squads, kidnappings and forced disappearances, military use of children, unjust imprisonment, enslavement, cannibalism, torture, rape, political repression, racial discrimination, religious persecution and other human rights abuses may reach the threshold of crimes against humanity if they are part of a widespread or systematic practice.</CommonCoreOntologies:definition>
+        <rdfs:label>Crimes against Humanity</rdfs:label>
     </owl:Class>
     
 
@@ -678,6 +766,82 @@ https://en.wikipedia.org/wiki/Criminal_law</CommonCoreOntologies:definition_sour
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Trend"/>
         <CommonCoreOntologies:definition>Our adversaries will rely on strategic capabilities, such as weapons of mass destruction, information operations, and direct cyber-attacks designed to give us pause in responding to their actions and provide them the strategic space they need to operate.  Space will become a contested domain, as our enemies will enhance their ability to operate in that domain while working to deny us what was once a key area of advantage</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>The Operational Environment and the Changing Character of Future Warfare</CommonCoreOntologies:definition_source>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Cyberespionage -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Cyberespionage">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Cybersecurity"/>
+        <CommonCoreOntologies:definition>Cyberespionage is the practice of using information technology to obtain secret information without permission from its owners or holders. Cyberespionage is most often used to gain strategic, economic, political or military advantage, and is conducted using cracking techniques and malware.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;What Is Cybersecurity?  A Definition of Cybersecurity&quot;, Cyberpedia, Palo Alto Networks
+
+March 30, 2019
+
+https://www.paloaltonetworks.com/cyberpedia/what-is-cyber-security</CommonCoreOntologies:definition_source>
+        <rdfs:label>Cyberespionage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Cybersecurity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Cybersecurity">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Espionage"/>
+        <CommonCoreOntologies:definition>(1)
+
+Cybersecurity refers to a set of techniques used to protect the integrity of networks, programs and data from attack, damage or unauthorized access.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+Cybersecurity is the protection of internet-connected systems, including hardware, software and data, from cyberattacks.
+
+In a computing context, security comprises cybersecurity and physical security -- both are used by enterprises to protect against unauthorized access to data centers and other computerized systems. Information security, which is designed to maintain the confidentiality, integrity and availability of data, is a subset of cybersecurity.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>(1)
+
+&quot;What Is Cybersecurity?  A Definition of Cybersecurity&quot;, Cyberpedia, Palo Alto Networks
+
+March 30, 2019
+
+https://www.paloaltonetworks.com/cyberpedia/what-is-cyber-security</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:definition_source>(2)
+
+&quot;Cybersecurity&quot;, SecuritySearch, TechTarget
+
+May, 2018
+
+https://searchsecurity.techtarget.com/definition/cybersecurity</CommonCoreOntologies:definition_source>
+        <rdfs:label>Cybersecurity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Cyberterrorism -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Cyberterrorism">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Cybersecurity"/>
+        <CommonCoreOntologies:definition>Cyberterrorismis the disruptive use of information technology by terrorist groups to further their ideological or political agenda. This takes the form of attacks on networks, computer systems and telecommunication infrastructures.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;What Is Cybersecurity?  A Definition of Cybersecurity&quot;, Cyberpedia, Palo Alto Networks
+
+March 30, 2019
+
+https://www.paloaltonetworks.com/cyberpedia/what-is-cyber-security</CommonCoreOntologies:definition_source>
+        <rdfs:label>Cyberterrorism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Cyberwarfare -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Cyberwarfare">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Cybersecurity"/>
+        <CommonCoreOntologies:definition>Cyberwarfareinvolves nation-states using information technology to penetrate another nation’s networks to cause damage or disruption. In the U.S. and many other nations, cyberwarfare has been acknowledged as the fifth domain of warfare (following land, sea, air and space). Cyberwarfare attacks are primarily executed by hackers who are well-trained in exploiting the intricacies of computer networks, and operate under the auspices and support of nation-states. Rather than “shutting down” a target’s key networks, a cyberwarfare attack may intrude into networks to compromise valuable data, degrade communications, impair such infrastructural services as transportation and medical services, or interrupt commerce.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;What Is Cybersecurity?  A Definition of Cybersecurity&quot;, Cyberpedia, Palo Alto Networks
+
+March 30, 2019
+
+https://www.paloaltonetworks.com/cyberpedia/what-is-cyber-security</CommonCoreOntologies:definition_source>
+        <rdfs:label>Cyberwarfare</rdfs:label>
     </owl:Class>
     
 
@@ -835,6 +999,21 @@ https://en.wikipedia.org/wiki/Dictator</CommonCoreOntologies:definition_source>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DiplomaticSanctions -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DiplomaticSanctions">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalSanctions"/>
+        <CommonCoreOntologies:definition>Diplomatic sanctions are political measures taken to express disapproval or displeasure at a certain action through diplomatic and political means.... Measures include limitations or cancellations of high-level government visits or expelling or withdrawing diplomatic missions or staff.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;International Sanctins&quot;, Wikipedia
+
+April 1, 2019
+
+https://en.wikipedia.org/wiki/International_sanctions#Diplomatic_sanctions</CommonCoreOntologies:definition_source>
+        <rdfs:label>Diplomatic Sanctions</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DirectedEnergyWeapons -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DirectedEnergyWeapons">
@@ -928,6 +1107,21 @@ https://en.wikipedia.org/wiki/Economic_growth</CommonCoreOntologies:definition_s
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicSanctions -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicSanctions">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalSanctions"/>
+        <CommonCoreOntologies:definition>Economic sanctions are commercial and financial penalties applied by one or more countries against a targeted self-governing state, group, or individual. Economic sanctions may include various forms of trade barriers, tariffs, and restrictions on financial transactions. An embargo is similar, but usually implies a more severe sanction</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Economic Sanctions&quot;, Wikipedia
+
+April 1, 2019
+
+https://en.wikipedia.org/wiki/Economic_sanctions</CommonCoreOntologies:definition_source>
+        <rdfs:label>Economic Sanctions</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicsAndTrade">
@@ -999,6 +1193,25 @@ https://en.wikipedia.org/wiki/Election#Electoral_systems</CommonCoreOntologies:d
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EnergyScavengingFromTheEnvironment">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatMove"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Espionage -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Espionage">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolence"/>
+        <CommonCoreOntologies:definition>Espionage or spying, is the act of obtaining secret or confidential information without the permission of the holder of the information. Spies help agencies uncover secret information. Any individual or spy ring (a cooperating group of spies), in the service of a government, company or independent operation, can commit espionage. The practice is clandestine, as it is by definition unwelcome and in many cases illegal and punishable by law. Espionage is a method of intelligence gathering which includes information gathering from public sources.
+
+...
+
+Spying involving corporations is known as industrial espionage.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Espionage&quot;, Wikipedia
+
+April 1, 2019
+
+https://en.wikipedia.org/wiki/Espionage</CommonCoreOntologies:definition_source>
+        <rdfs:label>Espionage</rdfs:label>
     </owl:Class>
     
 
@@ -1468,6 +1681,47 @@ AI has the capacity to change paradigms, revolutionize everyday life, and take m
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanIntelligence -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanIntelligence">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Espionage"/>
+        <CommonCoreOntologies:definition>Human intelligence (HUMINT) is defined as any information that can be gathered from human sources.
+
+...
+
+[Clandestine intelligence gathering is used for]  strengthening national security and foreign policy objectives through the clandestine collection of HUMINT.
+
+HUMINT is collected through:
+
+    Clandestine acquisition of photography, documents, and other material
+    Overt collection by people overseas
+    Debriefing of foreign nationals and U.S. citizens who travel abroad
+    Official contacts with foreign governments</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;INTelligence:  Human Intelligence&quot;, (U.S.) Central Intelligence Agency
+
+April 30, 2013
+
+https://www.cia.gov/news-information/featured-story-archive/2010-featured-story-archive/intelligence-human-intelligence.html</CommonCoreOntologies:definition_source>
+        <rdfs:label>Human Intelligence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanitarianIntervention -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanitarianIntervention">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InterstateConflict"/>
+        <CommonCoreOntologies:definition>Humanitarian intervention, actions undertaken by an organization or organizations (usually a state or a coalition of states) that are intended to alleviate extensive human suffering within the borders of a sovereign state. Such suffering tends to be the result of a government instigating, facilitating, or ignoring the abuse of groups falling within its jurisdiction. This abuse often takes the form of deliberate and systematic violations of human rights, including forced expulsions, ethnic cleansing, and, in the most extreme cases, genocide. Humanitarian intervention can apply also in situations where there is no effective government and civil order consequently has collapsed.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Duncan Bell, &quot;Humanitarian Intervention&quot;, Encyclopaedia Britannica
+
+Mar 26 ,2019
+
+https://www.britannica.com/topic/humanitarian-intervention</CommonCoreOntologies:definition_source>
+        <rdfs:label>Humanitarian Intervetion</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HunterKillerSwarm -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HunterKillerSwarm">
@@ -1622,7 +1876,14 @@ Projections made in 2018 by ARL and TRADOC
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Insurgency -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Insurgency">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubstateConflict"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntrastateConflict"/>
+        <CommonCoreOntologies:definition>Insurgencies develop and become sustained not because insurgents defeat government forces in large-scale conventional military battles, but because they manage to win enough support (&quot;hearts and minds&quot;) among a population for the insurgents to hide, receive support, recruit new members, and conduct continuing guerrilla-type operations against governments over a long period. In fact, government military forces rarely lose outright to insurgent military forces, and certainly not quickly. Rather, the political aspect of insurgency, popular support for insurgents and against a government, and the withdrawal of government forces from particular regions or government concessions is the norm, rather than direct military overthrow of the government.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>D. Scott Bennett, &quot;Governments, Civilians, and the Evolution of Insurgency:  Modeling the Early Dynamics of Insurgencies&quot;, Journal of Artificial Societies and Social Simulation, Vol. 11, No. 4 7
+
+October 31, 2008
+
+http://jasss.soc.surrey.ac.uk/11/4/7.html</CommonCoreOntologies:definition_source>
+        <rdfs:label>Insurgency</rdfs:label>
     </owl:Class>
     
 
@@ -1656,14 +1917,6 @@ https://en.wikipedia.org/wiki/Intergovernmental_organization#Types_and_purpose</
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalAlliances -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalAlliances">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolentConflict"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalMigration -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalMigration">
@@ -1675,6 +1928,21 @@ March 26, 2019
 
 https://en.wikipedia.org/wiki/International_migration</CommonCoreOntologies:definition_source>
         <rdfs:label>International Migration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalSanctions -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalSanctions">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolence"/>
+        <CommonCoreOntologies:definition>International sanctions are political and economic decisions that are part of diplomatic efforts by countries, multilateral or regional organizations against states or organizations either to protect national security interests, or to protect international law, and defend against threats to international peace and security. These decisions principally include the temporary imposition on a target of economic, trade, diplomatic, cultural or other restrictions (sanctions measures)....</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;International Sanctions&quot;, Wikipedia
+
+April 1, 2019
+
+https://en.wikipedia.org/wiki/International_sanctions</CommonCoreOntologies:definition_source>
+        <rdfs:label>International Sanctions</rdfs:label>
     </owl:Class>
     
 
@@ -1730,7 +1998,54 @@ https://www.investopedia.com/insights/what-is-international-trade/</CommonCoreOn
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InterstateConflict -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InterstateConflict">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolentConflict"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolence"/>
+        <CommonCoreOntologies:definition>An international armed conflict is an armed conflict between two or more states.
+
+...
+
+[Whenever] there is resort to hostile armed force between two States, there is an international armed conflict.
+
+...
+
+[The] use of force must be by the state.... However, this does not mean that states must use their military forces: non-military forces such as border guards or coast guards may be engaged in acts constituting an armed conflict.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;International Armed Conflict&quot;, RULAC, Geneva Academy
+
+August 30, 2017
+
+http://www.rulac.org/classification/international-armed-conflict</CommonCoreOntologies:definition_source>
+        <rdfs:label>Inter-state Conflict</rdfs:label>
+        <rdfs:label>Interstate Conflict</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InterstateWar -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InterstateWar">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InterstateConflict"/>
+        <CommonCoreOntologies:definition>War is a state of armed conflict between states, governments, societies and informal paramilitary groups, such as mercenaries, insurgents and militias. It is generally characterized by extreme violence, aggression, destruction, and mortality, using regular or irregular military forces.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;War&quot;, Wikipedia
+
+April 1, 2019
+
+https://en.wikipedia.org/wiki/War</CommonCoreOntologies:definition_source>
+        <rdfs:label>Interstate War</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntrastateConflict -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntrastateConflict">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolence"/>
+        <CommonCoreOntologies:definition>Intrastate violence is the most common form of conflict today. It describes sustained political violence that takes place between armed groups representing the state, and one or more non-state groups. Violence of this sort usually is confined within the borders of a single state, but usually has significant international dimensions and holds the risk of spilling over into bordering states....</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>missworldsecurity, &quot;Definitions:  What&apos;s the Difference between Intrastate, Interstate, and Extrastate???&quot;, Miss World Security
+
+September 26, 2012
+
+https://missworldsecurity.com/2012/09/26/definitions-whats-the-difference-between-intrastate-interstate-extrastate/</CommonCoreOntologies:definition_source>
+        <rdfs:label>Intra-state Conflict</rdfs:label>
+        <rdfs:label>Intrastate Conflict</rdfs:label>
     </owl:Class>
     
 
@@ -2096,6 +2411,25 @@ https://en.wikipedia.org/wiki/Monetary_policy</CommonCoreOntologies:definition_s
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MoneyLaundering -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MoneyLaundering">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Crime"/>
+        <CommonCoreOntologies:definition>Money laundering is the process of concealing the origins of money obtained illegally by passing it through a complex sequence of banking transfers or commercial transactions.
+
+...
+
+In a number of legal and regulatory systems, the term &quot;money laundering&quot; has become conflated with other forms of financial and business crime, and is sometimes used more generally to include misuse of the financial system (involving things such as securities, digital currencies, credit cards, and traditional currency), including terrorism financing and evasion of international sanctions. Most anti-money laundering laws openly conflate money laundering (which is concerned with source of funds) with terrorism financing (which is concerned with destination of funds) when regulating the financial system.[</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Money Laundering&quot;, Wikipedia
+
+March 30, 2019
+
+https://en.wikipedia.org/wiki/Money_laundering</CommonCoreOntologies:definition_source>
+        <rdfs:label>Money Laundering</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MultiFuelBasedHybridElectricEngines -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#MultiFuelBasedHybridElectricEngines">
@@ -2258,6 +2592,21 @@ https://en.wikipedia.org/wiki/One-party_state</CommonCoreOntologies:definition_s
                 <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SoldierPsychologicalDomainEnhancement"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#OrganizedCrime -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#OrganizedCrime">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Crime"/>
+        <CommonCoreOntologies:definition>Organized crime, complex of highly centralized enterprises set up for the purpose of engaging in illegal activities. Such organizations engage in offenses such as cargo theft, fraud, robbery, kidnapping for ransom, and the demanding of “protection” payments. The principal source of income for these criminal syndicates is the supply of goods and services that are illegal but for which there is continued public demand, such as drugs, prostitution, loan-sharking (i.e., lending money at extremely high rates of interest), and gambling.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Michael Levy &amp; Editors of Encyclopaedia Britannica, &quot;Organized Crime&quot;
+
+March 30, 2019
+
+https://www.britannica.com/topic/organized-crime</CommonCoreOntologies:definition_source>
+        <rdfs:label>Organized Crime</rdfs:label>
     </owl:Class>
     
 
@@ -2470,6 +2819,27 @@ https://en.wikipedia.org/wiki/Productivity</CommonCoreOntologies:definition_sour
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Proliferation">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Arms"/>
+        <CommonCoreOntologies:definition>(1)
+
+Nuclear proliferation is the spread of nuclear weapons, fissionable material, and weapons-applicable nuclear technology and information to nations not recognized as &quot;Nuclear Weapon States&quot; by the Treaty on the Non-Proliferation of Nuclear Weapons (NPT), commonly known as the Non-Proliferation Treaty or NPT.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+&quot;Counter-proliferation&quot;, Wikipedia
+
+March 30, 2019
+
+https://en.wikipedia.org/wiki/Counter-proliferation</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+Counterproliferation refers to diplomatic, intelligence, and military efforts to combat the proliferation of weapons, including both weapons of mass destruction (WMD), long-range missiles, and certain conventional weapons.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>(1)
+
+&quot;Nuclear Proliferation&quot;, Wikipedia
+
+March 30, 2019
+
+https://en.wikipedia.org/wiki/Nuclear_proliferation</CommonCoreOntologies:definition_source>
+        <rdfs:label>Proliferation</rdfs:label>
     </owl:Class>
     
 
@@ -2487,6 +2857,25 @@ March 12, 2019
 
 https://www.britannica.com/topic/propaganda</CommonCoreOntologies:definition_source>
         <rdfs:label>Propaganda</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ProxyWar -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ProxyWar">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InterstateConflict"/>
+        <CommonCoreOntologies:definition>In order for a conflict to be considered a proxy war, there must be a direct, long-term relationship between external actors and the belligerents involved. The aforementioned relationship usually takes the form of funding, military training, arms, or other forms of material assistance which assist a belligerent party in sustaining its war effort.
+
+...
+
+[Proxy]  warfare includes external support for a faction engaged in a civil war, terrorists, national liberation movements, and insurgent groups, or assistance to a national revolt against foreign occupation.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Proxy War&quot;, Wikipedia
+
+April 1, 2019
+
+https://en.wikipedia.org/wiki/Proxy_war</CommonCoreOntologies:definition_source>
+        <rdfs:label>Proxy War</rdfs:label>
     </owl:Class>
     
 
@@ -2708,6 +3097,21 @@ https://en.wikipedia.org/wiki/Natural_resource#Extraction</CommonCoreOntologies:
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Revolution -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Revolution">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntrastateConflict"/>
+        <CommonCoreOntologies:definition>[A] revolution...is a fundamental and relatively sudden change in political power and political organization which occurs when the population revolts against the government, typically due to perceived oppression (political, social, economic) or political incompetence.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Revolution&quot;, Wikipedia
+
+April 1, 2019
+
+https://en.wikipedia.org/wiki/Revolution</CommonCoreOntologies:definition_source>
+        <rdfs:label>Revolution</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsTrend -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RoboticsTrend">
@@ -2758,6 +3162,37 @@ https://www.americanbar.org/advocacy/rule_of_law/what-is-the-rule-of-law/</Commo
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SatelliteReconnaissance -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SatelliteReconnaissance">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Espionage"/>
+        <CommonCoreOntologies:definition>(1)
+
+A reconnaissance satellite or intelligence satellite (commonly, although unofficially, referred to as a spy satellite) is an Earth observation satellite or communications satellite deployed for military or intelligence applications.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+The four basic types of spy satellite are...photoreconnaissance systems that
+
+take pictures in visible and infrared light...infrared telescopes designed to detect missile launches...radars that image sea or land even through cloud cover and in darkness, and...signals intelligence (SIGINT) satellites...which are optimized either for characterizing ground-based radar systems or for eavesdropping on communications.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>(1)
+
+&quot;Reconnaissance Satellite&quot;, Wikipedia
+
+April 1, 2019
+
+https://en.wikipedia.org/wiki/Reconnaissance_satellite</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:definition_source>(2)
+
+Larry Gilman, &quot;Satellites, Spy&quot;, Encyclopedia of Espionage, Intelligence, and Security, The Gale Group
+
+2004
+
+https://www.encyclopedia.com/science-and-technology/astronomy-and-space-exploration/space-exploration/reconnaissance-satellite</CommonCoreOntologies:definition_source>
+        <rdfs:label>Satellite Reconnaissance</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Scope -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Scope">
@@ -2796,11 +3231,11 @@ NIST Big Data Public Working Group (NBD-PWG) Reference Architecture Subgroup Inf
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolentConflict -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolence -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolentConflict">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolence">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HumanFactorsControlledVocabulary"/>
-        <rdfs:label>Security and Violent Conflict</rdfs:label>
+        <rdfs:label>Security and Violence</rdfs:label>
     </owl:Class>
     
 
@@ -2885,6 +3320,25 @@ March 26, 2019
 https://en.wikipedia.org/wiki/Shanty_town</CommonCoreOntologies:definition_source>
         <rdfs:label>Shanty Town</rdfs:label>
         <rdfs:label>Shantytown</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SignalsIntelligence -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SignalsIntelligence">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Espionage"/>
+        <CommonCoreOntologies:definition>Signals intelligence (SIGINT) is intelligence-gathering by interception of signals, whether communications between people (communications intelligence—abbreviated to COMINT) or from electronic signals not directly used in communication (electronic intelligence—abbreviated to ELINT). 
+
+...
+
+As sensitive information is often encrypted, signals intelligence in turn involves the use of cryptanalysis to decipher the messages. Traffic analysis—the study of who is signaling whom and in what quantity—is also used to derive information.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Signals Intelligence&quot;, Wikipedia
+
+April 1, 2019
+
+https://en.wikipedia.org/wiki/Signals_intelligence#Electronic_signals_intelligence</CommonCoreOntologies:definition_source>
+        <rdfs:label>Signals Intelligence</rdfs:label>
     </owl:Class>
     
 
@@ -2986,6 +3440,22 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#State-sponsoredTerrorism -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#State-sponsoredTerrorism">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Terrorism"/>
+        <CommonCoreOntologies:definition>State sponsorship of terrorism: Also known as &quot;state supported&quot; terrorism, when governments provide supplies, training, and other forms of support to non-state terrorist organizations. One of the most valuable types of this support is the provision of safe haven or physical basing for the terrorists&apos; organization.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;State Sponsored Terrorism&quot;, Terrorism Research
+
+April 2, 2019
+
+http://www.terrorism-research.com/state/</CommonCoreOntologies:definition_source>
+        <rdfs:label>State Sponsored Terrorism</rdfs:label>
+        <rdfs:label>State-sponsored Terrorism</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#StealthCommunications -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#StealthCommunications">
@@ -3006,14 +3476,6 @@ Projections made in 2018 by ARL and TRADOC
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FaultLineMethodology"/>
         <CommonCoreOntologies:definition>Improve the accuracy, credibility, and validity of the analysis. Present the fault lines analysis to the initial group of SMEs once it is fully formed for feedback as to the product’s ability to fully answer the research question accurately.  GCKN can also serve as an expert check both in the quality of the product as well as with the format and delivery of the product.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>Fault Lines Methodology Infographic</CommonCoreOntologies:definition_source>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubstateConflict -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubstateConflict">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolentConflict"/>
     </owl:Class>
     
 
@@ -3223,7 +3685,28 @@ https://www.investopedia.com/terms/t/tariff.asp</CommonCoreOntologies:definition
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Terrorism -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Terrorism">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolentConflict"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolence"/>
+        <CommonCoreOntologies:definition>(1)
+
+The strategy of terrorists is to commit acts of violence that draws the attention of the local populace, the government, and the world to their cause. The terrorists plan their attack to obtain the greatest publicity, choosing targets that symbolize what they oppose. The effectiveness of the terrorist act lies not in the act itself, but in the public&apos;s or government&apos;s reaction to the act.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+&quot;criminal acts, including against civilians, committed with the intent to cause death or serious bodily injury, or taking of hostages, with the purpose to provoke a state of terror&quot;</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>(1)
+
+&quot;What Is Terrorism?&quot;, Terrorism Research
+
+April 2, 2019
+
+http://www.terrorism-research.com/</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:definition_source>(2)
+
+&quot;Resolution 1566 (2004)&quot;, United Nations Security Council
+
+October 8, 2004
+
+https://www.un.org/ruleoflaw/files/n0454282.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Terrorism</rdfs:label>
     </owl:Class>
     
 
@@ -3277,6 +3760,21 @@ March 21, 2019
 
 https://www.britannica.com/topic/trade-agreement</CommonCoreOntologies:definition_source>
         <rdfs:label>Trade Agreement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TransnationalCrime -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#TransnationalCrime">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Crime"/>
+        <CommonCoreOntologies:definition>The word transnational describes crimes that are not only international (that is, crimes that cross borders between countries), but crimes that by their nature involve cross-border transference as an essential part of the criminal activity. Transnational crimes also include crimes that take place in one country, but their consequences significantly affect another country and transit countries may also be involved. Examples of transnational crimes include: human trafficking, people smuggling, smuggling/trafficking of goods (such as arms trafficking and drug trafficking and illegal animal and plant products and other goods prohibited on environmental grounds (e.g. banned ozone depleting substances), sex slavery, [and] terrorism offences....</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Transnational Crime&quot;, Wikipedia
+
+March 30, 2019
+
+https://en.wikipedia.org/wiki/Transnational_crime</CommonCoreOntologies:definition_source>
+        <rdfs:label>Transnational Crime</rdfs:label>
     </owl:Class>
     
 
@@ -3393,7 +3891,14 @@ https://www.conservationinstitute.org/what-is-urbanization/</CommonCoreOntologie
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ViolentProtest -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ViolentProtest">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SubstateConflict"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IntrastateConflict"/>
+        <CommonCoreOntologies:definition>Some demonstrations and protests can turn, at least partially, into riots or mob violence against objects such as automobiles and businesses, bystanders and the police. Police and military authorities often use non-lethal force or less-lethal weapons, such as tasers, rubber bullets, pepper spray, and tear gas against demonstrators in these situations.[citation needed] Sometimes violent situations are caused by the preemptive or offensive use of these weapons which can provoke, destabilize, or escalate a conflict.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Demonstration (Political)&quot;, Wikpedia
+
+April 2, 2019
+
+https://en.wikipedia.org/wiki/Demonstration_(political)#Nonviolence_or_violence</CommonCoreOntologies:definition_source>
+        <rdfs:label>Violent Protest</rdfs:label>
     </owl:Class>
     
 
