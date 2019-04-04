@@ -15,9 +15,9 @@
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Upper/ExtendedRelationOntology"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
         <owl:imports rdf:resource="http://www.obofoundry.org/ro/ro.owl"/>
-        <owl:versionInfo xml:lang="mail.mil, (757) 878-9547)">April 4, 2019</owl:versionInfo>
-        <owl:versionInfo xml:lang="mail.mil, (757) 878-9547)">DISTRIBUTION A: Approved for public release; distribution is unlimited.  For more information contact United States Army TRADOC G-27 at usarmy.jble.tradoc.list.tboc-operations@mail.mil (or Kaye Darone, Data Science Branch Chief, DSMS, Kaye.t.darone.civ@mail.mil, (757) 878-9547)</owl:versionInfo>
-        <owl:versionInfo xml:lang="mail.mil, (757) 878-9547)">Version 3.3</owl:versionInfo>
+        <owl:versionInfo>April 4, 2019</owl:versionInfo>
+        <owl:versionInfo>DISTRIBUTION A: Approved for public release; distribution is unlimited.  For more information contact United States Army TRADOC G-27 at usarmy.jble.tradoc.list.tboc-operations@mail.mil (or Kaye Darone, Data Science Branch Chief, DSMS, Kaye.t.darone.civ@mail.mil, (757) 878-9547)</owl:versionInfo>
+        <owl:versionInfo>Version 3.3</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -30,6 +30,24 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#hasInsights -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#hasInsights"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#hasKeyIssues -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#hasKeyIssues"/>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#hasTopicSummary -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#hasTopicSummary"/>
     
 
 
@@ -6335,6 +6353,19 @@ Projections made in 2018 by ARL and TRADOC
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Nationalism">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity"/>
+        <hasInsights>What is Nationalism?
+Nationalism is an ideology that emphasizes loyalty, devotion, or allegiance to a nation or nation-state and holds that such obligations outweigh other individual or group interests.
+ 
+What is a nationalist movement?
+A nationalist movement may be political or cultural or both. A political nationalist movement is a political, sometimes also military, struggle by a national group for statehood or for some measure of independence from or autonomy within a larger political association, such as another state or an empire. It may also be a struggle by a national group within its own nation-state for wider rights for its members, or it may be a (reactionary) struggle by such a national group against wider rights for minority groups.
+ 
+How has nationalism been used?
+Historically, nationalism was used in fascist regimes like those of Benito Mussolini and Adolf Hitler, who used the economic and political turmoil of the early 20th century to subjugate individualism to the needs of the nation by promoting national identity and tradition. Most notably perhaps is the nationalism exhibited during World War II by the Nazi party in Germany.</hasInsights>
+        <hasKeyIssues>Discrimination
+Resurgent Nationalism
+Multiculturalism
+World Migrations</hasKeyIssues>
+        <hasTopicSummary>Nationalism is a political, social, and economic ideology and movement characterized by the promotion of the interests of a particular nation, especially with the aim of gaining and maintaining the nation&apos;s sovereignty over its homeland.</hasTopicSummary>
         <CommonCoreOntologies:definition>Nationalism holds that each nation should govern itself, free from outside interference (self-determination), that a nation is a natural and ideal basis for a polity, and that the nation is the only rightful source of political power (popular sovereignty). It further aims to build and maintain a single national identity—based on shared social characteristics such as culture, language, religion, politics, and belief in a shared singular history—and to promote national unity or solidarity. Nationalism, therefore, seeks to preserve and foster a nation&apos;s traditional culture, and cultural revivals have been associated with nationalist movements. It also encourages pride in national achievements, and is closely linked to patriotism.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>&quot;Nationalism&quot;, Wikipedia
 
