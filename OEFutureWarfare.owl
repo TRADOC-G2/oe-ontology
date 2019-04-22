@@ -1,22 +1,22 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#"
      xml:base="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
     <owl:Ontology rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology">
-        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology"/>
-        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Upper/ExtendedRelationOntology"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
         <owl:imports rdf:resource="http://www.obofoundry.org/ro/ro.owl"/>
+        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology"/>
+        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Upper/ExtendedRelationOntology"/>
         <owl:versionInfo>April 4, 2019</owl:versionInfo>
-        <owl:versionInfo>DISTRIBUTION A: Approved for public release; distribution is unlimited.  For more information contact United States Army TRADOC G-27 at usarmy.jble.tradoc.list.tboc-operations@mail.mil (or Kaye Darone, Data Science Branch Chief, DSMS, Kaye.t.darone.civ@mail.mil, (757) 878-9547)</owl:versionInfo>
+        <owl:versionInfo xml:lang="mail.mil, (757) 878-9547)">DISTRIBUTION A: Approved for public release; distribution is unlimited.  For more information contact United States Army TRADOC G-27 at usarmy.jble.tradoc.list.tboc-operations@mail.mil (or Kaye Darone, Data Science Branch Chief, DSMS, Kaye.t.darone.civ</owl:versionInfo>
         <owl:versionInfo>Version 3.3</owl:versionInfo>
     </owl:Ontology>
     
@@ -285,6 +285,25 @@ Projections made in 2018 by ARL and TRADOC
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdvancedManPortableAirDefenseSystems">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatShoot"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AffirmativeAction -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AffirmativeAction">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PrejudiceAndDiscrimination"/>
+        <CommonCoreOntologies:definition>Affirmative action, also known as reservation [or] positive discrimination / action...and employment equity...is the policy of promoting the education and employment of members of groups that are known to have previously suffered from discrimination. [Support] for affirmative action has sought to achieve goals such as bridging inequalities in employment and pay, increasing access to education, promoting diversity, and redressing apparent past wrongs, harms, or hindrances.
+
+...
+
+Some countries use a quota system, whereby a certain percentage of government jobs, political positions, and school vacancies must be reserved for members of a certain group...[while in others,] minority group members are given preference or special consideration in selection processes</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Affirmative Action&quot;, Wikipedia
+
+April 19, 2019
+
+https://en.wikipedia.org/wiki/Affirmative_action</CommonCoreOntologies:definition_source>
+        <rdfs:label>Affirmative Action</rdfs:label>
     </owl:Class>
     
 
@@ -1631,6 +1650,21 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ConflictResolution -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ConflictResolution">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolence"/>
+        <CommonCoreOntologies:definition>Despite an increase in conflicts resolved by negoitated settlement, violent conflict frequently recurs over time. Full implementation of agreements often proves difficult and reconciliation can remain elusive. Negotiation processes and peace agreements are important to bring an end to immediate violence.... However, supporting sustainable and just peace is a long-term endeavour that often begins in advance of negotiation attempts and continues well after a peace agreement is concluded.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>Zahbia Yousuf, &quot;Peace Processes&quot;, Conciliation Resources
+
+April 22, 2019
+
+https://www.c-r.org/downloads/CR_Peace_processes.pdf</CommonCoreOntologies:definition>
+        <rdfs:label>Conflict Resolution</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Conformity -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Conformity">
@@ -2760,6 +2794,25 @@ https://en.wikipedia.org/wiki/Economic_growth</CommonCoreOntologies:definition_s
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicInequality -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicInequality">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SocialClass"/>
+        <CommonCoreOntologies:definition>Economic inequality covers a wide variety of topics. It can refer to either income distribution (measuring the amount of money people are paid) or the distribution of wealth (the amount of wealth people own).
+
+...
+
+Important types of economic measurements focus on wealth, income, and consumption. There are many methods for measuring economic inequality, with the Gini coefficient being a widely used one.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Economic Inequality&quot;, Wikipedia
+
+April 22, 2019
+
+https://en.wikipedia.org/wiki/Economic_inequality</CommonCoreOntologies:definition_source>
+        <rdfs:label>Economic Inequality</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicRebalancingTrend -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicRebalancingTrend">
@@ -2818,6 +2871,49 @@ March 23, 2019
 
 https://en.wikipedia.org/wiki/State_school</CommonCoreOntologies:definition_source>
         <rdfs:label>Education</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EducationalDiscrimination -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EducationalDiscrimination">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PrejudiceAndDiscrimination"/>
+        <CommonCoreOntologies:definition>(1)
+
+[The Convention against Discrimination in Education] expresses the fundamental principle of non-discrimination and equality of opportunity in education...[and] states that the establishment or maintenance of private education institutions should not exclude any group but instead provide educational facilities in addition to those provided by public authorities.
+
+[States should make:] primary education free and compulsory; secondary education in its different forms generally available and accessible to all and higher education equally accessible to all on the basis of individual capacity. [The Convention] also recognises the right to basic education for youth and adults.
+
+[Parents] should choose the kind of education they want to their children to receive, particularly regarding moral and religious instruction. It also recognises minorities’ right to carry on their own education activities.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+Some government continue to enforce discriminatory policies within their education systems. These policies often relate to the prohibition of ethnic or cultural practices or languages, or may lead to the separation of children into different education systems, according to their ethnicity, race, or belief.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(3)
+
+Traditional biases against girls, the exclusion of girls from school activities, sexual harassment, child marriage, early pregnancy, and violence in and around school, particularly sexual violence, are some of the factors and violations which disproportionately affect girls....</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>(1)
+
+&quot;UNESCO Instruments&quot;, Right to Education
+
+April 18, 2019
+
+https://www.right-to-education.org/page/unesco-instruments</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:definition_source>(2)
+
+The Education Deficit:  Failures to Protect and Fulfill the Right to Education in Global Development Agendas, Human Rights Watch, pg. 27
+
+2016
+
+https://www.hrw.org/sites/default/files/accessible_document/educationdeficit0616_accessible.pdf</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:definition_source>(3)
+
+The Education Deficit:  Failures to Protect and Fulfill the Right to Education in Global Development Agendas, Human Rights Watch, pg. 50
+
+2016
+
+https://www.hrw.org/sites/default/files/accessible_document/educationdeficit0616_accessible.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Educational Discrimination</rdfs:label>
     </owl:Class>
     
 
@@ -2912,6 +3008,36 @@ Publication date : 2014-02
 
 1st Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Electo-Sensitive Protective Equipment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EmploymentDiscrimination -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EmploymentDiscrimination">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PrejudiceAndDiscrimination"/>
+        <CommonCoreOntologies:definition>Discrimination in employment and occupation means treating people differently or less favourably because of characteristics that are not related to their merit or the inherent requirements of the job.
+
+...
+
+Discrimination can arise in a variety of work-related activities. These include access to employment, to particular occupations, promotions and to training and vocational guidance. Moreover, it can occur with respect to the terms and conditions of the employment....
+
+...
+
+Non-discrimination in employment means simply that employees are selected on the basis of their ability to do the job and that there is no distinction, exclusion or preference made on other grounds. Employees who experience discrimination at work are denied opportunities and have their basic human rights infringed.
+
+...
+
+Discrimination can take many forms, both in terms of gaining access to employment and in the treatment of employees once they are in work.
+...
+
+Most commonly, however, discrimination is indirect and arises where rules or practices have the appearance of neutrality but in fact lead to exclusions. This indirect discrimination often exists informally in attitudes and practices....</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Principle 6:  Labour&quot;, The Ten Principles of the UN Global Compact, United Nations Global Compact
+
+April 19, 2019
+
+https://www.unglobalcompact.org/what-is-gc/mission/principles/principle-6</CommonCoreOntologies:definition_source>
+        <rdfs:label>Employment Discrimination</rdfs:label>
     </owl:Class>
     
 
@@ -3346,22 +3472,60 @@ https://en.wikipedia.org/wiki/Espionage</CommonCoreOntologies:definition_source>
     
 
 
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicAndRacialIdentity -->
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicCleansingAndGenocide -->
 
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicAndRacialIdentity">
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicCleansingAndGenocide">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IdentityGroupPersecution"/>
+        <CommonCoreOntologies:definition>(1)
+
+Ethnic cleansing is the systematic forced removal of ethnic, racial and/or religious groups from a given territory by a more powerful ethnic group, often with the intent of making it ethnically homogeneous. The forces applied may be various forms of forced migration (deportation, population transfer), intimidation, as well as genocide and genocidal rape.
+
+Ethnic cleansing is usually accompanied with efforts to remove physical and cultural evidence of the targeted group in the territory through the destruction of homes, social centers, farms, and infrastructure, and by the desecration of monuments, cemeteries, and places of worship.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+To constitute genocide, there must be a proven intent on the part of perpetrators to physically destroy a national, [ethnic], racial or religious group. 
+...
+
+[The] victims of genocide are deliberately targeted - not randomly – because of their real or perceived membership of [a group].... This means that the target of destruction must be the group</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(3)
+
+[Genocide] is the mass extermination of a whole group of people, an attempt to wipe them out of existence.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>(1)
+
+&quot;Ethnic Cleansing&quot;, Wikipedia
+
+April 19, 2019
+
+https://en.wikipedia.org/wiki/Ethnic_cleansing</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:definition_source>(2)
+
+&quot;Genocide&quot;, United Nations Office on Genocide Prevention and the Responsibility to Protect
+
+April 19, 2019
+
+https://www.un.org/en/genocideprevention/genocide.shtml</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:definition_source>(3)
+
+&quot;How Do You Define Genocide?&quot;, BBC
+
+March 17, 2016
+
+https://www.bbc.com/news/world-11108059</CommonCoreOntologies:definition_source>
+        <rdfs:label>Ethnic Cleansing and Genocide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicRacialAndTribalIdentity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicRacialAndTribalIdentity">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicRacialRegionalAndReligiousIdentity"/>
-        <obo:IAO_0000232>While &quot;ethnicity&quot; and &quot;race&quot; have different meanings in most places, there&apos;s no consistency across place and time about which of them means what.  It therefore makes no sense to specify a separate generalized category for each.</obo:IAO_0000232>
+        <obo:IAO_0000232>While &quot;ethnicity&quot;, &quot;race&quot;, and &quot;tribe&quot; have distinct meanings in most places, there&apos;s no consistency across place and time about which of them means what.  It therefore makes no sense to specify a separate generalized category for each.</obo:IAO_0000232>
         <CommonCoreOntologies:definition>(1)
 
  An ‘ethnic group’ has been defined as a group that regards itself or is regarded by others as a distinct community by virtue of certain characteristics that will help to distinguish the group from the surrounding community. Ethnicity is considered to be shared characteristics such as culture, language, religion, and traditions, which contribute to a person or group’s identity.
 
-Ethnicity has been described as residing in:
-
-• the belief by members of a social group that they are culturally distinctive and different to outsiders;
-
-• their willingness to find symbolic markers of that difference (food habits, religion, forms of dress, language) and to emphasise their significance; and
-
-• their willingness to organise relationships with outsiders so that a kind of ‘group boundary’ is preserved and reproduced</CommonCoreOntologies:definition>
+Ethnicity has been described as residing in:  the belief by members of a social group that they are culturally distinctive and different to outsiders; their willingness to find symbolic markers of that difference (food habits, religion, forms of dress, language) and to emphasise their significance; and their willingness to organise relationships with outsiders so that a kind of ‘group boundary’ is preserved and reproduced</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition>(2)
 
 Race is socially understood to be derived from an individual&apos;s physical features, such as white or black skin tone. The social construction of racial identity can be referred as a sense of group or collective identity based on one&apos;s perception that he or she shares a common heritage with a particular racial group. Racial identity is a surface-level manifestation based on what people look like yet has deep implications in how people are treated.</CommonCoreOntologies:definition>
@@ -3379,7 +3543,7 @@ http://www.intercultural.ie/content/ethnicity-and-ethnic-groups-%E2%80%93-explan
 March 28, 2019
 
 https://en.wikipedia.org/wiki/Ethnic_identity_development</CommonCoreOntologies:definition_source>
-        <rdfs:label>Ethnic and Racial Identity</rdfs:label>
+        <rdfs:label>Ethnic, Racial, and Tribal Identity</rdfs:label>
     </owl:Class>
     
 
@@ -3618,21 +3782,6 @@ March 25, 2019
 https://en.wikipedia.org/wiki/Sex-selective_abortion#Disparate_gendered_access_to_resources</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition>[Some] of the variation in global sex ratios is due to disparate access to resources. ...[There] can be significant differences in gender violence and access to food, healthcare, immunizations between male and female children. This leads to high infant and childhood mortality among girls, which causes changes in sex ratio.</CommonCoreOntologies:definition>
         <rdfs:label>Female Neglect</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Feminism -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Feminism">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity"/>
-        <CommonCoreOntologies:definition>Only when women and girls have full access to their rights – from equal pay and land ownership rights to sexual rights, freedom from violence, access to education, and maternal health rights – will true equality exist. Only when women have taken leadership and peacemaking roles and have an equal political voice will economies and countries be transformed. And only then will all women and girls have the self-determination they are entitled to.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>&quot;Women&apos;s Human Rights&quot;, Global Fund for Women
-
-Match 29, 2019
-
-https://www.globalfundforwomen.org/womens-human-rights</CommonCoreOntologies:definition_source>
-        <rdfs:label>Feminism</rdfs:label>
     </owl:Class>
     
 
@@ -4351,6 +4500,66 @@ Publication date : 2018-12
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HateCrime -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HateCrime">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IdentityGroupPersecution"/>
+        <CommonCoreOntologies:definition>(1)
+
+A hate crime is any crime committed that is motivated by bias or based on the victim’s perceived membership in a specific group, such as race, national origin, sexual orientation, gender, or religious belief. Hate crimes are intended to induce fear and cause psychological and/or physical harm.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+Bias motivations can be broadly defined as preconceived negative opinions, stereotypical assumptions, intolerance or hatred directed to a particular group that shares a common characteristic, such as race, ethnicity, language, religion, nationality, sexual orientation, gender or any other fundamental characteristic. People with disabilities may also be victims of hate crimes.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>(1)
+
+&quot;Hate Crimes&quot;, VictimConnect Resource Center
+
+April 19, 2019
+
+https://victimconnect.org/learn/types-of-crime/hate-crimes/</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:definition_source>(2)
+
+&quot;What Is Hate Crime&quot;, OSCE ODIHR Hate Crime Reporting, OSCE Office for Democratic Institutions and Human Rights
+
+April 19, 2019
+
+http://hatecrime.osce.org/what-hate-crime</CommonCoreOntologies:definition_source>
+        <rdfs:label>Hate Crime</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HateSpeech -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HateSpeech">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IdentityGroupPersecution"/>
+        <CommonCoreOntologies:definition>(1)
+
+Hate speech is a statement intended to demean and brutalize another. It is the use of cruel and derogatory language, gestures or vandalism often directed towards an individual or group. Hate speech is speech that attacks a person or a group on the basis of attributes such as race, religion, ethnic origin, national origin, sex, disability, sexual orientation, or gender identity.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+Hate speech [is] speech or expression that denigrates a person or persons on the basis of (alleged) membership in a social group....
+
+Typical hate speech involves epithets and slurs, statements that promote malicious stereotypes, and speech intended to incite hatred or violence against a group. Hate speech can also include nonverbal depictions and symbols.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>(1)
+
+&quot;Hate Speech&quot;, Wikipedia
+
+April 19, 2019
+
+https://en.wikipedia.org/wiki/Hate_speech</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:definition_source>(2)
+
+William M. Curtis, &quot;Hate Speech&quot;, Encyclopaedia Britannica
+
+August 17, 2015
+
+https://www.britannica.com/topic/hate-speech</CommonCoreOntologies:definition_source>
+        <rdfs:label>Hate Speech</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Healthcare -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Healthcare">
@@ -4676,6 +4885,23 @@ March 28, 2019
 
 https://en.wikipedia.org/wiki/Social_identity_theory</obo:IAO_0000232>
         <rdfs:label>Identity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IdentityGroupPersecution -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IdentityGroupPersecution">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity"/>
+        <CommonCoreOntologies:definition>For many minorities and indigenous communities, the situation is critical. They face hate crimes, routinely high levels of discrimination, and even mass killing.  For others, long-term exclusion is trapping communities in poverty and threatening ways of life that have been sustained for generations – until now.
+
+[These problems require] countering persecution and promoting inclusion. To the growth of hatred and intolerance we offer a vision based on defending rights and bringing communities together.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Our Strategy:  2017-2020&quot;, Mnority Rights Group International
+
+April 20, 2019
+
+https://minorityrights.org/our-strategy/</CommonCoreOntologies:definition_source>
+        <rdfs:label>Identity Group Persecution</rdfs:label>
     </owl:Class>
     
 
@@ -5400,6 +5626,21 @@ March 29, 2019
 
 https://www.amnesty.org/en/what-we-do/discrimination/lgbt-rights/</CommonCoreOntologies:definition_source>
         <rdfs:label>LGBT Identity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LaborUnion -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LaborUnion">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SocialClass"/>
+        <CommonCoreOntologies:definition>A trade union, also called a...labor union...through its leadership, bargains with the employer on behalf of union members (rank and file members) and negotiates labour contracts (collective bargaining) with employers. The most common purpose of these associations or unions is &quot;maintaining or improving the conditions of their employment&quot;. This may include the negotiation of wages, work rules, complaint procedures, rules governing hiring, firing and promotion of workers, benefits, workplace safety and policies.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Trade Union&quot;, Wikipedia
+
+April 22, 2019
+
+https://en.wikipedia.org/wiki/Trade_union</CommonCoreOntologies:definition_source>
+        <rdfs:label>Labor Union</rdfs:label>
     </owl:Class>
     
 
@@ -6858,6 +7099,36 @@ https://en.wikipedia.org/wiki/Patronage</CommonCoreOntologies:definition_source>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PeaceAgreement -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PeaceAgreement">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ConflictResolution"/>
+        <CommonCoreOntologies:definition>Peace agreements are contracts intended to end a violent conflict, or to significantly transform a conflict, so that it can be more constructively addressed. There are various types of agreements that can be reached during a peace process. Each type of agreement has a distinct purpose and serves a value in itself towards building positive momentum for a final settlement.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Nita Yawanarajah &amp; Julian Ouellet, &quot;Peace Agreements&quot;, Beyond Intractablity
+
+September, 2003
+
+https://www.beyondintractability.org/essay/structuring_peace_agree</CommonCoreOntologies:definition_source>
+        <rdfs:label>Peace Agreement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Peacekeeping -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Peacekeeping">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ConflictResolution"/>
+        <CommonCoreOntologies:definition>[There] is a general understanding that at the international level, peacekeepers monitor and observe peace processes in post-conflict areas, and may assist ex-combatants in implementing peace agreement commitments that they have undertaken. Such assistance may come in many forms, including confidence-building measures, power-sharing arrangements, electoral support, strengthening the rule of law, and economic and social development.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Peacekeeping&quot;, Wikipedia
+
+April 22, 2019
+
+https://en.wikipedia.org/wiki/Peacekeeping</CommonCoreOntologies:definition_source>
+        <rdfs:label>Peacekeeping</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Pensions -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Pensions">
@@ -7201,6 +7472,21 @@ Publication date : 2016-08
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerSystems">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatMove"/>
         <rdfs:label>Power Systems</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PrejudiceAndDiscrimination -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PrejudiceAndDiscrimination">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IdentityGroupPersecution"/>
+        <CommonCoreOntologies:definition>Prejudice can have a strong influence on how people behave and interact with others, particularly with those who are different from them. Prejudice is a baseless and usually negative attitude toward members of a group. Common features of prejudice include negative feelings, stereotyped beliefs, and a tendency to discriminate against members of the group.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Kenda Cherry, &quot;Understanding Prejudice:  How It Forms and How to Prevent It&quot;, Verywell Mind 
+
+March 22, 2019
+
+https://www.verywellmind.com/what-is-prejudice-2795476</CommonCoreOntologies:definition_source>
+        <rdfs:label>Prejudice and Discrimination</rdfs:label>
     </owl:Class>
     
 
@@ -7883,6 +8169,21 @@ Publication date : 2018-02
 
 5th Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Requirement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ResidentialSegregation -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ResidentialSegregation">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PrejudiceAndDiscrimination"/>
+        <CommonCoreOntologies:definition>A common perception is that minorities and immigrants self-segregate, which might be true for some new arrivals who choose to settle in ethnic enclaves where their social networks lead them. However, segregation occurs for many reasons, including housing market discrimination and decisions by the majority population on where to live. Patterns differ across countries and are thus more likely to reflect the deeper trends of social and economic exclusion in a particular context rather than inherent preferences of any group.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>John Iceland, &quot;Residential Segration:  A Transatlantic Analysis&quot;, Migration Policy Institute
+
+September, 2014
+
+https://www.migrationpolicy.org/research/residential-segregation-transatlantic-analysis</CommonCoreOntologies:definition_source>
+        <rdfs:label>Residential Segregation</rdfs:label>
     </owl:Class>
     
 
@@ -8811,6 +9112,25 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Self-determination -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Self-determination">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicRacialRegionalAndReligiousIdentity"/>
+        <CommonCoreOntologies:definition>Essentially, the right to self-determination is the right of a people to determine its own destiny. In particular, the principle allows a people to choose its own political status and to determine its own form of economic, cultural and social development. Exercise of this right can result in a variety of different outcomes ranging from political independence through to full integration within a state.
+
+...
+
+[For some peoples], the only acceptable outcome is full political independence.  ... [Others seek] a degree of political, cultural and economic autonomy, sometimes in the form of a federal relationship.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Self-determinatin&quot;, Unrepresented Nations &amp; Peoples Organization
+
+September 17, 2017
+
+https://www.unpo.org/article/4957</CommonCoreOntologies:definition_source>
+        <rdfs:label>Self-determination</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SemanticKnowledgeRepresentation -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SemanticKnowledgeRepresentation">
@@ -8949,6 +9269,21 @@ September 27, 2011
 
 https://www.guttmacher.org/journals/ipsrh/2011/09/sex-selective-abortions-during-past-three-decades-may-explain-absence</CommonCoreOntologies:definition_source>
         <rdfs:label>Sex-selective Abortion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SexualHarrassment -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SexualHarrassment">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Women"/>
+        <CommonCoreOntologies:definition>Sexual harassment includes unwelcome sexual advances, requests for sexual favors, and other verbal or physical harassment of a sexual nature in the workplace or learning environment.... Sexual harassment does not always have to be specifically about sexual behavior or directed at a specific person. For example, negative comments about women as a group may be a form of sexual harassment.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Sexual Harassment&quot;, RAINN
+
+April 18, 2019
+
+https://www.rainn.org/articles/sexual-harassment</CommonCoreOntologies:definition_source>
+        <rdfs:label>Sexual Harassment</rdfs:label>
     </owl:Class>
     
 
@@ -9111,8 +9446,22 @@ https://www.scmp.com/magazines/post-magazine/long-reads/article/2142658/too-many
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SocialClass">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity"/>
-        <CommonCoreOntologies:definition>Modern social democracy is characterized by a commitment to policies aimed at curbing inequality, oppression of underprivileged groups and poverty, including support for universally accessible public services like care for the elderly, child care, education, health care and workers&apos; compensation. The social democratic movement often has strong connections with the labour movement and trade unions which are supportive of collective bargaining rights for workers as well as measures to extend decision-making beyond politics into the economic sphere in the form of co-determination for employees and other economic stakeholders.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>&quot;Social Democracy&quot;, Wikipedia
+        <CommonCoreOntologies:definition>(1)
+
+[Concepts] of social class often assume three general categories: a very wealthy and powerful upper class that owns and controls the means of production; a middle class of professional workers, small business owners and low-level managers; and a lower class, who rely on low-paying wage jobs for their livelihood and often experience poverty.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+Modern social democracy is characterized by a commitment to policies aimed at curbing inequality, oppression of underprivileged groups and poverty, including support for universally accessible public services like care for the elderly, child care, education, health care and workers&apos; compensation. The social democratic movement often has strong connections with the labour movement and trade unions which are supportive of collective bargaining rights for workers as well as measures to extend decision-making beyond politics into the economic sphere in the form of co-determination for employees and other economic stakeholders.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>(1)
+
+&quot;Social Class&quot;, Wikipedia
+
+April 19, 2019
+
+https://en.wikipedia.org/wiki/Social_class</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:definition_source>(2)
+
+&quot;Social Democracy&quot;, Wikipedia
 
 March 29, 2019
 
@@ -10210,6 +10559,21 @@ https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ViolenceAgainstWomen -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ViolenceAgainstWomen">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Women"/>
+        <CommonCoreOntologies:definition>Some of the forms of violence perpetrated [against women] are: rape, domestic violence, sexual harassment, reproductive coercion, female infanticide, prenatal sex selection, obstetric violence, and mob violence; as well as harmful customary or traditional practices such as honor killings, dowry violence, female genital mutilation, marriage by abduction and forced marriage. [State-sponsored violence includes] as war rape; sexual violence and sexual slavery during conflict; forced sterilization; forced abortion; violence by the police and authoritative personnel; stoning and flogging. Many forms of VAW, such as trafficking in women and forced prostitution are often perpetrated by organized criminal networks.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Violence against Women&quot;, Wikipedia
+
+April 18, 2019
+
+https://en.wikipedia.org/wiki/Violence_against_women</CommonCoreOntologies:definition_source>
+        <rdfs:label>Violence against Women</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ViolentProtest -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ViolentProtest">
@@ -10330,6 +10694,21 @@ Publication Date: 2012-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Women -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Women">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity"/>
+        <CommonCoreOntologies:definition>Only when women and girls have full access to their rights – from equal pay and land ownership rights to sexual rights, freedom from violence, access to education, and maternal health rights – will true equality exist. Only when women have taken leadership and peacemaking roles and have an equal political voice will economies and countries be transformed. And only then will all women and girls have the self-determination they are entitled to.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Women&apos;s Human Rights&quot;, Global Fund for Women
+
+Match 29, 2019
+
+https://www.globalfundforwomen.org/womens-human-rights</CommonCoreOntologies:definition_source>
+        <rdfs:label>Women</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Research&amp;Analysis -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Research&amp;Analysis">
@@ -10356,5 +10735,5 @@ Publication Date: 2012-09
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi -->
 
