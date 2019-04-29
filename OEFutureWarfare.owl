@@ -15,6 +15,7 @@
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Upper/ExtendedRelationOntology"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
         <owl:imports rdf:resource="http://www.obofoundry.org/ro/ro.owl"/>
+        <owl:versionInfo xml:lang="mail.mil, (757) 878-9547)">DISTRIBUTION A: Approved for public release; distribution is unlimited.  For more information contact United States Army TRADOC G-27 at usarmy.jble.tradoc.list.tboc-operations@mail.mil (or Kaye Darone, Data Science Branch Chief, DSMS, Kaye.t.darone.civ</owl:versionInfo>
         <owl:versionInfo>Version 3.3</owl:versionInfo>
         <owl:versionInfo>DISTRIBUTION A: Approved for public release; distribution is unlimited.  For more information contact United States Army TRADOC G-27 at usarmy.jble.tradoc.list.tboc-operations@mail.mil (or Kaye Darone, Data Science Branch Chief, DSMS, Kaye.t.darone.civ@mail.mil, (757) 878-9547)</owl:versionInfo>
         <owl:versionInfo>April 4, 2019</owl:versionInfo>
@@ -176,6 +177,19 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Acclimatization -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Acclimatization">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Acclimatization is the physiological adaptation to climatic variations.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Acclimatization</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ActiveDenialSystem -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ActiveDenialSystem">
@@ -220,6 +234,71 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Adaptation -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Adaptation">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Adaptation is the adjustment in natural or human systems to a new or changing environment. Adaptation to climate change refers to adjustment in natural or human systems in response to actual or expected climatic stimuli or their effects, which moderates harm or exploits beneficial opportunities. Various types of adaptation can be distinguished, including anticipatory and reactive adaptation, private and public adaptation, and autonomous and planned adaptation.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Adaptation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdaptationAssessment -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdaptationAssessment">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Adaptation assessment is the practice of identifying options to adapt to climate change and evaluating them in terms of criteria such as availability, benefits, costs, effectiveness, efficiency, and feasibility.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Adaptation Assessment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdaptationBenefit -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdaptationBenefit">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>An adaptation benefit is the avoided damage cost or the accrued benefit following the adoption and implementation of adaptation measures.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Adaptation Benefit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdaptationCost -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdaptationCost">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>The adaption cost is the cost of planning, preparing for, facilitating, and implementing adaptation measures, including transition costs.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Adaptation Cost</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdaptiveCapacity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdaptiveCapacity">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Adaptive Capacity is the ability of a system to adjust to climate change (including climate variability and extremes) to moderate potential damages, to take advantage of opportunities, or to cope with the consequences.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Adaptive Capacity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdaptiveProtectiveSystem -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdaptiveProtectiveSystem">
@@ -239,6 +318,19 @@ Projections made in 2018 by ARL and TRADOC
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdaptiveProtectiveSystems">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatProtect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Additionality -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Additionality">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Additionality is the reduction in emissions by sources or enhancement of removals by sinks that is additional to any that would occur in the absence of a Joint Implementation or a Clean Development Mechanism project activity as defined in the Kyoto Protocol Articles on Joint Implementation and the Clean Development Mechanism. This definition may be further broadened to include financial, investment, and technology additionality. Under “financial additionality,” the project activity funding shall be additional to existing  Global Environmental Facility, other financial commitments of Parties included in Annex I, Official Development Assistance, and other systems of cooperation. Under “investment additionality,” the value of the Emissions Reduction Unit/Certified Emission Reduction Unit shall significantly improve the financial and/or commercial viability of the project activity. Under “technology additionality,” the technology used for the project activity shall be the best available for the circumstances of the host Party.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Additionality</rdfs:label>
     </owl:Class>
     
 
@@ -289,6 +381,51 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Aerosol -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Aerosol">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>An aerosol is a collection of airborne solid or liquid particles, with a typical size between 0.01 and 10mm that reside in the atmosphere for at least several hours. Aerosols may be of either natural or anthropogenic origin. Aerosols may influence climate in two ways: directly through scattering and absorbing radiation, and indirectly through acting as condensation nuclei for cloud dormation or modifying the optical properties and lifetime of clouds.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Aerosol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AffirmativeAction -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AffirmativeAction">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PrejudiceAndDiscrimination"/>
+        <CommonCoreOntologies:definition>Affirmative action, also known as reservation [or] positive discrimination / action...and employment equity...is the policy of promoting the education and employment of members of groups that are known to have previously suffered from discrimination. [Support] for affirmative action has sought to achieve goals such as bridging inequalities in employment and pay, increasing access to education, promoting diversity, and redressing apparent past wrongs, harms, or hindrances.
+
+...
+
+Some countries use a quota system, whereby a certain percentage of government jobs, political positions, and school vacancies must be reserved for members of a certain group...[while in others,] minority group members are given preference or special consideration in selection processes</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Affirmative Action&quot;, Wikipedia
+
+April 19, 2019
+
+https://en.wikipedia.org/wiki/Affirmative_action</CommonCoreOntologies:definition_source>
+        <rdfs:label>Affirmative Action</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Afforestation -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Afforestation">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Afforestation is the planting of new forests on lands that historically have not contained forests.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Afforestation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AgingPopulation -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AgingPopulation">
@@ -316,6 +453,19 @@ The major agricultural products can be broadly grouped into foods, fibers, fuels
 
 From the twentieth century, intensive agriculture increased productivity. It substituted synthetic fertilizers and pesticides for labor, but caused increased water pollution, and often involved farm subsidies. In recent years there has been a backlash against the environmental effects of conventional agriculture, resulting in the organic, regenerative, and sustainable agriculture movements.</CommonCoreOntologies:definition>
         <rdfs:label>Agriculture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AlgalBloom -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AlgalBloom">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>An algal bloom is a reproductive explosion of algae in a lake, river, or ocean.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Algal Bloom</rdfs:label>
     </owl:Class>
     
 
@@ -368,6 +518,58 @@ Publication date : 2014-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Alpine -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Alpine">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>The alpine is the biogeographic zone made up of slopes above timberline and characterized by the presence of rosette-forming herbaceous plants and low shrubby slow-growing woody plants.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Alpine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AlternativeEnergy -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AlternativeEnergy">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Alternative energy is energy derived from non-fossil-fuel sources.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Alternative Energy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AncillaryBenefit -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AncillaryBenefit">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>An ancillary benefit is a complementary benefit of a climate policy including improvements in local air quality and reduced reliance of imported fossil fuels.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Ancillary Benefit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Anthropogenic -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Anthropogenic">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Anthropogenic is something resulting from or produced by human beings.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Anthropogenic</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AnthropogenicBiogenicGreenhouseGasEmission -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AnthropogenicBiogenicGreenhouseGasEmission">
@@ -385,6 +587,19 @@ Publication date : 2018-12
 
 2nd Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Anthropogenic Biogenic Greenhouse Gas Emission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AnthropogenicEmission -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AnthropogenicEmission">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Anthropogenic emissions are emissions of greenhouse gases, greenhouse gas precursors, and aerosols associated with human activities. These include burning of fossil fuels for energy, deforestation, and land-use changes that result in net increase in emissions.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Anthropogenic Emission</rdfs:label>
     </owl:Class>
     
 
@@ -556,6 +771,19 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</CommonCore
         <CommonCoreOntologies:definition>Identify, contact, and leverage SMEs in the OE. Identify, make contact and develop a professional relationship with an expert(s) in the OE from academia, government or industry that can help guide the early research stages with baseline understanding and resource assistance.  The researcher presents the SME with their research questions and requests their expertise, understanding and research guidance to answer these questions. GCKN has a curated repository of cultural experts available to the Army to enable OE analysis.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>Fault Lines Methodology Infographic</CommonCoreOntologies:definition_source>
         <rdfs:label>Assess Experts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Atmosphere -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Atmosphere">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>The atmosphere is the gaseous envelop surrounding the Earth. The dry atmosphere consists almost entirely of nitrogen (78.1% volume mixingratio) and oxygen (20.9% volume mixing ratio), together with a number of trace gases, such as argon (0.93% volume mixing ratio), helium, and radiatively active greenhouse gases such as carbon dioxide (0.035% volume mixing ratio) and ozone. In addition, the atmosphere contains water vapor, whose amount is highly variable but typically 1% volume mixing ratio. The atmosphere also contains clouds and aerosols.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Atmosphere</rdfs:label>
     </owl:Class>
     
 
@@ -989,6 +1217,32 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</CommonCore
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Biodiversity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Biodiversity">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Biodiversity is the numbers and relative abundances of different genes (genetic diversity), species, and ecosystems (communities) in a particular area.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Biodiversity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Biofuel -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Biofuel">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Biofuel is a fuel produced from dry organic matter or combustible oils produced by plants. Examples of biofuel include alcohol (from fermented sugar), black liquor from the paper manufacturing process, wood, and soybean oil.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Biofuel</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BiogenicCarbon -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#BiogenicCarbon">
@@ -1267,6 +1521,45 @@ Publication date : 2018-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonCredit -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonCredit">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>A carbon credit is a permit that allows an entity to emit a specified amount of greenhouse gases. Also called emission permit. Buying a carbon credit is like building a credit reserve for later withdrawal of some type.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Carbon Credit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonCycle -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonCycle">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>A carbon cycle is the term used to describe the flow of carbon (in various forms such as carbon dioxide) through the atmosphere, ocean, terrestrial biosphere, and lithosphere.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Carbon Cycle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonDioxide -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonDioxide">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Carbon dioxide is a naturally occurring gas, and also a by-product of burning fossil fuels and biomass, as well as land-use changes and other industrial processes. It is the principal anthropogenic greenhouse gas that affects the Earth’s radiative balance. It is the reference gas against which other greenhouse gases are measured and therefore has a Global Warming Potential of 1.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Carbon Dioxide</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonDioxideEquivalent -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonDioxideEquivalent">
@@ -1286,6 +1579,45 @@ Publication date : 2018-12
 
 2nd Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Carbon Dioxide Equivalent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonFootprint -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonFootprint">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>A carbon footprint is the amount of carbon an entity of any type (e.g., person, group, vehicle, event, building, corporation) emits into the atmosphere.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Carbon Footprint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonNeutral -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonNeutral">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Being carbon neutral involves calculating your total climate-damaging carbon emissions, reducing them where possible, and then balancing your remaining emissions, often by purchasing a carbon offset.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Carbon Neutral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonTax -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#CarbonTax">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>A carbon tax is a tax on energy sources which emit carbon dioxide into the atmosphere.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Carbon Tax</rdfs:label>
     </owl:Class>
     
 
@@ -1336,6 +1668,19 @@ Projections made in 2018 by ARL and TRADOC
 Projections made in 2018 by ARL and TRADOC
 
 [This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</CommonCoreOntologies:definition_source>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Chlorofluorocarbon -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Chlorofluorocarbon">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>A chlorofluorocarbon is a greenhouse gas covered under the 1987 Montreal Protocol and used for refrigeration, air conditioning, packaging, insulation, solvents, or aerosol propellants. Since they are not destroyed in the lower atmosphere, CFCs drift into the upper atmosphere where, given suitable conditions, they break down ozone. These gases are being replaced by other compounds, including hydrochlorofluorocarbons and hydrofluorocarbons, which are greenhouse gases covered under the Kyoto Protocol.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Chlorofluorocarbon</rdfs:label>
     </owl:Class>
     
 
@@ -1433,6 +1778,34 @@ Publication date : 2018-12
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Climate -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Climate">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Climate in a narrow sense is usually defined as the “average weather” or more rigorously as the statistical description in terms of the mean and variability of relevant quantities over a period of time ranging from months to thousands or millions of years. The classical period is 30 years, as defined by the World Meteorological Organization (WMO). These relevant quantities are most often surface variables such as temperature, precipitation, and wind. Climate in a wider sense is the state, including a statistical description, of the climate system.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Climate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChange -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChange">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Climate change refers to a statistically significant variation in either the mean state of the climate or in its variability, persisting for an extended period (typically decades or longer). Climate change may be due to natural internal processes or external forcings, or to persistent anthropogenic changes in the composition of the atmosphere or in land use.
+
+Note that the United Nations Framework Convention on Climate Change (UNFCCC), in its Article 1, defines “climate change” as: “a change of climate which is attributed directly or indirectly to human activity that alters the composition of the global atmosphere and which is in addition to natural climate variability observed over comparable time periods.” The UNFCCC thus makes a distinction between “climate change” attributable to human activities altering the atmospheric composition, and “climate variability” attributable to natural causes. See also climate variability.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Climate Change</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition">
@@ -1454,6 +1827,45 @@ Publication date : 2018-12
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateModel -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateModel">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>A climate model is a numerical representation of the climate system based on the physical, chemical, and biological properties of its components, their interactions and feedback processes, and accounting for all or some of its known properties. The climate system can be represented by models of varying complexity—that is, for anyone component or combination of components a “hierarchy” of models can be identified, differing in such aspects as the number of spatial dimensions, the extent to which physical, chemical or biological processes are explicitly represented, or the level at which empirical parametrizations are involved. Coupled atmosphere/ocean/sea-ice general circulation models (AOGCMs) provide a comprehensive representation of the climate system. There is an evolution towards more complex models with active chemistry and biology. Climate models are applied, as a research tool, to study and simulate the climate, but also for operational purposes, including monthly, seasonal, and interannual climate predictions.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Climate Model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimatePrediction -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimatePrediction">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>A climate prediction or climate forecast is the result of an attempt to produce a most likely description or estimate of the actual evolution of the climate in the future (e.g., at seasonal, interannual, or long-term time-scales). See also climate projection and climate scenario.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Climate Prediction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateProjection -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateProjection">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Climate projection is a projection of the response of the climate system to emission or concentration scenarios of greenhouse gases and aerosols, or radiative forcing scenarios, often based upon simulations by climate models. Climate projections are distinguished from climate predictions in order to emphasize that climate projections depend upon the emission/concentration/radiative forcing scenario used, which are based on assumptions, concerning, for example, futures CIO-economic and technological developments that may or may not be realized, and are therefore subject to substantial uncertainty.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Climate Projection</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateRefugees -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateRefugees">
@@ -1467,6 +1879,19 @@ March 26, 2019
 
 https://en.wikipedia.org/wiki/Environmental_migrant</CommonCoreOntologies:definition_source>
         <rdfs:label>Climate Refugees</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateSystem -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateSystem">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>The climate system is the highly complex system consisting of five major components: the atmosphere, the hydrosphere, the cryosphere, the land surface and the biosphere, and the interactions between them. The climate system evolves in time under the influence of its own internal dynamics and because of external forcings such as volcanic eruptions, solar variations, and human-induced forcings such as the changing composition of the atmosphere and land-use change.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Climate System</rdfs:label>
     </owl:Class>
     
 
@@ -1629,6 +2054,21 @@ Publication date : 2018-02
 
 5th Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Confidentiality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ConflictResolution -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ConflictResolution">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SecurityAndViolence"/>
+        <CommonCoreOntologies:definition>Despite an increase in conflicts resolved by negoitated settlement, violent conflict frequently recurs over time. Full implementation of agreements often proves difficult and reconciliation can remain elusive. Negotiation processes and peace agreements are important to bring an end to immediate violence.... However, supporting sustainable and just peace is a long-term endeavour that often begins in advance of negotiation attempts and continues well after a peace agreement is concluded.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>Zahbia Yousuf, &quot;Peace Processes&quot;, Conciliation Resources
+
+April 22, 2019
+
+https://www.c-r.org/downloads/CR_Peace_processes.pdf</CommonCoreOntologies:definition>
+        <rdfs:label>Conflict Resolution</rdfs:label>
     </owl:Class>
     
 
@@ -1869,6 +2309,20 @@ March 12, 2019
 
 https://en.wikipedia.org/wiki/Criminal_law</CommonCoreOntologies:definition_source>
         <rdfs:label>Criminal Law</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Cryosphere -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Cryosphere">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>The cyrosphere is the component of the climate system consisting of all snow, ice, and permafrost on and
+beneath the surface of the earth and ocean.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Cryosphere</rdfs:label>
     </owl:Class>
     
 
@@ -2351,6 +2805,19 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</CommonCore
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Deforestation -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Deforestation">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Deforestation is the conversion of forest to non-forest.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Deforestation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Democracy -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Democracy">
@@ -2422,6 +2889,32 @@ Publication date : 2018-02
 
 5th Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Derived Measure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Desert -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Desert">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>A desert is an ecosystem with less than 100 mm precipitation per year</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Desert</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Desertification -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Desertification">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Desertification is land degradation in arid, semi-arid, and dry sub-humid areas resulting from various factors, including climatic variations and human activities. Further, the United Nations Convention to Combat Desertification defines land degradation as a reduction or loss in arid, semi-arid, and dry sub-humid areas of the biological or economic productivity and complexity of rain-fed cropland, irrigated cropland, or range, pasture, forest, and woodlands resulting from land uses or from a process or combination of processes, including processes arising from human activities and habitation patterns, such as: (i) soil erosion caused by wind and/or water; (ii) deterioration of the physical, chemical, and biological or economic properties of soil; and (iii) long-term loss of natural vegetation.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Desertification</rdfs:label>
     </owl:Class>
     
 
@@ -2625,6 +3118,19 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Drought -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Drought">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Drought is the phenomenon that exists when precipitation has been significantly below normal recorded levels, causing serious hydrological imbalances that adversely affect land resource production systems.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Drought</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DuctileMaterial -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#DuctileMaterial">
@@ -2762,6 +3268,25 @@ https://en.wikipedia.org/wiki/Economic_growth</CommonCoreOntologies:definition_s
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicInequality -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicInequality">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SocialClass"/>
+        <CommonCoreOntologies:definition>Economic inequality covers a wide variety of topics. It can refer to either income distribution (measuring the amount of money people are paid) or the distribution of wealth (the amount of wealth people own).
+
+...
+
+Important types of economic measurements focus on wealth, income, and consumption. There are many methods for measuring economic inequality, with the Gini coefficient being a widely used one.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Economic Inequality&quot;, Wikipedia
+
+April 22, 2019
+
+https://en.wikipedia.org/wiki/Economic_inequality</CommonCoreOntologies:definition_source>
+        <rdfs:label>Economic Inequality</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicRebalancingTrend -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EconomicRebalancingTrend">
@@ -2807,6 +3332,19 @@ https://en.wikipedia.org/wiki/Economics</obo:IAO_0000232>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Ecosystem -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Ecosystem">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>An ecosystem is a system of interacting living organisms together with their physical environment. The boundaries of what could be called an ecosystem are somewhat arbitrary, depending on the focus of interest or study. Thus, the extent of an ecosystem may range from very small spatial scales to, ultimately, the entire Earth.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Ecosystem</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Education -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Education">
@@ -2820,6 +3358,49 @@ March 23, 2019
 
 https://en.wikipedia.org/wiki/State_school</CommonCoreOntologies:definition_source>
         <rdfs:label>Education</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EducationalDiscrimination -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EducationalDiscrimination">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PrejudiceAndDiscrimination"/>
+        <CommonCoreOntologies:definition>(1)
+
+[The Convention against Discrimination in Education] expresses the fundamental principle of non-discrimination and equality of opportunity in education...[and] states that the establishment or maintenance of private education institutions should not exclude any group but instead provide educational facilities in addition to those provided by public authorities.
+
+[States should make:] primary education free and compulsory; secondary education in its different forms generally available and accessible to all and higher education equally accessible to all on the basis of individual capacity. [The Convention] also recognises the right to basic education for youth and adults.
+
+[Parents] should choose the kind of education they want to their children to receive, particularly regarding moral and religious instruction. It also recognises minorities’ right to carry on their own education activities.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+Some government continue to enforce discriminatory policies within their education systems. These policies often relate to the prohibition of ethnic or cultural practices or languages, or may lead to the separation of children into different education systems, according to their ethnicity, race, or belief.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(3)
+
+Traditional biases against girls, the exclusion of girls from school activities, sexual harassment, child marriage, early pregnancy, and violence in and around school, particularly sexual violence, are some of the factors and violations which disproportionately affect girls....</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>(1)
+
+&quot;UNESCO Instruments&quot;, Right to Education
+
+April 18, 2019
+
+https://www.right-to-education.org/page/unesco-instruments</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:definition_source>(2)
+
+The Education Deficit:  Failures to Protect and Fulfill the Right to Education in Global Development Agendas, Human Rights Watch, pg. 27
+
+2016
+
+https://www.hrw.org/sites/default/files/accessible_document/educationdeficit0616_accessible.pdf</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:definition_source>(3)
+
+The Education Deficit:  Failures to Protect and Fulfill the Right to Education in Global Development Agendas, Human Rights Watch, pg. 50
+
+2016
+
+https://www.hrw.org/sites/default/files/accessible_document/educationdeficit0616_accessible.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Educational Discrimination</rdfs:label>
     </owl:Class>
     
 
@@ -2914,6 +3495,49 @@ Publication date : 2014-02
 
 1st Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Electo-Sensitive Protective Equipment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Emission -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Emission">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>In the climate change context, an emission refers to the release of greenhouse gases and/or their precursors and aerosols into the atmosphere over a specified area and period of time.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Emission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EmploymentDiscrimination -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EmploymentDiscrimination">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PrejudiceAndDiscrimination"/>
+        <CommonCoreOntologies:definition>Discrimination in employment and occupation means treating people differently or less favourably because of characteristics that are not related to their merit or the inherent requirements of the job.
+
+...
+
+Discrimination can arise in a variety of work-related activities. These include access to employment, to particular occupations, promotions and to training and vocational guidance. Moreover, it can occur with respect to the terms and conditions of the employment....
+
+...
+
+Non-discrimination in employment means simply that employees are selected on the basis of their ability to do the job and that there is no distinction, exclusion or preference made on other grounds. Employees who experience discrimination at work are denied opportunities and have their basic human rights infringed.
+
+...
+
+Discrimination can take many forms, both in terms of gaining access to employment and in the treatment of employees once they are in work.
+...
+
+Most commonly, however, discrimination is indirect and arises where rules or practices have the appearance of neutrality but in fact lead to exclusions. This indirect discrimination often exists informally in attitudes and practices....</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Principle 6:  Labour&quot;, The Ten Principles of the UN Global Compact, United Nations Global Compact
+
+April 19, 2019
+
+https://www.unglobalcompact.org/what-is-gc/mission/principles/principle-6</CommonCoreOntologies:definition_source>
+        <rdfs:label>Employment Discrimination</rdfs:label>
     </owl:Class>
     
 
@@ -3329,6 +3953,19 @@ Publication date : 2018-08
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Erosion -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Erosion">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Erosion is the process of removal and transport of soil and rock by weathering, mass wasting, and the action of streams, glaciers, waves, winds, and underground water.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Erosion</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Espionage -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Espionage">
@@ -3382,6 +4019,82 @@ March 28, 2019
 
 https://en.wikipedia.org/wiki/Ethnic_identity_development</CommonCoreOntologies:definition_source>
         <rdfs:label>Ethnic and Racial Identity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicCleansingAndGenocide -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicCleansingAndGenocide">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IdentityGroupPersecution"/>
+        <CommonCoreOntologies:definition>(1)
+
+Ethnic cleansing is the systematic forced removal of ethnic, racial and/or religious groups from a given territory by a more powerful ethnic group, often with the intent of making it ethnically homogeneous. The forces applied may be various forms of forced migration (deportation, population transfer), intimidation, as well as genocide and genocidal rape.
+
+Ethnic cleansing is usually accompanied with efforts to remove physical and cultural evidence of the targeted group in the territory through the destruction of homes, social centers, farms, and infrastructure, and by the desecration of monuments, cemeteries, and places of worship.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+To constitute genocide, there must be a proven intent on the part of perpetrators to physically destroy a national, [ethnic], racial or religious group. 
+...
+
+[The] victims of genocide are deliberately targeted - not randomly – because of their real or perceived membership of [a group].... This means that the target of destruction must be the group</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(3)
+
+[Genocide] is the mass extermination of a whole group of people, an attempt to wipe them out of existence.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>(1)
+
+&quot;Ethnic Cleansing&quot;, Wikipedia
+
+April 19, 2019
+
+https://en.wikipedia.org/wiki/Ethnic_cleansing</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:definition_source>(2)
+
+&quot;Genocide&quot;, United Nations Office on Genocide Prevention and the Responsibility to Protect
+
+April 19, 2019
+
+https://www.un.org/en/genocideprevention/genocide.shtml</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:definition_source>(3)
+
+&quot;How Do You Define Genocide?&quot;, BBC
+
+March 17, 2016
+
+https://www.bbc.com/news/world-11108059</CommonCoreOntologies:definition_source>
+        <rdfs:label>Ethnic Cleansing and Genocide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicRacialAndTribalIdentity -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicRacialAndTribalIdentity">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicRacialRegionalAndReligiousIdentity"/>
+        <obo:IAO_0000232>While &quot;ethnicity&quot;, &quot;race&quot;, and &quot;tribe&quot; have distinct meanings in most places, there&apos;s no consistency across place and time about which of them means what.  It therefore makes no sense to specify a separate generalized category for each.</obo:IAO_0000232>
+        <CommonCoreOntologies:definition>(1)
+
+ An ‘ethnic group’ has been defined as a group that regards itself or is regarded by others as a distinct community by virtue of certain characteristics that will help to distinguish the group from the surrounding community. Ethnicity is considered to be shared characteristics such as culture, language, religion, and traditions, which contribute to a person or group’s identity.
+
+Ethnicity has been described as residing in:  the belief by members of a social group that they are culturally distinctive and different to outsiders; their willingness to find symbolic markers of that difference (food habits, religion, forms of dress, language) and to emphasise their significance; and their willingness to organise relationships with outsiders so that a kind of ‘group boundary’ is preserved and reproduced</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+Race is socially understood to be derived from an individual&apos;s physical features, such as white or black skin tone. The social construction of racial identity can be referred as a sense of group or collective identity based on one&apos;s perception that he or she shares a common heritage with a particular racial group. Racial identity is a surface-level manifestation based on what people look like yet has deep implications in how people are treated.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>(1)
+
+&quot;Ethnicity and Ethnic Groups - An Explanation of these Terms&quot;, National Youth Council of Ireland
+
+March 29, 2019
+
+http://www.intercultural.ie/content/ethnicity-and-ethnic-groups-%E2%80%93-explanation-these-terms</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:definition_source>(2)
+
+&quot;Ethnic Identity Development&quot;, Wikipedia
+
+March 28, 2019
+
+https://en.wikipedia.org/wiki/Ethnic_identity_development</CommonCoreOntologies:definition_source>
+        <rdfs:label>Ethnic, Racial, and Tribal Identity</rdfs:label>
     </owl:Class>
     
 
@@ -3697,6 +4410,19 @@ https://www.investopedia.com/terms/f/fiscalpolicy.asp</CommonCoreOntologies:defi
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Forest -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Forest">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>A forst is a vegetation type dominated by trees. Many definitions of the term forest are in use throughout the world, reflecting wide differences in bio-geophysical conditions, social structure, and economics. For a discussion of the term forest and related terms such as afforestation, reforestation, and deforestation.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Forest</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FormalNeuralNetwork -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FormalNeuralNetwork">
@@ -3708,6 +4434,19 @@ March 2018
 
 https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</CommonCoreOntologies:definition_source>
         <rdfs:label>Formal Neural Network</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FossilFuel -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#FossilFuel">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>A fossil fuel is a carbon-based fuel from fossil carbon deposits, including coal, oil, and natural gas.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Fossil Fuel</rdfs:label>
     </owl:Class>
     
 
@@ -3922,6 +4661,19 @@ Publication Date: 2016-09
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Glacier -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Glacier">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>A glacier is a mass of land ice flowing downhill (by internal deformation and sliding at the base) and constrained by the surrounding topography (e.g., the sides of a valley or surrounding peaks); the bedrock topography is the major influence on the dynamics and surface slope of a glacier. A glacier is maintained by accumulation of snow at high altitudes, balanced by melting at low altitudes or discharge into the sea.</rdfs:label>
+        <rdfs:label>Glacier</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GlobalWarmingPotential -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GlobalWarmingPotential">
@@ -4014,6 +4766,21 @@ Publication date : 2018-12
 
 2nd Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Greenhouse Gas Emission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseEffect -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#GreenhouseEffect">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>This is the “enhanced greenhouse effect.” :
+
+Greenhouse gases effectively absorb infrared radiation, emitted by the Earth’s surface, by the atmosphere itself due to the same gases, and by clouds. Atmospheric radiation is emitted to all sides, including downward to the Earth’s surface. Thus greenhouse gases trap heat within the surface-troposphere system. This is called the “natural greenhouse effect.” Atmospheric radiation is strongly coupled to the temperature of the level at which it is emitted. In the troposphere, the temperature generally decreases with height. Effectively, infrared radiation emitted to space originates from an altitude with a temperature of, on average, -19°C, in balance with the net incoming solar radiation, whereas the Earth’s surface is kept at a much higher temperature of, on average, +14°C. An increase in the concentration of greenhouse gases leads to an increased infrared opacity of the atmosphere, and therefore to an effective radiation into space from a higher altitude at a lower temperature. This causes a radiative forcing, an imbalance that can  only be compensated for by an increase of the temperature of the surface-troposphere system.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Greenhouse Effect</rdfs:label>
     </owl:Class>
     
 
@@ -4353,6 +5120,66 @@ Publication date : 2018-12
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HateCrime -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HateCrime">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IdentityGroupPersecution"/>
+        <CommonCoreOntologies:definition>(1)
+
+A hate crime is any crime committed that is motivated by bias or based on the victim’s perceived membership in a specific group, such as race, national origin, sexual orientation, gender, or religious belief. Hate crimes are intended to induce fear and cause psychological and/or physical harm.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+Bias motivations can be broadly defined as preconceived negative opinions, stereotypical assumptions, intolerance or hatred directed to a particular group that shares a common characteristic, such as race, ethnicity, language, religion, nationality, sexual orientation, gender or any other fundamental characteristic. People with disabilities may also be victims of hate crimes.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>(1)
+
+&quot;Hate Crimes&quot;, VictimConnect Resource Center
+
+April 19, 2019
+
+https://victimconnect.org/learn/types-of-crime/hate-crimes/</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:definition_source>(2)
+
+&quot;What Is Hate Crime&quot;, OSCE ODIHR Hate Crime Reporting, OSCE Office for Democratic Institutions and Human Rights
+
+April 19, 2019
+
+http://hatecrime.osce.org/what-hate-crime</CommonCoreOntologies:definition_source>
+        <rdfs:label>Hate Crime</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HateSpeech -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HateSpeech">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IdentityGroupPersecution"/>
+        <CommonCoreOntologies:definition>(1)
+
+Hate speech is a statement intended to demean and brutalize another. It is the use of cruel and derogatory language, gestures or vandalism often directed towards an individual or group. Hate speech is speech that attacks a person or a group on the basis of attributes such as race, religion, ethnic origin, national origin, sex, disability, sexual orientation, or gender identity.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+Hate speech [is] speech or expression that denigrates a person or persons on the basis of (alleged) membership in a social group....
+
+Typical hate speech involves epithets and slurs, statements that promote malicious stereotypes, and speech intended to incite hatred or violence against a group. Hate speech can also include nonverbal depictions and symbols.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>(1)
+
+&quot;Hate Speech&quot;, Wikipedia
+
+April 19, 2019
+
+https://en.wikipedia.org/wiki/Hate_speech</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:definition_source>(2)
+
+William M. Curtis, &quot;Hate Speech&quot;, Encyclopaedia Britannica
+
+August 17, 2015
+
+https://www.britannica.com/topic/hate-speech</CommonCoreOntologies:definition_source>
+        <rdfs:label>Hate Speech</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Healthcare -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Healthcare">
@@ -4602,6 +5429,19 @@ https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</CommonCore
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Hydrofluorocarbon -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Hydrofluorocarbon">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>A hydrofluorocarbon is among the six greenhouse gases to be curbed under the Kyoto Protocol. They are produced commercially as a substitute for chlorofluorocarbons. HFCs largely are used in refrigeration and semiconductor manufacturing. Their Global Warming Potentials range from 1,300 to 11,700</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Hydrofluorocarbon</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HyperGlideVehicle -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#HyperGlideVehicle">
@@ -4678,6 +5518,23 @@ March 28, 2019
 
 https://en.wikipedia.org/wiki/Social_identity_theory</obo:IAO_0000232>
         <rdfs:label>Identity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IdentityGroupPersecution -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IdentityGroupPersecution">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity"/>
+        <CommonCoreOntologies:definition>For many minorities and indigenous communities, the situation is critical. They face hate crimes, routinely high levels of discrimination, and even mass killing.  For others, long-term exclusion is trapping communities in poverty and threatening ways of life that have been sustained for generations – until now.
+
+[These problems require] countering persecution and promoting inclusion. To the growth of hatred and intolerance we offer a vision based on defending rights and bringing communities together.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Our Strategy:  2017-2020&quot;, Mnority Rights Group International
+
+April 20, 2019
+
+https://minorityrights.org/our-strategy/</CommonCoreOntologies:definition_source>
+        <rdfs:label>Identity Group Persecution</rdfs:label>
     </owl:Class>
     
 
@@ -5406,6 +6263,21 @@ https://www.amnesty.org/en/what-we-do/discrimination/lgbt-rights/</CommonCoreOnt
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LaborUnion -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LaborUnion">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SocialClass"/>
+        <CommonCoreOntologies:definition>A trade union, also called a...labor union...through its leadership, bargains with the employer on behalf of union members (rank and file members) and negotiates labour contracts (collective bargaining) with employers. The most common purpose of these associations or unions is &quot;maintaining or improving the conditions of their employment&quot;. This may include the negotiation of wages, work rules, complaint procedures, rules governing hiring, firing and promotion of workers, benefits, workplace safety and policies.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Trade Union&quot;, Wikipedia
+
+April 22, 2019
+
+https://en.wikipedia.org/wiki/Trade_union</CommonCoreOntologies:definition_source>
+        <rdfs:label>Labor Union</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LandUse -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LandUse">
@@ -6008,6 +6880,19 @@ Publication Date: 2012-09
 
 1st Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Meteoriod</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Methane -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Methane">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Methane is a hydrocarbon that is a greenhouse gas produced through anaerobic (without oxygen) decomposition of waste in landfills, animal digestion, decomposition of animal wastes, production and distribution of natural gas and oil, coal production, and incomplete fossil fuel combustion. Methane is one of the six greenhouse gases to be mitigated under the Kyoto Protocol.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Methane</rdfs:label>
     </owl:Class>
     
 
@@ -6755,6 +7640,32 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Ozone -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Ozone">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Ozone, the triatomic form of oxygen (O3), is a gaseous atmospheric constituent. In the troposphere it is created both naturally and by photochemical reactions involving gases resulting from human activities (photochemical “smog”). In high concentrations, tropospheric ozone can be harmful to a wide-range of living organisms. Tropospheric ozone acts as a greenhouse gas. In the stratosphere, ozone is created by the interaction between solar ultraviolet radiation and molecular oxygen (O2). Stratospheric ozone plays a decisive role in the stratospheric radiative balance. Its concentration is highest in the ozone layer. Depletion of stratospheric ozone, due to chemical reactions that may be enhanced by climate change, results in an increased ground-level flux of ultraviolet-B radiation. See also Montreal Protocol and ozone layer.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Ozone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#OzoneLayer -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#OzoneLayer">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>The stratosphere contains a layer in which the concentration of ozone is greatest, the socalled ozone layer. The layer extends from about 12 to 40 km. The ozone concentration reaches a maximum between about 20 and 25 km. This layer is being depleted by human emissions of chlorine and bromine compounds. Every year, during the Southern Hemisphere spring, a very strong depletion of the ozone layer takes place over the Antarctic region, also caused by human-made chlorine and bromine compounds in combination with the specific meteorological conditions of that region. This phenomenon is called the ozone hole.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Ozone Layer</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Parallel -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Parallel">
@@ -6856,6 +7767,36 @@ March 12, 2019
 
 https://en.wikipedia.org/wiki/Patronage</CommonCoreOntologies:definition_source>
         <rdfs:label>Patronage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PeaceAgreement -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PeaceAgreement">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ConflictResolution"/>
+        <CommonCoreOntologies:definition>Peace agreements are contracts intended to end a violent conflict, or to significantly transform a conflict, so that it can be more constructively addressed. There are various types of agreements that can be reached during a peace process. Each type of agreement has a distinct purpose and serves a value in itself towards building positive momentum for a final settlement.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Nita Yawanarajah &amp; Julian Ouellet, &quot;Peace Agreements&quot;, Beyond Intractablity
+
+September, 2003
+
+https://www.beyondintractability.org/essay/structuring_peace_agree</CommonCoreOntologies:definition_source>
+        <rdfs:label>Peace Agreement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Peacekeeping -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Peacekeeping">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ConflictResolution"/>
+        <CommonCoreOntologies:definition>[There] is a general understanding that at the international level, peacekeepers monitor and observe peace processes in post-conflict areas, and may assist ex-combatants in implementing peace agreement commitments that they have undertaken. Such assistance may come in many forms, including confidence-building measures, power-sharing arrangements, electoral support, strengthening the rule of law, and economic and social development.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Peacekeeping&quot;, Wikipedia
+
+April 22, 2019
+
+https://en.wikipedia.org/wiki/Peacekeeping</CommonCoreOntologies:definition_source>
+        <rdfs:label>Peacekeeping</rdfs:label>
     </owl:Class>
     
 
@@ -7203,6 +8144,21 @@ Publication date : 2016-08
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PowerSystems">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SystemsThatMove"/>
         <rdfs:label>Power Systems</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PrejudiceAndDiscrimination -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PrejudiceAndDiscrimination">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IdentityGroupPersecution"/>
+        <CommonCoreOntologies:definition>Prejudice can have a strong influence on how people behave and interact with others, particularly with those who are different from them. Prejudice is a baseless and usually negative attitude toward members of a group. Common features of prejudice include negative feelings, stereotyped beliefs, and a tendency to discriminate against members of the group.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Kenda Cherry, &quot;Understanding Prejudice:  How It Forms and How to Prevent It&quot;, Verywell Mind 
+
+March 22, 2019
+
+https://www.verywellmind.com/what-is-prejudice-2795476</CommonCoreOntologies:definition_source>
+        <rdfs:label>Prejudice and Discrimination</rdfs:label>
     </owl:Class>
     
 
@@ -7658,6 +8614,19 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Reforestation -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Reforestation">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>Reforestation is the planting of forests on lands that have previously contained forests but that have been converted to some other use.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Reforestation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RefugeesAndDisplacedPersons -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RefugeesAndDisplacedPersons">
@@ -7797,6 +8766,21 @@ http://www.byui.edu/Documents/instructional_development/Perspective/2017%20Fall/
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Renewable -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Renewable">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ClimateChangeAndResourceCompetition"/>
+        <CommonCoreOntologies:definition>A renewable is an energy source that is, within a short time frame relative to the Earth’s natural cycles,
+sustainable, and include non-carbon technologies such as solar energy, hydropower, and
+wind, as well as carbon-neutral technologies such as biomass.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
+
+https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Renewable</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RenewableEnergy -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#RenewableEnergy">
@@ -7885,6 +8869,21 @@ Publication date : 2018-02
 
 5th Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Requirement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ResidentialSegregation -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ResidentialSegregation">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#PrejudiceAndDiscrimination"/>
+        <CommonCoreOntologies:definition>A common perception is that minorities and immigrants self-segregate, which might be true for some new arrivals who choose to settle in ethnic enclaves where their social networks lead them. However, segregation occurs for many reasons, including housing market discrimination and decisions by the majority population on where to live. Patterns differ across countries and are thus more likely to reflect the deeper trends of social and economic exclusion in a particular context rather than inherent preferences of any group.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>John Iceland, &quot;Residential Segration:  A Transatlantic Analysis&quot;, Migration Policy Institute
+
+September, 2014
+
+https://www.migrationpolicy.org/research/residential-segregation-transatlantic-analysis</CommonCoreOntologies:definition_source>
+        <rdfs:label>Residential Segregation</rdfs:label>
     </owl:Class>
     
 
@@ -8814,6 +9813,25 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Self-determination -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Self-determination">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#EthnicRacialRegionalAndReligiousIdentity"/>
+        <CommonCoreOntologies:definition>Essentially, the right to self-determination is the right of a people to determine its own destiny. In particular, the principle allows a people to choose its own political status and to determine its own form of economic, cultural and social development. Exercise of this right can result in a variety of different outcomes ranging from political independence through to full integration within a state.
+
+...
+
+[For some peoples], the only acceptable outcome is full political independence.  ... [Others seek] a degree of political, cultural and economic autonomy, sometimes in the form of a federal relationship.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Self-determinatin&quot;, Unrepresented Nations &amp; Peoples Organization
+
+September 17, 2017
+
+https://www.unpo.org/article/4957</CommonCoreOntologies:definition_source>
+        <rdfs:label>Self-determination</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SemanticKnowledgeRepresentation -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SemanticKnowledgeRepresentation">
@@ -8952,6 +9970,21 @@ September 27, 2011
 
 https://www.guttmacher.org/journals/ipsrh/2011/09/sex-selective-abortions-during-past-three-decades-may-explain-absence</CommonCoreOntologies:definition_source>
         <rdfs:label>Sex-selective Abortion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SexualHarrassment -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SexualHarrassment">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Women"/>
+        <CommonCoreOntologies:definition>Sexual harassment includes unwelcome sexual advances, requests for sexual favors, and other verbal or physical harassment of a sexual nature in the workplace or learning environment.... Sexual harassment does not always have to be specifically about sexual behavior or directed at a specific person. For example, negative comments about women as a group may be a form of sexual harassment.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Sexual Harassment&quot;, RAINN
+
+April 18, 2019
+
+https://www.rainn.org/articles/sexual-harassment</CommonCoreOntologies:definition_source>
+        <rdfs:label>Sexual Harassment</rdfs:label>
     </owl:Class>
     
 
@@ -9114,8 +10147,28 @@ https://www.scmp.com/magazines/post-magazine/long-reads/article/2142658/too-many
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#SocialClass">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity"/>
+        <CommonCoreOntologies:definition>(1)
+
+[Concepts] of social class often assume three general categories: a very wealthy and powerful upper class that owns and controls the means of production; a middle class of professional workers, small business owners and low-level managers; and a lower class, who rely on low-paying wage jobs for their livelihood and often experience poverty.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>(2)
+
+Modern social democracy is characterized by a commitment to policies aimed at curbing inequality, oppression of underprivileged groups and poverty, including support for universally accessible public services like care for the elderly, child care, education, health care and workers&apos; compensation. The social democratic movement often has strong connections with the labour movement and trade unions which are supportive of collective bargaining rights for workers as well as measures to extend decision-making beyond politics into the economic sphere in the form of co-determination for employees and other economic stakeholders.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition>Modern social democracy is characterized by a commitment to policies aimed at curbing inequality, oppression of underprivileged groups and poverty, including support for universally accessible public services like care for the elderly, child care, education, health care and workers&apos; compensation. The social democratic movement often has strong connections with the labour movement and trade unions which are supportive of collective bargaining rights for workers as well as measures to extend decision-making beyond politics into the economic sphere in the form of co-determination for employees and other economic stakeholders.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>&quot;Social Democracy&quot;, Wikipedia
+
+March 29, 2019
+
+https://en.wikipedia.org/wiki/Social_democracy</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:definition_source>(1)
+
+&quot;Social Class&quot;, Wikipedia
+
+April 19, 2019
+
+https://en.wikipedia.org/wiki/Social_class</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:definition_source>(2)
+
+&quot;Social Democracy&quot;, Wikipedia
 
 March 29, 2019
 
@@ -10213,6 +11266,21 @@ https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ViolenceAgainstWomen -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ViolenceAgainstWomen">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Women"/>
+        <CommonCoreOntologies:definition>Some of the forms of violence perpetrated [against women] are: rape, domestic violence, sexual harassment, reproductive coercion, female infanticide, prenatal sex selection, obstetric violence, and mob violence; as well as harmful customary or traditional practices such as honor killings, dowry violence, female genital mutilation, marriage by abduction and forced marriage. [State-sponsored violence includes] as war rape; sexual violence and sexual slavery during conflict; forced sterilization; forced abortion; violence by the police and authoritative personnel; stoning and flogging. Many forms of VAW, such as trafficking in women and forced prostitution are often perpetrated by organized criminal networks.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Violence against Women&quot;, Wikipedia
+
+April 18, 2019
+
+https://en.wikipedia.org/wiki/Violence_against_women</CommonCoreOntologies:definition_source>
+        <rdfs:label>Violence against Women</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ViolentProtest -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#ViolentProtest">
@@ -10329,6 +11397,21 @@ Publication Date: 2012-09
 
 1st Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Witness Plate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Women -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Women">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Identity"/>
+        <CommonCoreOntologies:definition>Only when women and girls have full access to their rights – from equal pay and land ownership rights to sexual rights, freedom from violence, access to education, and maternal health rights – will true equality exist. Only when women have taken leadership and peacemaking roles and have an equal political voice will economies and countries be transformed. And only then will all women and girls have the self-determination they are entitled to.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>&quot;Women&apos;s Human Rights&quot;, Global Fund for Women
+
+Match 29, 2019
+
+https://www.globalfundforwomen.org/womens-human-rights</CommonCoreOntologies:definition_source>
+        <rdfs:label>Women</rdfs:label>
     </owl:Class>
     
 
