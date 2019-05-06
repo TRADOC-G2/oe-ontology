@@ -1,0 +1,91 @@
+{
+  "name": "Future of Economic Progress",
+  "description": "Global economic progress is falling short of expectations. The uncertainty caused by technologies associated with the Fourth Industrial Revolution, dramatic shifts in international cooperation and trade, and political upheaval have left many disillusioned - and triggered social tension, worsening inequality, and a more urgent need to foster cooperation on addressing climate change. One means to achieve better protection of the environment, more inclusive development, and revived productivity gro...",
+  "description_markdown": "Global economic progress is falling short of expectations. The uncertainty caused by technologies associated with the Fourth Industrial Revolution, dramatic shifts in international cooperation and trade, and political upheaval have left many disillusioned - and triggered social tension, worsening inequality, and a more urgent need to foster cooperation on addressing climate change. One means to achieve better protection of the environment, more inclusive development, and revived productivity gro...",
+  "dimension_count": 18,
+  "dimensions": [
+    {
+      "name": "Taxation",
+      "type": "Key Issue",
+      "subtitle": "Progressive taxation can address inequality, though fiscal spending priorities vary widely among countries",
+      "description": "In its World Economic Outlook published in late 2018, the International Monetary Fund noted that the US’s recent tax overhaul is likely to widen the country’s fiscal deficit - which had already been under pressure, due to spending on support for the country’s ageing population. While the deficit expansion is providing a short-term boost to economic activity in the US, according to the IMF report, it has been piled onto already-unsustainable public debt, and creates elevated risk not only for the...",
+      "topics": [
+        {
+          "name": "Digital Economy and Society",
+          "description": "",
+          "type": "System Initiatives"
+        },
+        {
+          "name": "Values",
+          "description": "",
+          "type": "Global Issue"
+        },
+        {
+          "name": "Sustainable Development",
+          "description": "",
+          "type": "Global Issue"
+        },
+        {
+          "name": "Public Finance Social Protection",
+          "description": "",
+          "type": "Global Issue"
+        },
+        {
+          "name": "Human Rights",
+          "description": "",
+          "type": "Global Issue"
+        },
+        {
+          "name": "Long-Term Investing, Infrastructure and Development",
+          "description": "",
+          "type": "Global Issue"
+        },
+        {
+          "name": "Agile Governance",
+          "description": "",
+          "type": "Global Issue"
+        },
+        {
+          "name": "United States",
+          "description": "",
+          "type": "Economy"
+        }
+      ]
+    },
+    {
+      "name": "Globalization",
+      "type": "Key Issue",
+      "subtitle": "Too many people have been left behind by globalization, creating increased polarization",
+      "description": "Too many people have been left behind by globalization, creating increased polarization",
+      "topics": []
+    },
+    {
+      "name": "Economics of Environmental Sustainability",
+      "type": "Key Issue",
+      "subtitle": "Climate change and rising temperatures promise to severely hinder production and health",
+      "description": "In late 2018, the UN’s Intergovernmental Panel on Climate Change issued an alarming report noting that global temperatures are on track to be 1.5°C higher than the preindustrial era as soon as 2030. Currently, at 1°C warmer than the preindustrial era, we are already experiencing severe consequences of climate change including forest fires in the Arctic, and the increased intensity of hurricanes. A 1.5°C increase would mean more rapid sea level rise, hot extremes in most inhabited parts of the wo...",
+      "topics": []
+    },
+    {
+      "name": "Economics of the Fourth Industrial Revolution",
+      "type": "Key Issue",
+      "subtitle": "Technologies are quickly developing and merging, testing traditional means of economic growth",
+      "description": "Responses to technological change can determine the shape of economic progress. Technology that can serve to automate tasks now performed by significant portions of a country’s existing workforce, for example, can potentially do at least as much damage to the social fabric as the good it can do for productivity metrics. According to a report published by the McKinsey Global Institute in 2017, as much as 14% of the global workforce will need to switch occupational category by the year 2030 as a r...",
+      "topics": []
+    },
+    {
+      "name": "Inclusive Growth",
+      "type": "Key Issue",
+      "subtitle": "A failure to improve living standards and reduce inequality has worsened social divides",
+      "description": "Even as global labour productivity grew by 74% between 1973 and 2013, worker compensation grew by just 12.5% over the same period, according to the Economic Policy Institute. While a relatively recent slowdown in global productivity has contributed to the reduction of the real value of salaries, other forces are also at work - such as rapid technological change, evolving market structures, and globalization, all of which began impacting distribution patterns even before the productivity slowdown...",
+      "topics": []
+    },
+    {
+      "name": "Productivity and Competitiveness",
+      "type": "Key Issue",
+      "subtitle": "Productivity is difficult to measure, but essential for increasing prosperity",
+      "description": "In 2017, International Monetary Fund Managing Director Christine Lagarde warned that living standards around the world could be lowered if the rate of global productivity did not pick up. The following year, the IMF noted in its annual World Economic Outlook survey that a proliferation of new trade barriers only risked a further reduction in productivity, by slowing the spread of new technologies.  Productivity levels are a key reason why different countries enjoy different degrees of prosperity...",
+      "topics": []
+    }
+  ]
+}
