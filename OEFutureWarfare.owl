@@ -334,6 +334,21 @@ https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdditiveManufacturing -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdditiveManufacturing">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Robotics"/>
+        <CommonCoreOntologies:definition>Advanced manufacturing is the use of innovative technology to improve products or processes.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Wikipedia
+
+Date Accessed: 5/10/2019
+
+https://en.wikipedia.org/wiki/Advanced_manufacturing</CommonCoreOntologies:definition_source>
+        <rdfs:label>Advanced Manufacturing</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdvancedAirToGroundMissile -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#AdvancedAirToGroundMissile">
@@ -5636,6 +5651,23 @@ Publication date : 2018-12
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IndustrialRobot -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#IndustrialRobot">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Robot"/>
+        <CommonCoreOntologies:definition>An industrial robot is a robot system used for manufacturing. Industrial robots are automated, programmable and capable of movement on three or more axis.
+
+Typical applications of robots include welding, painting, assembly, pick and place for printed circuit boards, packaging and labeling, palletizing, product inspection, and testing; all accomplished with high endurance, speed, and precision. They can assist in material handling.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Wikipedia
+
+Date Accessed: 5/10/2019
+
+https://en.wikipedia.org/wiki/Industrial_robot</CommonCoreOntologies:definition_source>
+        <rdfs:label>Industrial Robot</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Industrialization -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Industrialization">
@@ -6046,7 +6078,7 @@ Publication date : 2018-02
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#InternationalMigration">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Migration"/>
-        <CommonCoreOntologies:definition>nternational migration occurs when people cross state boundaries and stay in the host state for some minimum length of time. Migration occurs for many reasons. Many people leave their home countries in order to look for economic opportunities in another country. Others migrate to be with family members who have migrated or because of political conditions in their countries. Education is another reason for international migration, as students pursue their studies abroad. While there are several different potential systems for categorizing international migrants, one system organizes them into nine groups: temporary labour migrants; irregular, illegal, or undocumented migrants; highly skilled and business migrants; refugees; asylum seekers; forced migration; family members; return migrants; and long-term, low-skilled migrants. These migrants can also be divided into two large groups, permanent and temporary. Permanent migrants intend to establish their permanent residence in a new country and possibly obtain that country’s citizenship. Temporary migrants intend only to stay for a limited periods of time; perhaps until the end of a particular program of study or for the duration of a their work contract or a certain work season. Both types of migrants have a significant effect on the economies and societies of the chosen destination country and the country of origin.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>International migration occurs when people cross state boundaries and stay in the host state for some minimum length of time. Migration occurs for many reasons. Many people leave their home countries in order to look for economic opportunities in another country. Others migrate to be with family members who have migrated or because of political conditions in their countries. Education is another reason for international migration, as students pursue their studies abroad. While there are several different potential systems for categorizing international migrants, one system organizes them into nine groups: temporary labour migrants; irregular, illegal, or undocumented migrants; highly skilled and business migrants; refugees; asylum seekers; forced migration; family members; return migrants; and long-term, low-skilled migrants. These migrants can also be divided into two large groups, permanent and temporary. Permanent migrants intend to establish their permanent residence in a new country and possibly obtain that country’s citizenship. Temporary migrants intend only to stay for a limited periods of time; perhaps until the end of a particular program of study or for the duration of a their work contract or a certain work season. Both types of migrants have a significant effect on the economies and societies of the chosen destination country and the country of origin.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>&quot;International Migration&quot;, Wikipedia
 
 March 26, 2019
@@ -6353,6 +6385,21 @@ March 12, 2019
 
 https://en.wikipedia.org/wiki/Legislation</CommonCoreOntologies:definition_source>
         <rdfs:label>Legislature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LethalAutonomousWeapon -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#LethalAutonomousWeapon">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Robotics"/>
+        <CommonCoreOntologies:definition>Lethal autonomous weapons (LAWs) are a type of autonomous military robot that can independently search and engage targets based on programmed constraints and descriptions. LAW are also called lethal autonomous weapon systems (LAWS), lethal autonomous robots (LAR), robotic weapons, or killer robots. LAWs may operate in the air, on land, on water, under water, or in space.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Wikipedia
+
+Date Accessed: 5/10/2019
+
+https://en.wikipedia.org/wiki/Lethal_autonomous_weapon</CommonCoreOntologies:definition_source>
+        <rdfs:label>Lethal Autonomous Weapon</rdfs:label>
     </owl:Class>
     
 
@@ -11051,6 +11098,21 @@ Publication date : 2014-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnmannedAerialVehicle -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnmannedAerialVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Robotics"/>
+        <CommonCoreOntologies:definition>An unmanned aerial vehicle (UAV), commonly known as a drone, is an aircraft without a human pilot on board. UAVs are a component of an unmanned aircraft system (UAS); which include a UAV, a ground-based controller, and a system of communications between the two. The flight of UAVs may operate with various degrees of autonomy: either under remote control by a human operator or autonomously by onboard computers.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Wikipedia
+
+Date Accessed: 5/10/2019
+
+https://en.wikipedia.org/wiki/Unmanned_aerial_vehicle</CommonCoreOntologies:definition_source>
+        <rdfs:label>Unmanned Aerial Vehicle</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnmannedAirVehicle -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnmannedAirVehicle">
@@ -11076,6 +11138,21 @@ Projections made in 2018 by ARL and TRADOC
 Projections made in 2018 by ARL and TRADOC
 
 [This is a draft outline of a potential document; prepared by Alexander Kott, the US Army Research Laboratory; July 2018]</CommonCoreOntologies:definition_source>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnmannedCombatAerialVehicle -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnmannedCombatAerialVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#UnmannedAerialVehicle"/>
+        <CommonCoreOntologies:definition>An unmanned combat aerial vehicle (UCAV), also known as a combat drone or simply a drone, is an unmanned aerial vehicle (UAV) that usually carries aircraft ordnance such as missiles and is used for drone strikes. These drones are usually under real-time human control, with varying levels of autonomy. Aircraft of this type have no onboard human pilot.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Wikipedia
+
+Date Accessed: 5/10/2019
+
+https://en.wikipedia.org/wiki/Unmanned_combat_aerial_vehicle</CommonCoreOntologies:definition_source>
+        <rdfs:label>Unmanned Combat Aerial Vehicle</rdfs:label>
     </owl:Class>
     
 
@@ -11411,6 +11488,36 @@ Match 29, 2019
 
 https://www.globalfundforwomen.org/womens-human-rights</CommonCoreOntologies:definition_source>
         <rdfs:label>Women</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#3DimensionalBioprinting -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#3DimensionalBioprinting">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#3DimensionalPrinting"/>
+        <CommonCoreOntologies:definition>Three dimensional (3D) bioprinting is the utilization of 3D printing–like techniques to combine cells, growth factors, and biomaterials to fabricate biomedical parts that maximally imitate natural tissue characteristics. Generally, 3D bioprinting utilizes the layer-by-layer method to deposit materials known as bioinks to create tissue-like structures that are later used in medical and tissue engineering fields. Bioprinting covers a broad range of biomaterials.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Wikipedia
+
+Date Accessed: 5/10/2019
+
+https://en.wikipedia.org/wiki/3D_bioprinting</CommonCoreOntologies:definition_source>
+        <rdfs:label>3D Bioprinting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#3DimensionalPrinting -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#3DimensionalPrinting">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Robotics"/>
+        <CommonCoreOntologies:definition>The term 3D printing covers a variety of processes in which material is joined or solidified under computer control to create a three-dimensional object, with material being added together (such as liquid molecules or powder grains being fused together), typically layer by layer. In the 1990s, 3D printing techniques were considered suitable only for the production of functional or aesthetical prototypes and a more appropriate term was rapid prototyping. Today, the precision, repeatability and material range have increased to the point that some 3D printing processes are considered viable as an industrial production technology, whereby the term additive manufacturing can be used synonymously with 3D printing. One of the key advantages of 3D printing is the ability to produce very complex shapes or geometries, and a prerequisite for producing any 3D printed part is a digital 3D model or a CAD file.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Wikipedia
+
+Date Accessed: 5/10/2019
+
+https://en.wikipedia.org/wiki/3D_printing</CommonCoreOntologies:definition_source>
+        <rdfs:label>3D Printing</rdfs:label>
     </owl:Class>
     
 
