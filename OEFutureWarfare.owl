@@ -2918,7 +2918,7 @@ A megacity is a very large city metropolitan area, typically with a population o
 
 ...
 
-A megacity can be a single metropolitan area or two or more metropolitan areas that converge. The terms conurbation, metropolis, and metroplex are also applied to the latter. The term metacity has been used to describe metropolitan conurbations containing over 20 million people.</CommonCoreOntologies:definition>
+A megacity can be a single metropolitan area or two or more metropolitan areas that converge. The terms conurbation, metropolis, and metroplex are also applied to the latter.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition>(2)
 
 Due to their high populations, megacities face several challenges. These challenges revolve around slums, crime, energy and material resources, homelessness, and traffic congestion. Slums are settlement areas which are characterized by improper housing facilities and poor sanitation. They have been caused by the rise in population and massive local and international immigration. Individuals who live in slums seldom receive access to proper education, healthcare, and housing. Slums are generally found in cities in developing countries. The rise of criminal activities due to discontentment of city residents is another limitation megacities face. A lack of fulfillment of basic needs such as food, water, and shelter can increase crime rates.
@@ -2930,7 +2930,7 @@ Megacities also face the challenge of managing limited energy and material resou
 
 &quot;Megacity&quot;, Wikipedia
 
-March 26, 2019
+May 17, 2019
 
 https://en.wikipedia.org/wiki/Megacity</CommonCoreOntologies:definition_source>
         <CommonCoreOntologies:definition_source>(2)
@@ -4182,7 +4182,7 @@ https://en.wikipedia.org/wiki/Signals_intelligence#Electronic_signals_intelligen
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEFutureWarfareOntology#Demographics"/>
         <CommonCoreOntologies:definition>(1)
 
-[S]ex imbalances at birth are primarily a result of a combination of three important factors: a strong preference of couples for sons over daughters; fetal-sex determination followed by abortions of female fetuses; and rapid declines in the number of children per couple to comparatively low levels.</CommonCoreOntologies:definition>
+[Sex] imbalances at birth are primarily a result of a combination of three important factors: a strong preference of couples for sons over daughters; fetal-sex determination followed by abortions of female fetuses; and rapid declines in the number of children per couple to comparatively low levels.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition>(2)
 
 The consequences of having too many men, now coming of age, are far-reaching: beyond an epidemic of loneliness, the imbalance distorts labour markets, drives up savings rates...and drives down consumption, artificially inflates certain property values and parallels increases in violent crime, trafficking or prostitution in a growing number of locations.</CommonCoreOntologies:definition>
