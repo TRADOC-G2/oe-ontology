@@ -4646,6 +4646,7 @@ Publication date : 2018-08
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Environment">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ChangingCharacterOfFutureWarfare"/>
+        <rdfs:label>Environment</rdfs:label>
     </owl:Class>
     
 
