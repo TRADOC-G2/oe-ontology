@@ -1080,6 +1080,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Attitude Towards The United States Category</rdfs:label>
     </owl:Class>
     
 
@@ -1300,6 +1301,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Avenues Of Approach Category</rdfs:label>
     </owl:Class>
     
 
@@ -1315,6 +1317,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Banking And Finance Category</rdfs:label>
     </owl:Class>
     
 
@@ -1369,6 +1372,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Basic Cultural Norms And Values Category</rdfs:label>
     </owl:Class>
     
 
@@ -1938,6 +1942,7 @@ November 2010
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
         <CommonCoreOntologies:definition>Determines the types of bureaucratic divisions and/or centers of power within a government. Also includes the level of governmental span of control from tribal to regional/national level. An example would be tribal and town/district, with a primary focus on town/district matters.</CommonCoreOntologies:definition>
+        <rdfs:label>Centers Of Political Power Category</rdfs:label>
     </owl:Class>
     
 
@@ -1952,6 +1957,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Centers Of Social Power Category</rdfs:label>
     </owl:Class>
     
 
@@ -1993,6 +1999,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Child Warriors Category</rdfs:label>
     </owl:Class>
     
 
@@ -2127,6 +2134,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Climate Category</rdfs:label>
     </owl:Class>
     
 
@@ -2284,6 +2292,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Cloud Cover Category</rdfs:label>
     </owl:Class>
     
 
@@ -2382,6 +2391,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Command And Control Category</rdfs:label>
     </owl:Class>
     
 
@@ -2397,6 +2407,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Common Language Category</rdfs:label>
     </owl:Class>
     
 
@@ -2446,6 +2457,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Computer Warfare Category</rdfs:label>
     </owl:Class>
     
 
@@ -2535,6 +2547,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Construction Pattern Category</rdfs:label>
     </owl:Class>
     
 
@@ -2692,6 +2705,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Cover And Concealment Category</rdfs:label>
     </owl:Class>
     
 
@@ -2741,6 +2755,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Criminal Activity Category</rdfs:label>
     </owl:Class>
     
 
@@ -2784,6 +2799,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Cultural Perception Of Time Category</rdfs:label>
     </owl:Class>
     
 
@@ -2905,7 +2921,6 @@ https://www.paloaltonetworks.com/cyberpedia/what-is-cyber-security</CommonCoreOn
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
-        <CommonCoreOntologies:alternative_label>DIMEFIL</CommonCoreOntologies:alternative_label>
         <CommonCoreOntologies:definition>“DIME [Diplomacy, Information, Military and Economics] is a recent military term reinvigorated to remind the leadership and policy makers above them to consider national power as not limited to the military power alone. It was because of the political over-use of “M” that led to the push for a “whole-of-government” (WoG) approach within the national security apparatus; and particularly, the DoD. DIME (FIL) was added to include statecraft resources of financial, intelligence and law enforcement dynamics to be applied to the operational environments.”</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
 
@@ -2914,6 +2929,7 @@ OPEN Publications
 Volume 1, Number 2, Winter 2017
 
 NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
+        <rdfs:label>DIMEFIL</rdfs:label>
     </owl:Class>
     
 
@@ -2922,7 +2938,6 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL_DiplomaticCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL"/>
-        <CommonCoreOntologies:alternative_label>DIMEFIL Diplomatic Category</CommonCoreOntologies:alternative_label>
         <CommonCoreOntologies:definition>Hybrid warfare is a whole-of-government approach dominated by non-military instruments of power and therefore is predominantly political in nature. Approaches to address it require an integrated technique that extends beyond the traditional definition of “D” instruments. In the hyper-connected, globalized world, expansion of diplomatic efforts across time (“when” diplomatic instruments are applied), scale (“where”, at what level they are applied) and types of actors (“who” employs these instruments) become critical considerations.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
 
@@ -2931,6 +2946,7 @@ OPEN Publications
 Volume 1, Number 2, Winter 2017
 
 NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
+        <rdfs:label>DIMEFIL Diplomatic Category</rdfs:label>
     </owl:Class>
     
 
@@ -2939,7 +2955,6 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL_EconomicCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL"/>
-        <CommonCoreOntologies:alternative_label>DIMEFIL Economic Category</CommonCoreOntologies:alternative_label>
         <CommonCoreOntologies:definition>Western allies are well equipped to deploy economic sanctions as an effective tool of power, exploiting asymmetrical economic and financial interdependency favourable to the West. The US in particular has been able to use its global economic cloud to deliver comprehensive multilateral sanctions by blocking access to its own market. The sanctions’ effectiveness in shaping a desired political and military outcome, especially by curtailing adversaries’ resources spent on armament, has been clearly demonstrated in Iraq during Saddam Hussein’s regime, in Libya under Gaddafi’s regime and most recently in the case of Iran.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
 
@@ -2948,6 +2963,7 @@ OPEN Publications
 Volume 1, Number 2, Winter 2017
 
 NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
+        <rdfs:label>DIMEFIL Economic Category</rdfs:label>
     </owl:Class>
     
 
@@ -2959,7 +2975,6 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
         <CommonCoreOntologies:definition>Western allies are well equipped to deploy economic sanctions as an effective tool of power, exploiting asymmetrical economic and financial interdependency favourable to the West. The US in particular has been able to use its global economic cloud to deliver comprehensive multilateral sanctions by blocking access to its own market. The sanctions’ effectiveness in shaping a desired political and military outcome, especially by curtailing adversaries’ resources spent on armament, has been clearly demonstrated in Iraq during Saddam Hussein’s regime, in Libya under Gaddafi’s regime and most recently in the case of Iran.  
 
 A major downside of economic sanctions is that they generally take an extended period to influence political outcome. However, the incremental change is often worth the reward. For example, the West has experienced slight economic harm with the implementation of sanctions; however, this loss is disproportionally lower than the impact they have had on Russia, with the latter GDP shrinking by approximately 4% in 2015 alone. Furthermore, as seen in Iraq in the 1990s and in Iran in the 2010s, sanctions significantly hindered the buildup of conventional and nuclear capabilities and access to advanced technologies.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>DIMEFIL Financial Category</CommonCoreOntologies:definition_source>
         <CommonCoreOntologies:definition_source>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
 
 OPEN Publications
@@ -2967,6 +2982,7 @@ OPEN Publications
 Volume 1, Number 2, Winter 2017
 
 NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
+        <rdfs:label>DIMEFIL Financial Category</rdfs:label>
     </owl:Class>
     
 
@@ -2975,7 +2991,6 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL_InformationalCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL"/>
-        <CommonCoreOntologies:alternative_label>DIMEFIL Informational Category</CommonCoreOntologies:alternative_label>
         <CommonCoreOntologies:definition>One of the most important aspects of hybrid warfare is the cognitive impact, both locally, nationally and internationally. Rather than focusing on purely military means, hybrid warfare takes advantage of the modern information environment to engage in a “battle of narratives.” Though hybrid forces can employ sophisticated military capabilities, their primary tools are media reporting, the internet, “and the integration of information operations with strategic communication.”</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
 
@@ -2984,6 +2999,7 @@ OPEN Publications
 Volume 1, Number 2, Winter 2017
 
 NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
+        <rdfs:label>DIMEFIL Informational Category</rdfs:label>
     </owl:Class>
     
 
@@ -2992,7 +3008,6 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL_IntelligenceCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL"/>
-        <CommonCoreOntologies:alternative_label>DIMEFIL Intelligence Category</CommonCoreOntologies:alternative_label>
         <CommonCoreOntologies:definition>To counter disinformation threats, NATO and its partner organizations need to develop procedures that will enable rapid and sweeping dissemination of such fact-based information within its populations and to the global audience at large. This relies on effective intelligence capabilities, and optimistically, the Alliance possesses powerful analytical and operational expertise in this domain. As discussed in the Networks section, NATO member states should work at local government level, with civil society groups, schools, churches and other local level actors to make the network accessible to more recipients via local news and social media outlets. The crucial coordination between civil society and other non-governmental groups can provide wider outreach, increase credibility among the public.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
 
@@ -3001,6 +3016,7 @@ OPEN Publications
 Volume 1, Number 2, Winter 2017
 
 NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
+        <rdfs:label>DIMEFIL Intelligence Category</rdfs:label>
     </owl:Class>
     
 
@@ -3009,7 +3025,6 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL_LawEnforcementCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL"/>
-        <CommonCoreOntologies:alternative_label>DIMEFIL Law Enforcement Category</CommonCoreOntologies:alternative_label>
         <CommonCoreOntologies:definition>If power is derived from connectivity, “then the focus of leadership should be on making connections to solve shared problems.” Different countries, organizations and stakeholders can mobilize diverse coalitions for specific purposes. The range and complexity of challenges and the speed with which a crisis can escalate means that “knowing the right people to call and the right levers to pull in any corner of the world must be a key element” of the West’s diplomacy. The ability of governments to orchestrate networks of public, private, and civic actors is key to addressing hybrid conflicts.  
 
 For instance, in dealing with ISIS, the US has been able to stop planned attacks with a dense global network of law enforcement officers, counterterrorism officials and intelligence agencies. Similarly, public-private networks have formed across the world to counter hybrid conflict with non-military means. This includes the collaboration between technological and social media companies to block terrorist activity, as well as the between private businesses and civil society groups to address the current immigration crisis in Europe, from which some ISIS recruits originate.</CommonCoreOntologies:definition>
@@ -3020,6 +3035,7 @@ OPEN Publications
 Volume 1, Number 2, Winter 2017
 
 NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
+        <rdfs:label>DIMEFIL Law Enforcement Category</rdfs:label>
     </owl:Class>
     
 
@@ -3028,7 +3044,6 @@ NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL_MilitaryCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DIMEFIL"/>
-        <CommonCoreOntologies:alternative_label>DIMEFIL Military Category</CommonCoreOntologies:alternative_label>
         <CommonCoreOntologies:definition>While military force is not sufficient to deliver the outcomes one desires, it remains a vital source of power. Specifically, it structures expectations and shapes the political calculations and preferences of revisionist actors, deterring certain threats from arising.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>The Effectiveness of DIMEFIL Instruments of Power in the Gray Zone
 
@@ -3037,6 +3052,7 @@ OPEN Publications
 Volume 1, Number 2, Winter 2017
 
 NATO Allied Command Transformation</CommonCoreOntologies:definition_source>
+        <rdfs:label>DIMEFIL Military Category</rdfs:label>
     </owl:Class>
     
 
@@ -3343,6 +3359,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Deception Category</rdfs:label>
     </owl:Class>
     
 
@@ -3460,6 +3477,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Demographic Mix Category</rdfs:label>
     </owl:Class>
     
 
@@ -3852,6 +3870,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Economic Activity Category</rdfs:label>
     </owl:Class>
     
 
@@ -3890,6 +3909,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Economic Diversity Category</rdfs:label>
     </owl:Class>
     
 
@@ -4016,6 +4036,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Educational Level Category</rdfs:label>
     </owl:Class>
     
 
@@ -4170,6 +4191,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Electronic Warfare Category</rdfs:label>
     </owl:Class>
     
 
@@ -4228,6 +4250,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Employment Status Category</rdfs:label>
     </owl:Class>
     
 
@@ -4776,6 +4799,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Ethnic Diversity Category</rdfs:label>
     </owl:Class>
     
 
@@ -5119,6 +5143,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Fire Support Category</rdfs:label>
     </owl:Class>
     
 
@@ -5376,6 +5401,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Genocide Category</rdfs:label>
     </owl:Class>
     
 
@@ -5513,6 +5539,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Government Effectiveness And Legitimacy Category</rdfs:label>
     </owl:Class>
     
 
@@ -5528,6 +5555,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Government Paramilitary Forces Category</rdfs:label>
     </owl:Class>
     
 
@@ -6065,6 +6093,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>High Temperature Heat Index Category</rdfs:label>
     </owl:Class>
     
 
@@ -6184,6 +6213,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Human Rights Category</rdfs:label>
     </owl:Class>
     
 
@@ -6201,6 +6231,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Human Trafficking Category</rdfs:label>
     </owl:Class>
     
 
@@ -6342,6 +6373,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Illegal Economic Activity Category</rdfs:label>
     </owl:Class>
     
 
@@ -6487,6 +6519,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Influential Political Group Category</rdfs:label>
     </owl:Class>
     
 
@@ -6503,6 +6536,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Info War Category</rdfs:label>
     </owl:Class>
     
 
@@ -6556,6 +6590,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Information Attack Category</rdfs:label>
     </owl:Class>
     
 
@@ -6571,6 +6606,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Information Management Category</rdfs:label>
     </owl:Class>
     
 
@@ -6603,6 +6639,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Information Offset Category</rdfs:label>
     </owl:Class>
     
 
@@ -6775,6 +6812,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Information Warfare Category</rdfs:label>
     </owl:Class>
     
 
@@ -6852,6 +6890,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Intelligence Category</rdfs:label>
     </owl:Class>
     
 
@@ -6986,6 +7025,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>International Relationships Category</rdfs:label>
     </owl:Class>
     
 
@@ -7057,6 +7097,7 @@ https://www.investopedia.com/insights/what-is-international-trade/</CommonCoreOn
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#InternetCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PublicCommunicationsMediaCategory"/>
+        <rdfs:label>Internet Category</rdfs:label>
     </owl:Class>
     
 
@@ -7195,6 +7236,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Key Dates, Time Periods, Or Events Category</rdfs:label>
     </owl:Class>
     
 
@@ -7211,6 +7253,7 @@ November 2010
 DISTRIBUTION RESTRICTION:
  Approved for public release; distribution is unlimited.
  HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Key Events Resolution Category</rdfs:label>
     </owl:Class>
     
 
@@ -7228,6 +7271,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Key Terrain Category</rdfs:label>
     </owl:Class>
     
 
@@ -7243,6 +7287,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Knowledge Of the Area Of Operations Category</rdfs:label>
     </owl:Class>
     
 
@@ -7315,6 +7360,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Landforms Category</rdfs:label>
     </owl:Class>
     
 
@@ -7476,6 +7522,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Logistics Category</rdfs:label>
     </owl:Class>
     
 
@@ -7583,6 +7630,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Low Temperature Wind Chill Category</rdfs:label>
     </owl:Class>
     
 
@@ -7680,6 +7728,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Maneuver Category</rdfs:label>
     </owl:Class>
     
 
@@ -8008,6 +8057,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Military Forces Category</rdfs:label>
     </owl:Class>
     
 
@@ -8023,6 +8073,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Military Functions Category</rdfs:label>
     </owl:Class>
     
 
@@ -8170,6 +8221,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Mobility Classification Category</rdfs:label>
     </owl:Class>
     
 
@@ -8340,6 +8392,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Natural Hazards Category</rdfs:label>
     </owl:Class>
     
 
@@ -8530,6 +8583,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Nonmilitary Armed Combarants Category</rdfs:label>
     </owl:Class>
     
 
@@ -8545,6 +8599,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Nonstate Paremilitary Forces Category</rdfs:label>
     </owl:Class>
     
 
@@ -8623,6 +8678,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Observation And Fields Of Fire Category</rdfs:label>
     </owl:Class>
     
 
@@ -8640,6 +8696,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Obstacles Category</rdfs:label>
     </owl:Class>
     
 
@@ -8808,8 +8865,8 @@ https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PMESII-PT">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
-        <CommonCoreOntologies:alternative_label>PMESII-PT</CommonCoreOntologies:alternative_label>
         <CommonCoreOntologies:definition>Commanders and staffs use the operational and mission Categorys to help build their situational understanding. They analyze and describe an operational environment in terms of eight interrelated operational Categorys: political, military, economic, social, information, infrastructure, physical environment, and time</CommonCoreOntologies:definition>
+        <rdfs:label>PMESII-PT</rdfs:label>
     </owl:Class>
     
 
@@ -8825,7 +8882,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
-        <CommonCoreOntologies:alternative_label>PMESII-PT Economic Category</CommonCoreOntologies:alternative_label>
+        <rdfs:label>PMESII-PT Economic Category</rdfs:label>
     </owl:Class>
     
 
@@ -8841,7 +8898,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
-        <CommonCoreOntologies:alternative_label>PMESII-PT Information Category</CommonCoreOntologies:alternative_label>
+        <rdfs:label>PMESII-PT Information Category</rdfs:label>
     </owl:Class>
     
 
@@ -8857,7 +8914,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
-        <CommonCoreOntologies:alternative_label>PMESII-PT Infrastructure Category</CommonCoreOntologies:alternative_label>
+        <rdfs:label>PMESII-PT Infrastructure Category</rdfs:label>
     </owl:Class>
     
 
@@ -8872,8 +8929,8 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
-        <CommonCoreOntologies:alternative_label>PMESII-PT Military Category</CommonCoreOntologies:alternative_label>
         <CommonCoreOntologies:definition>The Military variable explores the military and/or paramilitary capabilities of all relevant actors (enemy, friendly, and neutral) in a given OE. This includes nonmilitary armed and unarmed combatants. The variable focuses on giving the exercise planner the ability to design appropriate OPFOR units for full spectrum operations.</CommonCoreOntologies:definition>
+        <rdfs:label>PMESII-PT Military Category</rdfs:label>
     </owl:Class>
     
 
@@ -8891,7 +8948,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
-        <CommonCoreOntologies:alternative_label>PMESII-PT Physical Environment Category</CommonCoreOntologies:alternative_label>
+        <rdfs:label>PMESII-PT Physical Environment Category</rdfs:label>
     </owl:Class>
     
 
@@ -8906,8 +8963,8 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
-        <CommonCoreOntologies:alternative_label>PMESII-PT Political Category</CommonCoreOntologies:alternative_label>
         <CommonCoreOntologies:definition>The Political variable describes the distribution of responsibility and power at all levels of governance—formally constituted authorities, as well as informal political powers. The political variable includes influential political groups and the collective attitude of the population towards the U.S.</CommonCoreOntologies:definition>
+        <rdfs:label>PMESII-PT Political Category</rdfs:label>
     </owl:Class>
     
 
@@ -8923,7 +8980,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
-        <CommonCoreOntologies:alternative_label>PMESII-PT Social Category</CommonCoreOntologies:alternative_label>
+        <rdfs:label>PMESII-PT Social Category</rdfs:label>
     </owl:Class>
     
 
@@ -8938,8 +8995,8 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
-        <CommonCoreOntologies:alternative_label>PMESII-PT Time Category</CommonCoreOntologies:alternative_label>
         <CommonCoreOntologies:definition>The Time variable describes the timing and duration of activities, events, or conditions that occur, exist, or continue within an OE, as well as how the timing and duration are perceived by various actors in the OE. Various aspects of time and the perception of them can affect and influence military operations (friendly and enemy) within an OE. They can affect the reasons for conducting an operation, the amount of time available to complete a mission, the duration of an operation, and how commanders employ forces to achieve conditions of the desired end state. Different groups of people may perceive the concept of time in different ways. The perception and experience of time are among the most central aspects of how groups function and interact. In a military context, time orientation affects decision cycles, planning horizons, and tempo of operations.</CommonCoreOntologies:definition>
+        <rdfs:label>PMESII-PT Time Category</rdfs:label>
     </owl:Class>
     
 
@@ -9111,6 +9168,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Perception Management Category</rdfs:label>
     </owl:Class>
     
 
@@ -9231,6 +9289,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Physical Destruction Category</rdfs:label>
     </owl:Class>
     
 
@@ -9319,6 +9378,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Population Movement Category</rdfs:label>
     </owl:Class>
     
 
@@ -9350,6 +9410,7 @@ Publication date : 2018-09
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PostalAndCourierServiceCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PublicCommunicationsMediaCategory"/>
+        <rdfs:label>Postal And Courier Service Category</rdfs:label>
     </owl:Class>
     
 
@@ -9482,6 +9543,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Precipitation Category</rdfs:label>
     </owl:Class>
     
 
@@ -9615,6 +9677,7 @@ https://en.wikipedia.org/wiki/Prime_minister</CommonCoreOntologies:definition_so
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PrintMediaCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PublicCommunicationsMediaCategory"/>
+        <rdfs:label>Print Media Category</rdfs:label>
     </owl:Class>
     
 
@@ -9750,6 +9813,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Protection And Security Measures Category</rdfs:label>
     </owl:Class>
     
 
@@ -9765,6 +9829,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Protection Category</rdfs:label>
     </owl:Class>
     
 
@@ -9842,6 +9907,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Public Communications Media Category</rdfs:label>
     </owl:Class>
     
 
@@ -9900,6 +9966,7 @@ Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#RadioCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PublicCommunicationsMediaCategory"/>
+        <rdfs:label>Radio Category</rdfs:label>
     </owl:Class>
     
 
@@ -9991,6 +10058,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Reconnaissance, Intelligence, Surveillance, and Target Acquisition Category</rdfs:label>
     </owl:Class>
     
 
@@ -10120,6 +10188,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Relative Humidity Category</rdfs:label>
     </owl:Class>
     
 
@@ -10173,6 +10242,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Religious Diversity Category</rdfs:label>
     </owl:Class>
     
 
@@ -11590,6 +11660,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Slavery Category</rdfs:label>
     </owl:Class>
     
 
@@ -11640,6 +11711,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Social Volatility Category</rdfs:label>
     </owl:Class>
     
 
@@ -12158,6 +12230,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Tactical Exploitation Of Time Category</rdfs:label>
     </owl:Class>
     
 
@@ -12222,6 +12295,7 @@ https://www.investopedia.com/terms/t/tariff.asp</CommonCoreOntologies:definition
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TelephoneCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PublicCommunicationsMediaCategory"/>
+        <rdfs:label>Telephone Category</rdfs:label>
     </owl:Class>
     
 
@@ -12230,6 +12304,7 @@ https://www.investopedia.com/terms/t/tariff.asp</CommonCoreOntologies:definition
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TelevisionCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PublicCommunicationsMediaCategory"/>
+        <rdfs:label>Television Category</rdfs:label>
     </owl:Class>
     
 
@@ -12281,6 +12356,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Terrain Category</rdfs:label>
     </owl:Class>
     
 
@@ -12298,6 +12374,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Terrain Complexity Category</rdfs:label>
     </owl:Class>
     
 
@@ -12442,6 +12519,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Torture Category</rdfs:label>
     </owl:Class>
     
 
@@ -12506,6 +12584,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Transportation Architecture Category</rdfs:label>
     </owl:Class>
     
 
@@ -12583,6 +12662,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Type Of Government Category</rdfs:label>
     </owl:Class>
     
 
@@ -12598,6 +12678,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Unarmed Combatants Category</rdfs:label>
     </owl:Class>
     
 
@@ -12770,6 +12851,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Urban Zones Category</rdfs:label>
     </owl:Class>
     
 
@@ -12810,6 +12892,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Urbanized Building Density Category</rdfs:label>
     </owl:Class>
     
 
@@ -12825,6 +12908,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Utilities Present Category</rdfs:label>
     </owl:Class>
     
 
@@ -12840,6 +12924,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Utility Level Category</rdfs:label>
     </owl:Class>
     
 
@@ -12899,6 +12984,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Vegetation Category</rdfs:label>
     </owl:Class>
     
 
@@ -13003,6 +13089,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Visibility Category</rdfs:label>
     </owl:Class>
     
 
@@ -13083,6 +13170,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Weather Category</rdfs:label>
     </owl:Class>
     
 
@@ -13121,6 +13209,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Wind Category</rdfs:label>
     </owl:Class>
     
 
@@ -13170,6 +13259,7 @@ November 2010
 
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
+        <rdfs:label>Women Category</rdfs:label>
     </owl:Class>
     
 
@@ -13178,6 +13268,7 @@ Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#WordOfMouthCategory">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PublicCommunicationsMediaCategory"/>
+        <rdfs:label>Word Of Mouth Category</rdfs:label>
     </owl:Class>
     
 
