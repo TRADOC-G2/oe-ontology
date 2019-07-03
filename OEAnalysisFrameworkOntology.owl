@@ -53,6 +53,12 @@
     
 
 
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/alternative_label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/alternative_label"/>
+    
+
+
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/definition -->
 
     <owl:AnnotationProperty rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
@@ -1322,6 +1328,17 @@ Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Barcode -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Barcode">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Data"/>
+        <CommonCoreOntologies:definition>A barcode is a visual, machine-readable representation of data; the data usually describes something about the object that carries the barcode. Traditional barcodes systematically represent data by varying the widths and spacings of parallel lines, and may be referred to as linear or one-dimensional (1D). Later, two-dimensional (2D) variants were developed, using rectangles, dots, hexagons and other geometric patterns, called matrix codes or 2D barcodes, although they do not use bars as such. Initially, barcodes were only scanned by special optical scanners called barcode readers. Later application software became available for devices that could read images, such as smartphones with cameras.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>https://en.wikipedia.org/wiki/Barcode</CommonCoreOntologies:definition_source>
+        <rdfs:label>Barcode</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#BaseMeasure -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#BaseMeasure">
@@ -1460,36 +1477,6 @@ NIST Big Data Public Working Group (NBD-PWG) Reference Architecture Subgroup Inf
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#BigDataRole">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:label>Big Data Role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#BigDataTerm -->
-
-    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#BigDataTerm">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ArtificialIntelligence"/>
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#BigDataControlledVocabulary"/>
-        <CommonCoreOntologies:definition>(1)
-
-extensive datasets (3.1.13) — primarily in the data (3.1.5) characteristics of volume, variety, velocity, and/or variability — that require a scalable technology for efficient storage, manipulation, management, and analysis
-
-Note 1 to entry: Big data is commonly used in many different ways, for example as the name of the scalable technology used to handle big data extensive datasets.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition>(2) 
-
-A set of digital data that, through its volume, surpasses human intuition and analytical abilities. We generate some 2.5 trillion bytes of data every day on the internet, through emails, videos, weather information, GPS signals, online transactions, etc. No traditional computerized database management tool can process this mass of data – it has required the development of new algorithms* to store, classify and analyse it.</CommonCoreOntologies:definition>
-        <CommonCoreOntologies:definition_source>(1)
-
-Information technology — Big data — Overview and vocabulary
-
-https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
-        <CommonCoreOntologies:definition_source>(2)
-
-United Nations Educational, Scientific, and Cultural Organization Courier 
-
-March 2018
-
-https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</CommonCoreOntologies:definition_source>
-        <rdfs:label>Big Data</rdfs:label>
     </owl:Class>
     
 
@@ -1758,6 +1745,19 @@ https://en.wikipedia.org/wiki/Cabinet_(government)</CommonCoreOntologies:definit
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Capacitor -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Capacitor">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#EnergyStorage"/>
+        <CommonCoreOntologies:definition>A capacitor is a passive two-terminal electronic component that stores electrical energy in an electric field. The effect of a capacitor is known as capacitance. While some capacitance exists between any two electrical conductors in proximity in a circuit, a capacitor is a component designed to add capacitance to a circuit. The capacitor was originally known as a condenser or condensator. The original name is still widely used in many languages, but not commonly in English. 
+
+The physical form and construction of practical capacitors vary widely and many types of capacitor are in common use. Most capacitors contain at least two electrical conductors often in the form of metallic plates or surfaces separated by a dielectric medium. A conductor may be a foil, thin film, sintered bead of metal, or an electrolyte. The nonconducting dielectric acts to increase the capacitor&apos;s charge capacity. Materials commonly used as dielectrics include glass, ceramic, plastic film, paper, mica, air, and oxide layers. Capacitors are widely used as parts of electrical circuits in many common electrical devices. Unlike a resistor, an ideal capacitor does not dissipate energy. When two conductors experience a potential difference, for example, when a capacitor is attached across a battery, an electric field develops across the dielectric, causing a net positive charge to collect on one plate and net negative charge to collect on the other plate. No current actually flows through the dielectric. However, there is a flow of charge through the source circuit. If the condition is maintained sufficiently long, the current through the source circuit ceases. If a time-varying voltage is applied across the leads of the capacitor, the source experiences an ongoing current due to the charging and discharging cycles of the capacitor.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>https://en.wikipedia.org/wiki/Capacitor</CommonCoreOntologies:definition_source>
+        <rdfs:label>Capacitor</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CapturePlant -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CapturePlant">
@@ -1962,11 +1962,33 @@ Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CertifiedEmissionReduction -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CertifiedEmissionReduction">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PolicyToCombatClimateChange"/>
+        <CommonCoreOntologies:definition>Certified Emission Reductions (CERs) are a type of emissions unit (or carbon credits) issued by the Clean Development Mechanism (CDM) Executive Board for emission reductions achieved by CDM projects and verified by a DOE (Designated Operational Entity) under the rules of the Kyoto Protocol.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>https://en.wikipedia.org/wiki/Certified_Emission_Reduction</CommonCoreOntologies:definition_source>
+        <rdfs:label>Certified Emission Reduction</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ChangingCharacterOfFutureWarfare -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ChangingCharacterOfFutureWarfare">
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
         <rdfs:label>Changing Character Of Future Warfare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ChemicalEnergy -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ChemicalEnergy">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Energy"/>
+        <CommonCoreOntologies:definition>Chemical energy is the potential of a chemical substance to undergo a transformation through a chemical reaction to transform other chemical substances. Examples include batteries, food, gasoline, and etc. Breaking or making of chemical bonds involves energy, which may be either absorbed or evolved from a chemical system.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>https://en.wikipedia.org/wiki/Chemical_energy</CommonCoreOntologies:definition_source>
+        <rdfs:label>Chemical Energy</rdfs:label>
     </owl:Class>
     
 
@@ -2254,7 +2276,7 @@ https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Cloud -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Cloud">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#BigDataTerm"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CloudComputing"/>
         <CommonCoreOntologies:definition>A cloud is different computer systems involving a large number of computers connected to each other, and exchanging messages in real time over the internet. A calculation or the storage of information launched by one computer can therefore be carried out by a network of interconnected computers – thus creating a cloud.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>United Nations Educational, Scientific, and Cultural Organization Courier 
 
@@ -3088,6 +3110,17 @@ https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DataCollection -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DataCollection">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Data"/>
+        <CommonCoreOntologies:definition>Data collection is the process of gathering and measuring information on targeted variables in an established system, which then enables one to answer relevant questions and evaluate outcomes. Data collection is a component of research in all fields of study including physical and social sciences, humanities, and business. While methods vary by discipline, the emphasis on ensuring accurate and honest collection remains the same. The goal for all data collection is to capture quality evidence that allows analysis to lead to the formulation of convincing and credible answers to the questions that have been posed.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>https://en.wikipedia.org/wiki/Data_collection</CommonCoreOntologies:definition_source>
+        <rdfs:label>Data Collection</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DataConsumer -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DataConsumer">
@@ -3346,6 +3379,23 @@ https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Deception -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Deception">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Resilience"/>
+        <CommonCoreOntologies:definition>Deception is considered by commanders of space assets, in their planning for space operations, to ensure the survival and resilience of their space mission.  Deception in space operations is typically designed to confuse or mislead a threat with respect to the location, capability, operational status, mission type, and/or robustness of a national security system or payload.  If deception measures are successful, an adversary will not attack a given system or capability. Given the physics of space operations, deception is likely a critical element of any space-system resilience effort.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Joint Publication 3-14
+
+Space Operations
+
+April 10, 2018
+
+https://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/jp3_14.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Deception</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DeceptionCategory -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DeceptionCategory">
@@ -3422,7 +3472,7 @@ Publication date : 2018-09
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DeepLearning -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DeepLearning">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#BigDataTerm"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CloudComputing"/>
         <CommonCoreOntologies:definition>Deep Learning is At the cutting edge of machine learning*, this technique enables a machine to independently recognize complex concepts such as faces, human bodies, or images of cats. This is done by scouring millions of images picked from the internet – images that have not been labelled by humans. The result of a combination of learning algorithms and formal neural networks* and the use of mass data, deep learning has revolutionized artificial intelligence. It has countless applications, including search engines, medical diagnosis, autonomous cars, etc. In 2015, the AlphaGo computer used deep learning to beat humans at Go, the ancient Chinese board game.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>United Nations Educational, Scientific, and Cultural Organization Courier 
 
@@ -3430,6 +3480,23 @@ March 2018
 
 https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</CommonCoreOntologies:definition_source>
         <rdfs:label>Deep Learning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DefensiveOperations -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DefensiveOperations">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceDomain"/>
+        <CommonCoreOntologies:definition>Defensive Operations are activities undertaken to neutralize or reduce the effectiveness of hostile action against US, allied, and partner space systems.  They reduce the likelihood that a threat will be able to mount a successful attack on US space architectures and, to a certain extent, are independent of the space mission defended.  This type of capability or operation might include disrupting a threat’s targeting or attacking of space systems.  Synchronized and systematic maneuvers of on-orbit assets to confuse and overwhelm an enemy’s targeting system, and active measures to deceive, degrade, or destroy targeting systems are examples of defensive operations.  Defensive operations also include a space object surveillance and identification capability that provides warning and characterization of the attack, as well as blue force C2 capabilities to execute the defense</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Joint Publication 3-14
+
+Space Operations
+
+April 10, 2018
+
+https://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/jp3_14.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Defensive Operations</rdfs:label>
     </owl:Class>
     
 
@@ -3696,6 +3763,23 @@ Publication date : 2018-12
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Disaggregation -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Disaggregation">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Resilience"/>
+        <CommonCoreOntologies:definition>Disaggregation is the separation of dissimilar capabilities into separate platforms or payloads.  An example of this would be separating tactical and strategic protected SATCOM.  Further, disaggregation can also apply in other cases to reduce the complexity of systems, making it easier to implement other resilience characteristics.  In this respect, disaggregation is a means to an end, not bolstering resilience directly, but allowing it to occur more readily</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Joint Publication 3-14
+
+Space Operations
+
+April 10, 2018
+
+https://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/jp3_14.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Disaggregation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DistributedDataProcessing -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#DistributedDataProcessing">
@@ -3721,6 +3805,40 @@ https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
 
 https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
         <rdfs:label>Distributed File System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Distribution -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Distribution">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Resilience"/>
+        <CommonCoreOntologies:definition>Distribution is utilizing a number of nodes, working together, to perform the same mission or functions as a single node.  For example, the Global Positioning System (GPS) is a distributed system.  No individual satellite, or ground monitoring site, is fundamental to assuring PNT in any one specific location.  Losing a single node, satellite, or ground station begins to reduce the accuracy of the system and, with enough losses, the availability of the system.  However, the highly resilient nature of the distributed GPS architecture allows for more gradual degradation and presents an adversary the problem of far larger number of targets than if the system relied on a singular node.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Joint Publication 3-14
+
+Space Operations
+
+April 10, 2018
+
+https://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/jp3_14.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Distribution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Diversification -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Diversification">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Resilience"/>
+        <CommonCoreOntologies:definition>Diversification is contributing to the same mission in multiple ways, using different platforms; different orbits; or systems and capabilities of commercial, civil, or international partners.  Systems or architectures that are flexible or adaptable for use in support of a variety of mission sets are also examples of diversification.  Again using PNT as an example, the diverse nature of space-based PNT systems can be used to assure warfighters have access to at least one space-based PNT capability, even if a primary means is denied.  A similar dynamic arises for other systems with vast commercial and international participation (communication and ISR).  Diversification coupled with other approaches (proliferation and deception) can create resilient architectures.  Moreover, since diversification could include the use of alternative, non-USG systems, it can increase resilience with lower investments than some other techniques.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Joint Publication 3-14
+
+Space Operations
+
+April 10, 2018
+
+https://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/jp3_14.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Diversification</rdfs:label>
     </owl:Class>
     
 
@@ -4199,7 +4317,7 @@ Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Emission -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Emission">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Climate_Change_Unused_Terms"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#GreenhouseGas"/>
         <CommonCoreOntologies:definition>In the climate change context, an emission refers to the release of greenhouse gases and/or their precursors and aerosols into the atmosphere over a specified area and period of time.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>US Forest Service Glossary on Climate Change
 
@@ -4605,6 +4723,15 @@ Publication date : 2017-06
 
 1st Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Energy Service Provider</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#EnergyStorage -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#EnergyStorage">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PowerGenerationAndStorage"/>
+        <rdfs:label>Energy Storage</rdfs:label>
     </owl:Class>
     
 
@@ -5187,7 +5314,7 @@ https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#FormalNeuralNetwork -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#FormalNeuralNetwork">
-        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#BigDataTerm"/>
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#CloudComputing"/>
         <CommonCoreOntologies:definition>Formal Neural Network are algorithms designed to be implemented by a computer, which aims to replicate the neural connections of the brain. Existing systems are much more limited than human intelligence. But they are still capable of estimating the speed of a vehicle according to movements of the accelerator pedal and the slope of the road; the hardness of a material as a function of its chemical composition and its processing temperature; or the solvency of a business according to its turnover, etc.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>United Nations Educational, Scientific, and Cultural Organization Courier 
 
@@ -5246,6 +5373,19 @@ https://en.wikipedia.org/wiki/Freedom_of_speech</CommonCoreOntologies:definition
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#FuelCell -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#FuelCell">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#EnergyStorage"/>
+        <CommonCoreOntologies:definition>A fuel cell is an electrochemical cell that converts the chemical energy of a fuel (often hydrogen) and an oxidizing agent (often oxygen) into electricity through a pair of redox reactions. Fuel cells are different from most batteries in requiring a continuous source of fuel and oxygen (usually from air) to sustain the chemical reaction, whereas in a battery the chemical energy usually comes from metals and their ions or oxides  that are commonly already present in the battery, except in flow batteries. Fuel cells can produce electricity continuously for as long as fuel and oxygen are supplied. 
+
+The first fuel cells were invented in 1838. The first commercial use of fuel cells came more than a century later in NASA space programs to generate power for satellites and space capsules. Since then, fuel cells have been used in many other applications. Fuel cells are used for primary and backup power for commercial, industrial and residential buildings and in remote or inaccessible areas. They are also used to power fuel cell vehicles, including forklifts, automobiles, buses, boats, motorcycles and submarines.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>https://en.wikipedia.org/wiki/Fuel_cell</CommonCoreOntologies:definition_source>
+        <rdfs:label>Fuel Cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#FunctionalSystem -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#FunctionalSystem">
@@ -5272,6 +5412,19 @@ https://en.wikipedia.org/wiki/Freedom_of_speech</CommonCoreOntologies:definition
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#GasEnergyGeneration">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PowerGenerationAndStorage"/>
         <rdfs:label>Gas Energy Usage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#GasGenerator -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#GasGenerator">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#EnergyStorage"/>
+        <CommonCoreOntologies:definition>A gas generator is a device for generating gas. A gas generator may create gas by a chemical reaction or from a solid or liquid source, when storing a pressurized gas is undesirable or impractical. 
+
+The term often refers to a device that uses a rocket propellant to generate large quantities of gas. The gas is typically used to drive a turbine rather than to provide thrust as in a rocket engine. Gas generators of this type are used to power turbopumps in rocket engines, and are used by some auxiliary power units to power electrical generators and hydraulic pumps.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>https://en.wikipedia.org/wiki/Gas_generator</CommonCoreOntologies:definition_source>
+        <rdfs:label>Gas Generator</rdfs:label>
     </owl:Class>
     
 
@@ -5449,6 +5602,17 @@ Publication Date: 2016-09
 https://www.fs.fed.us/climatechange/documents/glossary.pdf</CommonCoreOntologies:definition_source>
         <rdfs:label>A glacier is a mass of land ice flowing downhill (by internal deformation and sliding at the base) and constrained by the surrounding topography (e.g., the sides of a valley or surrounding peaks); the bedrock topography is the major influence on the dynamics and surface slope of a glacier. A glacier is maintained by accumulation of snow at high altitudes, balanced by melting at low altitudes or discharge into the sea.</rdfs:label>
         <rdfs:label>Glacier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#GlobalWarming -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#GlobalWarming">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Climate"/>
+        <CommonCoreOntologies:definition>Global warming is a long-term rise in the average temperature of the Earth&apos;s climate system; an aspect of climate change shown by temperature measurements and by multiple effects of the warming. Though earlier geological periods also experienced episodes of warming, the term commonly refers to the observed and continuing increase in average air and ocean temperatures since 1900 caused mainly by emissions of greenhouse gases (GHGs) in the modern industrial economy. In the modern context the terms global warming and climate change are commonly used interchangeably, but climate change includes both global warming and its effects, such as changes to precipitation and impacts that differ by region. Many of the observed changes in climate since the 1950s are unprecedented in the instrumental temperature record, and in historical and paleoclimate proxy records of climate change over thousands to millions of years.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>https://en.wikipedia.org/wiki/Global_warming</CommonCoreOntologies:definition_source>
+        <rdfs:label>Global Warming</rdfs:label>
     </owl:Class>
     
 
@@ -7292,6 +7456,19 @@ Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#KyotoProtocol -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#KyotoProtocol">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PolicyToCombatClimateChange"/>
+        <CommonCoreOntologies:definition>The Kyoto Protocol is an international treaty which extends the 1992 United Nations Framework Convention on Climate Change (UNFCCC) that commits state parties to reduce greenhouse gas emissions, based on the scientific consensus that (part one) global warming is occurring and (part two) it is extremely likely that human-made CO2 emissions have predominantly caused it. The Kyoto Protocol was adopted in Kyoto, Japan, on 11 December 1997 and entered into force on 16 February 2005. There are currently 192 parties (Canada withdrew from the protocol, effective December 2012) to the Protocol. 
+
+The Kyoto Protocol implemented the objective of the UNFCCC to reduce the onset of global warming by reducing greenhouse gas concentrations in the atmosphere to &quot;a level that would prevent dangerous anthropogenic interference with the climate system&quot; (Article 2). The Kyoto Protocol applies to the six greenhouse gases listed in Annex A: Carbon dioxide (CO2), Methane (CH4), Nitrous oxide (N2O), Hydrofluorocarbons (HFCs), Perfluorocarbons (PFCs), and Sulphur hexafluoride (SF6).</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>https://en.wikipedia.org/wiki/Kyoto_Protocol</CommonCoreOntologies:definition_source>
+        <rdfs:label>Kyoto Protocol</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#LBGTIdentity -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#LBGTIdentity">
@@ -7984,7 +8161,7 @@ https://www.iso.org/jtc1</CommonCoreOntologies:definition_source>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Meteoriod">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceMaterial"/>
-        <CommonCoreOntologies:definition>A Meteoriod consists of particles of natural origin, resulting from the disintegration and fragmentation of comets and asteroids, which orbit the sun</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>A Meteoroid consists of particles of natural origin, resulting from the disintegration and fragmentation of comets and asteroids, which orbit the sun</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>International Organization for Standardization/International Electrotechnical Commission 11227:2012
 
 Space systems — Test procedure to evaluate spacecraft material ejecta upon hypervelocity impact
@@ -7992,7 +8169,7 @@ Space systems — Test procedure to evaluate spacecraft material ejecta upon hyp
 Publication Date: 2012-09
 
 1st Edition</CommonCoreOntologies:definition_source>
-        <rdfs:label>Meteoriod</rdfs:label>
+        <rdfs:label>Meteoroid</rdfs:label>
     </owl:Class>
     
 
@@ -8425,6 +8602,17 @@ March 2018
 
 https://en.unesco.org/courier/2018-3/lexicon-artificial-intelligence</CommonCoreOntologies:definition_source>
         <rdfs:label>NeoConnectionism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#NextGeneationCombatVehicle -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#NextGeneationCombatVehicle">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#UnmannedVehicle"/>
+        <CommonCoreOntologies:definition>The Next Generation of Combat Vehicles allows the Army to achieve combat vehicle overmatch in close combat against the pacing threat. It delivers decisive lethality with manned and unmanned teaming as part of a combined arms team in the future operating environment.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>https://www.army.mil/standto/2018-02-22</CommonCoreOntologies:definition_source>
+        <rdfs:label>Next Generation Combat Vehicle</rdfs:label>
     </owl:Class>
     
 
@@ -9343,6 +9531,15 @@ Publication date : 2018-02
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PolicyToCombatClimateChange -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PolicyToCombatClimateChange">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ClimateChangeAndResourceCompetition"/>
+        <rdfs:label>Policy To Combat Climate Change</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PoliticalPartySystem -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PoliticalPartySystem">
@@ -9792,6 +9989,23 @@ https://www.britannica.com/topic/propaganda</CommonCoreOntologies:definition_sou
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Protection -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Protection">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Resilience"/>
+        <CommonCoreOntologies:definition>Protection comprises active and passive measures to ensure space systems provide the required quantity and quality of mission support in any operating environment or condition.  This includes traditional steps, such as EMI protection and nuclear hardening, and can be extended to maneuverability and other ASAT countermeasures.  It also includes efforts to characterize and attribute effects, which enables satellite operators to restore satellite functions, capabilities, or capacity.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Joint Publication 3-14
+
+Space Operations
+
+April 10, 2018
+
+https://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/jp3_14.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Protection</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ProtectionAndSecurityMeasuresCategory -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#ProtectionAndSecurityMeasuresCategory">
@@ -10059,6 +10273,23 @@ November 2010
 DISTRIBUTION RESTRICTION:
 Approved for public release; distribution is unlimited. HEADQUARTERS, DEPARTMENT OF THE ARMY</obo:IAO_0000119>
         <rdfs:label>Reconnaissance, Intelligence, Surveillance, and Target Acquisition Category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Reconstitution -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Reconstitution">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceDomain"/>
+        <CommonCoreOntologies:definition>Reconstitution consists of actions taken to restore functionality to an acceptable level for a particular mission, operation, or contingency after severe degradation.  It includes launching additional satellites or bringing additional ground stations, new signals, and spectrum into play to bolster the ability to provide the capabilities and capacity required for mission success.  Reconstitution involves adding back capability or capacity through additional assets or links. (</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Joint Publication 3-14
+
+Space Operations
+
+April 10, 2018
+
+https://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/jp3_14.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Reconstitution</rdfs:label>
     </owl:Class>
     
 
@@ -10401,6 +10632,23 @@ Publication date : 2018-02
 
 5th Edition</CommonCoreOntologies:definition_source>
         <rdfs:label>Residual Risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Resilience -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Resilience">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceDomain"/>
+        <CommonCoreOntologies:definition>Resilience is the ability of an architecture to support the functions necessary for mission success with higher probability; shorter periods of reduced capability; and across a wider range of scenarios, conditions, and threats, in spite of hostile action or adverse conditions.  Resilience may leverage cross-domain or alternative government, commercial, or international capabilities.  Unlike defensive operations and reconstitution, resilience is an internally focused characteristic of an architecture.  This is contrasted with reconstitution and defensive operations, which are external to the architecture, although architectural decisions would affect the ability to reconstitute that architecture or employ defensive operations to defend it</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Joint Publication 3-14
+
+Space Operations
+
+April 10, 2018
+
+https://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/jp3_14.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Resilience</rdfs:label>
     </owl:Class>
     
 
@@ -11788,6 +12036,42 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceAsset -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceAsset">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceDomain"/>
+        <CommonCoreOntologies:definition>Space assets provide combatant commanders (CCDRs) with near-worldwide coverage and access to otherwise denied areas.  There are several distinct advantages to using space for operational purposes.  These include freedom of action, overflight, and global perspective and responsiveness.
+
+Space-based assets complement non-space-based intelligence sources by providing decision makers with timely, accurate data for information that can create a decisive advantage across all phases of conflict.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Joint Publication 3-14
+
+Space Operations
+
+April 10, 2018
+
+https://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/jp3_14.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Space Asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceDomain -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceDomain">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceEnvironment"/>
+        <CommonCoreOntologies:definition>The space domain is the area above the altitude where atmospheric effects on airborne objects become negligible.  Like the air, land, and maritime domains, space is a physical domain within which military, civil, and commercial activities are conducted.  The relationship between space and cyberspace is unique in that many space operations depend on cyberspace, and a critical portion of cyberspace can only be provided via space operations.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Joint Publication 3-14
+
+Space Operations
+
+April 10, 2018
+
+https://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/jp3_14.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Space Domain</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceEnvironment -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceEnvironment">
@@ -11805,10 +12089,61 @@ Projections made in 2018 by ARL and TRADOC
     
 
 
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceProliferation -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceProliferation">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#Resilience"/>
+        <CommonCoreOntologies:definition>Proliferation is deploying larger numbers of the same platforms, payloads, or systems of the same types to perform the same mission.  Examples include deploying a larger number of Wideband Global SATCOM satellites in the constellation and increasing the number of downlink and data processing facilities.  The resilience benefits of such efforts could be magnified if proliferation efforts were coupled with other complementary resilience measures.  For example, proliferation could be joined with diversification and protection through use of commercial systems that complement and provide alternatives to military satellite communications and through development of protected tactical waveforms for communications on those commercial systems. (</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition>Space Proliferation</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Joint Publication 3-14
+
+Space Operations
+
+April 10, 2018
+
+https://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/jp3_14.pdf</CommonCoreOntologies:definition_source>
+    </owl:Class>
+    
+
+
     <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceRegion -->
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceRegion">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceEnvironment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceSituationalAwareness -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceSituationalAwareness">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceDomain"/>
+        <CommonCoreOntologies:definition>Situational awareness is fundamental to conducting space operations.  SSA is the requisite foundational, current, and predictive knowledge and characterization of space objects and the OE upon which space operations depend – including physical, virtual, information and human dimensions – as well as all factors, activities, and events of all entities conducting, or preparing to conduct, space operations.  Space surveillance assets include a mix of space-based and earth-based sensors.  SSA is dependent on integrating space surveillance, collection, and processing; environmental monitoring; status of US and cooperative satellite systems; understanding of US and multinational space readiness; and analysis of the space domain.  SSA must incorporate understanding of the space capabilities and intent of those that pose a threat to our space operations and space capabilities.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Joint Publication 3-14
+
+Space Operations
+
+April 10, 2018
+
+https://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/jp3_14.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Space Situational Awareness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceSuperiority -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceSuperiority">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#SpaceDomain"/>
+        <CommonCoreOntologies:definition>Space superiority is the degree of control in space of one force over any others that permits the conduct of its operations at a given time and place without prohibitive interference from terrestrial and space-based threats.  The purpose and value of space superiority is to provide the freedom of action to apply space capabilities in the pursuit and defense of national security interests. The US ability to capitalize on and protect space systems, and to counter enemy capabilities, contributes to US space superiority.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>Joint Publication 3-14
+
+Space Operations
+
+April 10, 2018
+
+https://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/jp3_14.pdf</CommonCoreOntologies:definition_source>
+        <rdfs:label>Space Superiority</rdfs:label>
     </owl:Class>
     
 
@@ -12426,6 +12761,18 @@ https://www.un.org/ruleoflaw/files/n0454282.pdf</CommonCoreOntologies:definition
         <CommonCoreOntologies:definition>The timeframe of 2035-2050 is a period marked by significant breakthroughs in technology and convergences in terms of capabilities, which lead to significant changes in the character of warfare.  During this period, traditional aspects of warfare undergo dramatic, almost revolutionary changes which at the end of this timeframe may even challenge the very nature of warfare itself. In this era, no one actor is likely to have any long-term strategic or technological advantage, with aggregate power between the U.S. and its peer and near-peer rivals being equivalent, but not necessarily symmetric.  Prevailing in this period will depend on an ability to synchronize multi-domain capabilities against an artificial intelligence-enhanced adversary with an overarching capability to visualize and understand the battlespace at even greater ranges and velocities.</CommonCoreOntologies:definition>
         <CommonCoreOntologies:definition_source>The Operational Environment and the Changing Character of Future Warfare</CommonCoreOntologies:definition_source>
         <rdfs:label>The Era Of Contested Equality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TheParisAgreement -->
+
+    <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#TheParisAgreement">
+        <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#PolicyToCombatClimateChange"/>
+        <CommonCoreOntologies:definition>The Paris Agreement is an agreement within the United Nations Framework Convention on Climate Change (UNFCCC), dealing with greenhouse-gas-emissions mitigation, adaptation, and finance, signed in 2016. The agreement&apos;s language was negotiated by representatives of 196 state parties at the 21st Conference of the Parties of the UNFCCC in Le Bourget, near Paris, France, and adopted by consensus on 12 December 2015. As of March 2019, 195 UNFCCC members have signed the agreement, and 186 have become party to it. The Paris Agreement&apos;s long-term goal is to keep the increase in global average temperature to well below 2 °C above pre-industrial levels; and to limit the increase to 1.5 °C, since this would substantially reduce the risks and effects of climate change. 
+Under the Paris Agreement, each country must determine, plan, and regularly report on the contribution that it undertakes to mitigate global warming. No mechanism forces a country to set a specific target by a specific date, but each target should go beyond previously set targets.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>https://en.wikipedia.org/wiki/Paris_Agreement</CommonCoreOntologies:definition_source>
+        <rdfs:label>The Paris Agreement</rdfs:label>
     </owl:Class>
     
 
@@ -14170,6 +14517,12 @@ https://en.wikipedia.org/wiki/3D_printing</CommonCoreOntologies:definition_sourc
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity -->
 
     <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/ObsoleteClass -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/ObsoleteClass"/>
 </rdf:RDF>
 
 
