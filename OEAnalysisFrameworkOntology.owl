@@ -1434,7 +1434,7 @@ push paradigm for data transfer.</rdfs:comment>
 
     <owl:Class rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#BigDataControlledVocabulary">
         <rdfs:subClassOf rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#STEMControlledVocabulary"/>
-        <rdfs:label>Big Data</rdfs:label>
+        <rdfs:label>Big Data Controlled Vocabulary</rdfs:label>
     </owl:Class>
     
 
