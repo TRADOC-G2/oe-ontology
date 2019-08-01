@@ -1,5 +1,5 @@
-OE Ontology Version 3.3
-Date 8/8/2018
+OE Ontology Version 3.5
+Date 8/1/2019
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
@@ -9,7 +9,7 @@ DISTRIBUTION A: Approved for public release; distribution is unlimited. For more
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
-The Operations Environment Ontology Repository holds the current released version of the Operational Environment Ontology suite.
+The Operational Environment Ontology Repository holds the current released version of the Operational Environment Ontology suite.
 
 The Operational Environment (OE) ontologies contain ontology files that aim to capture specific domains related to the Operational Environment.
 
@@ -20,13 +20,13 @@ How to load Operational Environment Ontologies
 
 To load the OE Suite, open OEOntology.owl and this will load all current OE ontologies as well as all necessary Common Core Ontologies into the editor. 
 
-We are providing a protege catalog file with this release to automatically load the local Common Core Ontololgy files since they are not currently web accessible 
+We are providing a Protege catalog file with this release to automatically load the local Common Core Ontololgy files since they are not currently web accessible 
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
 This release contains the following files:
 
-->BFO+Common Core Files- (This will be modified for web access in future releases)
+->BFO+Common Core Files- (Taken from https://github.com/CommonCoreOntology/CommonCoreOntologies)
 
 AgentOntology.ttl- Agent Ontology
 
@@ -57,7 +57,7 @@ UnitsOfMeasureOntology.ttl- Units of Measure Ontology
 
 ->Operational Environment Files
 
-OEAnalysisFrameworkOntology.owl- Contains classes for PMESII-PT and DIMEFIL categories
+OEAnalysisFrameworkOntology.owl- Contains classes for PMESII-PT, DIMEFIL, and CCoFW categories
 
 OEArmyHierarchyOntology.owl - Contains relations for the Army Organizational Structure
 
@@ -65,9 +65,9 @@ OEArmyTrainingOntology.owl - Contains relations pertaining to Army Tasks (Missio
 
 OEEthnicityOntology.owl - Contains relations for Ethnicities
 
-OEEventOntology.owl - Contains relations for Events (This was sourced from the CAMEO Event and Actor Codebook Version: 1.1b3)
+OEEventOntology.owl - Contains relations for Events
 
-OEIdeologyOntology.owl - Contains relations for Ideologies as well as Acts and Directives)
+OEIdeologyOntology.owl - Contains relations for Ideologies as well as Acts and Directives
 
 OEOntology.owl - Contains imports for all BFO and Operational Environment Files
 
