@@ -1,0 +1,65 @@
+******************************************
+Return all domains and their definitions
+******************************************
+
+PREFIX afo: <http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#>
+PREFIX cco: <http://www.ontologyrepository.com/CommonCoreOntologies/>
+
+SELECT DISTINCT ?domain ?definition
+WHERE {
+?domain rdfs:subClassOf afo:ChangingCharacterOfFutureWarfare.
+OPTIONAL {?domain cco:definition ?definition . } }
+
+******************************************
+Return all topics and definitions
+******************************************
+PREFIX afo: <http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#>
+PREFIX cco: <http://www.ontologyrepository.com/CommonCoreOntologies/>
+
+SELECT DISTINCT ?topic ?definition
+WHERE {
+?domain rdfs:subClassOf afo:ChangingCharacterOfFutureWarfare.
+?topic rdfs:subClassOf ?domain .
+OPTIONAL {?topic cco:definition ?definition . } }
+
+******************************************
+Return all topics for one specific domain
+******************************************
+PREFIX afo: <http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#>
+PREFIX cco: <http://www.ontologyrepository.com/CommonCoreOntologies/>
+
+SELECT DISTINCT ?topic ?definition
+WHERE {
+?branch rdfs:subClassOf afo:ChangingCharacterOfFutureWarfare.
+?domain rdfs:subClassOf ?branch .
+?domain rdfs:label "Demographics" .
+?topic rdfs:subClassOf ?domain .
+OPTIONAL {?branch cco:definition ?definition . } }
+******************************************
+Return all key areas and definitions
+******************************************
+PREFIX afo: <http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#>
+PREFIX cco: <http://www.ontologyrepository.com/CommonCoreOntologies/>
+
+SELECT DISTINCT ?keyarea ?definition
+WHERE {
+?branch rdfs:subClassOf afo:ChangingCharacterOfFutureWarfare.
+?domain rdfs:subClassOf ?branch .
+?topic rdfs:subClassOf ?domain .
+?keyarea rdfs:subClassOf ?topic .
+OPTIONAL {?keyarea cco:definition ?definition . } }
+******************************************
+Return all key areas for one specific topic
+******************************************
+PREFIX afo: <http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEAnalysisFrameworkOntology#>
+PREFIX cco: <http://www.ontologyrepository.com/CommonCoreOntologies/>
+
+SELECT DISTINCT ?keyarea  ?definition
+WHERE {
+?branch rdfs:subClassOf afo:ChangingCharacterOfFutureWarfare.
+?domain rdfs:subClassOf ?branch .
+?topic rdfs:subClassOf ?domain .
+?topic rdfs:label "Aging Population" .
+?keyarea rdfs:subClassOf ?topic .
+OPTIONAL {?keyarea cco:definition ?definition . } }
+
