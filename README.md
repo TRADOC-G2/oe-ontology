@@ -1,4 +1,4 @@
-OE Ontology Version 3.5 Date 8/1/2019
+OE Ontology Version 3.6 Date 1/2/2020
 
 Distribution:
 
@@ -12,37 +12,7 @@ How to load Operational Environment Ontologies
 
 To load the OE Suite, open OEOntology.owl and this will load all current OE ontologies as well as all necessary Common Core Ontologies into the editor.
 
-We are providing a Protege catalog file with this release to automatically load the local Common Core Ontololgy files since they are not currently web accessible
-
 This release contains the following files:
-
-->BFO+Common Core Files- (Taken from https://github.com/CommonCoreOntology/CommonCoreOntologies)
-
-AgentOntology.ttl- Agent Ontology
-
-AllCoreOntology.ttl- Contains imports for the Common Core Ontologies
-
-ArtifactOntology.ttl- Artifact Ontology
-
-bfo.owl- Basic Formal Ontology
-
-CurrencyUnitOntology.ttl- Currency Unit Ontology
-
-EventOntology.ttl- Event Ontology
-
-ExtendedRelationOntology.ttl- Extended Relation Ontology
-
-GeospatialOntology.ttl- Geospatial Ontology
-
-InformationEntityOntology.ttl- Information Entity Ontology
-
-QualityOntology.ttl- Quality Ontology
-
-ro.owl- Relation Ontology
-
-TimeOntology.ttl- Time Ontology
-
-UnitsOfMeasureOntology.ttl- Units of Measure Ontology
 
 ->Operational Environment Files
 
