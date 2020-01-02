@@ -11,11 +11,11 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology"/>
-        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Upper/ExtendedRelationOntology"/>
+        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/ExtendedRelationOntology"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/TimeOntology"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
-        <owl:imports rdf:resource="http://www.obofoundry.org/ro/ro.owl"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/GeospatialOntology"/>
         <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology"/>
         <owl:versionInfo>August 1, 2019</owl:versionInfo>
@@ -66,7 +66,7 @@ Army Info Paper J-30</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/MilitaryPersonnelForce"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ro.owl#has_part"/>
                 <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCompany"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -119,7 +119,7 @@ Army Info Paper J-30</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/MilitaryPersonnelForce"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ro.owl#has_part"/>
                 <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBattalion"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -184,7 +184,7 @@ Army Info Paper J-30</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/MilitaryPersonnelForce"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ro.owl#has_part"/>
                 <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyPlatoon"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -217,7 +217,7 @@ level demands thorough training to achieve the maximum complementary effects. Wh
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/MilitaryPersonnelForce"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ro.owl#has_part"/>
                 <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyDivision"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -256,7 +256,7 @@ level demands thorough training to achieve the maximum complementary effects. Wh
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/MilitaryPersonnelForce"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ro.owl#has_part"/>
                 <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyBrigade"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -386,13 +386,13 @@ Army Info Paper J-30</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/MilitaryPersonnelForce"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ro.owl#has_part"/>
                 <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmySection"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ro.owl#has_part"/>
                 <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmySquad"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -420,13 +420,13 @@ Army Info Paper J-30</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/MilitaryPersonnelForce"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ro.owl#has_part"/>
                 <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFireTeam"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ro.owl#has_part"/>
                 <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmySquad"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -443,13 +443,13 @@ Army Info Paper J-30</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/MilitaryPersonnelForce"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ro.owl#has_part"/>
                 <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyCrew"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ro.owl#has_part"/>
                 <owl:someValuesFrom rdf:resource="http://www.ontologylibrary.mil/OperationalEnvironment/Mid/OEArmyHierarchyOntology#ArmyFireTeam"/>
             </owl:Restriction>
         </rdfs:subClassOf>
